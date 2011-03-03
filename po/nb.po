@@ -1,0 +1,1886 @@
+# translation of nb.po to Norwegian Bokmal
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Terance Edward Sola <terance@lyse.net>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nb\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2009-03-02 21:14+0000\n"
+"Last-Translator: Terje Hansen <terje@axenna.com>\n"
+"Language-Team: Norwegian Bokmal <i18n-nb@lister.ping.uio.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2009-04-08 12:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr ""
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr ""
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr ""
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "0 KB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../UpdateManager/Util/humanize.py:56
+msgid "< 5 seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:58
+#, python-format
+msgid "%d seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Util/humanize.py:74
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+#, fuzzy
+msgid "Could not download packages information."
+msgstr "Kunne ikke forberede pakkeinformasjonen"
+
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+#, fuzzy
+msgid "Do you want to submit a bug report?"
+msgstr "Vil du oppgradere nå?"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+#, fuzzy
+msgid "Loading package cache."
+msgstr "Leser mellomlager"
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+msgid "Finished loading package cache."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr "_Fjern all markering"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+#, fuzzy
+msgid "_Check all"
+msgstr "Marker _alle"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr "(Størrelse: %s)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "Fra versjon %(old_version)s til %(new_version)s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, fuzzy, python-format
+msgid "Version: %s"
+msgstr "Versjon %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr "Ingen"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr "Nedlastingsstørrelse: %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr "Laster ned listen over endringer..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+#, fuzzy
+msgid "Downloading list of changes failed."
+msgstr "Laster ned listen over endringer..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, fuzzy, python-format
+msgid "Version %s: "
+msgstr "Versjon %s: \n"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+msgid "Gathering information about updates..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+#, fuzzy
+msgid "Upgrading may require removal or installation of new packages."
+msgstr "Fjerne utdaterte pakker?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+#, fuzzy
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr "Vil du oppgradere nå?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr "Systemet er oppdatert!"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, python-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, fuzzy, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr "Det er ingen tilgjengelige oppdateringer."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+msgid "Software updates are available for this computer."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+#, fuzzy
+msgid "About Update Manager"
+msgstr "Ubuntu oppdateringshåndterer"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Oppdatering"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+#, fuzzy
+msgid "Source"
+msgstr ""
+"Binær\n"
+"Kilde"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+#, fuzzy
+msgid "Downloaded"
+msgstr "Nedlastingsstørrelse: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+#, fuzzy
+msgid "Checking for updates"
+msgstr "Andre oppdateringer"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr ""
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, fuzzy, python-format
+msgid "Download rate: %s/s"
+msgstr "Nedlastingsstørrelse: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+#, fuzzy
+msgid "Checking for updates..."
+msgstr "Andre oppdateringer"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+msgid "Error message:"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+#, fuzzy
+msgid "Downloading updates"
+msgstr "Nedlastingen er fullført"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr "Endringer"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr "Fjern %s"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr "Installer %s"
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+#, fuzzy
+msgid "Removal or installation of packages"
+msgstr "Fjerne utdaterte pakker?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+#, fuzzy
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr "Installerer oppgraderingene"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "Vil du oppgradere nå?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+#, fuzzy
+msgid "Preparing upgrade"
+msgstr "Forbereder oppgraderingen"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+#, fuzzy
+msgid "This operation may take some time."
+msgstr "Vennligst vent, dette kan ta litt tid."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+#, fuzzy
+msgid "Downloading finished"
+msgstr "Laster ned listen over endringer..."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+#, fuzzy
+msgid "Installing updates"
+msgstr "_Installer oppdateringer"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, fuzzy, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] "Foreslåtte oppdateringer"
+msgstr[1] "Foreslåtte oppdateringer"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+#, fuzzy
+msgid "Your system is now up-to-date."
+msgstr "Systemet er oppdatert!"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, fuzzy, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] "Det er ingen tilgjengelige oppdateringer."
+msgstr[1] "Det er ingen tilgjengelige oppdateringer."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+#, fuzzy
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr ""
+"Programvareoppdateringer retter opp feil, tetter sikkerhetshull og tilbyr "
+"nye funksjoner."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+#, fuzzy
+msgid "Please consider installing all available updates."
+msgstr "Kan ikke installere alle tilgjengelige oppdateringer."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr "Vis fremdrift for enkeltfiler"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+#, fuzzy
+msgid "Show terminal"
+msgstr "Vis Terminal >>>"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+#, fuzzy
+msgid "A fatal error has been detected"
+msgstr "Det oppstod en uopprettelig feil"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, fuzzy, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr "Versjon %s"
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr "Viktige sikkerhetsoppdateringer"
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr "Anbefalte oppdateringer"
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr "Distribusjonsoppdateringer"
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr "Foreslåtte oppdateringer"
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr "Backports"
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+#, fuzzy
+msgid "Third-party updates"
+msgstr "Tredjepartskilder er deaktivert"
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr "Se etter nye utgivelser av distribusjonen"
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+"Dersom automatisk søk etter oppdateringer er deaktivert, må du hente listen "
+"over pakkekilder manuelt. Dette valget lar deg skjule påminnelsen som er "
+"vises her."
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr "Vis påminnelser om å hente listen over pakkekilder"
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr "Vis detaljer om en oppdatering"
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr "Lagrer bredden og høyden av vinduet til oppdateringshåndtereren"
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr ""
+"Lagrer tilstanden til utvidelsen, som inneholder en liste over endringer og "
+"en beskrivelse"
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr "Vindusstørrelsen"
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+"Se etter nyere utgivelser av distribusjonen og tilby om mulig oppgradering."
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "Vis og installer tilgjengelige oppdateringer"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Programvareoppdateringer"
+
+#, fuzzy
+#~ msgid "Current package: %s"
+#~ msgstr "Skadede pakker"
+
+#~ msgid "Server for %s"
+#~ msgstr "Tjener for %s"
+
+#~ msgid "Main server"
+#~ msgstr "Hovedtjener"
+
+#~ msgid "Custom servers"
+#~ msgstr "Egendefinerte tjenere"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Kunne ikke legge til CD"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Det oppsto en feil ved lesing av CD. Oppgraderingen vil avsluttes. "
+#~ "Vennligst rapporter dette som en feil hvis dette er en gyldig Ubuntu-CD.\n"
+#~ "\n"
+#~ "Feilmeldingen var:\n"
+#~ "«%s»"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Fjern pakke som er i dårlig form"
+#~ msgstr[1] "Fjern pakker som er i dårlig form"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Systemet ditt inneholder skadede pakker som ikke kan rettes ved å bruke "
+#~ "dette programmet. Bruk Synaptic eller apt-get til å rette opp dette før "
+#~ "du fortsetter."
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr ""
+#~ "Dette er sannsynligvis bare ett midlertidig problem, vennligst prøv igjen "
+#~ "senere."
+
+#~ msgid "Could not calculate the upgrade"
+#~ msgstr "Kunne ikke forberede oppgraderingen"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Kunne ikke bekrefte kilden til alle pakkene"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Noen av pakkekildene kunne ikke bekreftes. Dette kan være et midlertidig "
+#~ "nettverksproblem, derfor kan du prøve igjen senere. Se under for listen "
+#~ "over pakker som ikke kunne bekreftes."
+
+#~ msgid "Can't install '%s'"
+#~ msgstr "Kan ikke installere «%s»"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "En nødvendig pakke kunne ikke installeres. Vennligst rapporter dette som "
+#~ "en feil. "
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Kan ikke gjette på metapakke"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Systemet ditt inneholder ingen av pakkene ubuntu-desktop, kubuntu-desktop "
+#~ "eller edubuntu-desktop og det var ikke mulig å finne ut hvilken ubuntu-"
+#~ "versjon du bruker.\n"
+#~ "Installer én av de nevnte pakkene ved å bruke synaptic eller apt-get før "
+#~ "du fortsetter."
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Kunne ikke få eksklusiv tilgang"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Dette betyr vanligvis at et annet pakkehåndteringsprogram, som apt-get "
+#~ "eller aptitude, allerede kjører. Lukk det programmet først."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Fortsett å kjøre via SSH?"
+
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, a additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Denne sesjonen ser ut for å kjøre over SSH. Det er for tiden ikke "
+#~ "anbefalt å gjennomføre en oppgradering over SSH, fordi det er vanskelig å "
+#~ "gjenoppta arbeidet dersom det oppstår en feil.\n"
+#~ "\n"
+#~ "Dersom du fortsetter vil en ny SSH-daemon bli startet på port «%s».\n"
+#~ "Vil du fortsette?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Starter enda en sshd"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Kan ikke oppgradere"
+
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr ""
+#~ "En oppgradering fra «%s» til «%s» er ikke støttet av dette verktøyet."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Din python installasjon er skadet. Du må rette opp den symbolske lenken «/"
+#~ "usr/bin/python»."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Pakken «debsig-verify» er installert"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "Oppgraderingen kan ikke fortsette med den pakken installert.\n"
+#~ "Vennligst fjern den med synaptic eller «apt-get remove debsig-verify» "
+#~ "først og kjør oppgraderingen igjen."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Ta med de siste oppdateringene fra Internett?"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Fant ikke ingen gyldige tjenere"
+
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found.This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'no' the update will cancel."
+#~ msgstr ""
+#~ "Informasjonen om pakkekildene dine inneholder ingen tjener for "
+#~ "oppgraderingen. Dette kan skje hvis du bruker en intern tjener eller "
+#~ "tjenerinformasjon er utdatert.\n"
+#~ "\n"
+#~ "Vil du skrive om din «sources.list» fil allikevel? Hvis du velger «Ja» "
+#~ "vil alle «%s» oppføringer oppdateres til «%s» oppføringer.\n"
+#~ "Hvis du velger «Nei» vil oppgraderingen avbrytes."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Vil du bruke standardkilder?"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Ugyldig informasjon om pakkekilder"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "Oppgradering av informasjonen om pakkekilder resulterte i en ugyldig fil. "
+#~ "Vennligst rapporter dette som en feil."
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Noen oppføringer for tredjeparts pakkekilder ble deaktivert. Du kan "
+#~ "aktivere dem på nytt etter oppgraderingen gjennom «Egenskaper for "
+#~ "programvare» eller via Synaptic."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Pakke i dårlig stand"
+#~ msgstr[1] "Pakkene i dårlig stand"
+
+#~ msgid "Error during update"
+#~ msgstr "Feil under oppdatering"
+
+#~ msgid ""
+#~ "A problem occurred during the update. This is usually some sort of "
+#~ "network problem, please check your network connection and retry."
+#~ msgstr ""
+#~ "Det oppstod et problem under oppdateringen. Dette skyldes vanligvis et "
+#~ "problem med nettverket. Vennligst sjekk nettverkstilkoblingen din, og "
+#~ "prøv igjen."
+
+#~ msgid "Not enough free disk space"
+#~ msgstr "Ikke nok ledig diskplass"
+
+#~ msgid "Support for some applications ended"
+#~ msgstr "Noen programmer støttes ikke lenger"
+
+#~ msgid ""
+#~ "Canonical Ltd. no longer provides support for the following software "
+#~ "packages. You can still get support from the community.\n"
+#~ "\n"
+#~ "If you have not enabled community maintained software (universe), these "
+#~ "packages will be suggested for removal at the end of the upgrade."
+#~ msgstr ""
+#~ "Canonical Ltd. støtter ikke lenger følgende pakker. Du kan fortsatt motta "
+#~ "støtte fra brukernettverket.\n"
+#~ "\n"
+#~ "Hvis du ikke har aktivert programvare som støttes av brukernettverket "
+#~ "(universe), vil disse pakkene bli foreslått fjernet i neste steg."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Kalkulerer endringene"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Kunne ikke laste ned oppgraderingene"
+
+#~ msgid "Error during commit"
+#~ msgstr "Feil under innsending"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Gjenoppretter systemets opprinnelige tilstand"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Kunne ikke installere oppgraderingene"
+
+#~ msgid "_Keep"
+#~ msgstr "_Behold"
+
+#~ msgid "_Remove"
+#~ msgstr "_Fjern"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "Det oppstod ett problem oppstod under oppryddingen. Se meldingen under "
+#~ "for mer informasjon. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Nødvendige avhengigheter er ikke installert"
+
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Den nødvendige avhengigheten «%s» er ikke installert. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Undersøker pakkehåndtering"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Kunne ikke forberede oppgraderingen"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Nedlasting av programavhengigheter feilet"
+
+#~ msgid "Updating repository information"
+#~ msgstr "Oppdaterer informasjon om pakkekilder"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Ugyldig pakkeinformasjon"
+
+#~ msgid "Fetching"
+#~ msgstr "Henter"
+
+#~ msgid "Upgrading"
+#~ msgstr "Oppgraderer"
+
+#~ msgid "Upgrade complete"
+#~ msgstr "Oppgraderingen er fullført"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Søker etter utdatert programvare"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Systemet er oppgradert."
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Bruk den angitte stien til å søke etter cdrom med oppgraderbare pakker"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Bruk et grafisk grensesnitt. Tilgjengelige: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Sett inn «%s» i «%s»-leseren"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Ferdig med å hente"
+
+#~ msgid "About %s remaining"
+#~ msgstr "Omtrent %s gjenstår"
+
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Henter fil %li av %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Utfører endringer"
+
+#~ msgid "Could not install '%s'"
+#~ msgstr "Kunne ikke installere «%s»"
+
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Vil du erstatte den egendefinerte konfigurasjonsfilen\n"
+#~ "«%s»?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Om du velger å bruke en nyere versjon, vil du miste alle endringer du har "
+#~ "gjort i denne filen."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Kommandoen «diff» ble ikke funnet"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "For å forhindre tap av data bør du lukke alle åpne programmer og "
+#~ "dokumenter."
+
+#~ msgid "<b>Downgrade %s</b>"
+#~ msgstr "<b>Nedgrader %s</b>"
+
+#~ msgid "Upgrade %s"
+#~ msgstr "Oppgrader %s"
+
+#~ msgid "Media Change"
+#~ msgstr "Medieendring"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Vis forskjeller >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Skjul forskjeller"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Skjul Terminal"
+
+#~ msgid "Details"
+#~ msgstr "Detaljer"
+
+#~ msgid "Restart required"
+#~ msgstr "Omstart er nødvendig"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr ""
+#~ "<b><big>Gjør en omstart av systemet for å fullføre oppgraderingen</big></"
+#~ "b>"
+
+#~ msgid "_Restart Now"
+#~ msgstr "_Start maskinen på nytt nå"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Avbryt oppgradering?"
+
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Denne nedlastingen vil ta ca. %s med denne forbindelsen. "
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Henter nye programvarekanaler."
+
+#~ msgid "Getting new packages"
+#~ msgstr "Henter nye programvarepakker"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Rydder opp"
+
+#~ msgid "%d package is going to be removed."
+#~ msgid_plural "%d packages are going to be removed."
+#~ msgstr[0] "%d pakke vil fjernes."
+#~ msgstr[1] "%d pakker vil fjernes."
+
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d pakke vil installeres."
+#~ msgstr[1] "%d pakker vil installeres."
+
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d pakke oppgraderes."
+#~ msgstr[1] "%d pakker vil oppgraderes."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Du må laste ned totalt %s. "
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Henting og installasjon av oppgradering kan ta flere timer. Når "
+#~ "nedlastingen er ferdig kan ikke prosessen avbrytes."
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Det finnes ingen tilgjengelige oppgraderinger for systemet. "
+#~ "Oppgraderingen vil avbrytes."
+
+#~ msgid "Reboot required"
+#~ msgstr "Omstart av systemet er nødvendig"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Oppgraderingen er fullført og en omstart av systemet er nødvendig. Vil du "
+#~ "gjøre dette nå?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Kunne ikke kjøre oppgraderingsverktøyet"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr ""
+#~ "Dette er mest sannsynlig en feil i oppgraderingsverktøyet. Vennligst "
+#~ "rapporter dette som en feil."
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Signatur for oppgraderingsverktøyet"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Oppgraderingsverktøy"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Kunne ikke hente"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr ""
+#~ "Klarte ikke å hente oppgraderingen. Det kan være nettverksproblemer. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Kunne ikke pakke ut"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Klarte ikke å pakke ut oppgraderingen. Det kan være et problem med "
+#~ "nettverket eller tjeneren. "
+
+#~ msgid "Verfication failed"
+#~ msgstr "Kunne ikke bekrefte"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Kunne ikke bekrefte oppgraderingen. Det kan være en feil med nettverket "
+#~ "eller tjeneren. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Kunne ikke bekrefte"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Klarte ikke å bekrefte at oppgraderingen er ekte. Det kan være en feil "
+#~ "med nettverket eller med tjeneren. "
+
+#~ msgid "Aborting"
+#~ msgstr "Avbryter"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "_Fortsett [jN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Detaljer [d]"
+
+#~ msgid "y"
+#~ msgstr "j"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "Remove: %s\n"
+#~ msgstr "Fjern %s\n"
+
+#~ msgid "Install: %s\n"
+#~ msgstr "Installer: %s\n"
+
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Oppgrader: %s\n"
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "For å fullføre oppgraderingen, er en omstart av datamaskinen nødvendig.\n"
+#~ "Dersom du svarer 'y', vil datamaskinen starte om."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Avbryte oppgraderingen?</big></b>\n"
+#~ "\n"
+#~ "Systemet kan bli ubrukelig hvis du avbryter oppgraderingen. Det anbefales "
+#~ "på det sterkeste å fortsette med å oppgradere."
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Vil du starte oppgraderingen?</big></b>"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Forskjell mellom filene"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Distribusjonsoppgradering"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Starter systemet på nytt"
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Endrer kanalene for programvare"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Avbryt oppgradering"
+
+#~ msgid "_Continue"
+#~ msgstr "_Fortsett"
+
+#~ msgid "_Replace"
+#~ msgstr "_Erstatt"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Rapporter feil"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "_Gjenoppta oppgradering"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "Start _oppgradering"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Kunne ikke finne utgivelsesmeldingen"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Tjeneren kan være overbelastet. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Kunne ikke laste ned utgivelsesmeldingen."
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Vennligst kontoller forbindelsen til Internett."
+
+#~ msgid "Release Notes"
+#~ msgstr "Utgivelsesmelding"
+
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Laster ned filen %(current)li av %(total)li med %(speed)s/s"
+
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Laster ned fil %(current)li av %(total)li"
+
+#~ msgid "Unknown download size"
+#~ msgstr "Ukjent nedlastingsstørrelse"
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr "Pakkeinformasjonen ble sist oppdatert for mindre enn en time siden."
+
+#~ msgid "Update is complete"
+#~ msgstr "Oppdateringen er fullført"
+
+#~ msgid "Reading package information"
+#~ msgstr "Leser pakkeinformasjon"
+
+#~ msgid "Your distribution is not supported anymore"
+#~ msgstr "Din distribusjon støttes ikke lenger"
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Upgrade "
+#~ "to a later version of Ubuntu Linux. See http://www.ubuntu.com for more "
+#~ "information on upgrading."
+#~ msgstr ""
+#~ "Du vil ikke motta flere sikkerhetsmessige eller kritiske oppdateringer. "
+#~ "Oppgrader til en nyere versjon av Ubuntu. Se http://www.ubuntu.com for "
+#~ "mer informasjon om oppgradering."
+
+#~ msgid "<b>New distribution release '%s' is available</b>"
+#~ msgstr "<b>Ny distribusjonsutgivelse «%s» er tilgjengelig</b>"
+
+#~ msgid "Software index is broken"
+#~ msgstr "Programvareregisteret er skadet."
+
+#~ msgid ""
+#~ "It is impossible to install or remove any software. Please use the "
+#~ "package manager \"Synaptic\" or run \"sudo apt-get install -f\" in a "
+#~ "terminal to fix this issue at first."
+#~ msgstr ""
+#~ "Det er ikke mulig å installere eller fjerne noe programvare. Bruk "
+#~ "pakkebehandleren «Synaptic» eller «sudo aptitude -f install» i en "
+#~ "terminal for å rette opp dette problemet."
+
+#~ msgid ""
+#~ "Failed to download the list of changes. \n"
+#~ "Please check your Internet connection."
+#~ msgstr ""
+#~ "Kunne ikke laste ned listen med endringer. \n"
+#~ "Vennligst kontroller forbindelsen til Internett."
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Du må se etter oppdateringer manuelt</big></b>\n"
+#~ "\n"
+#~ "Systemet ditt sjekker ikke for oppdateringer automatisk. Du kan endre "
+#~ "dette i <i>Programvarekilder</i> under <i>Oppdateringer</i>-fanen."
+
+#~ msgid "<big><b>Not all updates can be installed</b></big>"
+#~ msgstr "<big><b>Kan ikke installere alle oppdateringene</b></big>"
+
+#~ msgid "<big><b>Starting Update Manager</b></big>"
+#~ msgstr "<big><b>Starter håndtering av oppdateringer</b></big>"
+
+#~ msgid "Chec_k"
+#~ msgstr "Sø_k"
+
+#~ msgid "Check the software channels for new updates"
+#~ msgstr "Søk gjennom pakkekildene for nye oppdateringer"
+
+#~ msgid "Description"
+#~ msgstr "Beskrivelse"
+
+#~ msgid "Description of update"
+#~ msgstr "Beskrivelse av oppdatering"
+
+#~ msgid ""
+#~ "Run a partial upgrade, to install as many updates as possible. \n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " ◦ A previous upgrade which didn't complete\n"
+#~ " ◦ Problems with some of the installed software\n"
+#~ " ◦ Unofficial software packages not provided by Ubuntu\n"
+#~ " ◦ Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "Kjør en delvis oppgradering, for å installere så mange oppdateringer som "
+#~ "mulig. \n"
+#~ "\n"
+#~ "Dette kan forårsakes av:\n"
+#~ " ◦ En tidligere oppgradering som ikke ble fullført\n"
+#~ " ◦ Problemer med enkelte installerte programvarepakker\n"
+#~ " ◦ Uoffisielle pakker som ikke tilbys av Ubuntu\n"
+#~ " ◦ Normale endringer i en Ubuntu-utgave som fortsatt er under utvikling"
+
+#~ msgid "U_pgrade"
+#~ msgstr "O_ppgrader"
+
+#~ msgid "Upgrade to the latest version of Ubuntu"
+#~ msgstr "Oppgrader til siste versjon av Ubuntu"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_Skjul denne informasjonen i fremtiden"
+
+#~ msgid "_Partial Upgrade"
+#~ msgstr "_Delvis oppgradering"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_Oppgrader"
+
+#~ msgid "updates"
+#~ msgstr "oppdateringer"
+
+#~ msgid "Show version and exit"
+#~ msgstr "Vis versjon og avslutt"
+
+#~ msgid "Check if a new distribution release is available"
+#~ msgstr "Se om en ny utgave av distribusjonen er tilgjengelig"
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "Undersøk om oppgradering til den siste utviklingsversjonen er mulig"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Prøv å kjøre dist-upgrade"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Kjører delvis oppgradering"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "Forsøk å oppgradere til den nyeste utgivelse ved å bruke "
+#~ "oppgraderingsverktøyet fra $distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Kjør i en spesiell uppgraderingsmodus.\n"
+#~ "For øyeblikket støttes 'desktop' for oppgradering av vanlige "
+#~ "arbeidsstasjoner, og 'server' for tjenersystemer."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "Kjør valgt brukergrensesnitt"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Ser etter en ny utgivelse av Ubuntu"
+
+#~ msgid "No new release found"
+#~ msgstr "Fant ingen nye utgivelser"
+
+#~ msgid "Unimplemented method: %s"
+#~ msgstr "Ikke-implementert metode: %s"
+
+#~ msgid ".deb package"
+#~ msgstr ".deb-pakke"
+
+#~ msgid "%i obsolete entries in the status file"
+#~ msgstr "%i irrelevante oppføringer i statusfilen"
+
+#~ msgid "Obsolete entries in dpkg status"
+#~ msgstr "Irrelevante oppføringer i dpkg status"
+
+#~ msgid "Obsolete dpkg status entries"
+#~ msgstr "Irrelevante dpkg statusoppføringer"
+
+#~ msgid "Can't upgrade required meta-packages"
+#~ msgstr "Kan ikke oppgradere nødvendige meta-pakker"
+
+#~ msgid "Restart the system now [yN] "
+#~ msgstr "Foreta en omstart av datamaskinen? [yN] "
+
+#~ msgid "The list of changes is not available"
+#~ msgstr "Listen over endringer er ikke tilgjengelig."
+
+#~ msgid "You can install %s update."
+#~ msgid_plural "You can install %s updates."
+#~ msgstr[0] "Du kan installere %s oppdatering"
+#~ msgstr[1] "Du kan installere %s oppdateringer"
+
+#~ msgid "<big><b>Keep your system up-to-date</b></big>"
+#~ msgstr "<big><b>Hold systemet ditt oppdatert</b></big>"
+
+#~ msgid "Daily"
+#~ msgstr "Daglig"
+
+#~ msgid "Every two days"
+#~ msgstr "Annenhver dag"
+
+#~ msgid "Weekly"
+#~ msgstr "Ukentlig"
+
+#~ msgid "Every two weeks"
+#~ msgstr "Hver andre uke"
+
+#~ msgid "After one week"
+#~ msgstr "Etter en uke"
+
+#~ msgid "After two weeks"
+#~ msgstr "Etter to uker"
+
+#~ msgid "After one month"
+#~ msgstr "Etter en måned"
+
+#~ msgid "%li days %li hours %li minutes"
+#~ msgstr "%li dager, %li timer og %li minutter"
+
+#~ msgid "_Check"
+#~ msgstr "_Undersøk"
+
+#~ msgid "Import key"
+#~ msgstr "Importer nøkkel"
+
+#~ msgid "Error importing selected file"
+#~ msgstr "Feil under importering av valgt fil"
+
+#~ msgid "Error removing the key"
+#~ msgstr "Kunne ikke fjerne nøkkelen"
+
+#~ msgid "Every %s days"
+#~ msgstr "Hver %s dag"
+
+#~ msgid "After %s days"
+#~ msgstr "Etter %s dager"
+
+#~ msgid "Please enter a name for the disc"
+#~ msgstr "Vennligst oppgi et navn for platen"
+
+#~ msgid "Please insert a disc in the drive:"
+#~ msgstr "Vennligst sett inn en plate i CD-spilleren:"
+
+#~ msgid "Authentication"
+#~ msgstr "Autentisering"
+
+#~ msgid "_Check for updates automatically:"
+#~ msgstr "_Se etter oppdateringer automatisk:"
+
+#~ msgid "_Import Key File"
+#~ msgstr "_Importer fil med nøkler"
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>Kommentar:</b>"
+
+#~ msgid "Scanning CD-ROM"
+#~ msgstr "Søker gjennom CD-ROM"
+
+#~ msgid "_Reload"
+#~ msgstr "_Last på nytt"
+
+#~ msgid "Officially supported"
+#~ msgstr "Offisielt støttet"
+
+#~ msgid "Restricted copyright"
+#~ msgstr "Begrenset opphavsrett"
+
+#~ msgid "     "
+#~ msgstr "     "
+
+#~ msgid ""
+#~ "Use special upgrade mode. Available:\n"
+#~ "desktop, server"
+#~ msgstr ""
+#~ "Bruk en spesiell oppgraderingsmodus. Tilgjengelige:\n"
+#~ "desktop, server"
+
+#~ msgid ""
+#~ "The list of changes is not available yet.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "Listen over endringer er ikke tilgjengelig ennå.\n"
+#~ "Prøv igjen senere."
+
+#~ msgid "<b>Remove %s</b>"
+#~ msgstr "<b>Fjern %s</b>"
+
+#~ msgid ""
+#~ "The key you selected could not be removed. Please report this as a bug."
+#~ msgstr ""
+#~ "Nøkkelen du valgte kan ikke fjernes. Vennligst rapporter denne feilen."
+
+#~ msgid "<p>You have to download a total of %s. "
+#~ msgstr "<p>Du må laste ned totalt %s. "
+
+#~ msgid "The selected file may not be a GPG key file or it might be corrupt."
+#~ msgstr ""
+#~ "Enten er valgt fil ikke en GPG-nøkkelfil, eller så er den kanskje skadet"
+
+#~ msgid "<b>Internet updates</b>"
+#~ msgstr "<b>Oppdateringer fra Internett</b>"
+
+#~ msgid "Internet Updates"
+#~ msgstr "Oppdateringer fra Internett"
+
+#~ msgid "<b>URI:</b>"
+#~ msgstr "<b>URI:</b>"
+
+#~ msgid "Fetching backport of '%s'"
+#~ msgstr "Henter videreført oppdatering fra «%s»"
+
+#~ msgid "D_elete downloaded software files:"
+#~ msgstr "Sl_ett nedlastede filer:"
+
+#~ msgid "Import the public key from a trusted software provider"
+#~ msgstr "Importer den offentlige nøkkelen fra en tiltrodd programvareutgiver"
+
+#~ msgid ""
+#~ "Only security updates from the official Ubuntu servers will be installed "
+#~ "automatically"
+#~ msgstr ""
+#~ "Kun sikkerhetsoppdateringer fra de offisielle Ubuntu-tjenerne vil bli "
+#~ "installert automatisk."
+
+#~ msgid "Restore _Defaults"
+#~ msgstr "Gjenopprett stan_dardverdier"
+
+#~ msgid "Restore the default keys of your distribution"
+#~ msgstr "Gjenopprett standardnøkler for din distribusjon"
+
+#~ msgid "_Install security updates without confirmation"
+#~ msgstr "_Installer sikkerhetsoppdateringer uten bekreftelse"
+
+#~ msgid "<b>Components:</b>"
+#~ msgstr "<b>Komponenter:</b>"
+
+#~ msgid "<b>Distribution:</b>"
+#~ msgstr "<b>Distribusjon:</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Type:</b>"
+
+#~ msgid "APT line:"
+#~ msgstr "APT-linje:"
+
+#~ msgid ""
+#~ "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+#~ msgstr ""
+#~ "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+
+#~ msgid "Ubuntu 5.10 'Breezy Badger'"
+#~ msgstr "Ubuntu 5.10 'Breezy Badger'"
+
+#~ msgid "Ubuntu 5.10 Security Updates"
+#~ msgstr "Ubuntu 5.10 Sikkerhetsoppdateringer"
+
+#~ msgid "Ubuntu 5.10 Updates"
+#~ msgstr "Ubuntu 5.10 Oppdateringer"
+
+#~ msgid "Ubuntu 5.10 Backports"
+#~ msgstr "Ubuntu 5.10 Backports"
+
+#~ msgid "Community maintained (Universe)"
+#~ msgstr "Vedlikeholdt av miljøet (Universe)"
+
+#~ msgid "Non-free (Multiverse)"
+#~ msgstr "Non-free (Multiverse)"
+
+#~ msgid "Ubuntu 4.10 Security Updates"
+#~ msgstr "Ubuntu 4.10 Security Updates"
+
+#~ msgid "Ubuntu 4.10 Updates"
+#~ msgstr "Ubuntu 4.10 Updates"
+
+#~ msgid "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+#~ msgstr "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+
+#~ msgid "Debian 3.1 \"Sarge\""
+#~ msgstr "Debian 3.1 \"Sarge\""
+
+#~ msgid "http://security.debian.org/"
+#~ msgstr "http://security.debian.org/"
+
+#~ msgid "Debian 3.1 \"Sarge\" Security Updates"
+#~ msgstr "Debian 3.1 \"Sarge\" sikkerhetsoppdateringer"
+
+#~ msgid "Debian \"Etch\" (testing)"
+#~ msgstr "Debian \"Etch\" (testing)"
+
+#~ msgid "http://http.us.debian.org/debian/"
+#~ msgstr "http://http.us.debian.org/debian/"
+
+#~ msgid "Debian \"Sid\" (unstable)"
+#~ msgstr "Debian \"Sid\" (unstable)"
+
+#~ msgid "DFSG-compatible Software with Non-Free Dependencies"
+#~ msgstr "DFSG-kompatiblel programvare med Non-Free avhengigheter"
+
+#~ msgid "Non-DFSG-compatible Software"
+#~ msgstr "Ikke-DFSG-kompatibel programvare"
+
+#~ msgid "Downloading file %li of %li with unknown speed"
+#~ msgstr "Laster ned fil %li av %li ved ukjent hastighet"
+
+#~ msgid "Cancel _Download"
+#~ msgstr "Avbryt ne_dlasting"
+
+#~ msgid "Could not find any upgrades"
+#~ msgstr "Kunne ikke finne noen oppgraderinger"
+
+#~ msgid "Your system has already been upgraded."
+#~ msgstr "Systemet ditt er allerede oppgradert."
+
+#~ msgid ""
+#~ "<big><b>Examining your system</b></big>\n"
+#~ "\n"
+#~ "Software updates correct errors, eliminate security vulnerabilities and "
+#~ "provide new features."
+#~ msgstr ""
+#~ "<big><b>Analyserer systemet</b></big>\n"
+#~ "\n"
+#~ "Programvareoppdateringer reparerer feil, eliminerer sikkerhetsproblemer "
+#~ "og gir deg ny funksjonalitet."
+
+#~ msgid ""
+#~ "Some updates require the removal of further software. Use the function "
+#~ "\"Mark All Upgrades\" of the package manager \"Synaptic\" or run \"sudo "
+#~ "apt-get dist-upgrade\" in a terminal to update your system completely."
+#~ msgstr ""
+#~ "Noen oppdateringer krever fjerning av andre programpakker. Bruk "
+#~ "funksjonen \"Merk alle oppgraderinger\" i pakkehåndteringsprogrammet "
+#~ "\"Synaptic\" eller kjør kommandoen \"sudo apt-get dist-upgrade\" i en "
+#~ "terminal for å oppgradere systemet fullstendig."
+
+#~ msgid "The following updates will be skipped:"
+#~ msgstr "Følgende pakker vil ikke bli oppgradert:"
+
+#~ msgid "The upgrade aborts now. Please report this bug."
+#~ msgstr "Oppgraderingen avbrytes nå. Vennligst rapporter dette som en feil."
+
+#~ msgid "Upgrading Ubuntu"
+#~ msgstr "Oppgraderer Ubuntu"
+
+#~ msgid "Hide details"
+#~ msgstr "Skjul detaljer"
+
+#~ msgid "Show details"
+#~ msgstr "Vis detaljer"
+
+#~ msgid "Only one software management tool is allowed to run at the same time"
+#~ msgstr "Du kan ikke bruke flere pakkebehandlingsprogrammer samtidig"
+
+#~ msgid ""
+#~ "Please close the other application e.g. 'aptitude' or 'Synaptic' first."
+#~ msgstr ""
+#~ "Vennligst lukk andre programmer som f.eks \"aptitude\" eller \"Synaptic\" "
+#~ "først."
+
+#~ msgid "<b>Channels</b>"
+#~ msgstr "<b>Kanaler</b>"
+
+#~ msgid "<b>Keys</b>"
+#~ msgstr "<b>Taster</b>"
+
+#~ msgid "Installation Media"
+#~ msgstr "Installasjonsmedia"
+
+#~ msgid "Software Preferences"
+#~ msgstr "Brukervalg for programvare"
+
+#~ msgid "<b>Channel</b>"
+#~ msgstr "<b>Kanal</b>"
+
+#~ msgid "<b>Components</b>"
+#~ msgstr "<b>Komponenter</b>"
+
+#~ msgid "Add Channel"
+#~ msgstr "Legg til kanal"
+
+#~ msgid "_Add Channel"
+#~ msgid_plural "_Add Channels"
+#~ msgstr[0] "Legg til k_anal"
+#~ msgstr[1] "Legg til k_analer"
+
+#~ msgid "_Custom"
+#~ msgstr "_Tilpasset"
+
+#~ msgid "Ubuntu 6.06 LTS Security Updates"
+#~ msgstr "Sikkerhetsoppdateringer for Ubuntu 6.06 LTS"
+
+#~ msgid "Ubuntu 6.06 LTS Updates"
+#~ msgstr "Oppdateringer for Ubuntu 6.06 LTS"
+
+#~ msgid "Ubuntu 6.06 LTS Backports"
+#~ msgstr "Backports for Ubuntu 6.06 LTS"
+
+#~ msgid "<b>Sections</b>"
+#~ msgstr "<b>Seksjoner</b>"
+
+#~ msgid "<b>Sections:</b>"
+#~ msgstr "<b>Seksjoner:</b>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Downloading changes</span>\n"
+#~ "\n"
+#~ "Need to get the changes from the central server"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Laster ned endringer</span>\n"
+#~ "\n"
+#~ "Må få endringene fra den sentrale tjeneren"
+
+#~ msgid "Show available updates and choose which to install"
+#~ msgstr "Vis tilgjengelige oppdateringer og velg hvilke som skal installeres"
+
+#~ msgid "Edit software sources and settings"
+#~ msgstr "Rediger programvarekilder og instillinger"
+
+#~ msgid "<b>Repository</b>"
+#~ msgstr "<b>Arkiv</b>"
+
+#~ msgid "<b>Temporary files</b>"
+#~ msgstr "<b>Midlertidige filer</b>"
+
+#~ msgid "<b>User Interface</b>"
+#~ msgstr "<b>Brukergrensesnitt</b>"
+
+#~ msgid ""
+#~ "<big><b>Authentication keys</b></big>\n"
+#~ "\n"
+#~ "You can add and remove authentication keys in this dialog. A key makes it "
+#~ "possible to verify the integrity of the software you download."
+#~ msgstr ""
+#~ "<big><b>Autentiseringsnøkler</b></big>\n"
+#~ "\n"
+#~ "Du kan legge til eller fjerne autentiseringsnøkler i dette vinduet. "
+#~ "Nøkler gjør det mulig å kontrollere integriteten til programvare som blir "
+#~ "lastet ned."
+
+#~ msgid ""
+#~ "Add a new key file to the trusted keyring. Make sure that you received "
+#~ "the key over a secure channel and that you trust the owner. "
+#~ msgstr ""
+#~ "Legg til en ny nøkkelfil til den sikre nøkkelringen. Vær sikker på at du "
+#~ "mottok nøkkelen over en sikker kanal og at du stoler på eieren. "
+
+#~ msgid "Automatically check for software _updates."
+#~ msgstr "Se etter programvare_oppdateringer automatisk."
+
+#~ msgid "Automatically clean _temporary packages files"
+#~ msgstr "Fjern _midlertidige pakkefiler automatisk."
+
+#~ msgid "Clean interval in days: "
+#~ msgstr "Intervaller for tømming i dager: "
+
+#~ msgid "Delete _old packages in the package cache"
+#~ msgstr "Slett _gamle pakker i pakkelageret."
+
+#~ msgid "Edit Repository..."
+#~ msgstr "Rediger arkiv..."
+
+#~ msgid "Maximum age in days:"
+#~ msgstr "Maksimum alder i dager:"
+
+#~ msgid "Maximum size in MB:"
+#~ msgstr "Maksimum størrelse i MB:"
+
+#~ msgid ""
+#~ "Restore the default keys shipped with the distribution. This will not "
+#~ "change user installed keys."
+#~ msgstr "Gjenoppret nøklene som kom med distri"
+
+#~ msgid "Set _maximum size for the package cache"
+#~ msgstr "Sett _maksimal størrelse på hurtiglageret"
+
+#~ msgid "Show detailed package versions"
+#~ msgstr "Vis detaljert pakkeversjoner"
+
+#~ msgid "Show disabled software sources"
+#~ msgstr "Vis deaktiverte programvarekilder"
+
+#~ msgid "Update interval in days: "
+#~ msgstr "Intervall for oppdatering i dager: "
+
+#~ msgid "_Add Repository"
+#~ msgstr "_Legg til arkiv"
+
+#~ msgid "_Download upgradable packages"
+#~ msgstr "_Last ned oppgraderbare pakker"
+
+#~ msgid "<b>Status:</b>"
+#~ msgstr "<b>Status:</b>"
+
+#~ msgid ""
+#~ "<big><b>Available Updates</b></big>\n"
+#~ "\n"
+#~ "The following packages are found to be upgradable. You can upgrade them "
+#~ "by using the Install button."
+#~ msgstr ""
+#~ "<big><b>Tilgjengelige oppdateringer</b></big>\n"
+#~ "\n"
+#~ "De følgende pakkene kan oppgraderes. Du kan oppgradere dem ved å trykke "
+#~ "på «Installer»-knappen."
+
+#~ msgid "You need to be root to run this program"
+#~ msgstr "Du må være «root» for å kjøre dette programmet"
+
+#~ msgid "Binary"
+#~ msgstr "Binær"
+
+#~ msgid "Non-free software"
+#~ msgstr "Non-free programvare"
+
+#~ msgid "Debian 3.0 \"Woody\""
+#~ msgstr "Debian 3.0 «Woody»"
+
+#~ msgid "Debian Stable"
+#~ msgstr "Debian Stable"
+
+#~ msgid "Debian Unstable \"Sid\""
+#~ msgstr "Debian Unstable «Sid»"
+
+#~ msgid "Debian Non-US (Stable)"
+#~ msgstr "Debian Non-US (Stable)"
+
+#~ msgid "Debian Non-US (Testing)"
+#~ msgstr "Debian Non-US (Testing)"
+
+#~ msgid "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>"
+#~ msgstr "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>"
+
+#~ msgid "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+#~ msgstr "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+
+#~ msgid "Choose a key-file"
+#~ msgstr "Velg en nøkkelfil"
+
+#~ msgid "There are no updated packages"
+#~ msgstr "Det er ingen utdaterte pakker"
+
+#~ msgid "You did not select any of the %s updated package"
+#~ msgid_plural "You did not select any of the %s updated packages"
+#~ msgstr[0] "Du valgte ikke den %s oppdaterte pakken"
+#~ msgstr[1] "Du valgte ingen av de %s oppdaterte pakkene"
+
+#~ msgid "You have selected %s updated package, size %s"
+#~ msgid_plural "You have selected all %s updated packages, total size %s"
+#~ msgstr[0] "Du har valgt %s oppdatert pakke, størrelse %s"
+#~ msgstr[1] "Du har valgt alle de %s oppdaterte pakkene, total størrelse %s"
+
+#~ msgid "You have selected %s out of %s updated package, size %s"
+#~ msgid_plural ""
+#~ "You have selected %s out of %s updated packages, total size %s"
+#~ msgstr[0] "Du har valgt %s av %s oppdaterte pakker, størrelse %s"
+#~ msgstr[1] "Du har valgt %s av de %s oppdaterte pakkene, total størrelse %s"
+
+#~ msgid "The updates are being applied."
+#~ msgstr "Oppdateringene blir tilført."
+
+#~ msgid "Updating package list..."
+#~ msgstr "Oppdaterer pakkeliste..."
+
+#~ msgid "New version:"
+#~ msgstr "Ny versjon:"
+
+#~ msgid ""
+#~ "Please upgrade to a newer version of Ubuntu Linux. The version you are "
+#~ "running will no longer get security fixes or other critical updates. "
+#~ "Please see http://www.ubuntulinux.org for upgrade information."
+#~ msgstr ""
+#~ "Oppgrader til en nyere versjon av Ubuntu Linux. Versjonen du kjører får "
+#~ "ikke sikkerhetsoppdateringer eller andre kritiske oppdateringer lenger. "
+#~ "Se http://www.ubuntulinux.org for informasjon om oppgradering."
+
+#~ msgid "There is a new release of Ubuntu available!"
+#~ msgstr "Det er en ny versjon av Ubuntu tilgjengelig!"
+
+#~ msgid ""
+#~ "A new release with the codename '%s' is available. Please see http://www."
+#~ "ubuntulinux.org/ for upgrade instructions."
+#~ msgstr ""
+#~ "En ny versjon med kodenavnet «%s» er tilgjengelig. Se http://www. "
+#~ "ubuntulinux.org/ for instruksjoner om oppgradering."
+
+#~ msgid "Never show this message again"
+#~ msgstr "Ikke vis denne beskjeden igjen"
+
+#~ msgid "Changes not found, the server may not be updated yet."
+#~ msgstr "Ingen endringer funnet, tjeneren er kanskje ikke oppdatert enda."
+
+#~ msgid "Ubuntu 6.06 LTS"
+#~ msgstr "Ubuntu 6.06 LTS"
+
+#~ msgid "Some software no longer officially supported"
+#~ msgstr "Noe programvare er ikke lenger offisielt støttet"
+
+#~ msgid "About %li seconds remaining"
+#~ msgstr "Rundt %li sekunder gjenstår"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistikk"
+
+#~ msgid "Oficially supported"
+#~ msgstr "Offisielt støttet"
+
+#~ msgid ""
+#~ "While scanning your repository information no valid entry for the upgrade "
+#~ "was found.\n"
+#~ msgstr ""
+#~ "Fant ikke noen gyldig oppføring for oppgradering ved lesing av "
+#~ "arkivinformasjon.\n"
+
+#~ msgid "A_uthentication"
+#~ msgstr "A_utentisering"
+
+#~ msgid ""
+#~ "This means that some dependencies of the installed packages are not "
+#~ "satisfied. Please use \"Synaptic\" or \"apt-get\" to fix the situation."
+#~ msgstr ""
+#~ "Dette betyr at det finnes avhengigheter til pakker som ikke er møtt. Bruk "
+#~ "«Synaptic» eller «apt-get» for å fikse problemet."
+
+#~ msgid "It is not possible to upgrade all packages."
+#~ msgstr "Det er ikke mulig å oppgradere alle pakkene."
+
+#~ msgid ""
+#~ "This means that besides the actual upgrade of the packages some further "
+#~ "action (such as installing or removing packages) is required. Please use "
+#~ "Synaptic \"Smart Upgrade\" or \"apt-get dist-upgrade\" to fix the "
+#~ "situation."
+#~ msgstr ""
+#~ "Dette betyr at ved siden av å oppgradere pakkene kreves det ekstra "
+#~ "handling (som å installere eller fjerne pakker). Bruk «Synaptic» eller "
+#~ "«apt-get dist-upgrade» for å løse problemet."
+
+#~ msgid "Repositories changed"
+#~ msgstr "Arkiv har blitt endret"
+
+#~ msgid ""
+#~ "You need to reload the package list from the servers for your changes to "
+#~ "take effect. Do you want to do this now?"
+#~ msgstr ""
+#~ "Du må oppdatere pakkelisten for at endringene skal tre i kraft. Vil du "
+#~ "gjøre dette nå?"

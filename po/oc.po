@@ -1,0 +1,1249 @@
+# Occitan (post 1500) translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2008-12-20 17:29+0000\n"
+"Last-Translator: Yannig MARCHEGAY (Kokoyaya) <yannig@marchegay.org>\n"
+"Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Launchpad-Export-Date: 2009-04-08 12:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr ""
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr ""
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr ""
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "0 ko"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "1 ko"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f ko"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f Mo"
+
+#: ../UpdateManager/Util/humanize.py:56
+#, fuzzy
+msgid "< 5 seconds"
+msgstr "%li segonda"
+
+#: ../UpdateManager/Util/humanize.py:58
+#, fuzzy, python-format
+msgid "%d seconds"
+msgstr "%li segonda"
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, fuzzy, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%li minuta"
+msgstr[1] "%li minutas"
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, fuzzy, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%li segonda"
+msgstr[1] "%li segondas"
+
+#: ../UpdateManager/Util/humanize.py:74
+#, fuzzy, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%li ora"
+msgstr[1] "%li oras"
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+#, fuzzy
+msgid "Could not download packages information."
+msgstr "Impossible d'installar las mesas a jorn"
+
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+#, fuzzy
+msgid "Do you want to submit a bug report?"
+msgstr "Volètz començar la mesa a jorn ?"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+#, fuzzy
+msgid "Loading package cache."
+msgstr "Lectura de l'escondedor"
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+msgid "Finished loading package cache."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr "Tot _deseleccionar"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+#, fuzzy
+msgid "_Check all"
+msgstr "Tot _verificar"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr "(Talha : %s)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, fuzzy, python-format
+msgid "Version: %s"
+msgstr "Version %s :"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr "Pas cap"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr "Talha de la descarga : %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr "Telecarga de la tièra de las modificacions..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+#, fuzzy
+msgid "Downloading list of changes failed."
+msgstr "Telecarga de la tièra de las modificacions..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, fuzzy, python-format
+msgid "Version %s: "
+msgstr "Version %s : \n"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+msgid "Gathering information about updates..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+#, fuzzy
+msgid "Upgrading may require removal or installation of new packages."
+msgstr "Suprimir los paquetatges obsolets ?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+#, fuzzy
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr "Volètz començar la mesa a jorn ?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr "Vòstre sistèma es a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, python-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+msgid "Software updates are available for this computer."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+#, fuzzy
+msgid "About Update Manager"
+msgstr "Gestionari de mesas a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Gestionari de mesas a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+#, fuzzy
+msgid "Source"
+msgstr "Modificar la sorça"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+#, fuzzy
+msgid "Downloaded"
+msgstr "Talha de la descarga : %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+#, fuzzy
+msgid "Checking for updates"
+msgstr "Autras mesas a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr ""
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, fuzzy, python-format
+msgid "Download rate: %s/s"
+msgstr "Talha de la descarga : %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+#, fuzzy
+msgid "Checking for updates..."
+msgstr "Autras mesas a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+msgid "Error message:"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+#, fuzzy
+msgid "Downloading updates"
+msgstr "Telecarga l'esplech de mesa a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr "Cambis"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr "Suprimir %s"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr "Installar %s"
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+#, fuzzy
+msgid "Removal or installation of packages"
+msgstr "Suprimir los paquetatges obsolets ?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+#, fuzzy
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr "Installacion de las mesas a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "Volètz començar la mesa a jorn ?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+#, fuzzy
+msgid "Preparing upgrade"
+msgstr "Preparacion de la mesa a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+msgid "This operation may take some time."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+#, fuzzy
+msgid "Downloading finished"
+msgstr "Telecarga de la tièra de las modificacions..."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+#, fuzzy
+msgid "Installing updates"
+msgstr "_Installar las mesas a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, fuzzy, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] "Mesas a jorn prepausadas"
+msgstr[1] "Mesas a jorn prepausadas"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+#, fuzzy
+msgid "Your system is now up-to-date."
+msgstr "Vòstre sistèma es a jorn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, fuzzy, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] "La tièra de las modificacioons es pas disponibla"
+msgstr[1] "La tièra de las modificacioons es pas disponibla"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+#, fuzzy
+msgid "Please consider installing all available updates."
+msgstr "Visualizar e installar las mesas a jorn disponiblas"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+#, fuzzy
+msgid "Show terminal"
+msgstr "Visualizar lo terminal >>>"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+#, fuzzy
+msgid "A fatal error has been detected"
+msgstr "I a agut una error fatala"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, fuzzy, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr "Version %s :"
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr "Mesas a jorn de seguretat importantas"
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr "Mesas a jorn recomandadas"
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr "<b>Mesas a jorn de la distribucion</b>"
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr "Mesas a jorn prepausadas"
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr "Ubuntu 5.10 'Breezy Badger'"
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+#, fuzzy
+msgid "Third-party updates"
+msgstr "Desactivacion de las sorgas de venon de tèrces"
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr "Visualizar los detalhs d'una mesa a jorn"
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr "La talha de la fenèstra"
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "Visualizar e installar las mesas a jorn disponiblas"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Mesa a jorn dels logicials"
+
+#, fuzzy
+#~ msgid "Current package: %s"
+#~ msgstr "Paquetatges corromputs"
+
+#~ msgid "Server for %s"
+#~ msgstr "Servidor per %s"
+
+#~ msgid "Main server"
+#~ msgstr "Servidor principal"
+
+#~ msgid "Custom servers"
+#~ msgstr "Servidors personalizats"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Impossible d'apondre lo CD"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "I a agut una error al moment d'apondre lo CD, anam anullar la mesa a "
+#~ "jorn. Raportatz aquò coma una anomalia s'es un CD valid d'Ubuntu. Lo "
+#~ "messatge d'error era : '%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Suprimir lo paquetatge en estat incorrècte"
+#~ msgstr[1] "Suprimir los paquetatges en estat incorrècte"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Vòstre sistèma conten de paquetatges corromputs que lo logicial pòt pas "
+#~ "corregir. Corrigissètz-los amb synaptic o apt-get abans de contunhar."
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Sembla fòrça a un problèma temporari. Tornatz ensajar pus tard."
+
+#~ msgid "Could not calculate the upgrade"
+#~ msgstr "Impossible calcular la mesa a jorn"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Error al moment de l'autentificacion d'unes paquets"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Es estat impossible d'autentificar d'unes paquets. Aquò pòt provenir d'un "
+#~ "problèma temporari de la ret. Pòt èsser util de tornar ensajar mai tard. "
+#~ "Trobaretz çai-jos una tièra dels paquets pas autentificats."
+
+#~ msgid "Can't install '%s'"
+#~ msgstr "Impossible d'installar '%s'"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "Es estat impossible d'installar un paquet reques. Mercé de raportar "
+#~ "aquesta anomalia. "
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Impossible de determinar lo metapaquet"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Vòstre sistèma conten pas los paquets ubuntu-desktop, kubuntu-desktop, "
+#~ "xubuntu-desktop o edubuntu-desktop. Per consequéncia, es pas estat "
+#~ "possible de detectar la version d'Ubuntu qu'utilizatz.\n"
+#~ "Installatz un dels paquets çai-sus, en utilizant Synaptic o apt-get, "
+#~ "abans de contunhar."
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Impossible d'obténer un varrolh exclusiu"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Significa generalament qu'una autra aplicacion de gestion de paquets "
+#~ "(tala coma apt-get o aptitude) ja es en cors d'execucion. D'en primièr, "
+#~ "tampatz aquesta aplicacion."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Contunhar dins una sesilha SSH ?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Aviada d'un processús sshd suplementari"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Impossible de metre a jorn"
+
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Aqueste esplech gerís pas la mesa a jorn de %s en %s."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Lo paquetatge \"debsig-verify\" es installat"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "La mesa a jorn pòt pas contunhar se aqueste paquetatge es installat.\n"
+#~ "Mercé de lo suprimir amb synaptic o amb \"apt-get remove debsig-verify\", "
+#~ "puèi tornatz aviar la mesa a jorn."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Enclure las darrièras mesas a jorn d'Internet ?"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Pas cap de miralh valid"
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Generar las sorgas per defaut ?"
+
+#~ msgid "Error during update"
+#~ msgstr "Error al moment de metre a jorn"
+
+#~ msgid "Not enough free disk space"
+#~ msgstr "Pas pro d'espaci liure"
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Calcul de las modificacions"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Impossible descargar las mesas a jorn"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Impossible installar las mesas a jorn"
+
+#~ msgid "_Keep"
+#~ msgstr "_Conservar"
+
+#~ msgid "_Remove"
+#~ msgstr "_Suprimir"
+
+#~ msgid "Checking package manager"
+#~ msgstr "Verificacion del gestionari de paquetatges"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Preparacion de la mesa a jorn impossibla"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Impossible d'obténer los pre-requesits necessaris a la mesa a jorn"
+
+#~ msgid "Upgrading"
+#~ msgstr "Mesa a jorn"
+
+#~ msgid "Upgrade complete"
+#~ msgstr "Mesa a jorn acabada"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Recèrca de logicials obsolets"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "La mesa a jorn del sistèma es acabada."
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Utilizar lo camin balhar per recercar un CD-ROM que conten de paquetatges "
+#~ "de metre a jorn"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Utilizar una de las interfaces disponiblas actualament : \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "*DEPRECATED* this option will be ignore"
+#~ msgstr "*DESCONSELHAT* aquesta opcion serà ignorada"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr ""
+#~ "Efectuar pas qu'una mesa a jorn parciala (pas de remplaçament de sources."
+#~ "list)"
+
+#~ msgid "Set datadir"
+#~ msgstr "Definir l'emplaçament de las donadas"
+
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Inserissètz lo disc '%s' dins lo legidor '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "La telecarga dels fichièrs es terminada"
+
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "Telecargament del fichièr %li sus %li a %s octets/seg"
+
+#~ msgid "About %s remaining"
+#~ msgstr "Demòra(n) environ %s"
+
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Telecarga del fichièr %li sus %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Aplicacion dels cambis"
+
+#~ msgid "Could not install '%s'"
+#~ msgstr "Impossible d'installar '%s'"
+
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Remplaçar lo fichièr de configuracion personalisat\n"
+#~ "'%s' ?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Perderatz totas las modificacions fachas a aquel fichièr de configuracion "
+#~ "si causissètz de lo remplaçar per una version mai recenta."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Impossible de trobar la comanda 'diff'"
+
+#~ msgid "<b>Downgrade %s</b>"
+#~ msgstr "<b>Suprimir %s</b>"
+
+#~ msgid "Upgrade %s"
+#~ msgstr "Metre a jorn %s"
+
+#~ msgid "Details"
+#~ msgstr "Detalhs"
+
+#~ msgid "Restart required"
+#~ msgstr "Debètz tornar aviar l'ordenador"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr ""
+#~ "<b><big>Tornatz aviar lo sistèma per terminar la mesa a jorn</big></b>"
+
+#~ msgid "_Restart Now"
+#~ msgstr "_Tornar aviar ara"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Anullar la mesa a jorn ?"
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Telecargament de las sorgas de logicials novèlas"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Telecargament dels paquetatges novèls"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Netejatge"
+
+#~ msgid "%d package is going to be removed."
+#~ msgid_plural "%d packages are going to be removed."
+#~ msgstr[0] "Anam suprimir %d paquetatge."
+#~ msgstr[1] "Anam suprimir %d paquetatges."
+
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "Anam installar %d paquetatge novèl."
+#~ msgstr[1] "Anam installar %d paquetatges nòus."
+
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "Anam metre a jorn %d paquetatge."
+#~ msgstr[1] "Anam metre a jorn %d paquetatges."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Debètz descargar un total de %s. "
+
+#~ msgid "Reboot required"
+#~ msgstr "Debètz tornar aviar l'ordenador"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Impossible aviar l'esplech de mesa a jorn"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Signatura de l'esplech de mesa a jorn"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Esplech de mesa a jorn"
+
+#~ msgid "Failed to extract"
+#~ msgstr "Impossible de traire"
+
+#~ msgid "Verfication failed"
+#~ msgstr "La verificacion a pas capitat"
+
+#~ msgid "Authentication failed"
+#~ msgstr "L'autentificacion a abocat"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "_Contunhar [oN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Detalhs [d]"
+
+#~ msgid "Remove: %s\n"
+#~ msgstr "Suprimir : %s\n"
+
+#~ msgid "Install: %s\n"
+#~ msgstr "Installar : %s\n"
+
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Metre a jorn : %s\n"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Aviar la mesa a jorn ?</big></b>"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Diferéncia entre los fichièrs"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Mesa a jorn de la distribucion"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Aviada novèla de l'ordenador"
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Definicion de las sorgas de logicials novèlas"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminal"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Anullar la mesa a jorn"
+
+#~ msgid "_Continue"
+#~ msgstr "_Contunhar"
+
+#~ msgid "_Replace"
+#~ msgstr "_Remplaçar"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Raportar una anomalia"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "_Contunhar la mesa a jorn"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Aviar la mesa a jorn"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Impossible de trobar las informacions de version"
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Impossible de telecargar las informacions de version"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Verificatz vòstra connexion internet."
+
+#~ msgid "Release Notes"
+#~ msgstr "Nòtas de version"
+
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Telecarga del fichièr %(current)li sus %(total)li a %(speed)s/s"
+
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Telecarga del fichièr %(current)li sus %(total)li"
+
+#~ msgid "Unknown download size"
+#~ msgstr "Talha de la descarga : %s"
+
+#~ msgid "Update is complete"
+#~ msgstr "La mesa a jorn es terminada"
+
+#~ msgid "<b>New distribution release '%s' is available</b>"
+#~ msgstr "<b>Una version nòva '%s' es disponibla</b>"
+
+#~ msgid "<big><b>Not all updates can be installed</b></big>"
+#~ msgstr ""
+#~ "<big><b>Error a moment d'examinar lo CD</b></big>\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "<big><b>Starting Update Manager</b></big>"
+#~ msgstr "<big><b>Aviada del gestionari de paquetatges</b></big>"
+
+#~ msgid "Chec_k"
+#~ msgstr "_Verificar"
+
+#~ msgid "Description"
+#~ msgstr "Descripcion"
+
+#~ msgid "Description of update"
+#~ msgstr "<b>Descripcion de la mesa a jorn</b>"
+
+#~ msgid "U_pgrade"
+#~ msgstr "_Metre a jorn"
+
+#~ msgid "Upgrade to the latest version of Ubuntu"
+#~ msgstr "Metre a jorn cap a la darrièra version d'Ubuntu"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_Amagar aquestas informacions a partir d'ara"
+
+#~ msgid "_Partial Upgrade"
+#~ msgstr "_Mesa a jorn parciala"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_Metre a jorn"
+
+#~ msgid "updates"
+#~ msgstr "mesas a jorn"
+
+#~ msgid "Can't upgrade required meta-packages"
+#~ msgstr "Impossible de metre a jorn los metapaquetatges volguts"
+
+#~ msgid "A essential package would have to be removed"
+#~ msgstr "Un paquetatge essencial deuriá èsser suprimit"
+
+#~ msgid "<big><b>Keep your system up-to-date</b></big>"
+#~ msgstr "<big><b>Mantener vòstre sistema a jorn</b></big>"
+
+#~ msgid "Daily"
+#~ msgstr "Cada jorn"
+
+#~ msgid "Every two days"
+#~ msgstr "Cada dos jorns"
+
+#~ msgid "Weekly"
+#~ msgstr "Cada setmana"
+
+#~ msgid "Every two weeks"
+#~ msgstr "Cada dos setmanas"
+
+#~ msgid "After one week"
+#~ msgstr "Una setmana aprèp"
+
+#~ msgid "After two weeks"
+#~ msgstr "Doas setmanas aprèp"
+
+#~ msgid "After one month"
+#~ msgstr "Un mes aprèp"
+
+#~ msgid "Fetching file %li of %li at %sb/s"
+#~ msgstr "Descarga del fichièr %li sus %li a %s/s"
+
+#~ msgid "%li days %li hours %li minutes"
+#~ msgstr "%li jorns %li oras %li minutas"
+
+#~ msgid "_Check"
+#~ msgstr "_Verificar"
+
+#~ msgid "Import key"
+#~ msgstr "Importar clau"
+
+#~ msgid "Error importing selected file"
+#~ msgstr "Error al moment d'importar lo fichièr seleccionat"
+
+#~ msgid "Error removing the key"
+#~ msgstr "Error al moment de suprimir la clau"
+
+#~ msgid "Every %s days"
+#~ msgstr "Cada %s jorns"
+
+#~ msgid "After %s days"
+#~ msgstr "%s jorns aprèp"
+
+#~ msgid "Please enter a name for the disc"
+#~ msgstr "Picatz un nom pel disc"
+
+#~ msgid "Please insert a disc in the drive:"
+#~ msgstr "Metètz un disc dins lo legidor :"
+
+#~ msgid "Authentication"
+#~ msgstr "L'autentificacion a abocat"
+
+#~ msgid "_Import Key File"
+#~ msgstr "_Importar la clau"
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>Comentari :</b>"
+
+#~ msgid ""
+#~ "Binary\n"
+#~ "Source"
+#~ msgstr ""
+#~ "Binari\n"
+#~ "Sorga"
+
+#~ msgid "Scanning CD-ROM"
+#~ msgstr "Examèn del CD-ROM"
+
+#~ msgid "_Reload"
+#~ msgstr "_Tornar cargar"
+
+#~ msgid ""
+#~ "The list of changes is not available yet.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "La tièra de las modificacions es pas encara disponibla.\n"
+#~ "Tornatz ensajar dins un momenton."
+
+#~ msgid "Asking for confirmation"
+#~ msgstr "Demanda de confirmacion"
+
+#~ msgid "<b>Remove %s</b>"
+#~ msgstr "<b>Suprimir %s</b>"
+
+#~ msgid ""
+#~ "The key you selected could not be removed. Please report this as a bug."
+#~ msgstr ""
+#~ "Avem pas poscut suprimir la clau qu'avètz seleccionada. Raportatz "
+#~ "l'anomalia."
+
+#~ msgid "The selected file may not be a GPG key file or it might be corrupt."
+#~ msgstr ""
+#~ "Lo fichièr seleccionat es benlèj pas una clau GPG o es possible que siá "
+#~ "corrumput."
+
+#~ msgid "<b>Internet updates</b>"
+#~ msgstr "<b>Mesas a jorn per internet</b>"
+
+#~ msgid "Internet Updates"
+#~ msgstr "Mesas a jorn per internet"
+
+#~ msgid "<b>URI:</b>"
+#~ msgstr "<b>URI :</b>"
+
+#~ msgid "System Update Tool"
+#~ msgstr "Esplech de mesa a jorn del sistèma"
+
+#~ msgid "Fetching the upgrades"
+#~ msgstr "Preparacion de la mesa a jorn"
+
+#~ msgid "changes"
+#~ msgstr "cambis"
+
+#~ msgid "(Source Code)"
+#~ msgstr "(còdi sorga)"
+
+#~ msgid "<b>Automatic updates</b>"
+#~ msgstr "<b>Mesas a jorn automaticas</b>"
+
+#~ msgid "<b>Internet</b>"
+#~ msgstr "<b>Internet</b>"
+
+#~ msgid "D_elete downloaded software files:"
+#~ msgstr "Suprimir los fichièrs dels logicials t_elecargats :"
+
+#~ msgid "Download from:"
+#~ msgstr "Telecargat dempuèi :"
+
+#~ msgid "Software Sources"
+#~ msgstr "Sorças de mesa a jorn"
+
+#~ msgid "_Install security updates without confirmation"
+#~ msgstr "_Installar las mesas a jorn de seguretat sens confirmacion"
+
+#~ msgid "<b>Components:</b>"
+#~ msgstr "<b>Components :</b>"
+
+#~ msgid "<b>Distribution:</b>"
+#~ msgstr "<b>Distribucion :</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Tipe :</b>"
+
+#~ msgid "APT line:"
+#~ msgstr "Linha APT :"
+
+#~ msgid "_Add Source"
+#~ msgstr "_Apondre una sorça"
+
+#~ msgid ""
+#~ "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+#~ msgstr ""
+#~ "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+
+#~ msgid "Ubuntu 6.10 'Edgy Eft'"
+#~ msgstr "Ubuntu 6.10 'Edgy Eft'"
+
+#~ msgid "Cdrom with Ubuntu 6.10 'Edgy Eft'"
+#~ msgstr "CD-ROM que conten Ubuntu 6.10 'Edgy Eft'"
+
+#~ msgid "Ubuntu 6.06 LTS 'Dapper Drake'"
+#~ msgstr "Ubuntu 6.06 LTS 'Dapper Drake'"
+
+#~ msgid "Non-free drivers"
+#~ msgstr "Pilòts pas liures"
+
+#~ msgid "Restricted software (Multiverse)"
+#~ msgstr "Pas liure (multiverse)"
+
+#~ msgid "Cdrom with Ubuntu 6.06 LTS 'Dapper Drake'"
+#~ msgstr "CD-ROM que conten Ubuntu 6.06 LTS 'Dapper Drake'"
+
+#~ msgid "Ubuntu 5.10 'Breezy Badger'"
+#~ msgstr "Ubuntu 5.10 'Breezy Badger'"
+
+#~ msgid "Cdrom with Ubuntu 5.10 'Breezy Badger'"
+#~ msgstr "CD-ROM que conten Ubuntu 5.10 'Breezy Badger'"
+
+#~ msgid "Ubuntu 5.10 Security Updates"
+#~ msgstr "Mesas a jorn per Ubuntu 5.10"
+
+#~ msgid "Ubuntu 5.10 Updates"
+#~ msgstr "Mesas a jorn per Ubuntu 5.10"
+
+#~ msgid "Cdrom with Ubuntu 5.04 'Hoary Hedgehog'"
+#~ msgstr "CD-ROM que conten Ubuntu 5.04 'Hoary Hedgehog'"
+
+#~ msgid "Ubuntu 5.04 Security Updates"
+#~ msgstr "Mesas a jorn de seguritat per Ubuntu 5.04"
+
+#~ msgid "Ubuntu 5.04 Updates"
+#~ msgstr "Mesas a jorn per Ubuntu 5.04"
+
+#~ msgid "Ubuntu 4.10 'Warty Warthog'"
+#~ msgstr "Ubuntu 4.10 'Warty Warthog'"
+
+#~ msgid "Non-free (Multiverse)"
+#~ msgstr "Pas liure (multiverse)"
+
+#~ msgid "Cdrom with Ubuntu 4.10 'Warty Warthog'"
+#~ msgstr "CD-ROM que conten Ubuntu 4.10 \"Warty Warthog\""
+
+#~ msgid "Ubuntu 4.10 Security Updates"
+#~ msgstr "Mesas a jorn per Ubuntu 4.10"
+
+#~ msgid "Ubuntu 4.10 Updates"
+#~ msgstr "Mesas a jorn per Ubuntu 4.10"
+
+#~ msgid "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+#~ msgstr "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+
+#~ msgid "Debian 3.1 \"Sarge\""
+#~ msgstr "Debian 3.1 \"Sarge\""
+
+#~ msgid "http://security.debian.org/"
+#~ msgstr "http://security.debian.org/"
+
+#~ msgid "Debian 3.1 \"Sarge\" Security Updates"
+#~ msgstr "Mesas a jorn de securitat per Debian 3.1 \"Sarge\""
+
+#~ msgid "Debian \"Etch\" (testing)"
+#~ msgstr "Debian \"Etch\" (en tèst)"
+
+#~ msgid "http://http.us.debian.org/debian/"
+#~ msgstr "http://http.us.debian.org/debian/"
+
+#~ msgid "Debian \"Sid\" (unstable)"
+#~ msgstr "Debian \"Sid\" (instable)"
+
+#~ msgid "Source Code"
+#~ msgstr "Còdi sorga"
+
+#~ msgid "Add Cdrom"
+#~ msgstr "Apondre un CD-ROM"
+
+#~ msgid "Source code"
+#~ msgstr "Còdi sorga"
+
+#~ msgid "%s updates"
+#~ msgstr "%s mesas a jorn"
+
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "Nearest server"
+#~ msgstr "Servidor mai prèp"
+
+#~ msgid "Active"
+#~ msgstr "Actiu"
+
+#~ msgid "Changes and description of the update"
+#~ msgstr "Cambis e descripcion de la mesa a jorn"
+
+#~ msgid "<b>CDROM/DVD</b>"
+#~ msgstr "<b>CD-ROM/DVD</b>"
+
+#~ msgid "Statistics"
+#~ msgstr "Estadisticas"
+
+#~ msgid "%d package is going to be downgraded."
+#~ msgid_plural "%d packages are going to be downgraded."
+#~ msgstr[0] "Anam metre a jorn %d paquetatge."
+#~ msgstr[1] "Anam metre a jorn %d paquetatges."

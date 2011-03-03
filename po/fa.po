@@ -1,0 +1,1125 @@
+# Persian translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2009-07-01 08:40+0000\n"
+"Last-Translator: MohamadReza Mirdamadi <Unknown>\n"
+"Language-Team: Persian <fa@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2009-07-01 17:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr ""
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr ""
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr ""
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "صفر کیلوبایت"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "یک کیلوبایت"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr ""
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:56
+msgid "< 5 seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:58
+#, python-format
+msgid "%d seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+
+#: ../UpdateManager/Util/humanize.py:74
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+#, fuzzy
+msgid "Could not download packages information."
+msgstr "اطلاعات نامعتبر بسته"
+
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+#, fuzzy
+msgid "Do you want to submit a bug report?"
+msgstr "آیا می‌خواهید ارتقا را آغاز کنید؟"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+#, fuzzy
+msgid "Loading package cache."
+msgstr "خواندن حافظه نهان"
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+msgid "Finished loading package cache."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+msgid "_Check all"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, python-format
+msgid "Version: %s"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+msgid "Downloading list of changes failed."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, python-format
+msgid "Version %s: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+msgid "Gathering information about updates..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+msgid "Upgrading may require removal or installation of new packages."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, python-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+msgid "Software updates are available for this computer."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+msgid "About Update Manager"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+msgid "Source"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+msgid "Downloaded"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+msgid "Checking for updates"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr ""
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, python-format
+msgid "Download rate: %s/s"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+msgid "Checking for updates..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+msgid "Error message:"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+#, fuzzy
+msgid "Downloading updates"
+msgstr "خطا در به‌هنگام‌سازی"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr ""
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr ""
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr ""
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+#, fuzzy
+msgid "Removal or installation of packages"
+msgstr "بسته‌های از کارافتاده حذف شوند؟"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "آیا می‌خواهید ارتقا را آغاز کنید؟"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+#, fuzzy
+msgid "Preparing upgrade"
+msgstr "آماده‌سازی ارتقا شکست خورد"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+msgid "This operation may take some time."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+msgid "Downloading finished"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+msgid "Installing updates"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+msgid "Your system is now up-to-date."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+msgid "Please consider installing all available updates."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+msgid "Show terminal"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+msgid "A fatal error has been detected"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr ""
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr ""
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr ""
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr ""
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr ""
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr ""
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+msgid "Third-party updates"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr ""
+
+#~ msgid "Server for %s"
+#~ msgstr "کارگزاران برای %s"
+
+#~ msgid "Main server"
+#~ msgstr "کارگزار اصلی"
+
+#~ msgid "Custom servers"
+#~ msgstr "کارگزاران سفارشی"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "مدخل sources.list محاسبه نشد"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "هیچ بسته‌ای پیدا نشد، شاید این لوح اوبونتو نیست و یا معماری آن متفاوت است."
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "نتوانست سی‌دی را اضافه کند"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "افرودن سی‌دی با خطا مواجه شد، ارتقا قطع شد. اگر این یک سی‌دی معتبر اوبونتو "
+#~ "است این را به عنوان یک اشکال گزارش کنید.\n"
+#~ "خطا این بود:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "حذف بسته‌های خراب"
+
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "بسته(های) '%s' در وضعیتی نا استوار است(هستند) و نیاز به نصب مجدد دارد"
+#~ "(دارند) ، اما هیچ بسته ای برای نصب مجدد یافت نمی شود آیا حالا مایل به حذف "
+#~ "بسته(ها) برای ادامه هستید؟"
+
+#~ msgid "Broken packages"
+#~ msgstr "بسته های خراب"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "سیستم شما بسته‌های خرابی دارد که توسط این نرم افزار قابل اصلاح نیستند. "
+#~ "لطفاً پیش از ادامه ابتدا با synaptic یا apt-get آن‌ها را اصلاح کنید."
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "یک مشکل حل نشدنی حین محاسبه ارتقا رخ داد:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " این می‌توانند ایجاد شده باشد به‌وسیله:\n"
+#~ " * ارتقا به نگارش پیش از انتشار اوبونتو\n"
+#~ " * اجرای نگارش پیش از انتشار اوبونتو در حال حاضر\n"
+#~ " *بسته‌های نرم‌افزاری غیر رسمی که توسط اوبوونتو آماده نشده\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "این مساله مشابه یک مساله زودگذر است، لطفا بعدا دوباره سعی کنید."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bug report."
+#~ msgstr ""
+#~ "اگر هیچ کدام  عملی نشد، لطفا این اشکال را به همراه پرونده‌های /var/log/"
+#~ "dist-upgrade/ برای بسته update-manager گزارش دهید."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "خطا در تایید هویت بعضی بسته‌ها"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "تایید هویت برخی از بسته‌ها ممکن نبود. این ممکن است مشکل زودگذر شبکه باشد. "
+#~ "شما ممکن است بخواهید بعدا دوباره تلاش کنید. درزیر لیست بسته های تایید "
+#~ "هویت نشده را می‌بینید."
+
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr "بسته '%s' برای حذف علامتگذاری شده است اما در لیست سیاه حذفیات است."
+
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "بسته حیاتی '%s' برای حذف علامتگذاری شده است."
+
+#~ msgid "Can not mark '%s' for upgrade"
+#~ msgstr "نمی‌توان '%s' را برای ارتقا علامتگذاری کرد."
+
+#~ msgid "Can't install '%s'"
+#~ msgstr "نمیتواند '%s' را نصب کند"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "امکان نصب بسته‌های مورد نیاز وجود ندارد. لطفاً این مشکل را به عنوان یک "
+#~ "اشکال گزارش کنید. "
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "سیستم شما یکی از بسته‌های xubuntu-desktop ، kubuntu-desktop ، ubuntu-"
+#~ "deskop یا edubuntu-desktop را ندارد و تشخیص اینکه از کدام نسخه از اوبونتو "
+#~ "استفاده میکنید ناممکن است.\n"
+#~ " لطفاً ابتدا یکی از بسته‌های بالا را با استفاده از synaptic یا apt-get نصب "
+#~ "کنید."
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "نمیتواند قفل انحصاری را بگیرد"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "این معمولاً به آن معنی است که یک برنامهء مدیریت بسته دیگر (مانند apt-get "
+#~ "یا aptitude) در حال اجرا است. لطفاً ابتدا آن برنامه را ببندید."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "ارتقا با اتصال دوردست پشتیبانی نشده است"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. The upgrade will abort now. Please try "
+#~ "without ssh."
+#~ msgstr ""
+#~ "شما در حال اجرای ارتقا از روی اتصال دوردست ssh با یک frontend هستید که "
+#~ "این را پشتیبانی نمی‌کند. ارتقا لغو خواهدشد. لطفا بدون ssh سعی کنید."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "اجرا تحت SSH ادامه یابد؟"
+
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, a additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "این نشت ظاهرا تحت ssh اجرا شده است. توصیه نمی شود که فعلاً ارتقا روی ssh "
+#~ "انجام شود چراکه در صورت مواجهه با شکست به سختی قابل بازیابی است.\n"
+#~ "\n"
+#~ "اگر ادامه دهید، یک شبح ssh اضافی روی درگاه '%s' آغاز خواهدشد.\n"
+#~ "آیا مایل به ادامه هستید؟"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "آغاز sshd اضافی"
+
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "برای ایجاد بازگشت راحت‌تر در صورت شکست، یک sshd اضافی روی درگاه '%s' آغاز "
+#~ "خواهدشد. اگر هر اشتباهی در رابطه با sshاجرا شده پیش آمد شما هنوز می‌توانید "
+#~ "با آن یکی متصل بمانید.\n"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "نتوانست ارتقا یابد."
+
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "یک به‌هنگام‌ساز از '%s' به '%s'  با این ابزار پشتیبانی نمی‌شود."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "نصب sandbox شکست خورد"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "ایجاد محیط sandbox امکان پذیر نبود."
+
+#~ msgid "Sandbox mode"
+#~ msgstr "حالت sandbox"
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "ارتقا در حالت (Sandbox) آزمایشی در حال اجراست. تمام تغییرات در '%s' نوشته "
+#~ "می‌شوند و در راه‌اندازی مجدد بعدی از بین خواهند رفت.\n"
+#~ "\n"
+#~ "از حالا تا راه‌اندازی مجدد *هیچ* تغییری که در یک systemdir نوشته میشوند "
+#~ "همیشگی نیست."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "نصب پایتون شما مخدوش است. لطفا symlink را '/usr/bin/python' را درست کنید."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "بسته 'debsig-verify' نصب شده"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "ارتقا با آن بسته نصب شده نمی‌تواند ادامه یابد.\n"
+#~ "لطفاً ابتدا آن را با synaptic یا 'apt-get remove debsig-verify' حذف کنید و "
+#~ "ارتقا را دوباره اجرانمایید."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "شامل آخرین به‌هنگام‌سازی‌ها از اینترنت ‌شود؟"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "سیستم ارتقا می‌تواند از اینترنت استفاده کند تا به صورت خودکار آخرین "
+#~ "به‌هنگام‌سازی‌ها را بارگیری و در هنگام ارتقا نصب کند. اگر اتصال شبکه دارید "
+#~ "این کار شدیداً توصیه می‌گردد.\n"
+#~ "\n"
+#~ "ارتقا طولانی‌تر خواهدبود، اما هنگامی که تمام شود، سیستم شما کاملاً به روز "
+#~ "می‌گردد. شما می‌توانید عدم انجام این کار را انتخاب نمایید، اما شما باید پس "
+#~ "از ارتقا هرچه زودتر آخرین به‌هنگام‌سازی‌ها را نصب نمایید.\n"
+#~ "اگر در این‌جا پاسخ شما *نه* باشد، اصلا از شبکه استفاده نمی‌شود."
+
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "غیر فعال شده بر ارتقا به %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "قرینه معتبری پیدا نشد"
+
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found.This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'no' the update will cancel."
+#~ msgstr ""
+#~ "هنگام پویش اطلاعات مخزن شما هیچ مدخل قرینه‌ای برای ارتقا پیدانکرد. این "
+#~ "رویداد در صورتی می‌تواند رخ‌داده باشد که شما قرینه‌ای داخلی اجراکرده باشید "
+#~ "یا اطلاعات قرینه به روز نباشد.\n"
+#~ "\n"
+#~ "آیا می‌خواهید  'sources.list' شما به هرطریق بازنویسی شود؟ اگه در این‌جا "
+#~ "'بله' را انتخاب نمایید همه '%s' به مدخل‌های '%s' به‌هنگام خواهدشد.\n"
+#~ "اگر انتخاب شما 'نه' باشد به‌هنگام‌سازی لغو خواهدشد."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "مبدأهای پیش‌فرض تولید شود؟"
+
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the update "
+#~ "will cancel."
+#~ msgstr ""
+#~ "پس از پویش‌کردن 'sources.list' شما هیچ مدخل معتبری برای '%s'یافت نشد.\n"
+#~ "\n"
+#~ "آیا مدخل‌های پیش فرض برای '%s' اضافه شوند؟ اگر 'نه' را انتخاب کنید، "
+#~ "به‌هنگام‌سازی لغو خواهدشد."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "اطلاعات مخزن نامعتبر است."
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "ارتقا اطلاعات مخزن منجر به یک پرونده غیر معتبر شد. لطفا این را به عنوان "
+#~ "یک اشکال گزارش کنید."
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "برخی از مدخل‌ها در sources.list شما غیرفعال شده بود. شما می‌توانید آن‌ها را "
+#~ "پس از ارتقا با ابزار 'software-properties' یا مدیر بسته‌ها بازفعال کنید."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "بسته‌(ها) در وضعیت ناسازگار"
+
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "بسته(های) '%s' در یک وضعیت ناسازگار است و نیاز به نصب مجدد دارد، اما هیچ "
+#~ "آرشیوی برای آن یافت نشد. لطفاً بسته را به صورت دستی مجدد نصب کنید یا از "
+#~ "سیستم حذفش کنید."
+
+#~ msgid ""
+#~ "A problem occurred during the update. This is usually some sort of "
+#~ "network problem, please check your network connection and retry."
+#~ msgstr ""
+#~ "بک مشکل حین به‌هنگام‌سازی رخ داد. این معمولا از دسته مشکلات شبکه است، لطفا "
+#~ "اتصال شبکه‌اتان را بررسی نمایدد و مجدد تلاش کنید."
+
+#~ msgid "Not enough free disk space"
+#~ msgstr "عدم وجود فضای کافی دیسک"
+
+#~ msgid ""
+#~ "The upgrade is now aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "ارتقا اکنون لغو شد. ارتقا سرجمع نیاز به %s فضای آزاد روی دیسک '%s' دارد. "
+#~ "لطفا حداقل  %s اضافی از فضای دیسک روی '%s' آزاد کنید. سطل آشغالتان را "
+#~ "خالی و بسته‌های موقت از نصب‌های پیشین را با استفاده از 'sudo apt-get clean' "
+#~ "حذف کنید."
+
+#~ msgid "Support for some applications ended"
+#~ msgstr "پشتیبانی برای برخی برنامه‌ها تمام شد."
+
+#~ msgid ""
+#~ "Canonical Ltd. no longer provides support for the following software "
+#~ "packages. You can still get support from the community.\n"
+#~ "\n"
+#~ "If you have not enabled community maintained software (universe), these "
+#~ "packages will be suggested for removal at the end of the upgrade."
+#~ msgstr ""
+#~ "کنونیکال Ltd برای بسته‌های نرم‌افزاری که در زیر آمده دیگر پشتیبانی ارائه "
+#~ "نمیکند. شما همچنان می‌توانید از گروه کاربری پشتیبانی دریافت کنید.\n"
+#~ "\n"
+#~ "اگر مخازن توسعه داده شده توسط کابران (universe) را فعال نکردید، حذف این "
+#~ "بسته‌ها در پایان ارتقا به شما توصیه خواهد شد."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "محاسبه تغییرات"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "نمیتواند برای ارتقا بارگیری نماید"
+
+#~ msgid ""
+#~ "The upgrade is now aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far are kept."
+#~ msgstr ""
+#~ "ارتقا اکنون لغو شد. لطفا اتصال اینترنتتان یا رسانه‌ی نصب را بررسی و مجدد "
+#~ "تلاش نمایید. همه پرونده‌های بارگیری شده نگه داشته خواهندشد."
+
+#~ msgid "Error during commit"
+#~ msgstr "خطا در حین انجام امور"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "بازگرداندن وضعیت اصلی سیستم"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "نتوانست ارتقاها را نصب کند"
+
+#~ msgid ""
+#~ "The upgrade is now aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "این ارتقا اکنون لغوشده است. سیستم شما ممکن است در وضعیت ناپایداری باشد. "
+#~ "اکنون یک بازیابی اجرا خواهد شد (dpkg --configure -a)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "لطفاً در گزارش اشکال، این اشکال را برای بسته 'update-manager' به همراه "
+#~ "پرونده‌های موجود در /var/log/dist-upgrade/ گزارش کنید.\n"
+#~ " %s"
+
+#~ msgid ""
+#~ "The upgrade is now aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "ارتقا اکنون لغو شد. لطفا اتصال اینترنتیتان یا رسانه نصب را بررسی و مجدد "
+#~ "تلاش نمایید. "
+
+#~ msgid "_Keep"
+#~ msgstr "_نگه داری"
+
+#~ msgid "_Remove"
+#~ msgstr "_حذف"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "یک مشکل در حین clean-up رخ داد. لطفا پیغام پایین را برای اطلاعات بیشتر "
+#~ "ببینید. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "وابستگی‌های موردنیاز نصب نیستند"
+
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "وابستگی موردنیاز '%s' نصب نیست. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "در حال بررسی مدیر بسته"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/"
+#~ "dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "آماده‌سازی سیستم برای ارتقا شکست خورد. لطفا این را به عنوان یک اشکال برای "
+#~ "بسته 'update-manager' گزارش کنید و پرونده‌های درون /var/log/dist-upgrade/ "
+#~ "را در گزارش اشکال بگنجانید."
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "گرفتن پیش‌نیازهای ارتقا شکست خورد"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and "
+#~ "include the files in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "سیستم برای دریافت پیش‌نیازها برای ارتقا ناتوان بود. ارتقا اکنون لغو "
+#~ "خواهدشد و سیستم به حالت اصلی بازمی‌گردد.\n"
+#~ "\n"
+#~ "لطفا این را به عنوان یک اشکال در مقابل بسته 'update-manager' گزارش کنید و "
+#~ "پرونده‌های درون /var/log/dist-upgrade/ را در گزارش اشکال بگنجانید."
+
+#~ msgid "Updating repository information"
+#~ msgstr "به‌هنگام‌سازی اطلاعات مخزن"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the "
+#~ "'update-manager' package and include the files in /var/log/dist-upgrade/ "
+#~ "in the bug report."
+#~ msgstr ""
+#~ "پس از این‌که اطلاعات بسته به‌هنگام شد بسته ضروری '%s' دیگر پیدا نشد.\n"
+#~ "این نشان دهنده یک خطای جدی است، لطفاً این را به عنوان یک اشکال در مقابل "
+#~ "بسته 'update-manager' گزارش کنید و پرونده‌های درون /var/log/dist-upgrade/ "
+#~ "را در گزارش اشکال بگنجانید."
+
+#~ msgid "Fetching"
+#~ msgstr "در حال واکشی"
+
+#~ msgid "Upgrading"
+#~ msgstr "در حال ارتقا"
+
+#~ msgid "Upgrade complete"
+#~ msgstr "ارتقا کامل شد"
+
+#~ msgid ""
+#~ "The upgrade is completed but there were errors during the upgrade process."
+#~ msgstr "ارتقا کامل شد اما در حین روند ارتقا خطاهایی بود."
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "در حال جستجوی نرم‌افزارهای منسوخ"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "ارتقا سیستم کامل شده است."
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "ارتقا جزیی کامل شده بود."
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "ارتقا ممکن است باعث کاهش جلوه‌های میزکار، و کارایی در بازی‌ها و برنامه‌های "
+#~ "گرافیکی قوی شود."
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 9.04.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "این رایانه در حال حاضر از گرداننده‌های گرافیکی AMD 'fglrx' استفاده می‌کند. "
+#~ "نسخه‌ای از این گرداننده در دسترس نیست که با سخت‌افزار شما روی اوبونتو ۹.۰۴ "
+#~ "کارکند.\n"
+#~ "\n"
+#~ "آیا می‌خواهید ادامه دهید؟"
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 8.10.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "این رایانه در حال حاضر از گرداننده‌های گرافیکیNVIDIA 'nvidia' استفاده "
+#~ "می‌کند. نسخه‌ای از این گرداننده در دسترس نیست که با سخت‌افزار شما روی "
+#~ "اوبونتو ۹.۰۴ کارکند.\n"
+#~ "\n"
+#~ "آیا می‌خواهید ادامه دهید؟"
+
+#~ msgid "evms in use"
+#~ msgstr "evms در حال استفاده"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "سیستم شما از مدیر حجم 'evms'در /proc/mounts استفاده می‌کند. نرم‌افزار دیگر "
+#~ "'evms' پشتیبانی نیمشود، لطفا آن را خاموش کنید و هنگامی‌که تمام شد دوباره "
+#~ "ارتقا را اجراکنید."
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "ارتقا Sandbox با استفاده از aufs"
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "از مسیر داده‌شده به‌منظور جست‌وجوی cdrom با بسته‌های قابل ارتقا استفاده شود"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "از frontend استفاده کنید. هم‌اکنون در دسترس است: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "*DEPRECATED* this option will be ignore"
+#~ msgstr "*نادرست است*این گزینه حذف خواهد شد"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr "فقط یک ارتقا جزیی انجام بده (sources.list بازنویسی نمیشود)"
+
+#~ msgid "Set datadir"
+#~ msgstr "datadir تنظیم شود"
+
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "لطفا '%s' در درایو '%s' قرار داده شود"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "واکشی کردن تکمیل شد"
+
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "در حال واکشی پرونده %li از %li  با %s بیت/ثانیه"
+
+#~ msgid "About %s remaining"
+#~ msgstr "تقريبا %s باقی مانده"
+
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "در حال واكشی پرونده %li از %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "اعمال تغییرات"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "مشیل وابستگی - خروج به صورت پيکربندی نشده"
+
+#~ msgid "Could not install '%s'"
+#~ msgstr "نتوانست '%s' را نصب كند"
+
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may be in a not working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "ارتقا ادامه خواهد یافت اما بسته '%s' ممکن است در حالت کارا نباشد. لطفا در "
+#~ "صورت تمایل گزارش این اشکال را ارسال کنید."
+
+#~ msgid "    "
+#~ msgstr "    "

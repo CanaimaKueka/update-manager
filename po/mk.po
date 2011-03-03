@@ -1,0 +1,1919 @@
+# translation of mk.po to Macedonian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
+# Арангел Ангов <ufo@linux.net.mk>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mk\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2008-12-20 16:34+0000\n"
+"Last-Translator: Јован Наумовски <jovan@lugola.net>\n"
+"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
+"X-Launchpad-Export-Date: 2009-04-08 12:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr ""
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr ""
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr ""
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "0 KB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../UpdateManager/Util/humanize.py:56
+msgid "< 5 seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:58
+#, python-format
+msgid "%d seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Util/humanize.py:74
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+#, fuzzy
+msgid "Could not download packages information."
+msgstr "Не можам да ги иницијализирам информациите за пакетот"
+
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+#, fuzzy
+msgid "Do you want to submit a bug report?"
+msgstr "Дали сакате да ја започнете надградбата?"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+#, fuzzy
+msgid "Loading package cache."
+msgstr "Читање на кешот"
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+msgid "Finished loading package cache."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr "_Отчекирај сѐ"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+#, fuzzy
+msgid "_Check all"
+msgstr "_Чекирај сѐ"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr "(големина: %s)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "Од верзијата %(old_version)s во %(new_version)s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, fuzzy, python-format
+msgid "Version: %s"
+msgstr "Верзија %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr "Големина на преземање: %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr "Преземам листа на промени..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+#, fuzzy
+msgid "Downloading list of changes failed."
+msgstr "Преземам листа на промени..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, fuzzy, python-format
+msgid "Version %s: "
+msgstr "Верзија %s: \n"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+msgid "Gathering information about updates..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+#, fuzzy
+msgid "Upgrading may require removal or installation of new packages."
+msgstr "Да ги отстранам застарените пакети?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+#, fuzzy
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr "Дали сакате да ја започнете надградбата?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr "Вашиот систем е надграден"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, python-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, fuzzy, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr "Нема достапни надградби."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+#, fuzzy
+msgid "Software updates are available for this computer."
+msgstr "Има %s достапни пакети за надградба."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+#, fuzzy
+msgid "About Update Manager"
+msgstr "Менаџер за надградба"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Менаџер за надградба"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+#, fuzzy
+msgid "Source"
+msgstr ""
+"Бинарни\n"
+"Изворен код"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+#, fuzzy
+msgid "Downloaded"
+msgstr "Големина на преземање: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+msgid "Checking for updates"
+msgstr "Проверувам дали има ажурирања"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr ""
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, fuzzy, python-format
+msgid "Download rate: %s/s"
+msgstr "Големина на преземање: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+#, fuzzy
+msgid "Checking for updates..."
+msgstr "Проверувам дали има ажурирања"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+msgid "Error message:"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+#, fuzzy
+msgid "Downloading updates"
+msgstr "Ја преземам алатката за надградба"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr "Промени"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr "Отстрани го %s"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr "Инсталирај %s"
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+#, fuzzy
+msgid "Removal or installation of packages"
+msgstr "Да ги отстранам застарените пакети?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+#, fuzzy
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr "Ги инсталирам надградбите"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "Дали сакате да ја започнете надградбата?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+#, fuzzy
+msgid "Preparing upgrade"
+msgstr "Ја подготвувам надградбата"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+#, fuzzy
+msgid "This operation may take some time."
+msgstr "Ве молам, почекајте, ова може да потрае."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+#, fuzzy
+msgid "Downloading finished"
+msgstr "Преземам листа на промени..."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+#, fuzzy
+msgid "Installing updates"
+msgstr "Инсталирам надградби..."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, fuzzy, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] "Предложени ажурирања"
+msgstr[1] "Предложени ажурирања"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+#, fuzzy
+msgid "Your system is now up-to-date."
+msgstr "Вашиот систем е надграден"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, fuzzy, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] "Нема достапни надградби."
+msgstr[1] "Нема достапни надградби."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+#, fuzzy
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr ""
+"Надградбата на софтверот ги поправа грешките, ги елиминира сигурносните "
+"пропусти и овозможува нови карактеристики."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+#, fuzzy
+msgid "Please consider installing all available updates."
+msgstr "Прикажи и инсталирај ги достапните надградби"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr "Покажувај го напредокот на поединечните датотеки"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+#, fuzzy
+msgid "Show terminal"
+msgstr "Покажи терминал >>>"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+#, fuzzy
+msgid "A fatal error has been detected"
+msgstr "Се случи фатална грешка"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, fuzzy, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr "Верзија %s"
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr "Важни безбедносни ажурирања"
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr "Препорачливи ажурирања"
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr "Надградби на дистрибуцијата"
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr "Предложени ажурирања"
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr "Надградени пакети од понови верзии на Ubuntu"
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+#, fuzzy
+msgid "Third-party updates"
+msgstr "Додатните извори се оневозможени"
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr "*застарено* Провери за нови изданија од дистрибуцијата"
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+"Ако автоматската проверка за ажурирања е исклучена, ќе мора рачно да ја "
+"вчитате листата со канали. Оваа опција дозволува криење на потсетникот."
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr "Потсети за одново вчитување на листата со канали"
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr "Прикажи детали за надградбата"
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr "Ја зачувува големината на дијалогот на update-manager"
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr ""
+"Ја зачувува состојбата на проширувачот кој ја содржи листата со промени и "
+"описот"
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr "Големината на прозорецот"
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+"Овој клуч е застарен и сега се користи датотеката /etc/update-manager/"
+"release-upgrades. Проверува автоматски дали има нова верзија од тековната "
+"дистрибуција и нуди надградба (ако тоа е возможно)."
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "Прикажи и инсталирај ги достапните надградби"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Надградба на софтвер"
+
+#, fuzzy
+#~ msgid "Current package: %s"
+#~ msgstr "Оштетени пакети"
+
+#~ msgid "Server for %s"
+#~ msgstr "Сервер за %s"
+
+#~ msgid "Main server"
+#~ msgstr "Главен сервер"
+
+#~ msgid "Custom servers"
+#~ msgstr "Други сервери"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Не можам да го додадам CD-то"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Имаше грешка во додавањето на CD-то, надградбата ќе прекине. Ве молам, "
+#~ "пријавете го ова како бубачка ако CD-то е валидно Ubuntu CD.\n"
+#~ "\n"
+#~ "Пораката со грешка беше:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Отстрани го пакетот во лоша состојба"
+#~ msgstr[1] "Отстрани ги пакетите во лоша состојба"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Вашиот систем содржи оштетени пакети кои не може да се поправат со овој "
+#~ "софтвер. Ве молам поправете ги со Синаптик или apt-get пред да продолжите."
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Ова најверојатно е минлив проблем, пробајте подоцна."
+
+#~ msgid "Could not calculate the upgrade"
+#~ msgstr "Не може да се одреди надградбата"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Грешка при автентикација на некои пакети"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Не можат да се автентицираат некои пакети. Може да има мрежни пречки. "
+#~ "Обидете се повторно. Видете подолу за листа на неавтентицирани пакети."
+
+#~ msgid "Can't install '%s'"
+#~ msgstr "Не може да се инсталира %s'"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "Беше невозможно да се инсталира потребниот пакет. Ве молам, пријавете го "
+#~ "ова како бубачка. "
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Не може да се погоди мета пакетот"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Вашиот систем не содржи ни еден од пакетите ubuntu-desktop, kubuntu-"
+#~ "desktop, xubuntu-desktop или edubuntu-desktop и затоа беше невозможно да "
+#~ "се одреди која верзија на Ubuntu извршувате.\n"
+#~ " Ве молам, инсталирајте еден од пакетите погоре со synaptic или apt-get "
+#~ "пред да продолжите."
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Не можам да добијам ексклузивно заклучување"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Ова најчесто значи дека моментално работи друга апликација за менаџмент "
+#~ "на пакети (како apt-get или aptitude). Ве молам прво затворете ја таа "
+#~ "апликација."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Да продолжам да се извршувам под SSH?"
+
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, a additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Овој оддел изгледа се извршува под SSH. Моментално не е препорачливо да "
+#~ "извршувате ажурирање преку ssh, бидејќи во случај на грешка, поправката е "
+#~ "многу тешка.\n"
+#~ "\n"
+#~ "Ако сакате да продолжите, треба да инсталирате додатен ssh демон на "
+#~ "портата „%s“.\n"
+#~ "Дали сакате да продолжите?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Стартувам додатен sshd"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Не можам да извршам надградба"
+
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Надградбата од „%s“ во „%s“ не е поддржано со оваа алатка."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Вашата инсталација на python e расипана. Ве молам, поправете ја "
+#~ "симболичката врска „/usr/bin/python“."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Да ги вклучам најновите ажурирања од Интернет?"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Не е пронајден валиден помошен сервер"
+
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found.This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'no' the update will cancel."
+#~ msgstr ""
+#~ "При скенирањето на Вашите информации за складиштата не беше најден запис "
+#~ "за помошен сервер. Ова може да се случи ако извршувате внатрешен сервер "
+#~ "или ако информациите за помошниот сервер се застарени.\n"
+#~ "\n"
+#~ "Дали сакате да го презапишете Вашиот „sources.list“ и покрај тоа? Ако "
+#~ "изберете „Да“, ќе ги надградам '%s' до '%s' записи.\n"
+#~ "Ако изберете „не“, надградбата ќе прекине."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Да ги генерирам стандардните извори?"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Информациите за складиштето се невалидни"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "Од надградувањето на информациите за складиштето произлезе невалидна "
+#~ "датотека. Ве молам пријавете го ова како бубачка."
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Некои од додатните записи во sources.list беа оневозможени. Можете да ги "
+#~ "овозможите повторно по надградбата со алатката „software-properties“ или "
+#~ "со Вашиот менаџер на пакети."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Пакет во неправилна состојба"
+#~ msgstr[1] "Пакети во неправилна состојба"
+
+#~ msgid "Error during update"
+#~ msgstr "Грешка при ажурирањето"
+
+#~ msgid ""
+#~ "A problem occurred during the update. This is usually some sort of "
+#~ "network problem, please check your network connection and retry."
+#~ msgstr ""
+#~ "Се случи проблем при надградбата. Ова е обично некој проблем со мрежата и "
+#~ "Ве молиме да ја проверете Вашата мрежна врска и да се обидете повторно."
+
+#~ msgid "Not enough free disk space"
+#~ msgstr "Нема доволно место на дискот"
+
+#~ msgid "Support for some applications ended"
+#~ msgstr "Поддршката за некои апликации заврши"
+
+#~ msgid ""
+#~ "Canonical Ltd. no longer provides support for the following software "
+#~ "packages. You can still get support from the community.\n"
+#~ "\n"
+#~ "If you have not enabled community maintained software (universe), these "
+#~ "packages will be suggested for removal at the end of the upgrade."
+#~ msgstr ""
+#~ "Canonical Ltd. не овозможува поддршка за следните софтверски пакети. Сѐ "
+#~ "уште ќе можете да добивате поддршка од заедницата.\n"
+#~ "\n"
+#~ "Ако не го овозможите складиштето со софтвер кој го одржува заедницата "
+#~ "(universe), овие пакети нема да бидат предложени за отстранување на "
+#~ "крајот на надградбата."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Ги проценувам промените"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Не можам да ги симнам надградбите"
+
+#~ msgid "Error during commit"
+#~ msgstr "Грешка при испраќањето"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Ја враќам првичната состојба на системот"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Не можам да ги инсталирам надградбите"
+
+#~ msgid "_Keep"
+#~ msgstr "_Чувај"
+
+#~ msgid "_Remove"
+#~ msgstr "_Отстрани"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "Се случи некој проблем при расчистувањето. Видете ја пораката подолу за "
+#~ "повеќе информации. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Не се инсталирани потребните зависности"
+
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Потребната зависност „%s“ не е инсталирана. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Проверете го менаџерот за пакети"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Подготвувањето на надградбата не успеа"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Земањето на почетните потребни пакети не успеа"
+
+#~ msgid "Updating repository information"
+#~ msgstr "Ги ажурирам информациите за складиштето"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Невалидни информации за пакетот"
+
+#~ msgid "Fetching"
+#~ msgstr "Земам"
+
+#~ msgid "Upgrading"
+#~ msgstr "Надградувам"
+
+#~ msgid "Upgrade complete"
+#~ msgstr "Надградбата е завршена"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Барам застарен софтвер"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Надградбата на системот е завршена."
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Користи ја дадената патека за пребарување на cdrom со пакети за надградба"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Користи фронтенд. Моментално достапни: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Внесете '%s' во драјвот '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Земањето заврши"
+
+#~ msgid "About %s remaining"
+#~ msgstr "Преостануваат околу %s"
+
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Земам датотека %li од %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Применувам промени"
+
+#~ msgid "Could not install '%s'"
+#~ msgstr "Не можам да инсталирам '%s'"
+
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Да ја заменам сопствената конфигурациска датотека\n"
+#~ "„%s“?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Ќе ги загубите сите промени кои ги направивте на оваа конфигурациска "
+#~ "датотека ако изберете да ја замените со понова верзија."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Командата „diff“ не беше пронајдена"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "За да спречите загуба на податоци, затворете ги сите отворени апликации и "
+#~ "документи."
+
+#~ msgid "<b>Downgrade %s</b>"
+#~ msgstr "<b>Врати ја старата верзија на %s</b>"
+
+#~ msgid "Upgrade %s"
+#~ msgstr "Надгради %s"
+
+#~ msgid "Media Change"
+#~ msgstr "Промена на медиум"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Покажи ја разликата >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Скриј ја разлаката"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Скриј го терминалот"
+
+#~ msgid "Details"
+#~ msgstr "Детали"
+
+#~ msgid "Restart required"
+#~ msgstr "Потребно е рестартирање"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr ""
+#~ "<b><big>Рестартирајте го системот за да ја завршите надградбата</big></b>"
+
+#~ msgid "_Restart Now"
+#~ msgstr "_Рестартирај сега"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Да ја прекинам надградбата?"
+
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Ова преземање ќе трае околу %s со Вашата врска. "
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Земам нови софтверски канали"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Земам нови пакети"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Расчистувам"
+
+#~ msgid "%d package is going to be removed."
+#~ msgid_plural "%d packages are going to be removed."
+#~ msgstr[0] "Ќе биде отстранет %d пакет."
+#~ msgstr[1] "Ќе бидат отстранети %d пакети."
+
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "Ќе се инсталира %d нов пакет."
+#~ msgstr[1] "Ќе се инсталираат %d нови пакети."
+
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "Ќе се надгради %d пакет."
+#~ msgstr[1] "Ќе се надградат %d пакети."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Мора да преземете вкупно %s. "
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Земањето и инсталирањето на надградбите може да трае неколку часови и не "
+#~ "може да се прекине било кога."
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Нема достапни надградби за Вашиот систем. Надградбата сега ќе се прекине."
+
+#~ msgid "Reboot required"
+#~ msgstr "Потребно е рестартирање"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Надградбата е завршена и потребно е рестартирање. Дали сакате да го "
+#~ "направите сега?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Не можам да ја извршам алатката за надградба"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr ""
+#~ "Најверојатно се работи за грешка во алатката за надградба. Ве молам "
+#~ "пријавете извештај за бубачка."
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Потпис на алатката за надградба"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Алатка за надградба"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Не можам да симнам"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr ""
+#~ "Симнувањето на надградбите не успеа. Можеби има проблем со мрежата. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Не можам да отпакувам"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Отпакувањето на надградбата не успеа. Можеби има проблем со мрежата или "
+#~ "серверот. "
+
+#~ msgid "Verfication failed"
+#~ msgstr "Проверката не успеа"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Проверката на надградбата не успеа. Можеби има проблем со мережата или со "
+#~ "серверот. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Проверката беше неуспешна"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Проверката на автентичност на надградбата не успеа. Можеби има проблем со "
+#~ "мрежата или серверот. "
+
+#~ msgid "Aborting"
+#~ msgstr "Прекинувам"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "Снижено:\n"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Продолжи [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Детали [d]"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "Remove: %s\n"
+#~ msgstr "Отстрани го: %s\n"
+
+#~ msgid "Install: %s\n"
+#~ msgstr "Инсталирај: %s\n"
+
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Надгради: %s\n"
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Потребно е рестартирање за да заврши надградбата.\n"
+#~ "Ако изберете „y“, системот ќе се рестартира."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Да ја прекинам тековната надградба?</big></b>\n"
+#~ "\n"
+#~ "Системот може да е во неупотреблива состојба ако ја прекинете "
+#~ "надградбата. Строго препорачливо е да надградбата да продолжи."
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Да ја започнам надградбата?</big></b>"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Разлика помеѓу датотеките"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Надградба на дистрибуцијата"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Го рестартирам системот"
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Ги поставувам новите софтверски канали"
+
+#~ msgid "Terminal"
+#~ msgstr "Терминал"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Прекини ја надградбата"
+
+#~ msgid "_Continue"
+#~ msgstr "Продолжи"
+
+#~ msgid "_Replace"
+#~ msgstr "_Замени"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Пријави бубачка"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "_Продолжи со надградбата"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Започни со надградбата"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Не можам да ги најдам белешките за изданието"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Серверот може да е преоптоварен. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Не можам да ги преземам белешките за изданието"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Ве молам проверете ја Вашата интернет врска."
+
+#~ msgid "Release Notes"
+#~ msgstr "Белешки за изданието"
+
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Ја преземам датотеката %(current)li од %(total)li со %(speed)s/сек."
+
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Ја преземам датотеката %(current)li од %(total)li"
+
+#~ msgid "Unknown download size"
+#~ msgstr "Непозната големина на преземање"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please try "
+#~ "clicking on the 'Check' button to update the information."
+#~ msgstr ""
+#~ "Не е познато кога последно информациите за пакетите беа ажурирани. Ве "
+#~ "молам, обидете се да ги ажурирате информациите за пакетите со кликнување "
+#~ "на копчето „Провери“."
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr "Информациите за пакетите последно беа ажурирани пред еден час."
+
+#~ msgid "Update is complete"
+#~ msgstr "Надградбата е завршена"
+
+#~ msgid "Reading package information"
+#~ msgstr "Ги читам податоците за пакетот"
+
+#~ msgid "Your distribution is not supported anymore"
+#~ msgstr "Вашата дистрибуција повеќе не е поддржана"
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Upgrade "
+#~ "to a later version of Ubuntu Linux. See http://www.ubuntu.com for more "
+#~ "information on upgrading."
+#~ msgstr ""
+#~ "Повеќе нема да добивате безбедносни поправки или критични надградби. "
+#~ "Надградете го системот на понова верзија на Ubuntu Linux. Видете на "
+#~ "http://www.ubuntu.com за повеќе информации за надградувањето."
+
+#~ msgid "<b>New distribution release '%s' is available</b>"
+#~ msgstr "<b>Новото издание на дистрибуцијата, '%s', е достапно</b>"
+
+#~ msgid "Software index is broken"
+#~ msgstr "Индексот на софтвер е расипан"
+
+#~ msgid ""
+#~ "It is impossible to install or remove any software. Please use the "
+#~ "package manager \"Synaptic\" or run \"sudo apt-get install -f\" in a "
+#~ "terminal to fix this issue at first."
+#~ msgstr ""
+#~ "Невозможно е да инсталирам или избришам некој софтвер. Користете го "
+#~ "менаџерот за пакети Синаптик или прво извршете „sudo apt-ge install -f“ "
+#~ "во терминал за да го надминете овој проблем."
+
+#~ msgid ""
+#~ "Failed to download the list of changes. \n"
+#~ "Please check your Internet connection."
+#~ msgstr ""
+#~ "Не успеав ја преземам листата со промени. \n"
+#~ "Ве молам проверете дали Вашата интернет врска е активна."
+
+#~ msgid "Other updates"
+#~ msgstr "Други надградби"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Мора да проверите рачно дали има ажурирања</big></b>\n"
+#~ "\n"
+#~ "Вашиот систем не проверува дали има ажурирања автоматски. Можете да го "
+#~ "конфигурирате тоа во <i>Софтверски извори</i> во јазичето <i>Интернет "
+#~ "ажурирања</i>."
+
+#~ msgid "<big><b>Not all updates can be installed</b></big>"
+#~ msgstr "<big><b>Не може да се инсталираат сите ажурирања</b></big>"
+
+#~ msgid "<big><b>Starting Update Manager</b></big>"
+#~ msgstr "<big><b>Го стартувам менаџерот за ажурирање</b></big>"
+
+#~ msgid "Chec_k"
+#~ msgstr "Провер_и"
+
+#~ msgid "Check the software channels for new updates"
+#~ msgstr "Провери ги софтверските канали за нови надградби"
+
+#~ msgid "Description"
+#~ msgstr "Опис"
+
+#~ msgid "Description of update"
+#~ msgstr "Опис на ажурирањето"
+
+#~ msgid ""
+#~ "Run a partial upgrade, to install as many updates as possible. \n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " ◦ A previous upgrade which didn't complete\n"
+#~ " ◦ Problems with some of the installed software\n"
+#~ " ◦ Unofficial software packages not provided by Ubuntu\n"
+#~ " ◦ Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "Извршете парцијална надградба за да инсталирате што е можно повеќе "
+#~ "ажурирња\n"
+#~ "\n"
+#~ "Ова може да е предизвикано од:\n"
+#~ " ◦ Претходна надградба која не успеа\n"
+#~ " ◦ Проблеми со некој од инсталираниот софтвер\n"
+#~ " ◦ Неофицијални пакети кои не се овозможени од Ubuntu\n"
+#~ " ◦ Нормални промени од рана верзија на Ubuntu"
+
+#~ msgid "U_pgrade"
+#~ msgstr "Н_адгради"
+
+#~ msgid "Upgrade to the latest version of Ubuntu"
+#~ msgstr "Надгради во најновата верзија на Ubuntu"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_Криј ги овие информации во иднина"
+
+#~ msgid "_Install Updates"
+#~ msgstr "_Инсталирај надградби"
+
+#~ msgid "_Partial Upgrade"
+#~ msgstr "_Парцијална надградба"
+
+#~ msgid "_Upgrade"
+#~ msgstr "Н_адгради"
+
+#~ msgid "updates"
+#~ msgstr "ажурирања"
+
+#~ msgid "Show version and exit"
+#~ msgstr "Прикажи верзија и излези"
+
+#~ msgid "Check if a new distribution release is available"
+#~ msgstr "Провери за нови изданија од дистрибуцијата"
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "Провери дали е можна надградбата до најновата развојна верзија"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Пробајте да извршите dist-upgrade"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Извршувам парцијална надградба"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "Пробајте да го надградите системот до најновото издание со користење на "
+#~ "надградувачот од $distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Се извршувам во специјален режим за надградба.\n"
+#~ "Моментално се поддржани „desktop“ за регуларни надградби за десктоп "
+#~ "систем и „server“ за серверски системи."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "Изврши го одредениот фронтенд"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Провери за нови изданија од дистрибуцијата"
+
+#~ msgid "No new release found"
+#~ msgstr "Не е пронајдено ново издание"
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bugreport."
+#~ msgstr ""
+#~ "Ако ништо од ова не важи, Ве молам, пријавете бубачка во „update-manager“ "
+#~ "пакетот и ставете ги датотеките од /var/log/dist-upgrade/ во пријавата."
+
+#~ msgid "The upgrade tool will guide you through the upgrade process."
+#~ msgstr "Алатката за надградба ќе Ве води низ процесот на надградба."
+
+#~ msgid "Can't upgrade required meta-packages"
+#~ msgstr "Не може да се надградат потребните мета пакети"
+
+#~ msgid "A essential package would have to be removed"
+#~ msgstr "Важен пакет мора да се отстрани"
+
+#~ msgid ""
+#~ "The upgrade aborts now. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "Надградбата сега прекинува. Ве молам, ослободете најмалку %s место на "
+#~ "дискот на „%s“. Ослободете најмалку %s простор на „%s“. Испразнете го "
+#~ "ѓубрето и отстранете ги привремените пакети или поранешни инсталации со "
+#~ "помош на „sudo apt-get clean“."
+
+#~ msgid ""
+#~ "The upgrade aborts now. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "Надградбата сега се прекинува. Вашиот систем може да е во неупотреблива "
+#~ "состојба. Ќе се изврши поправка (dpkg --configure -a)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bugreport.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Ве молам, пријавете го ова како бубачка во „update-manager“ и вклучете ги "
+#~ "датотеките во /var/log/dist-upgrade/ во пријатата.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem"
+#~ msgstr "Ова преземање ќе трае околу %s со 1Mbit DSL и околу %s со 56k модем"
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "aborts now.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Ве молам, пријавете го ова како бубачка (ако не сте го сториле тоа до "
+#~ "сега) и вклучете ги датотеките /var/log/dist-upgrade/main.log и /var/log/"
+#~ "dist-upgrade/apt.log во Вашата пријава. Надградбата сега ќе се прекине.\n"
+#~ "Вашата првична sources.list датотека беше зачувана во /etc/apt/sources."
+#~ "list.distUpgrade."
+
+#~ msgid "Restart the system now [yN] "
+#~ msgstr "Да го рестартирам системот сега? [yN] "
+
+#~ msgid "The list of changes is not available"
+#~ msgstr "Листата со промени не е достапна"
+
+#~ msgid "You can install %s update."
+#~ msgid_plural "You can install %s updates."
+#~ msgstr[0] "Можете да инсталирате %s надградба"
+#~ msgstr[1] "Можете да инсталирате %s надградби"
+
+#~ msgid "<big><b>Keep your system up-to-date</b></big>"
+#~ msgstr "<big><b>Чувајте го Вашиот систем надграден</b></big>"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/"
+#~ "dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "Подготвувањето на системот за надградба не успеа. Ве молам пријавате го "
+#~ "ова како бубачка во „update-manager“ и вклучете ги датотеките во /var/log/"
+#~ "dist-upgrade/ во пријавата."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and "
+#~ "include the files in /var/log/dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "Системот не можеше да ги земи почетните потребни пакети за надградбата. "
+#~ "Надградбата сега ќе се прекине, а системот ќе се врати во оригиналната "
+#~ "состојба.\n"
+#~ "\n"
+#~ "Ве молам пријавате го ова како бубачка во „update-manager“ и вклучете ги "
+#~ "датотеките во /var/log/dist-upgrade/ во пријавата."
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the "
+#~ "'update-manager' package and include the files in /var/log/dist-upgrade/ "
+#~ "in the bugreport."
+#~ msgstr ""
+#~ "После ажурирањето на информациите за пакетите, основниот пакет „%s“ не "
+#~ "може да се пронајде.\n"
+#~ "Ова е сериозна грешка, Ве молам пријавете ја како бубачка во пакетот "
+#~ "„update-manager“ и вклучете ги датотеките во /var/log/dist-upgrade/ во "
+#~ "пријавата."
+
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may be in a not working "
+#~ "state. Please consider submitting a bugreport about it."
+#~ msgstr ""
+#~ "Ажурирањето ќе продолжи, но пакетот „%s“ може да е во неисправна "
+#~ "состојба. Ве молам, поднесете пријава за бубачка."
+
+#~ msgid "Every two days"
+#~ msgstr "Секои два дена"
+
+#~ msgid "Weekly"
+#~ msgstr "Неделно"
+
+#~ msgid "Every two weeks"
+#~ msgstr "Секои две недели"
+
+#~ msgid "After one week"
+#~ msgstr "После една недела"
+
+#~ msgid "After two weeks"
+#~ msgstr "После две недели"
+
+#~ msgid "After one month"
+#~ msgstr "После еден месец"
+
+#~ msgid "Fetching file %li of %li at %sb/s"
+#~ msgstr "Ја земам датотеката %li од %li со %sb/сек."
+
+#~ msgid "%li days %li hours %li minutes"
+#~ msgstr "%li денови %li часови %li минути"
+
+#~ msgid "_Check"
+#~ msgstr "_Провери"
+
+#~ msgid "Import key"
+#~ msgstr "Внеси клуч"
+
+#~ msgid "Error importing selected file"
+#~ msgstr "Грешка при увоз на избраната датотека"
+
+#~ msgid "Error removing the key"
+#~ msgstr "Грешка при отстранување на клучот"
+
+#~ msgid "Every %s days"
+#~ msgstr "Секои %s дена"
+
+#~ msgid "After %s days"
+#~ msgstr "После %s дена"
+
+#~ msgid "Please enter a name for the disc"
+#~ msgstr "Ве молам внесете име за дискот"
+
+#~ msgid "Please insert a disc in the drive:"
+#~ msgstr "Ве молам внесете диск во уредот:"
+
+#~ msgid "Authentication"
+#~ msgstr "Проверка"
+
+#~ msgid "_Check for updates automatically:"
+#~ msgstr "_Проверувај за надградби автоматски:"
+
+#~ msgid "_Import Key File"
+#~ msgstr "_Внеси датотека-клуч"
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>Коментар:</b>"
+
+#~ msgid "Scanning CD-ROM"
+#~ msgstr "Скенирам CD-ROM"
+
+#~ msgid "_Reload"
+#~ msgstr "_Освежи"
+
+#~ msgid "Officially supported"
+#~ msgstr "Официјално поддржано"
+
+#~ msgid "Restricted copyright"
+#~ msgstr "Restricted copyright"
+
+#~ msgid "     "
+#~ msgstr "     "
+
+#~ msgid ""
+#~ "Use special upgrade mode. Available:\n"
+#~ "desktop, server"
+#~ msgstr ""
+#~ "Користи специјален режим на надградба. Достапни се:\n"
+#~ "desktop, server"
+
+#~ msgid ""
+#~ "The list of changes is not available yet.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "Листата со промени не е достапна сѐ уште.\n"
+#~ "Ве молам, обидете се подоцна."
+
+#~ msgid "_Skip This Step"
+#~ msgstr "_Прескокни го овој чекор"
+
+#~ msgid "Asking for confirmation"
+#~ msgstr "Прашувам за потврда"
+
+#~ msgid "<b>Remove %s</b>"
+#~ msgstr "<b>Отстрани %s</b>"
+
+#~ msgid ""
+#~ "The key you selected could not be removed. Please report this as a bug."
+#~ msgstr ""
+#~ "Клучот што го избравте не може да биде отстранет. Ве молам пријавете го "
+#~ "ова како бубачка."
+
+#~ msgid "<p>You have to download a total of %s. "
+#~ msgstr "<p>Мора да преземете вкупно %s. "
+
+#~ msgid "The selected file may not be a GPG key file or it might be corrupt."
+#~ msgstr ""
+#~ "Избраната датотека може да не е GPG датотека или пак може да е расипана."
+
+#~ msgid "Internet Updates"
+#~ msgstr "Надградби од интернет"
+
+#~ msgid "<b>URI:</b>"
+#~ msgstr "<b>Адреса:</b>"
+
+#~ msgid "System Update Tool"
+#~ msgstr "Алатка за ажурирње на системот"
+
+#~ msgid "Fetching the upgrades"
+#~ msgstr "Ги земам надградбите"
+
+#~ msgid ""
+#~ "A unresolvable problem occurred while calculating the upgrade.\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "Се појави нерешлив проблем при калкулацијата на надградбата.\n"
+#~ "\n"
+#~ "Ве молам, пријавете го ова како бубачка во „update-manager“ и вклучете ги "
+#~ "датотеките во /var/log/dist-upgrade/ во пријатата."
+
+#~ msgid "D_elete downloaded software files:"
+#~ msgstr "И_збриши ги преземените софтверски датотеки:"
+
+#~ msgid "Import the public key from a trusted software provider"
+#~ msgstr "Увези го јавниот клуч од доверливиот провајдер на софтвер"
+
+#~ msgid ""
+#~ "Only security updates from the official Ubuntu servers will be installed "
+#~ "automatically"
+#~ msgstr ""
+#~ "Само безбедносните надградби од официјалните Ubuntu сервери ќе бидат "
+#~ "инсталирани автоматски"
+
+#~ msgid "Restore _Defaults"
+#~ msgstr "Врати _на стандардно"
+
+#~ msgid "_Install security updates without confirmation"
+#~ msgstr "_Инсталирај ги безбедносните ажурирања без потврдување"
+
+#~ msgid "<b>Components:</b>"
+#~ msgstr "<b>Компоненти:</b>"
+
+#~ msgid "<b>Distribution:</b>"
+#~ msgstr "<b>Дистрибуција:</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Тип:</b>"
+
+#~ msgid "APT line:"
+#~ msgstr "APT линија:"
+
+#~ msgid ""
+#~ "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+#~ msgstr ""
+#~ "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+
+#~ msgid "Ubuntu 5.10 Security Updates"
+#~ msgstr "Безбедносни надградби за Убунту 5.10"
+
+#~ msgid "Ubuntu 5.10 Updates"
+#~ msgstr "Надградби за Убунту 5.10"
+
+#~ msgid "Ubuntu 5.04 Security Updates"
+#~ msgstr "Безбедносни надградби за Убунту 5.04"
+
+#~ msgid "Ubuntu 5.04 Updates"
+#~ msgstr "Надградби за Убунту 5.04"
+
+#~ msgid "Community maintained (Universe)"
+#~ msgstr "Оддржувано од заедницата (Universe)"
+
+#~ msgid "Non-free (Multiverse)"
+#~ msgstr "Неслободно (Multiverse)"
+
+#~ msgid "Ubuntu 4.10 Security Updates"
+#~ msgstr "Безбедносни надградби за Убунту 4.10"
+
+#~ msgid "Ubuntu 4.10 Updates"
+#~ msgstr "Надградби за Убунту 4.10"
+
+#~ msgid "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+#~ msgstr "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+
+#~ msgid "Debian 3.1 \"Sarge\""
+#~ msgstr "Debian 3.1 \"Sarge\""
+
+#~ msgid "http://security.debian.org/"
+#~ msgstr "http://security.debian.org/"
+
+#~ msgid "Debian 3.1 \"Sarge\" Security Updates"
+#~ msgstr "Безбедносни надградби за Debian 3.1 Sarge"
+
+#~ msgid "Debian \"Etch\" (testing)"
+#~ msgstr "Debian \"Etch\" (тестирање)"
+
+#~ msgid "http://http.us.debian.org/debian/"
+#~ msgstr "http://http.us.debian.org/debian/"
+
+#~ msgid "Debian \"Sid\" (unstable)"
+#~ msgstr "Debian \"Sid\" (нестабилно)"
+
+#~ msgid "DFSG-compatible Software with Non-Free Dependencies"
+#~ msgstr "DFSG-компатибилен софтвер со неслободни зависности"
+
+#~ msgid "Non-DFSG-compatible Software"
+#~ msgstr "Не-DFSG-компатибилен софтвер"
+
+#~ msgid "<b>Keys</b>"
+#~ msgstr "<b>Копчиња</b>"
+
+#~ msgid "Installation Media"
+#~ msgstr "Медиум за инсталација"
+
+#~ msgid "Software Preferences"
+#~ msgstr "Софтверски преференци"
+
+#~ msgid "_Custom"
+#~ msgstr "_Сопствено"
+
+#~ msgid "<b>Sections:</b>"
+#~ msgstr "<b>Оддели:</b>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Downloading changes</span>\n"
+#~ "\n"
+#~ "Need to get the changes from the central server"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Ги преземам промените</span>\n"
+#~ "\n"
+#~ "Треба да ги преземам промените од централниот сервер."
+
+#~ msgid "Show available updates and choose which to install"
+#~ msgstr "Покажи достапни надградби и избери кои да бидат инсталирани"
+
+#~ msgid "Edit software sources and settings"
+#~ msgstr "Уреди софтверски извори и поставувања"
+
+#~ msgid "<b>Sources</b>"
+#~ msgstr "<b>Извори</b>"
+
+#~ msgid "day(s)"
+#~ msgstr "ден(а)"
+
+#~ msgid "<b>Repository</b>"
+#~ msgstr "<b>Складиште</b>"
+
+#~ msgid "<b>Temporary files</b>"
+#~ msgstr "<b>Привремени датотеки</b>"
+
+#~ msgid "<b>User Interface</b>"
+#~ msgstr "<b>Кориснички интерфејс</b>"
+
+#~ msgid ""
+#~ "<big><b>Authentication keys</b></big>\n"
+#~ "\n"
+#~ "You can add and remove authentication keys in this dialog. A key makes it "
+#~ "possible to verify the integrity of the software you download."
+#~ msgstr ""
+#~ "<big><b>Клучеви за проверка</b></big>\n"
+#~ "\n"
+#~ "Во овој дијалог можете да додадете или пак да отстраните клучеви за "
+#~ "проверка. Клучот Ви овозможува да се уверите во интегритетот на софтверот "
+#~ "што го преземате."
+
+#~ msgid ""
+#~ "Add a new key file to the trusted keyring. Make sure that you received "
+#~ "the key over a secure channel and that you trust the owner. "
+#~ msgstr ""
+#~ "Додајте нова датотека со клуч во доверливиот привезок. Осигурајте се дека "
+#~ "сте го добиле клучот преку безбеден канал и дека му верувате на неговиот "
+#~ "сопственик. "
+
+#~ msgid "Add repository..."
+#~ msgstr "Додај складиште..."
+
+#~ msgid "Automatically check for software _updates."
+#~ msgstr "Автоматски проверувај за софтверски _надградби."
+
+#~ msgid "Automatically clean _temporary packages files"
+#~ msgstr "Автоматски чисти ги _привремените пакети"
+
+#~ msgid "Clean interval in days: "
+#~ msgstr "Интервал за чистење во денови: "
+
+#~ msgid "Delete _old packages in the package cache"
+#~ msgstr "Избриши _стари пакети од кешот за пакети"
+
+#~ msgid "Edit Repository..."
+#~ msgstr "Уреди складиште..."
+
+#~ msgid "Maximum age in days:"
+#~ msgstr "Максимална старост во денови:"
+
+#~ msgid "Maximum size in MB:"
+#~ msgstr "Максимална големина во MB:"
+
+#~ msgid ""
+#~ "Restore the default keys shipped with the distribution. This will not "
+#~ "change user installed keys."
+#~ msgstr ""
+#~ "Врати ги стандардните клучеви на дистрибуцијата. Ова нема да ги смени "
+#~ "клучевите инсталирани од корисникот."
+
+#~ msgid "Set _maximum size for the package cache"
+#~ msgstr "Постави _ја максималната големина на кешот за пакети"
+
+#~ msgid "Show detailed package versions"
+#~ msgstr "Покажи детали за верзиите на пакетите"
+
+#~ msgid "Show disabled software sources"
+#~ msgstr "Покажи исклучени софтверски извори"
+
+#~ msgid "Update interval in days: "
+#~ msgstr "Интервал за надградба во денови: "
+
+#~ msgid "_Add Repository"
+#~ msgstr "_Додај складиште"
+
+#~ msgid "_Download upgradable packages"
+#~ msgstr "_Преземи ги надградливите пакети"
+
+#~ msgid "<b>Status:</b>"
+#~ msgstr "<b>Статус:</b>"
+
+#~ msgid ""
+#~ "<big><b>Available Updates</b></big>\n"
+#~ "\n"
+#~ "The following packages are found to be upgradable. You can upgrade them "
+#~ "by using the Install button."
+#~ msgstr ""
+#~ "<big><b>Достапни надградби</b></big>\n"
+#~ "\n"
+#~ "Следниве пакети се надградливи. Можете да ги надградите со кликнување на "
+#~ "копчето „Инсталирај“."
+
+#~ msgid "You need to be root to run this program"
+#~ msgstr "Треба да сте root за да ја извршите оваа програма"
+
+#~ msgid "Binary"
+#~ msgstr "Бинарни"
+
+#~ msgid "Non-free software"
+#~ msgstr "Неслободен софтвер"
+
+#~ msgid "Debian 3.0 \"Woody\""
+#~ msgstr "Debian 3.0 \"Woody\""
+
+#~ msgid "Debian Stable"
+#~ msgstr "Debian Stable"
+
+#~ msgid "Debian Unstable \"Sid\""
+#~ msgstr "Debian Unstable \"Sid\""
+
+#~ msgid "Debian Non-US (Stable)"
+#~ msgstr "Debian Non-US (Stable)"
+
+#~ msgid "Debian Non-US (Testing)"
+#~ msgstr "Debian Non-US (Testing)"
+
+#~ msgid "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>"
+#~ msgstr "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>"
+
+#~ msgid "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+#~ msgstr "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+
+#~ msgid "Choose a key-file"
+#~ msgstr "Одберете датотека за клуч"
+
+#~ msgid "There is one package available for updating."
+#~ msgstr "Има еден достапен пакет за надградба."
+
+#~ msgid "There are no updated packages"
+#~ msgstr "Нема надградени пакети"
+
+#~ msgid "You did not select any of the %s updated package"
+#~ msgid_plural "You did not select any of the %s updated packages"
+#~ msgstr[0] "Не избравте ниеден од %s пакет за надградба."
+#~ msgstr[1] "Не избравте ниеден од %s пакети за надградба."
+
+#~ msgid "You have selected %s updated package, size %s"
+#~ msgid_plural "You have selected all %s updated packages, total size %s"
+#~ msgstr[0] "Избравте %s пакет за надградба, со големина од %s"
+#~ msgstr[1] "Избравте %s пакети за надградба, со големина од %s"
+
+#~ msgid "You have selected %s out of %s updated package, size %s"
+#~ msgid_plural ""
+#~ "You have selected %s out of %s updated packages, total size %s"
+#~ msgstr[0] "Избравте %s од %s пакет за надградба, со големина од %s"
+#~ msgstr[1] "Избравте %s од %s пакети за надградба, со големина од %s"
+
+#~ msgid "The updates are being applied."
+#~ msgstr "Наградбите се применуваат."
+
+#~ msgid "Updating package list..."
+#~ msgstr "Ја ажурирам листата на пакети..."
+
+#~ msgid "New version:"
+#~ msgstr "Нова верзија:"
+
+#~ msgid ""
+#~ "Please upgrade to a newer version of Ubuntu Linux. The version you are "
+#~ "running will no longer get security fixes or other critical updates. "
+#~ "Please see http://www.ubuntulinux.org for upgrade information."
+#~ msgstr ""
+#~ "Ве молам надградете до понова верзија на Убунту Линукс. Верзијата на која "
+#~ "што работите повеќе нема да биде поддржана во смисол на безбедносни "
+#~ "поправки и други технички надградби. Ве молам побарајте информации за "
+#~ "надградба на http://www.ubuntulinux.org."
+
+#~ msgid ""
+#~ "A new release with the codename '%s' is available. Please see http://www."
+#~ "ubuntulinux.org/ for upgrade instructions."
+#~ msgstr ""
+#~ "Постои ново издание објавено под кодното име '%s'. Ве молам побарајте ги "
+#~ "инструкциите за надградба на http://www.ubuntulinux.org."
+
+#~ msgid "Never show this message again"
+#~ msgstr "Никогаш пак не ја покажувај поракава"
+
+#~ msgid "Changes not found, the server may not be updated yet."
+#~ msgstr "Не се пронајдени промени, серверот може да не е надграден сеуште."
+
+#~ msgid "Run in a special upgrade mode"
+#~ msgstr "Изврши се во специјален режим за ажурирање"
+
+#~ msgid ""
+#~ "<big><b>Enter the complete APT line of the repository that you want to "
+#~ "add</b></big>\n"
+#~ "\n"
+#~ "The APT line contains the type, location and content of a repository, for "
+#~ "example <i>\"deb http://ftp.debian.org sarge main\"</i>. You can find a "
+#~ "detailed description of the syntax in the documentation."
+#~ msgstr ""
+#~ "<big><b>Внесете ја комплетната линија за APT складиштето за да го "
+#~ "додадете</b></big>\n"
+#~ "\n"
+#~ "APT линијата го содржи типот, локацијата и содржината на складиштето за "
+#~ "на пример <i>\"deb http://ftp.debian.org sarge main\"</i>. Во "
+#~ "документацијата можете да најдете детален опис на синтаксата."
+
+#~ msgid "<b>Internet Updates</b>"
+#~ msgstr "<b>Надградби од интернет</b>"
+
+#~ msgid "Check for updates every"
+#~ msgstr "Проверувај за надградби на секои"
+
+#~ msgid "Restore Defaults"
+#~ msgstr "Врати стандардно"
+
+#~ msgid "Remove the selected key from the trusted keyring."
+#~ msgstr "Отстрани го избраниот клуч од доверливиот привезок."
+
+#~ msgid "<b>Details</b>"
+#~ msgstr "<b>Детали</b>"
+
+#~ msgid "Reload"
+#~ msgstr "Освежи"
+
+#~ msgid "Reload the package information from the server."
+#~ msgstr "Освежи ги информациите за пакетите на серверот."
+
+#~ msgid "_Install"
+#~ msgstr "_Инсталирај"
+
+#~ msgid "Debian Testing"
+#~ msgstr "Debian Testing"
+
+#~ msgid "Debian Non-US (Unstable)"
+#~ msgstr "Debian Non-US (Unstable)"
+
+#~ msgid "Upgrade finished"
+#~ msgstr "Надградбата е завршена"
+
+#~ msgid "Another package manager is running"
+#~ msgstr "Веќе работи друг менаџер за пакети"

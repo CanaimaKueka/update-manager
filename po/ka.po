@@ -1,0 +1,1471 @@
+# translation of po_update-manager-ka.po to Georgian
+# Georgian translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+# Vladimer Sichinava <alinux@siena.linux.it>, 2006.
+# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: po_update-manager-ka\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2008-12-20 16:22+0000\n"
+"Last-Translator: Vladimer Sichinava <vsichi@gnome.org>\n"
+"Language-Team: Georgian <http://mail.gnome.org/mailman/listinfo/gnome-ge-"
+"list>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2009-04-08 12:13+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr ""
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr ""
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr ""
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "0 კბ"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "1 კბ"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f კბ"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f მბ"
+
+#: ../UpdateManager/Util/humanize.py:56
+msgid "< 5 seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:58
+#, python-format
+msgid "%d seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+
+#: ../UpdateManager/Util/humanize.py:74
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+#, fuzzy
+msgid "Could not download packages information."
+msgstr "შეუძლებელია პაკეტის შესახებ ინფორმაციის მიღება"
+
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+#, fuzzy
+msgid "Do you want to submit a bug report?"
+msgstr "გნებავთ განახლების დაწყება?"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+#, fuzzy
+msgid "Loading package cache."
+msgstr "ქეშის კითხვა"
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+msgid "Finished loading package cache."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr "_ყველას გაუქმება"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+#, fuzzy
+msgid "_Check all"
+msgstr "_ყველას მონიშვნა"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr "(ზომა: %s)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "%(old_version)s ვერსიიდან %(new_version)s-მდე"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, fuzzy, python-format
+msgid "Version: %s"
+msgstr "ვერსია %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr "ჩამოსატვირთის ზომა: %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr "მიმდინარეობს ცვლილებათა სიის გადმოწერა..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+#, fuzzy
+msgid "Downloading list of changes failed."
+msgstr "მიმდინარეობს ცვლილებათა სიის გადმოწერა..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, fuzzy, python-format
+msgid "Version %s: "
+msgstr "ვერსია %s: \n"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+msgid "Gathering information about updates..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+#, fuzzy
+msgid "Upgrading may require removal or installation of new packages."
+msgstr "წავშალოთ მოძველებული პაკეტები?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+#, fuzzy
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr "გნებავთ განახლების დაწყება?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr "თქვენი სისტემა განახლებულია"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, python-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+msgid "Software updates are available for this computer."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+#, fuzzy
+msgid "About Update Manager"
+msgstr "განახლების მოურავი"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "განახლების მოურავი"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+msgid "Source"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+#, fuzzy
+msgid "Downloaded"
+msgstr "ჩამოსატვირთის ზომა: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+#, fuzzy
+msgid "Checking for updates"
+msgstr "სხვა განახლებები"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr ""
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, fuzzy, python-format
+msgid "Download rate: %s/s"
+msgstr "ჩამოსატვირთის ზომა: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+#, fuzzy
+msgid "Checking for updates..."
+msgstr "სხვა განახლებები"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+msgid "Error message:"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+#, fuzzy
+msgid "Downloading updates"
+msgstr "მიმდინარეობს განახლების უტილიტის გადმოწერა"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr "ცვლილებები"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr "წაშლა %s"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr "დაყენება %s"
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+#, fuzzy
+msgid "Removal or installation of packages"
+msgstr "წავშალოთ მოძველებული პაკეტები?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+#, fuzzy
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr "განახლებების დაყენება"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "გნებავთ განახლების დაწყება?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+#, fuzzy
+msgid "Preparing upgrade"
+msgstr "განახლებისთვის მომზადება"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+#, fuzzy
+msgid "This operation may take some time."
+msgstr "გთხოვთ მოითმინოთ, მიმდინარე პროცესს საკმაო დრო სჭირდება."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+#, fuzzy
+msgid "Downloading finished"
+msgstr "მიმდინარეობს ცვლილებათა სიის გადმოწერა..."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+#, fuzzy
+msgid "Installing updates"
+msgstr "განახლებების _დაყენება"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, fuzzy, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] "შემოთავაზებული განახლებები"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+#, fuzzy
+msgid "Your system is now up-to-date."
+msgstr "თქვენი სისტემა განახლებულია"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, fuzzy, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] "ცვლილებების სია არ არის ხელმისაწვდომი."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+#, fuzzy
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr ""
+"პროგრამათა განახლებები ასწორებს შეცდომებს, უსაფრთხოების ხარვეზებს და ამატებს "
+"ახალ შესაძლებლობებს."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+#, fuzzy
+msgid "Please consider installing all available updates."
+msgstr "ახალი განახლებების ჩვენება და ჩადგმა"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr "ცალკეული ფაილებისათვის თვალყურის დევნა"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+#, fuzzy
+msgid "Show terminal"
+msgstr "ტერმინალის ჩვენება >>>"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+#, fuzzy
+msgid "A fatal error has been detected"
+msgstr "დაიშვა ფატალური შეცდომა"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, fuzzy, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr "ვერსია %s"
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr "უსაფრთხოებისთვის მნიშვნელოვანი განახლებები"
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr "რეკომენდებული განახლებები"
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr "დისტრიბუტივის განახლებები"
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr "შემოთავაზებული განახლებები"
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr "ბექპორტები"
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+#, fuzzy
+msgid "Third-party updates"
+msgstr "დამატებითი წყაროები გამორთულია"
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr "დისტრიბუტივის ახალი გამოშვების არსებობის შემოწმება"
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr "ავტომატურად დაიხუროს დაყენების ფანჯარა წარმატებული დაყენების შემდეგ"
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+"როცა განახლებების ავტომატური მოსინჯვის ფუნქცია გამორთულია, თქვენ ხელით უნდა "
+"მოახდინოთ წყაროთა სიის განახლება, რასაც სისტემა შეგახსენებთ. ამ პარამეტრით "
+"შეიძლება შეხსენების აკრძალვა."
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr ""
+"თუ კი ეს გასაღები დაყენებულია, დაყენების ფანჯარა დაიხურება ავტომატურად "
+"წარმატებული დაყენებისას."
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr "წყაროთა სიის განახლების შეხსენება"
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr "განახლების დეტალების ჩვენება"
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr "განახლების სიაში ვერსიის ჩვენება"
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr "იმახსოვრებს განახლების მოურავის ფანჯრის ზომას"
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr ""
+"ინახავს ცვლილებებისა და აღწერილობების შემცველი ექსპანდერის მდგომარეობას"
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr "ფანჯრის ზომა"
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "ახალი განახლებების ჩვენება და ჩადგმა"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "პროგრამათა განახლებები"
+
+#, fuzzy
+#~ msgid "Current package: %s"
+#~ msgstr "დაზიანებული პაკეტები"
+
+#~ msgid "Server for %s"
+#~ msgstr "სერვერი %s"
+
+#~ msgid "Main server"
+#~ msgstr "მთავარი სერვერი"
+
+#~ msgid "Custom servers"
+#~ msgstr "საკუთარი სერვერები"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "ვერ განხორციელდა CD-ს დამატება"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "შეცდომა CD-ს დამატებისას; განახლების პროცესი შეწყვეტილია. თუ დარწმუნებული "
+#~ "ხართ, რომ ეს უბუნტუს CD-ს ბრალი არ არის, შეატყობინეთ ამ ხარვეზის "
+#~ "შესახებ.\n"
+#~ "\n"
+#~ "ინფორმაცია  ხარვეზის შესახებ:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "დაზიანებული პაკეტების მოშორება"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "თქვენს სისტემაში არის დაზიანებული პაკეტები, რომელთა გამართვა ვერ ხერხდება "
+#~ "ამ პროგრამით. ჯერ გამართეთ დაზიანებული პაკეტები (synaptic-ის ან apt-get-"
+#~ "ის საშუალებით) და შემდეგ გააგრძელეთ."
+
+#~ msgid "Could not calculate the upgrade"
+#~ msgstr "სისტემა ვერ მომზადდა განახლებისათვის"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "ზოგიერთი პაკეტის ავთენთიფიკაციის შეცდომა"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "ვერ ხერხდება ზოგიერთი პაკეტის აუთენთიფიკაცია. ეს შეიძლება იყოს კავშირის "
+#~ "ხარვეზი. სცადეთ მოგვიანებით. ქვევით იხილეთ არააუთენთიფიცირებული პაკეტების "
+#~ "სია."
+
+#~ msgid "Can't install '%s'"
+#~ msgstr "'%s' ვერ დაყენდა"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "საჭირო პაკეტის დაყენება ვერ მოხერხდა. შეატყობინეთ ამ ხარვეზის შესახებ. "
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "მეტა-პაკეტი ვერ შეირჩა"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "თქვენს სისტემაში არ მოიძებნა ubuntu-desktop, kubuntu-desktop ან edubuntu-"
+#~ "desktop პაკეტი, რის გამოც უბუნტუს ვერსიის დადგენა ვერ ხერხდება. \n"
+#~ " სანამ გააგრძელებდეთ, დააყენეთ რომელიმე მათგანი synaptic ან apt-get-ის "
+#~ "მეშვეობით."
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "შეუძლებელია ექსკლუზიური ბლოკის ჩატარება"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "ეს ნიშნავს რომ გაშვებულია სხვა პაკეტების მენეჯმენტის პროგრამა (როგორიცაა "
+#~ "apt-get ან aptitude). ჯერ დახურეთ მოცემული პროგრამა."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "გავაგრძელოთ SSH-ს გამოყენებით?"
+
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, a additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "სესია SSH-ით მიმდინარეობს, ამის გამო სისტემის განახლება არ არის "
+#~ "რეკომენდირებული - შეცდომის შემთხვევაში აღდგენა გაგიჭირდებათ.\n"
+#~ "\n"
+#~ "გაგრძელების შემთხვევაში, '%s' პორტზე  დამატებითი ssh დემონი გაიშვება.\n"
+#~ "გნებავთ გაგრძელება?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "დამატებითი sshd-ს გაშვება"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "შეუძლებელია განახლების ჩატარება"
+
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr ""
+#~ "'%s'-დან '%s'-ზე განახლება არ არის მხარდაჭერილი მოცემული სერვისული "
+#~ "პროგრამის მიერ."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "თქვენი python-ის ინსტალაცია დაზიანებულია. შეასწორეთ \"/usr/bin/python' "
+#~ "სიმბოლური ბბული."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "პაკეტი 'debsig-verify' დაყენებულია"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "დაყენებულ პაკეტზე განახლება ვერ გაგრძელდება.\n"
+#~ "გთხოვთ წაშალოთ ის ჯერ სინაპტიკით ან 'apt-get remove debsig-verify' ჯერ, "
+#~ "შემდეგ კვლავ გაუშვით განახლება."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "გნებავთ ინტერნეტიდან უკანასკნელი განახლებების დამატება?"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "არ მოინახა შესაბამისი სარკე"
+
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found.This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'no' the update will cancel."
+#~ msgstr ""
+#~ "რეპოზიტორიის შესახებ ინფორმაციაში არ არის მითითებული სარკე სისტემის "
+#~ "განახლებისათვის. შესაძლოა თქვენ შიდა სარკეს იყენებთ, ან ინფორმაცია სარკის "
+#~ "შესახებ მოძველებულია.\n"
+#~ "\n"
+#~ "თუ თქვენ მაინც გნებავთ 'sources.list' ფაილის განახლება, დასტურის "
+#~ "შემთხვევაში ყველა ჩანაწერი %s'-დან '%s'-ზე განახლდება.\n"
+#~ "უარის შემთხვევაში განახლება არ მოხდება."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "გავუშვათ ნაგულისხმევი წყაროების გენერაცია?"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "რეპოზიტორიების ინფორმაცია არასწორია"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "რეპოზიტორიის ინფორმაციის განახლების შედეგად დაზიანდა ფაილი. შეატყობინეთ "
+#~ "ამ ხარვეზის შესახებ."
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "ზოგი დამატებითი წყარო sources.list-ში გამორთულია. განახლების შემდეგ "
+#~ "შეგეძლებათ მათი ჩართვა ინსტრუმენტ 'software-properties'-ით ან პაკეტების "
+#~ "მოურავის საშუალებით."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "პაკეტი არამდგრად მდგომარეობაშია"
+
+#~ msgid "Error during update"
+#~ msgstr "შეცდომა განახლებისას"
+
+#~ msgid ""
+#~ "A problem occurred during the update. This is usually some sort of "
+#~ "network problem, please check your network connection and retry."
+#~ msgstr ""
+#~ "განახლებისას დაიშვა შეცდომა. როგორც წესი ეს ქსელური კავშირის პრობლემაა, "
+#~ "გეთაყვა შეამოწმეთ თქვენი კავშირი და სცადეთ კიდევ ერთხელ."
+
+#~ msgid "Not enough free disk space"
+#~ msgstr "დისკზე არ არის საკმარისი თავისუფალი ადგილი"
+
+#~ msgid "Support for some applications ended"
+#~ msgstr "ზოგ პროგრამას აღარ გააჩნია მხარდაჭერა"
+
+#~ msgid ""
+#~ "Canonical Ltd. no longer provides support for the following software "
+#~ "packages. You can still get support from the community.\n"
+#~ "\n"
+#~ "If you have not enabled community maintained software (universe), these "
+#~ "packages will be suggested for removal at the end of the upgrade."
+#~ msgstr ""
+#~ "ამ პაკეტებს Canonical Ltd.-ს ნაცვლად მხარს საზოგადოება უჭერს.\n"
+#~ "\n"
+#~ "თუ თქვენი რეპოზიტორია (universe) არ არის გააქტიურებული, მაშინ შემდეგ "
+#~ "ეტაპზე შემოთავაზებული იქნება \n"
+#~ "ამ პაკეტების წაშლა."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "ცვლილებების გამოთვლა"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "განახლებების ჩამოტვირთვა ვერ ხერხდება"
+
+#~ msgid "Error during commit"
+#~ msgstr "შეცდომა გადაცემისას"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "სისტემის საწყისი მდგომარეობის აღდგენა"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "განახლებების დაყენება ვერ ხერხდება"
+
+#~ msgid "_Keep"
+#~ msgstr "_შენარჩუნება"
+
+#~ msgid "_Remove"
+#~ msgstr "_წაშლა"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr "შეცდომა გასუფთავებისას. დაწვრილებით იხილეთ ქვემოთ. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "საჭირო დამოკიდებულებები არ არის დაყენებული"
+
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "საჭირო დამოკიდებულება '%s' არ არის დაყენებული. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "პაკეტების მოურავის შემოწმება"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "შეცდომა განახლების მომზადებისას"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "შეცდომა განახლების რეკვიზიტების მომზადებისას"
+
+#~ msgid "Updating repository information"
+#~ msgstr "რეპოზიტორიის ინფორმაციის განახლება"
+
+#~ msgid "Invalid package information"
+#~ msgstr "ინფორმაცია პაკეტის შესახებ არასწორია"
+
+#~ msgid "Fetching"
+#~ msgstr "ჩამოტვირთვა"
+
+#~ msgid "Upgrading"
+#~ msgstr "მიმდინარეობს განახლება"
+
+#~ msgid "Upgrade complete"
+#~ msgstr "განახლება დასრულებულია"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "მოძველებული პროდუქტების ძებნა"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "სისტემის განახლება დასრულებულია."
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "განახლების პაკეტებიანი cdrom-ის მოსაძებნად ისარგებლეთ მითითებული "
+#~ "მისამართით"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "ფამოიყენეთ ფრონტენდი. ხელმისაწვდომია შემდეგი: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr ""
+#~ "ნაწილობრივი განახლების ჩატარება (sources.list ხელმეორედ არ გადაიწერება)"
+
+#~ msgid "Set datadir"
+#~ msgstr "მონაცემთა დასტის დაყენება"
+
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "ჩადევით '%s'  '%s'-ში"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "ჩატვირთვა დასრულებულია"
+
+#~ msgid "About %s remaining"
+#~ msgstr "დარჩა დაახლოებით %s"
+
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "იტვირთება %li ფაილი %li-დან"
+
+#~ msgid "Applying changes"
+#~ msgstr "ცვლილებების დამტკიცება"
+
+#~ msgid "Could not install '%s'"
+#~ msgstr "ვერ დადგა '%s'"
+
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "გადავაწეროთ ადრინდელს განახლებული კონფიგურაციის ფაილი\n"
+#~ "'%s'?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "თუ დაეთანხმებით, კონფიგურაციის ფაილში თქვენს მიერ ადრე შეტანილი "
+#~ "ცვლილებები დაიკარგება."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "'diff' ბრძანება ვერ მოინახა"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "დახურეთ გახსნილი პროგრამები და დოკუმენტები, მონაცემების დაკარგვის თავიდან "
+#~ "ასაცილებლად."
+
+#~ msgid "<b>Downgrade %s</b>"
+#~ msgstr "<b> წინა ვერსიის დაყენება %s</b>"
+
+#~ msgid "Upgrade %s"
+#~ msgstr "განახლდება %s"
+
+#~ msgid "Media Change"
+#~ msgstr "მედიის შეცვლა"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "სხვაობის ჩვენება >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< სხვაობის დამალვა"
+
+#~ msgid "Error"
+#~ msgstr "შეცდომა"
+
+#~ msgid "&Cancel"
+#~ msgstr "&გაუქმება"
+
+#~ msgid "&Close"
+#~ msgstr "&დახურვა"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< ტერმინალის დამალვა"
+
+#~ msgid "Information"
+#~ msgstr "ინფორმაცია"
+
+#~ msgid "Details"
+#~ msgstr "ცნობები"
+
+#~ msgid "Restart required"
+#~ msgstr "საჭიროებს გადატვირთვას"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>გადატვირთეთ სისტემა განახლების დასასრულებლად</big></b>"
+
+#~ msgid "_Restart Now"
+#~ msgstr "_გადატვირთვა"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "გნებავთ განახლების შეწყვეტა?"
+
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "მოცემული ჩამოტვირთვისთვის საჭიროა, დაახლოებით %s. "
+
+#~ msgid "Getting new software channels"
+#~ msgstr "პროგრამების მიღების არხების შეცვლა"
+
+#~ msgid "Getting new packages"
+#~ msgstr "ახალი პაკეტების მიღება"
+
+#~ msgid "Cleaning up"
+#~ msgstr "გასუფთავება"
+
+#~ msgid "%d package is going to be removed."
+#~ msgid_plural "%d packages are going to be removed."
+#~ msgstr[0] "წაიშლება %d პაკეტი."
+
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "დადგება %d ახალი პაკეტი."
+
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "განახლდება %d პაკეტი."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "სულ გადმოიტვირთება %s. "
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "განახლების გადმოტვირთვასა და დაყენებას შესაძლოა დასჭირდეს რამდენიმე საათი "
+#~ "და ამ პროცესის შეწყვეტა არ არის სასურველი."
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "თქვენი სისტემისათვის ვერ მოინახა განახლებები. პროცედურა შეწყვეტილია."
+
+#~ msgid "Reboot required"
+#~ msgstr "საჭიროა გადატვირთვა"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "განახლება დასრულებულია და საჭიროებს გადატვირთვას. გნებავთ მყისვე "
+#~ "გადატვირთვა?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "განახლების პროგრამა ვერ გაიშვა"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr ""
+#~ "როგორც სჩანს, ეს განახლების პროგრამის ბრალია. გაგზავნეთ ხარვეზის "
+#~ "შეტყობინება"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "განახლების პროგრამის ხელმოწერა"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "განახლების პროგრამა"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "მიღება ვერ მოხერხდა"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr "ვერ მოხერხდა განახლების მიღება. შესაძლოა ქსელის პრობლემა იყოს. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "განარქივება ვერ განხორციელდა"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "განახლების განარქივება ვერ განხორციელდა. შესაძლოა ქსელის ან სერვერის "
+#~ "პრობლემა იყოს. "
+
+#~ msgid "Verfication failed"
+#~ msgstr "შეცდომა გადამოწმებისას"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "განახლების შეჯერება წარუმატებლად დამთავრდა. შესაძლოა პრობლემა ქსელის ან "
+#~ "სერვერის მიერ არის გამოწვეული. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "აუთენტიფიკაცია ვერ მოხერხდა"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "განახლების აუთენტიფიკაცია ვერ მოხერხდა. შესაძლოა ქსელის ან სერვერის "
+#~ "პრობლემა იყოს. "
+
+#~ msgid "Aborting"
+#~ msgstr "შეწყვეტა"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "წაშლა:\n"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "გაგრძელება [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "ცნობები [d]"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "Remove: %s\n"
+#~ msgstr "წაშლა: %s\n"
+
+#~ msgid "Install: %s\n"
+#~ msgstr "დაყენება: %s\n"
+
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "განახლება: %s\n"
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "განახლების დასრულებისთვის, გადატვირთვაა საჭირო.\n"
+#~ "\"დიახ\"-ის ამორჩევის შემთხვევაში, სისტემა გადაიტვირთება."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>შევწყვიტოთ განახლების პროცესი?</big></b>\n"
+#~ "\n"
+#~ "განახლების შეწყვეტამ შესაძლებელია სისტემაზე ცუდად იმოქმედოს. გირჩევთ არ "
+#~ "შეწყვიტოთ განახლების პროცესი."
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>გნებავთ განახლების დაწყება?</big></b>"
+
+#~ msgid "Difference between the files"
+#~ msgstr "განსხვავება ფაილებს შორის"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "დისტრიბუტივის განახლება"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "სისტემის გადატვირთვა"
+
+#~ msgid "Setting new software channels"
+#~ msgstr "პროგრამების მიღების არხების შეცვლა"
+
+#~ msgid "Terminal"
+#~ msgstr "ტერმინალი"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "განახლების _შეწყვეტა"
+
+#~ msgid "_Continue"
+#~ msgstr "_გაგრძელება"
+
+#~ msgid "_Replace"
+#~ msgstr "_ჩანაცვლება"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_ხარვეზის ანგარიშის გაგზავნა"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "განახლების _გაგრძელება"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "განახლების _დაწყება"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "ვერ მოინახა ჩანაწერი გამოშვების შესახებ"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "შესაძლებელია სერვერი გადატვირთულია. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "შეუძლებელია ვერსიის შენიშვნების გადმოწერა"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "შეამოწმეთ ინტერნეტ-კავშირი."
+
+#~ msgid "Release Notes"
+#~ msgstr "გამოშვების მონაცემები"
+
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr ""
+#~ "მე-%(current)li ფაილის გადმოწერა %(total)li-დან. სიჩქარე - %(speed)s/s"
+
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "მე-%(current)li ფაილის გადმოწერა %(total)li-დან"
+
+#~ msgid "Unknown download size"
+#~ msgstr "ჩამოსატვირთი მონაცემების გაურკვეველი ზომა"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please try "
+#~ "clicking on the 'Check' button to update the information."
+#~ msgstr ""
+#~ "შეუძლებელია ინფორმაციის მიღება პაკეტის ბოლოს განახლების შესახებ. გთხოვთ "
+#~ "დააჭიროთ ღილაკ\n"
+#~ "\"შემოწმება\"-ს ინფორმაციის შემოწმებისთვის."
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr ""
+#~ "პაკეტების შესახებ ინფრორმაციის ბოლო განახლებიდან ერთ საათზე ნაკლები დრო "
+#~ "გავიდა."
+
+#~ msgid "Update is complete"
+#~ msgstr "განახლება დასრულებულია"
+
+#~ msgid "Reading package information"
+#~ msgstr "პაკეტების შესახებ ინფორმაციის მოძიება"
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while initializing the package "
+#~ "information.\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the following error message:\n"
+#~ msgstr ""
+#~ "პაკეტი ინიციალიზირებისას დაიშვა გამოუსწორებელი შეცდომა.\n"
+#~ "\n"
+#~ "გთხოვთ შეგვატყობინოთ 'update-manager'-ის ხარზვეზის შესახებ და მოაყოლეთ "
+#~ "გენერირებული შეტყობინება:\n"
+
+#~ msgid "Your distribution is not supported anymore"
+#~ msgstr "თქვენს დისტრიბუტივს აღარ გააჩნია მხარდაჭერა"
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Upgrade "
+#~ "to a later version of Ubuntu Linux. See http://www.ubuntu.com for more "
+#~ "information on upgrading."
+#~ msgstr ""
+#~ "თქვენ ვეღარ მიიღებთ უსაფრთხოების შესწორებებსა და კრიტიკულ განახლებებს. "
+#~ "განაახლეთ სისტემა უბუნტუ-ლინუქსის ახალ ვერსიამდე. იხილეთ http://www."
+#~ "ubuntu.com."
+
+#~ msgid "<b>New distribution release '%s' is available</b>"
+#~ msgstr "<b>ხელმისწვდომია ახალი გამოშვება '%s'</b>"
+
+#~ msgid "Software index is broken"
+#~ msgstr "პროგრამების სიის ინდექსი დაზიანებულია"
+
+#~ msgid ""
+#~ "It is impossible to install or remove any software. Please use the "
+#~ "package manager \"Synaptic\" or run \"sudo apt-get install -f\" in a "
+#~ "terminal to fix this issue at first."
+#~ msgstr ""
+#~ "შეუძლებელია პროგრამების დაყენება ან წაშლა. ჯერ გამოასწორეთ დეფექტი "
+#~ "პაკეტების მენეჯერით Synaptic ან ტერმინალში \"sudo apt-get install -f\" "
+#~ "ბრძანებით."
+
+#~ msgid ""
+#~ "Failed to download the list of changes. \n"
+#~ "Please check your Internet connection."
+#~ msgstr ""
+#~ "ვერ განხორციელდა ცვლილებების სიის გადმოწერა.\n"
+#~ "შეამოწმეთ ინტერნეტ-კავშირი."
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>საჭიროა განახლებების მანუალურად შემოწმება</big></b>\n"
+#~ "\n"
+#~ "სისტემა არ ეძებს განახლებებს ავტომატურ რეჟიმში. შეგიძლიათ ეს თვისება "
+#~ "შეცვალოთ ჩანართში <i>განახლება ინტერნეტიდან</i> ფანჯარაში <i>წყარო-"
+#~ "პროგრამები</i>."
+
+#~ msgid "<big><b>Not all updates can be installed</b></big>"
+#~ msgstr "<big><b>ვერ მოხერხდა ყველა განახლების დაყენება</b></big>"
+
+#~ msgid "<big><b>Starting Update Manager</b></big>"
+#~ msgstr "<big><b>ირთვება განახლებების მოურავი</b></big>"
+
+#~ msgid "Chec_k"
+#~ msgstr "შე_მოწმება"
+
+#~ msgid "Check the software channels for new updates"
+#~ msgstr "პროგრამათა წყაროების შემოწმება განახლებების არსებობაზე"
+
+#~ msgid "Description"
+#~ msgstr "აღწერილობა"
+
+#~ msgid "Description of update"
+#~ msgstr "განახლების აღწერილობა"
+
+#~ msgid ""
+#~ "Run a partial upgrade, to install as many updates as possible. \n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " ◦ A previous upgrade which didn't complete\n"
+#~ " ◦ Problems with some of the installed software\n"
+#~ " ◦ Unofficial software packages not provided by Ubuntu\n"
+#~ " ◦ Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "მაქსიმალური განახლებისათვის გაუშვით დისტრიბუტივის ნაწილობრივი "
+#~ "განახლება. \n"
+#~ "\n"
+#~ "გამოიყენება შემდეგ შემთხვევებში:\n"
+#~ " ◦ წინა დაუსრულებელი განახლება\n"
+#~ " ◦ პრობლემები დაყენებულ პროგრამებთან\n"
+#~ " ◦ არაოფიციალური პროგრამები, რომლებსაც არ მოიცავს უბუნტუ\n"
+#~ " ◦ ნორმალური ცვლილებები უბუნტუს არასტაბილურ ვერსიებში"
+
+#~ msgid "U_pgrade"
+#~ msgstr "_განახლება"
+
+#~ msgid "Upgrade to the latest version of Ubuntu"
+#~ msgstr "განახლება უბუნტუს ბოლო ვერსიამდე"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_დავმალოთ ეს ინფორმაცია მომავალში"
+
+#~ msgid "_Partial Upgrade"
+#~ msgstr "_ნაწილობრივი განახლება"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_განახლება"
+
+#~ msgid "updates"
+#~ msgstr "განახლებები"
+
+#~ msgid "Show version and exit"
+#~ msgstr "ვერსიის ჩვენება და გასვლა"
+
+#~ msgid "Check if a new distribution release is available"
+#~ msgstr "დისტრიბუტივის ახალი გამოშვების არსებობის შემოწმება"
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr ""
+#~ "შეამოწმება, არის თუ არა შესაძლებელი ბოლო განვითარებად გამოცემაზე გადასვლა"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "სცადეთ dist-upgrade ბრძანების გაშვება"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "ნაწილობრივი განახლების დაწყება"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr "სწადეთ განაახლოთ $distro-proposed -ზე"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "გაუშვით განახლების სპეც რეჟიმი.\n"
+#~ "'desktop' ჩვეულებრივი სამაგიდო სისტემების განახლებისთვის, ხოლო 'server' "
+#~ "სერვერ სისტემებისთვის."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "მითითებული ინტერფეისის გაშვება"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "უბუნტუს ახალი ვერსიის არსებობის შემოწმება"
+
+#~ msgid "No new release found"
+#~ msgstr "არავითარი ახალი გამოცემა"
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bugreport."
+#~ msgstr ""
+#~ "განახლება შეწყვეტილია. შეატყობინეთ 'update-manager'-ის ეს ხარვეზი, "
+#~ "ანგარიშს დაურთეთ ფაილები /var/log/dist-upgrade/-დან."
+
+#~ msgid "The upgrade tool will guide you through the upgrade process."
+#~ msgstr "განახლების უტილიტა დაგეხმარებათ განახლების მიმდინარეობისას."
+
+#~ msgid "A essential package would have to be removed"
+#~ msgstr "წაიშლება აუცილებლად საჭირო პაკეტი"
+
+#~ msgid ""
+#~ "The upgrade aborts now. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "განახლება შეწყვეტილია. ამ პროცედურას ესაჭიროება არანაკლებ %s ზომის ადგილი "
+#~ "'%s' დისკზე. გეთაყვა, გაანთავისუფლეთ არანაკლებ %s ზომის ადგილი '%s' "
+#~ "დისკზე.  გამოიყენეთ 'sudo apt-get clean' დროებითი პაკეტების წასაშლელად. "
+#~ "ამის გარდა არ დაგავიწყდეთ ურნის დაცარიელება."
+
+#~ msgid ""
+#~ "The upgrade aborts now. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "განახლება შეწყვეტილია. შესაძლოა სისტემა არასტაბილურ მდგომარეობაში იყოს. "
+#~ "გაიშვება აღდგენის პროცესი (dpkg --configure -a)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bugreport.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "გეთაყვა, შეატყობინეთ ხარვეზის შესახებ 'update-manager' პაკეტის "
+#~ "საშუალებით, შეტყობინებაში დაურთეთ ფაილები /var/log/dist-upgrade/-დან.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem"
+#~ msgstr ""
+#~ "ჩამოტვირთვის ხანგრძლივობა: %s - 1Mbit DSL-სათვის,  %s 56k-მოდემისათვის."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "aborts now.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "გეთაყვა, შეატყობინეთ ეს ხარვეზი, ანგარიშს დაურთეთ ფაილები /var/log/dist-"
+#~ "upgrade/main.log და var/log/dist-upgrade/apt.log. განახლება შეწყვეტილია.\n"
+#~ "თქვენი თავდაპირველი sources.list შენახულია /etc/apt/sources.list."
+#~ "distUpgrade-ში."
+
+#~ msgid "Restart the system now [yN] "
+#~ msgstr "გნებავთ სისტემის გადატვირთვა [yN] "
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 8.10</big></b>"
+#~ msgstr "<b><big>უბუნტუს 8.10 ვერსიამდე განახლება</big></b>"
+
+#~ msgid "You can install %s update."
+#~ msgid_plural "You can install %s updates."
+#~ msgstr[0] "თქვენ შეგიძლიათ %s განახლების ჩადგმა"
+
+#~ msgid "<big><b>Keep your system up-to-date</b></big>"
+#~ msgstr "<big><b>იქონიეთ განახლებული სისტემა</b></big>"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/"
+#~ "dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "მოხდა დაუდგენელი შეცდომა განახლების მომზადებისას. შეატყობინეთ 'update-"
+#~ "manager'-ის ეს ხარვეზი, ანგარიშს დაურთეთ ფაილები /var/log/dist-upgrade/-"
+#~ "დან."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and "
+#~ "include the files in /var/log/dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "სისტემამ ვერ შეძლო განახლებისთვის საჭირო რეკვიზიტების დადგენა. განახლების "
+#~ "პროცესი გადაიდება და აღდგება სისტემის თავდაპირველი მდგომარეობა.\n"
+#~ "\n"
+#~ "გეთაყვა, შეატყობინეთ ხარვეზის შესახებ 'update-manager' პაკეტის "
+#~ "საშუალებით, შეტყობინებაში დაურთეთ ფაილები /var/log/dist-upgrade/-დან."
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the "
+#~ "'update-manager' package and include the files in /var/log/dist-upgrade/ "
+#~ "in the bugreport."
+#~ msgstr ""
+#~ "პაკეტის შესახებ ინფორმაციის განახლების შემდეგ ვერ მოიძებნა მნიშვნელოვანი "
+#~ "პაკეტი '%s'.\n"
+#~ "ეს სერიოზული შეცდომაა, შეატყობინეთ 'update-manager'-ის ეს ხარვეზი, "
+#~ "ანგარიშს დაურთეთ ფაილები /var/log/dist-upgrade/-დან."
+
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may be in a not working "
+#~ "state. Please consider submitting a bugreport about it."
+#~ msgstr ""
+#~ "განახლება გაგრძელდება მაგრამ '%s' პაკეტმა შესაძლოა არ იმუშაოს. გთხოვთ "
+#~ "გამოგვიგზავნოთ პატაკი ამის შესახებ."
+
+#~ msgid "Fetching file %li of %li at %sb/s"
+#~ msgstr "იტვირთება %li ფაილი %li-დან, სიჩქარე - %s ბ/წმ"
+
+#~ msgid "%li days %li hours %li minutes"
+#~ msgstr "%li დღე %li საათი %li წუთი"
+
+#~ msgid "_Check"
+#~ msgstr "შ_ემოწმება"
+
+#~ msgid ""
+#~ "Use special upgrade mode. Available:\n"
+#~ "desktop, server"
+#~ msgstr ""
+#~ "განახლების სპეციალური რეჟიმი. დასაშვებია:\n"
+#~ "desktop, server"
+
+#~ msgid ""
+#~ "The list of changes is not available yet.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "ცვლილებების სია ჯერჯერობით არ არის ხელმისაწვდომი.\n"
+#~ "სცადეთ მოგვიანებით."
