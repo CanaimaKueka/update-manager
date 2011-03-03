@@ -6,10 +6,8 @@
 Source: update-manager
 Section: admin
 Priority: optional
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Stephan Peijnik <debian@sp.or.at>,
-           Michael Vogt <mvo@debian.org>,
-           Emilio Pozuelo Monfort <pochu@debian.org>, Julian Andres Klode <jak@debian.org>
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Uploaders: José Miguel Parrella Romero <jparrella@onuva.com>, Carlos David Marrero <cdmarrero2040@gmail.com>, Orlando Andrés Fiol Carballo <ofiol@indesoft.org.ve>, Carlos Alejandro Guerrero Mora <guerrerocarlos@gmail.com>, Diego Alberto Aguilera Zambrano <diegoaguilera85@gmail.com>, Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>, Francisco Javier Vásquez Guerrero <franjvasquezg@gmail.com>
 Build-Depends: cdbs,
                gnome-pkg-tools,
                debhelper (>= 5.0.51),
@@ -26,10 +24,10 @@ Build-Depends-Indep: intltool,
                      python-newt,
                      lsb-release,
                      python-vte
-Standards-Version: 3.8.4
-Homepage: http://alioth.debian.org/projects/update-manager/
-Vcs-Svn: svn://svn.debian.org/pkg-gnome/packages/unstable/update-manager
-Vcs-Browser: http://svn.debian.org/viewsvn/pkg-gnome/packages/unstable/update-manager
+Homepage: http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/update-manager.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/update-manager/trees/master
+Standards-Version: 3.9.1
 
 Package: update-manager-core
 Architecture: all
@@ -40,7 +38,7 @@ Depends: ${python:Depends},
 Recommends: update-manager-gnome (= ${source:Version})
 Replaces: update-manager (<< 1:0.93.7)
 Conflicts: update-manager (<< 1:0.93.7)
-Description: APT update manager core functionality
+Description: Núcleo del Gestor de Actualizaciones para Canaima
  This package holds the core functionality for the APT update managers
  such as update-manager, the GNOME update manager. Update managers are
  applications that help you keep your system up-to-date by providing a
@@ -75,7 +73,7 @@ Depends: ${python:Depends},
 Replaces: update-manager (<< 0.200.0~pre0)
 Conflicts: update-manager (<< 0.200.0~pre0)
 Suggests: update-notifier, software-properties-gtk
-Description: GNOME application that manages software updates
+Description: Gestor de Actualizaciones para Canaima GNU/Linux
  This is the GNOME software update manager. It checks for updates made
  available by Debian and third parties running Debian package
  repositories, and lets the user choose which to install.
