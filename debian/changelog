@@ -1,8 +1,10 @@
 update-manager (0.200.6+canaima0) unstable; urgency=low
 
   * Versión inicial para Canaima GNU/Linux
+  * [72e19d6] Removiendo archivos precompilados de python y aceptando
+    cambios en debian/control
 
- -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 03 Mar 2011 15:01:02 -0430
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 03 Mar 2011 15:10:55 -0430
 
 update-manager (0.200.5-1) unstable; urgency=low
 
