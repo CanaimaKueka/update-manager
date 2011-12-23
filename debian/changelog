@@ -2,7 +2,7 @@ update-manager (0.200.7-1canaima2) unstable; urgency=low
 
   * [3590f4b] Agregando parche para traducir strings
 
- -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 13:42:31 -0430
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 13:45:51 -0430
 
 update-manager (0.200.6+canaima1) unstable; urgency=low
 
