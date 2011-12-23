@@ -5,8 +5,10 @@ update-manager (0.200.6+canaima1) unstable; urgency=low
   * [18cef88] Generando parches para los cambios de canaima
   * [ee559e5] Corrigiendo uploaders y estableciéndo 3.0 (quilt) como
     formato de fuentes
+  * [1d02cc1] Corrigiendo uploaders y estableciéndo 3.0 (quilt) como
+    formato de fuentes
 
- -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 13:23:59 -0430
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 13:31:17 -0430
 
 update-manager (0.200.6+canaima0) unstable; urgency=low
 
