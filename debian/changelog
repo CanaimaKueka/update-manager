@@ -1,3 +1,9 @@
+update-manager (0.200.7-1canaima3) unstable; urgency=low
+
+  * [3436e94] Removiendo regla de CDBS
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 23 Dec 2011 14:21:20 -0430
+
 update-manager (0.200.7-1canaima2) unstable; urgency=low
 
   * [3590f4b] Agregando parche para traducir strings
