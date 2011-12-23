@@ -24,7 +24,6 @@ setup(name='update-manager',
                 'UpdateManager.DistSpecific',
                 'UpdateManager.DistSpecific.Debian',
                 'UpdateManager.DistSpecific.Ubuntu',
-		'UpdateManager.DistSpecific.Canaima',
                 'UpdateManager.Util'
                 ],
       package_dir={
