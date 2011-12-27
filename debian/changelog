@@ -1,3 +1,9 @@
+update-manager (0.200.7-1canaima4) unstable; urgency=low
+
+  * [bd846c8] Corrigiendo versión de debhelper en Build-Depends
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 27 Dec 2011 19:02:01 -0430
+
 update-manager (0.200.7-1canaima3) unstable; urgency=low
 
   * [3436e94] Removiendo regla de CDBS
