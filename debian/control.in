@@ -5,7 +5,7 @@ Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.s
 Uploaders: Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
 Build-Depends: cdbs,
                gnome-pkg-tools,
-               debhelper (>= 5.0.51),
+               debhelper (>= 7.0.50~),
                python-support (>= 0.5.6),
                python
 Build-Depends-Indep: intltool,
