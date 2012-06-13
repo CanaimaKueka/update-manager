@@ -1,3 +1,9 @@
+update-manager (0.200.7-1canaima5) unstable; urgency=low
+
+  * [6cf21cf] con cambio en la traduccion
+
+ -- Sasha Veronica Solano Grosjean <sashasolano@gmail.com>  Wed, 13 Jun 2012 14:00:59 -0430
+
 update-manager (0.200.7-1canaima4) unstable; urgency=low
 
   * [bd846c8] Corrigiendo versión de debhelper en Build-Depends
