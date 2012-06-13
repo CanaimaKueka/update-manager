@@ -1,0 +1,36 @@
+Description: Upstream changes introduced in version 0.200.7-1canaima4
+ This patch has been created by dpkg-source during the package build.
+ Here's the last changelog entry, hopefully it gives details on why
+ those changes were made:
+ .
+ update-manager (0.200.7-1canaima4) unstable; urgency=low
+ .
+   * [bd846c8] Corrigiendo versión de debhelper en Build-Depends
+ .
+ The person named in the Author field signed this changelog entry.
+Author: Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- update-manager-0.200.7.orig/data/ui/UpdateManager.ui
++++ update-manager-0.200.7/data/ui/UpdateManager.ui
+@@ -871,7 +871,7 @@ Your system does not check for updates a
+             <property name="visible">True</property>
+             <property name="xalign">0</property>
+             <property name="yalign">0</property>
+-            <property name="label" translatable="yes">&lt;big&gt;&lt;b&gt;Starting Update Manager&lt;/b&gt;&lt;/big&gt;</property>
++            <property name="label" translatable="yes">&lt;big&gt;&lt;b&gt;Iniciando Gestor de Actualizaciones&lt;/b&gt;&lt;/big&gt;</property>
+             <property name="use_markup">True</property>
+           </object>
+           <packing>

@@ -1,0 +1,19 @@
+Package: update-manager-core
+Source: update-manager
+Version: 0.200.7-1canaima4
+Architecture: all
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Installed-Size: 1528
+Depends: python, python-support (>= 0.90.0), lsb-release, python-apt (>= 0.7.93)
+Recommends: update-manager-gnome (= 0.200.7-1canaima4)
+Conflicts: update-manager (<< 1:0.93.7)
+Replaces: update-manager (<< 1:0.93.7)
+Section: admin
+Priority: optional
+Homepage: http://canaima.softwarelibre.gob.ve/
+Description: Núcleo del Gestor de Actualizaciones para Canaima
+ This package holds the core functionality for the APT update managers
+ such as update-manager, the GNOME update manager. Update managers are
+ applications that help you keep your system up-to-date by providing a
+ nice interface in which you can see the list of updates and install
+ them using APT.

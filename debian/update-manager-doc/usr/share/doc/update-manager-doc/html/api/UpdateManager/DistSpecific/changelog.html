@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Update Manager API: DistSpecific.changelog module &mdash; Update Manager v0.200.5 documentation</title>
+    <link rel="stylesheet" href="../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.200.5',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="top" title="Update Manager v0.200.5 documentation" href="../../../index.html" />
+    <link rel="up" title="Update Manager API: DistSpecific module" href="index.html" />
+    <link rel="next" title="Update Manager API: DistSpecific.Debian module" href="Debian/index.html" />
+    <link rel="prev" title="Update Manager API: DistSpecific.Auto module" href="Auto.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="Debian/index.html" title="Update Manager API: DistSpecific.Debian module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Auto.html" title="Update Manager API: DistSpecific.Auto module"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Update Manager API: UpdateManager module</a> &raquo;</li>
+          <li><a href="index.html" accesskey="U">Update Manager API: DistSpecific module</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-UpdateManager.DistSpecific.changelog">
+<h1>Update Manager API: DistSpecific.changelog module<a class="headerlink" href="#module-UpdateManager.DistSpecific.changelog" title="Permalink to this headline">¶</a></h1>
+<p>Changelog fetcher functionality</p>
+<div class="section" id="enumerations">
+<h2>Enumerations<a class="headerlink" href="#enumerations" title="Permalink to this headline">¶</a></h2>
+<dl class="data">
+<dt id="UpdateManager.DistSpecific.changelog.CHANGELOG_FETCH_STATUS">
+<tt class="descclassname">UpdateManager.DistSpecific.changelog.</tt><tt class="descname">CHANGELOG_FETCH_STATUS</tt><a class="headerlink" href="#UpdateManager.DistSpecific.changelog.CHANGELOG_FETCH_STATUS" title="Permalink to this definition">¶</a></dt>
+<dd><p><a title="UpdateManager.Util.enum.Enum" class="reference external" href="../Util/enum.html#UpdateManager.Util.enum.Enum"><tt class="xref docutils literal"><span class="pre">Enum</span></tt></a>:</p>
+<dl class="docutils">
+<dt><strong>FAILED</strong> = <em>0</em></dt>
+<dd>Fetching failed</dd>
+<dt><strong>DONE</strong> = <em>1</em></dt>
+<dd>Fetching finished</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="helpers">
+<h2>Helpers<a class="headerlink" href="#helpers" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="UpdateManager.DistSpecific.changelog.ChangelogFetcher">
+<em class="property">class </em><tt class="descclassname">UpdateManager.DistSpecific.changelog.</tt><tt class="descname">ChangelogFetcher</tt><big>(</big><em>pkg_info</em>, <em>changelog_handler</em><big>)</big><a class="headerlink" href="#UpdateManager.DistSpecific.changelog.ChangelogFetcher" title="Permalink to this definition">¶</a></dt>
+<dd><p>Changelog Fetcher base class.</p>
+<p>This class must be subclassed by all ChangelogFetcher implementations.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="UpdateManager.DistSpecific.changelog.HTTPChangelogFetcher">
+<em class="property">class </em><tt class="descclassname">UpdateManager.DistSpecific.changelog.</tt><tt class="descname">HTTPChangelogFetcher</tt><big>(</big><em>pkg_info</em>, <em>changelog_handler</em><big>)</big><a class="headerlink" href="#UpdateManager.DistSpecific.changelog.HTTPChangelogFetcher" title="Permalink to this definition">¶</a></dt>
+<dd>Simple HTTP Changelog Fetcher</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../../../index.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Update Manager API: DistSpecific.changelog module</a><ul>
+<li><a class="reference external" href="#enumerations">Enumerations</a></li>
+<li><a class="reference external" href="#helpers">Helpers</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="Auto.html"
+                                  title="previous chapter">Update Manager API: DistSpecific.Auto module</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="Debian/index.html"
+                                  title="next chapter">Update Manager API: DistSpecific.Debian module</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="../../../_sources/api/UpdateManager/DistSpecific/changelog.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="../../../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="Debian/index.html" title="Update Manager API: DistSpecific.Debian module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Auto.html" title="Update Manager API: DistSpecific.Auto module"
+             >previous</a> |</li>
+        <li><a href="../../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Update Manager API: UpdateManager module</a> &raquo;</li>
+          <li><a href="index.html" >Update Manager API: DistSpecific module</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Stephan Peijnik.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.6.
+    </div>
+  </body>
+</html>

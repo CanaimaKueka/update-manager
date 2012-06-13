@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Update Manager API: Util.enum module &mdash; Update Manager v0.200.5 documentation</title>
+    <link rel="stylesheet" href="../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.200.5',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="top" title="Update Manager v0.200.5 documentation" href="../../../index.html" />
+    <link rel="up" title="Update Manager API: Util module" href="index.html" />
+    <link rel="next" title="Update Manager API: Util.humanize module" href="humanize.html" />
+    <link rel="prev" title="Update Manager API: Util module" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="humanize.html" title="Update Manager API: Util.humanize module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Update Manager API: Util module"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Update Manager API: UpdateManager module</a> &raquo;</li>
+          <li><a href="index.html" accesskey="U">Update Manager API: Util module</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-UpdateManager.Util.enum">
+<h1>Update Manager API: Util.enum module<a class="headerlink" href="#module-UpdateManager.Util.enum" title="Permalink to this headline">¶</a></h1>
+<p>Implementation of autodoc-aware Enum for Python</p>
+<div class="section" id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="UpdateManager.Util.enum.Enum">
+<em class="property">class </em><tt class="descclassname">UpdateManager.Util.enum.</tt><tt class="descname">Enum</tt><big>(</big><em>*names</em>, <em>**names_with_doc</em><big>)</big><a class="headerlink" href="#UpdateManager.Util.enum.Enum" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple autodoc-aware C-like enumeration.</p>
+<p>All enumeration names must be upper case and may not contain spaces, see
+below for examples.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">ReturnCodes</span> <span class="o">=</span> <span class="n">Enum</span><span class="p">(</span><span class="s">&#39;SUCCESS&#39;</span><span class="p">,</span> <span class="n">ERROR</span><span class="o">=</span><span class="s">&#39;A non-fatal error occured&#39;</span><span class="p">,</span>
+<span class="go">                       FATAL=&#39;A fatal error occured&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ReturnCodes</span><span class="o">.</span><span class="n">SUCCESS</span>
+<span class="go">0</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">When using values with docstring the values are ordered
+alphabetically by their name. This is caused by how the dict type
+works.</p>
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="UpdateManager.Util.enum.NegativeEnum">
+<em class="property">class </em><tt class="descclassname">UpdateManager.Util.enum.</tt><tt class="descname">NegativeEnum</tt><big>(</big><em>*names</em>, <em>**names_with_doc</em><big>)</big><a class="headerlink" href="#UpdateManager.Util.enum.NegativeEnum" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple autodoc-aware C-like negative enumeration.</p>
+<p>The difference to <a title="UpdateManager.Util.enum.Enum" class="reference internal" href="#UpdateManager.Util.enum.Enum"><tt class="xref docutils literal"><span class="pre">Enum</span></tt></a> is that values are assigned starting at
+<em>-1</em> downwards.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">NegativeCodes</span> <span class="o">=</span> <span class="n">Enum</span><span class="p">(</span><span class="s">&#39;UI_ERROR&#39;</span><span class="p">,</span> <span class="n">negative</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+<span class="go">                         BACKEND_ERROR=&#39;Backend error&#39;)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">NegativeCodes</span><span class="o">.</span><span class="n">UI_ERROR</span>
+<span class="go">-1</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../../../index.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Update Manager API: Util.enum module</a><ul>
+<li><a class="reference external" href="#classes">Classes</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="index.html"
+                                  title="previous chapter">Update Manager API: Util module</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="humanize.html"
+                                  title="next chapter">Update Manager API: Util.humanize module</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="../../../_sources/api/UpdateManager/Util/enum.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="../../../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="humanize.html" title="Update Manager API: Util.humanize module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Update Manager API: Util module"
+             >previous</a> |</li>
+        <li><a href="../../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Update Manager API: UpdateManager module</a> &raquo;</li>
+          <li><a href="index.html" >Update Manager API: Util module</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Stephan Peijnik.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.6.
+    </div>
+  </body>
+</html>

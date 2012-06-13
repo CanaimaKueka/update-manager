@@ -1,7 +1,7 @@
-Index: update-manager-0.200.6+canaima0/setup.py
+Index: update-manager/setup.py
 ===================================================================
---- update-manager-0.200.6+canaima0.orig/setup.py	2011-12-23 13:19:18.458141850 -0430
-+++ update-manager-0.200.6+canaima0/setup.py	2011-12-23 13:19:43.409781681 -0430
+--- update-manager.orig/setup.py	2012-06-13 13:37:22.000000000 -0430
++++ update-manager/setup.py	2012-06-13 13:41:57.000000000 -0430
 @@ -24,6 +24,7 @@
                  'UpdateManager.DistSpecific',
                  'UpdateManager.DistSpecific.Debian',

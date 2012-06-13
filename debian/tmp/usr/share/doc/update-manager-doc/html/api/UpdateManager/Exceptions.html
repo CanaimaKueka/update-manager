@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Update Manager API: Exceptions module &mdash; Update Manager v0.200.5 documentation</title>
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.200.5',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="Update Manager v0.200.5 documentation" href="../../index.html" />
+    <link rel="up" title="Update Manager API: UpdateManager module" href="index.html" />
+    <link rel="next" title="Update Manager API: Frontend module" href="Frontend/index.html" />
+    <link rel="prev" title="Update Manager API: DistSpecific.loader module" href="DistSpecific/loader.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="Frontend/index.html" title="Update Manager API: Frontend module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="DistSpecific/loader.html" title="Update Manager API: DistSpecific.loader module"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="index.html" accesskey="U">Update Manager API: UpdateManager module</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-UpdateManager.Exceptions">
+<h1>Update Manager API: Exceptions module<a class="headerlink" href="#module-UpdateManager.Exceptions" title="Permalink to this headline">¶</a></h1>
+<p>Exceptions module</p>
+<div class="section" id="exceptions">
+<h2>Exceptions<a class="headerlink" href="#exceptions" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="UpdateManager.Exceptions.ExitProgramException">
+<em class="property">exception </em><tt class="descclassname">UpdateManager.Exceptions.</tt><tt class="descname">ExitProgramException</tt><big>(</big><em>status</em>, <em>msg='Program exited'</em><big>)</big><a class="headerlink" href="#UpdateManager.Exceptions.ExitProgramException" title="Permalink to this definition">¶</a></dt>
+<dd>Program is about to exit</dd></dl>
+
+<dl class="exception">
+<dt id="UpdateManager.Exceptions.InvalidBaseClass">
+<em class="property">exception </em><tt class="descclassname">UpdateManager.Exceptions.</tt><tt class="descname">InvalidBaseClass</tt><big>(</big><em>instance</em>, <em>base_class</em><big>)</big><a class="headerlink" href="#UpdateManager.Exceptions.InvalidBaseClass" title="Permalink to this definition">¶</a></dt>
+<dd>Invalid base class exception</dd></dl>
+
+<dl class="exception">
+<dt id="UpdateManager.Exceptions.InvalidLoglevelName">
+<em class="property">exception </em><tt class="descclassname">UpdateManager.Exceptions.</tt><tt class="descname">InvalidLoglevelName</tt><big>(</big><em>name</em><big>)</big><a class="headerlink" href="#UpdateManager.Exceptions.InvalidLoglevelName" title="Permalink to this definition">¶</a></dt>
+<dd>Invalid loglevel name exception</dd></dl>
+
+<dl class="exception">
+<dt id="UpdateManager.Exceptions.LoadingFailedException">
+<em class="property">exception </em><tt class="descclassname">UpdateManager.Exceptions.</tt><tt class="descname">LoadingFailedException</tt><big>(</big><em>module_name</em><big>)</big><a class="headerlink" href="#UpdateManager.Exceptions.LoadingFailedException" title="Permalink to this definition">¶</a></dt>
+<dd>Loading of a module failed</dd></dl>
+
+</div>
+<div class="section" id="constants">
+<h2>Constants<a class="headerlink" href="#constants" title="Permalink to this headline">¶</a></h2>
+<dl class="data">
+<dt id="UpdateManager.Exceptions.EXIT_STATUS_CODES">
+<tt class="descclassname">UpdateManager.Exceptions.</tt><tt class="descname">EXIT_STATUS_CODES</tt><a class="headerlink" href="#UpdateManager.Exceptions.EXIT_STATUS_CODES" title="Permalink to this definition">¶</a></dt>
+<dd><p><a title="UpdateManager.Util.enum.Enum" class="reference external" href="Util/enum.html#UpdateManager.Util.enum.Enum"><tt class="xref docutils literal"><span class="pre">Enum</span></tt></a>:</p>
+<dl class="docutils">
+<dt><strong>NO_ERROR</strong> = <em>0</em></dt>
+<dd>No error occured</dd>
+<dt><strong>INVALID_BASE_CLASS</strong> = <em>1</em></dt>
+<dd>An invalid base class was specified</dd>
+<dt><strong>LOADING_FAILED</strong> = <em>2</em></dt>
+<dd>Loading of a module failed</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../../index.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Update Manager API: Exceptions module</a><ul>
+<li><a class="reference external" href="#exceptions">Exceptions</a></li>
+<li><a class="reference external" href="#constants">Constants</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="DistSpecific/loader.html"
+                                  title="previous chapter">Update Manager API: DistSpecific.loader module</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="Frontend/index.html"
+                                  title="next chapter">Update Manager API: Frontend module</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="../../_sources/api/UpdateManager/Exceptions.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="../../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="Frontend/index.html" title="Update Manager API: Frontend module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="DistSpecific/loader.html" title="Update Manager API: DistSpecific.loader module"
+             >previous</a> |</li>
+        <li><a href="../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="index.html" >Update Manager API: UpdateManager module</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Stephan Peijnik.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.6.
+    </div>
+  </body>
+</html>

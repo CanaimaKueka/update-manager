@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Update Manager API: Gtk.ChangelogViewer Frontend module &mdash; Update Manager v0.200.5 documentation</title>
+    <link rel="stylesheet" href="../../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../../',
+        VERSION:     '0.200.5',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+    <link rel="top" title="Update Manager v0.200.5 documentation" href="../../../../index.html" />
+    <link rel="up" title="Update Manager API: Gtk Frontend module" href="index.html" />
+    <link rel="next" title="Update Manager API: Gtk.GtkProgress Frontend module" href="GtkProgress.html" />
+    <link rel="prev" title="Update Manager API: Gtk Frontend module" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../../modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="GtkProgress.html" title="Update Manager API: Gtk.GtkProgress Frontend module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Update Manager API: Gtk Frontend module"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" >Update Manager API: UpdateManager module</a> &raquo;</li>
+          <li><a href="../index.html" >Update Manager API: Frontend module</a> &raquo;</li>
+          <li><a href="index.html" accesskey="U">Update Manager API: Gtk Frontend module</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-UpdateManager.Frontend.Gtk.ChangelogViewer">
+<h1>Update Manager API: Gtk.ChangelogViewer Frontend module<a class="headerlink" href="#module-UpdateManager.Frontend.Gtk.ChangelogViewer" title="Permalink to this headline">¶</a></h1>
+<p>Gtk Changelog viewer</p>
+<dl class="class">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer">
+<em class="property">class </em><tt class="descclassname">UpdateManager.Frontend.Gtk.ChangelogViewer.</tt><tt class="descname">ChangelogViewer</tt><big>(</big><em>changelog=None</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer" title="Permalink to this definition">¶</a></dt>
+<dd><p>ChangelogViewer Gtk widget</p>
+<dl class="method">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.button_press_event">
+<tt class="descname">button_press_event</tt><big>(</big><em>text_view</em>, <em>event</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.button_press_event" title="Permalink to this definition">¶</a></dt>
+<dd>callback for mouse click events</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.check_hovering">
+<tt class="descname">check_hovering</tt><big>(</big><em>pos_x</em>, <em>pos_y</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.check_hovering" title="Permalink to this definition">¶</a></dt>
+<dd>Check if the mouse is above a tagged link and if yes show
+a hand cursor</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.create_context_menu">
+<tt class="descname">create_context_menu</tt><big>(</big><em>url</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.create_context_menu" title="Permalink to this definition">¶</a></dt>
+<dd>Create the context menu to be displayed when links are right
+clicked</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.handle_context_menu">
+<tt class="descname">handle_context_menu</tt><big>(</big><em>menuitem</em>, <em>action</em>, <em>url</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.handle_context_menu" title="Permalink to this definition">¶</a></dt>
+<dd>Handle activate event for the links&#8217; context menu</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.motion_notify_event">
+<tt class="descname">motion_notify_event</tt><big>(</big><em>text_view</em>, <em>event</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.motion_notify_event" title="Permalink to this definition">¶</a></dt>
+<dd>callback for the mouse movement event, that calls the
+check_hovering method with the mouse postition coordiantes</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.on_insert_text">
+<tt class="descname">on_insert_text</tt><big>(</big><em>buf</em>, <em>iter_end</em>, <em>text</em>, <em>*args</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.on_insert_text" title="Permalink to this definition">¶</a></dt>
+<dd>Search for http URLs in newly inserted text  
+and tag them accordingly</dd></dl>
+
+<dl class="classmethod">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.open_url">
+<em class="property">classmethod </em><tt class="descname">open_url</tt><big>(</big><em>url</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.open_url" title="Permalink to this definition">¶</a></dt>
+<dd>Open the specified URL in a browser</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.tag_link">
+<tt class="descname">tag_link</tt><big>(</big><em>start</em>, <em>end</em>, <em>url</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.tag_link" title="Permalink to this definition">¶</a></dt>
+<dd>Apply the tag that marks links to the specified buffer selection</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.visibility_notify_event">
+<tt class="descname">visibility_notify_event</tt><big>(</big><em>text_view</em>, <em>event</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.Gtk.ChangelogViewer.ChangelogViewer.visibility_notify_event" title="Permalink to this definition">¶</a></dt>
+<dd>callback if the widgets gets visible (e.g. moves to the foreground)
+that calls the check_hovering method with the mouse position
+coordinates</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="index.html"
+                                  title="previous chapter">Update Manager API: Gtk Frontend module</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="GtkProgress.html"
+                                  title="next chapter">Update Manager API: Gtk.GtkProgress Frontend module</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="../../../../_sources/api/UpdateManager/Frontend/Gtk/ChangelogViewer.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="../../../../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../../modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="GtkProgress.html" title="Update Manager API: Gtk.GtkProgress Frontend module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Update Manager API: Gtk Frontend module"
+             >previous</a> |</li>
+        <li><a href="../../../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" >Update Manager API: UpdateManager module</a> &raquo;</li>
+          <li><a href="../index.html" >Update Manager API: Frontend module</a> &raquo;</li>
+          <li><a href="index.html" >Update Manager API: Gtk Frontend module</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Stephan Peijnik.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.6.
+    </div>
+  </body>
+</html>

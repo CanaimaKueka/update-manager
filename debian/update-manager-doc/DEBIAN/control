@@ -1,0 +1,14 @@
+Package: update-manager-doc
+Source: update-manager
+Version: 0.200.7-1canaima4
+Architecture: all
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Installed-Size: 956
+Suggests: libjs-jquery, update-manager-core (= 0.200.7-1canaima4), update-manager-gnome (= 0.200.7-1canaima4)
+Section: doc
+Priority: optional
+Homepage: http://canaima.softwarelibre.gob.ve/
+Description: Update Manager API documentation
+ This package contains the API documentation for Update Manager. Please note
+ that this is only useful if you intend to work on Update Manager and does
+ not include any documentation targeted at end-users.

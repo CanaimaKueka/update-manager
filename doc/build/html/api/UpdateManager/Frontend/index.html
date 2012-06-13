@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Update Manager API: Frontend module &mdash; Update Manager v0.200.5 documentation</title>
+    <link rel="stylesheet" href="../../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.200.5',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="top" title="Update Manager v0.200.5 documentation" href="../../../index.html" />
+    <link rel="up" title="Update Manager API: UpdateManager module" href="../index.html" />
+    <link rel="next" title="Update Manager API: Gtk Frontend module" href="Gtk/index.html" />
+    <link rel="prev" title="Update Manager API: Exceptions module" href="../Exceptions.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="Gtk/index.html" title="Update Manager API: Gtk Frontend module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../Exceptions.html" title="Update Manager API: Exceptions module"
+             accesskey="P">previous</a> |</li>
+        <li><a href="../../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="../index.html" accesskey="U">Update Manager API: UpdateManager module</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-UpdateManager.Frontend">
+<h1>Update Manager API: Frontend module<a class="headerlink" href="#module-UpdateManager.Frontend" title="Permalink to this headline">¶</a></h1>
+<p>Frontend base code</p>
+<div class="section" id="implementations">
+<h2>Implementations<a class="headerlink" href="#implementations" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="Gtk/index.html">Update Manager API: Gtk Frontend module</a></li>
+<li class="toctree-l1"><a class="reference external" href="GtkCommon/index.html">Update Manager API: GtkCommon Frontend module</a></li>
+<li class="toctree-l1"><a class="reference external" href="Newt.html">Update Manager API: Newt Frontend module</a></li>
+<li class="toctree-l1"><a class="reference external" href="loader.html">Update Manager API: Frontend.loader module</a></li>
+</ul>
+</div>
+<div class="section" id="interfaces">
+<h2>Interfaces<a class="headerlink" href="#interfaces" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="UpdateManager.Frontend.FrontendBase">
+<em class="property">class </em><tt class="descclassname">UpdateManager.Frontend.</tt><tt class="descname">FrontendBase</tt><big>(</big><em>uses_privileged_funcs=True</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base frontend class.</p>
+<p>This class implements optional methods as described by the
+interface. Inheriting from this class makes sure the implementation
+of the frontend interface is valid, even though you do not
+need some optional methods.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>uses_privileged_funcs</em> &#8211; Boolean that defines whether the frontend
+uses privileged functions (list updating, commit) or not.</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="UpdateManager.Frontend.FrontendBase.get_cache_handler">
+<tt class="descname">get_cache_handler</tt><big>(</big><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase.get_cache_handler" title="Permalink to this definition">¶</a></dt>
+<dd>Returns an instance of the frontend&#8217;s
+<a title="UpdateManager.Backend.CacheProgressHandler" class="reference external" href="../Backend/index.html#UpdateManager.Backend.CacheProgressHandler"><tt class="xref docutils literal"><span class="pre">UpdateManager.Backend.CacheProgressHandler</span></tt></a> implementation.</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.FrontendBase.get_commit_handler">
+<tt class="descname">get_commit_handler</tt><big>(</big><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase.get_commit_handler" title="Permalink to this definition">¶</a></dt>
+<dd>Returns an instance of the frontend&#8217;s
+<a title="UpdateManager.Backend.CommitProgressHandler" class="reference external" href="../Backend/index.html#UpdateManager.Backend.CommitProgressHandler"><tt class="xref docutils literal"><span class="pre">UpdateManager.Backend.CommitProgressHandler</span></tt></a> implementation.</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.FrontendBase.get_list_handler">
+<tt class="descname">get_list_handler</tt><big>(</big><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase.get_list_handler" title="Permalink to this definition">¶</a></dt>
+<dd>Returns an instance of the frontend&#8217;s
+<a title="UpdateManager.Backend.ListProgressHandler" class="reference external" href="../Backend/index.html#UpdateManager.Backend.ListProgressHandler"><tt class="xref docutils literal"><span class="pre">UpdateManager.Backend.ListProgressHandler</span></tt></a> implementation.</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.FrontendBase.handle_exception">
+<tt class="descname">handle_exception</tt><big>(</big><em>exception</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase.handle_exception" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handles an uncaught exception.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>exception</em> &#8211; Exception instance</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.FrontendBase.handle_unprivileged_invocation">
+<tt class="descname">handle_unprivileged_invocation</tt><big>(</big><em>app_args</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase.handle_unprivileged_invocation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Handling of update-manager being invoked
+by unprivileged (= non-root) user.</p>
+<p>This method should fork out and launch a new
+update-manager instance as privileged user.</p>
+<p>For the Gtk frontend, for example, this means invoking the
+program via gksu.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>app_args</em> &#8211; Command line arguments.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.FrontendBase.init_frontend">
+<tt class="descname">init_frontend</tt><big>(</big><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase.init_frontend" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize and show the frontend, called by Application when
+everything else is ready.</p>
+<p>You should not implement your application&#8217;s main loop
+in here, but rather in <a title="UpdateManager.Frontend.FrontendBase.main" class="reference internal" href="#UpdateManager.Frontend.FrontendBase.main"><tt class="xref docutils literal"><span class="pre">main()</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.FrontendBase.init_gettext">
+<tt class="descname">init_gettext</tt><big>(</big><em>app_name</em>, <em>locale_dir</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase.init_gettext" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gettext initialization stub.</p>
+<p>This stub does not do anything and may be overridden to provide
+per-frontend gettext initialization.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.FrontendBase.main">
+<tt class="descname">main</tt><big>(</big><em>application</em><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase.main" title="Permalink to this definition">¶</a></dt>
+<dd>Frontend main loop.</dd></dl>
+
+<dl class="method">
+<dt id="UpdateManager.Frontend.FrontendBase.uses_privileged_functions">
+<tt class="descname">uses_privileged_functions</tt><big>(</big><big>)</big><a class="headerlink" href="#UpdateManager.Frontend.FrontendBase.uses_privileged_functions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns whether this frontend uses privileged functions (list updating,
+committing).</p>
+<p>The return value of this method can be set via the
+uses_privileged_funcs keyword argument of the <tt class="xref docutils literal"><span class="pre">__init__()</span></tt> method.</p>
+<p>If this method returns False root privileges will not be obtained,
+even though the backend would requires those.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../../../index.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Update Manager API: Frontend module</a><ul>
+<li><a class="reference external" href="#implementations">Implementations</a><ul>
+</ul>
+</li>
+<li><a class="reference external" href="#interfaces">Interfaces</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="../Exceptions.html"
+                                  title="previous chapter">Update Manager API: Exceptions module</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="Gtk/index.html"
+                                  title="next chapter">Update Manager API: Gtk Frontend module</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="../../../_sources/api/UpdateManager/Frontend/index.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="../../../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="Gtk/index.html" title="Update Manager API: Gtk Frontend module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../Exceptions.html" title="Update Manager API: Exceptions module"
+             >previous</a> |</li>
+        <li><a href="../../../index.html">Update Manager v0.200.5 documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Update Manager API: UpdateManager module</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Stephan Peijnik.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.6.
+    </div>
+  </body>
+</html>
