@@ -30,8 +30,6 @@ UpdateManager/DistSpecific/Ubuntu/__init__.py
 UpdateManager/DistSpecific/changelog.py
 UpdateManager/DistSpecific/Debian/changelog.py
 UpdateManager/DistSpecific/Debian/__init__.py
-UpdateManager/DistSpecific/Canaima/changelog.py
-UpdateManager/DistSpecific/Canaima/__init__.py
 UpdateManager/DistSpecific/__init__.py
 UpdateManager/DistSpecific/loader.py
 UpdateManager/__init__.py
