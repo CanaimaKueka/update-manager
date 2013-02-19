@@ -24,7 +24,7 @@ Build-Depends-Indep: intltool,
                      python-newt,
                      lsb-release,
                      python-vte
-Standards-Version: 3.9.1
+Standards-Version: 3.9.4
 Homepage: http://canaima.softwarelibre.gob.ve/
 Vcs-Git: git://gitorious.org/canaima-gnu-linux/update-manager.git
 Vcs-Browser: http://gitorious.org/canaima-gnu-linux/update-manager/trees/master
