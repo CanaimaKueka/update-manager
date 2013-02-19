@@ -1,0 +1,17 @@
+Index: update-manager-0.200.5/UpdateManager/Util/humanize.py
+===================================================================
+--- update-manager-0.200.5.orig/UpdateManager/Util/humanize.py	2009-09-23 21:49:16.000000000 +0200
++++ update-manager-0.200.5/UpdateManager/Util/humanize.py	2011-09-27 20:28:09.536074428 +0200
+@@ -41,10 +41,10 @@
+         return _("1 KB")
+     elif num_bytes < 1024 * 1024:
+         # TRANSLATORS: download size of small updates, e.g. "250 KB"
+-        return locale.format(_("%.0f KB"), float(num_bytes)/1024)
++        return locale.format_string(_("%.0f KB"), float(num_bytes)/1024)
+     else:
+         # TRANSLATORS: download size of updates, e.g. "2.3 MB"
+-        return locale.format(_("%.1f MB"), float(num_bytes) / 1024 / 1024)
++        return locale.format_string(_("%.1f MB"), float(num_bytes) / 1024 / 1024)
+ 
+ def humanize_seconds(seconds):
+     """

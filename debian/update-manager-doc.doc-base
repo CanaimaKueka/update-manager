@@ -1,0 +1,8 @@
+Document: update-manager-api-reference
+Title: Update Manager: API reference manual
+Abstract: API reference manual for the Update Manager
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/update-manager-doc/html/index.html
+Files: /usr/share/doc/update-manager-doc/html/*
