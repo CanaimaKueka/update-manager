@@ -1,13 +1,11 @@
 Source: update-manager
 Section: admin
 Priority: optional
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Stephan Peijnik <debian@sp.or.at>,
-           Michael Vogt <mvo@debian.org>,
-           @GNOME_TEAM@
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Uploaders: Erick Birbe <erickcion@gmail.com>
 Build-Depends: cdbs,
                gnome-pkg-tools,
-               debhelper (>= 5.0.51),
+               debhelper (>= 7.0.50~),
                python-support (>= 0.5.6),
                python
 Build-Depends-Indep: intltool,
@@ -21,10 +19,10 @@ Build-Depends-Indep: intltool,
                      python-newt,
                      lsb-release,
                      python-vte
-Standards-Version: 3.8.4
-Homepage: http://alioth.debian.org/projects/update-manager/
-Vcs-Svn: svn://svn.debian.org/pkg-gnome/packages/unstable/update-manager
-Vcs-Browser: http://svn.debian.org/viewsvn/pkg-gnome/packages/unstable/update-manager
+Standards-Version: 3.9.1
+Homepage: http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/update-manager.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/update-manager/trees/master
 
 Package: update-manager-core
 Architecture: all

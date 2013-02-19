@@ -18,3 +18,4 @@ debian/tmp/usr/lib/python*/*-packages/UpdateManager/Frontend/loader.py
 debian/tmp/usr/lib/python*/*-packages/UpdateManager/Frontend/GtkCommon/
 debian/tmp/usr/lib/python*/*-packages/UpdateManager/DistSpecific/Debian/
 debian/tmp/usr/lib/python*/*-packages/UpdateManager/DistSpecific/Ubuntu/
+debian/tmp/usr/lib/python*/*-packages/UpdateManager/DistSpecific/Canaima/
