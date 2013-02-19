@@ -1,13 +1,14 @@
-Index: update-manager-0.200.6+canaima0/UpdateManager/DistSpecific/Canaima/changelog.py
+Index: update-manager/UpdateManager/DistSpecific/Canaima/changelog.py
 ===================================================================
 --- /dev/null	1970-01-01 00:00:00.000000000 +0000
-+++ update-manager-0.200.6+canaima0/UpdateManager/DistSpecific/Canaima/changelog.py	2011-12-23 13:17:51.545636515 -0430
-@@ -0,0 +1,47 @@
++++ update-manager/UpdateManager/DistSpecific/Canaima/changelog.py	2013-02-19 14:44:17.446952563 -0430
+@@ -0,0 +1,48 @@
 +# UpdateManager/DistSpecific/Debian/changelog.py
 +#
-+#  Copyright (c) 2009 Stephan Peijnik
++#  Copyright (c) 2011 Equipo de Desarrollo de Canaima GNU/Linux 
++#                <desarrolladores@canaima.softwarelibre.gob.ve>
 +#
-+#  Author: Stephan Peijnik <debian@sp.or.at>
++#  Author: Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
 +#
 +#  This program is free software; you can redistribute it and/or
 +#  modify it under the terms of the GNU General Public License as
@@ -24,7 +25,7 @@ Index: update-manager-0.200.6+canaima0/UpdateManager/DistSpecific/Canaima/change
 +#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301,
 +#  USA.
 +
-+""" Debian-specific functionality. """
++""" Canaima-specific functionality. """
 +
 +import logging
 +
@@ -50,14 +51,15 @@ Index: update-manager-0.200.6+canaima0/UpdateManager/DistSpecific/Canaima/change
 +        LOG.debug("Downloading changelog for %s from %s.", srcpkg_name,
 +                  url)
 +        return url
-Index: update-manager-0.200.6+canaima0/UpdateManager/DistSpecific/Canaima/__init__.py
+Index: update-manager/UpdateManager/DistSpecific/Canaima/__init__.py
 ===================================================================
 --- /dev/null	1970-01-01 00:00:00.000000000 +0000
-+++ update-manager-0.200.6+canaima0/UpdateManager/DistSpecific/Canaima/__init__.py	2011-12-23 13:17:02.053636137 -0430
-@@ -0,0 +1,68 @@
++++ update-manager/UpdateManager/DistSpecific/Canaima/__init__.py	2013-02-19 14:25:06.482896860 -0430
+@@ -0,0 +1,69 @@
 +# UpdateManager/DistSpecific/Canaima/__init__.py
 +#
 +#  Copyright (c) 2011 Equipo de Desarrollo de Canaima GNU/Linux
++#                <desarrolladores@canaima.softwarelibre.gob.ve>
 +#
 +#  Author: Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
 +#
