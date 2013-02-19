@@ -1,0 +1,674 @@
+# Danish translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# Anders Jenbo <anders@jenbo.dk>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2010-12-01 23:37+0100\n"
+"Last-Translator: Anders Jenbo <anders@jenbo.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2009-04-08 12:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Language: Danish\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr "sætter log-niveauet"
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr "sætter log-niveauet til fejlfinding"
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr "starter et opdateringstjek"
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "0 KB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../UpdateManager/Util/humanize.py:56
+msgid "< 5 seconds"
+msgstr "< 5 sekunder"
+
+#: ../UpdateManager/Util/humanize.py:58
+#, python-format
+msgid "%d seconds"
+msgstr "%d sekunder"
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minutter"
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekund"
+msgstr[1] "%d sekunder"
+
+#: ../UpdateManager/Util/humanize.py:74
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d time"
+msgstr[1] "%d timer"
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+msgid "Could not download packages information."
+msgstr "Kunne ikke hente pakkeinformationer."
+
+# Er ikke glad for "commit progress handler"
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+"Intern fejl: Håndteringen af indsendelsesstatussen håndterede ikke "
+"requires_removal_or_installation korrekt."
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr "Der opstod en kritisk fejl i opdateringshåndteringen."
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+msgid "Do you want to submit a bug report?"
+msgstr "Ønsker du at indsende en fejlrapport?"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr "Hvis du vælger Nej vil programmet afslutte."
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr "Programmet vil nu afslutte."
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+msgid "Loading package cache."
+msgstr "Indlæser pakke-cache."
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+msgid "Finished loading package cache."
+msgstr "Indlæsning af pakke-cache færdig."
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr "Annullér"
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr "Installér"
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr "Opbygger opdateringsliste"
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr "Åbn henvisning i browser"
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr "Kopiér henvisning til udklipsholder"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr "_Fjern alle afkrydsninger"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+msgid "_Check all"
+msgstr "_Afkryds alle"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr "(Størrelse: %s)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "Fra udgave %(old_version)s til %(new_version)s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, python-format
+msgid "Version: %s"
+msgstr "Udgave: %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr "Kræver installation af: "
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr "Ingen"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr "Afhænger af: "
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr "Afhænger af (strengt): "
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr "Kræves af: "
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr "Kræves af (strengt): "
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr "Er i konflikt med: "
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr "Overførselsstørrelse: %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr "Henter listen med ændringer..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+msgid "Downloading list of changes failed."
+msgstr "Overførslen af listen med ændringer fejlede."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, python-format
+msgid "Version %s: "
+msgstr "Udgave %s: "
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+msgid "Gathering information about updates..."
+msgstr "Indsamler informationer om opdateringer..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+msgid "Upgrading may require removal or installation of new packages."
+msgstr "Opgraderingen kan kræve fjernelse eller installation af nye pakker."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr ""
+"Ønsker du at udføre en sikker opgradering, hvor ingen pakker vil blive "
+"fjernet og nye ikke vil blive installeret?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr "Dit system er opdateret"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, python-format
+msgid "Welcome to %s!"
+msgstr "Velkommen til %s!"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr "Disse softwareopdateringer er blevet udsendt siden %s blev udgivet."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+msgid "Software updates are available for this computer."
+msgstr "Softwareopdateringer er tilgængelige for denne computer."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+"Hvis ikke du ønsker at installere dem nu, kan du vælge "
+"\"Opdateringshåndtering\" i menuen Administration på et senere tidspunkt."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+msgid "About Update Manager"
+msgstr "Om Opdateringshåndtering"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Opdateringshåndtering"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr "Status"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+msgid "Source"
+msgstr "Kilde"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr "Filnavn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+msgid "Downloaded"
+msgstr "Hentet"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr "Størrelse"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+msgid "Checking for updates"
+msgstr "Søger efter opdateringer"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr "Ukendt"
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, python-format
+msgid "Download rate: %s/s"
+msgstr "Overførselshastighed: %s/s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+msgid "Checking for updates..."
+msgstr "Søger efter opdateringer..."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr "Der er opstået en intern fejl og handlingen er blevet afbrudt."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+msgid "Error message:"
+msgstr "Fejlmeddelelse:"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+msgid "Downloading updates"
+msgstr "Henter opdateringer"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr "Ændringer"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr "Fjern %s"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr "Installér %s"
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+msgid "Removal or installation of packages"
+msgstr "Fjernelse eller installation af pakker"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr ""
+"Installering af de valgte opgraderinger kræver fjernelse eller installation "
+"af nye pakker."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr "Du kan finde en liste af disse ændringer neden for."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+msgid "Do you want to continue?"
+msgstr "Ønsker du at fortsætte?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+msgid "Preparing upgrade"
+msgstr "Forbereder opgradering"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+msgid "This operation may take some time."
+msgstr "Denne handling kan tage et stykke tid."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+msgid "Downloading finished"
+msgstr "Overførsel færdig"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr "En fejl er opstået og overførslen er blevet afbrudt."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+msgid "Installing updates"
+msgstr "Installére opdateringer"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr "Forbereder installation..."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] "Udførte %d opdatering"
+msgstr[1] "Udførte %d opdateringer"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+msgid "Your system is now up-to-date."
+msgstr "Dit system er nu opdateret."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] "Der er yderligere %d opdatering tilgængelig."
+msgstr[1] "Der er yderligere %d opdateringer tilgængelig."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr "Softwareopdateringer retter fejl, lukker sikkerhedshuller."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+msgid "Please consider installing all available updates."
+msgstr "Overvej venligst at installere alle tilgængelige opdateringer."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr "En fejl er opstået og installeringen er blevet afbrudt."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr "Vis fremgang for individuelle filer"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+msgid "Show terminal"
+msgstr "Vis terminal"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+msgid "A fatal error has been detected"
+msgstr "Der opstod en kritisk fejl"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr ""
+"Undtagelse:\n"
+" %s"
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr "Vigtige sikkerhedsopdateringer"
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr "Anbefalede opdateringer"
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr "Distributionsopdateringer"
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr "Foreslåede opdateringer"
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr "Tilbageporteringer"
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+msgid "Third-party updates"
+msgstr "Tredjepartsopdateringer"
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr "*forældet* Undersøg om der er nye distributionsudgivelser"
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr "Luk automatisk installationsvinduet efter vellykket installation"
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr "Velkomstmeddelelse ved først opstart"
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+"Hvis søg automatisk efter opdateringer er slået fra, er du nødt til at "
+"genindlæse kanallisten manuelt. Denne indstilling tillader, at påmindelsen "
+"skjules i dette tilfælde."
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr ""
+"Hvis denne indstilling er valgt, vil en velkomstmeddelelse blive vist ved "
+"den første opstart."
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr ""
+"Hvis denne indstilling er valgt, vil installationsvinduet automatisk lukke "
+"efter vellykket installation."
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+"Hvis denne indstilling er valgt, vil det hovedvinduet med opdateringslisten "
+"vise versionsinformation (fra version til version)."
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr "Påmind om at genindlæse kanallisten"
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr "Vis detaljer for opdatering"
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr "Vis version i opdateringsliste"
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr "Gemmer størrelsen på opdateringshåndteringens vindue"
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr ""
+"Gemmer tilstand for udfolderen, der indeholder listen med ændringer og "
+"beskrivelsen"
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr "Vinduesstørrelsen"
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+"Denne nøgle er forældet til fordel for filen /etc/update-manager/release-"
+"upgrades, som automatisk undersøger, om der er en ny udgave af den nuværende "
+"distribution tilgængelig og tilbyder at opgradere (hvis det er muligt)."
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "Vis og installér tilgængelige opdateringer"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Softwareopdateringer"
+
+#, fuzzy
+#~ msgid "Current package: %s"
+#~ msgstr "Ødelagte pakker"
+
+#~ msgid "Server for %s"
+#~ msgstr "Server for %s"
+
+#~ msgid "Main server"
+#~ msgstr "Hovedserver"
+
+#~ msgid "Custom servers"
+#~ msgstr "Brugerdefinerede servere"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Kunne ikke beregne sources.list-linje"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "Kunne ikke finde nogen pakkefiler, måske er dette ikke en Ubuntu-disk "
+#~ "eller også er det en forkert arkitektur?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Kunne ikke tilføje cd"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Der opstod en fejl ved tilføjelse af cd'en, opgraderingen afbrydes. "
+#~ "Rapportér venligst dette som en fejl, hvis dette er en gyldig Ubuntu-cd.\n"
+#~ "\n"
+#~ "Fejlmeddelelsen var:\n"
+#~ "\"%s\""
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Fjern pakke som er i en dårlig tilstand"
+#~ msgstr[1] "Fjern pakker som er i en dårlig tilstand"
+
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "Pakken \"%s\" er usammenhængende og skal geninstalleres, men intet arkiv "
+#~ "kunne findes til denne. Ønsker du at fjerne denne pakke nu for at "
+#~ "fortsætte?"
+#~ msgstr[1] ""
+#~ "Pakkerne \"%s\" er usammenhængende og skal geninstalleres, men intet "
+#~ "arkiv kunne findes til disse. Ønsker du at fjerne disse pakker nu for at "
+#~ "fortsætte?"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Dit system indeholder ødelagte pakker, som ikke kan repareres med dette "
+#~ "program. Reparér dem venligst med synaptic eller apt-get før du "
+#~ "fortsætter."
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Et uløseligt problem opstod under beregning af opgraderingen:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Det kan ske, hvis man:\n"
+#~ " * Opgraderer til en udviklingsudgave af Ubuntu\n"
+#~ " * Kører den nuværende udviklingsudgave af Ubuntu\n"
+#~ " * Bruger uofficielle software-pakker, der ikke leveres af Ubuntu\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr ""
+#~ "Dette er højst sandsynligt et midlertidigt problem, prøv igen senere."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bug report."
+#~ msgstr ""
+#~ "Hvis intet af dette passer, bedes du rapportere denne som en fejl i "
+#~ "\"update-manager\"-pakken og inkludere filerne i /var/log/dist-upgrade/ i "
+#~ "fejlrapporten."
+
+#~ msgid "Could not calculate the upgrade"
+#~ msgstr "Kunne ikke beregne opgraderingen"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Fejl ved godkendelse af nogle pakker"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Nogle pakker kunne ikke godkendes. Det kan skyldes et forbigående problem "
+#~ "med netværket. Det anbefales, at du prøver igen senere. Se længere nede "
+#~ "for en liste over pakker som ikke kunne godkendes."
+
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "Pakken \"%s\" er markeret til fjernelse, men den er i listen over pakker, "
+#~ "der ikke må fjernes."

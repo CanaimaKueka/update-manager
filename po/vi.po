@@ -1,0 +1,2324 @@
+# Vietnamese translation for Update Manager.
+# Copyright © 2005 Gnome i18n Project for Vietnamese.
+# Clytie Siddall <clytie@riverland.net.au>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager Gnome HEAD\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2009-03-25 02:45+0000\n"
+"Last-Translator: buixuanduong1983 <buixuanduong1983@gmail.com>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2009-04-08 12:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr ""
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr ""
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr ""
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "0 KB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../UpdateManager/Util/humanize.py:56
+#, fuzzy
+msgid "< 5 seconds"
+msgstr "%li giây"
+
+#: ../UpdateManager/Util/humanize.py:58
+#, fuzzy, python-format
+msgid "%d seconds"
+msgstr "%li giây"
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, fuzzy, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%li phút"
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, fuzzy, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%li giây"
+
+#: ../UpdateManager/Util/humanize.py:74
+#, fuzzy, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%li giờ"
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+#, fuzzy
+msgid "Could not download packages information."
+msgstr "Không thể khởi tạo thông tin về gói"
+
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+#, fuzzy
+msgid "Do you want to submit a bug report?"
+msgstr "Bạn có muốn bắt đầu nâng cấp?"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+#, fuzzy
+msgid "Loading package cache."
+msgstr "Đang tải các gói cập nhật"
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+#, fuzzy
+msgid "Finished loading package cache."
+msgstr "Đang tải các gói cập nhật"
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr "Cài đặt"
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr "Xây dựng danh sách cập nhật"
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr "Mở trong Trình duyệt"
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr "Sao chép vào Bộ nhớ"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr "_Không chọn tất cả"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+#, fuzzy
+msgid "_Check all"
+msgstr "_Chọn tất cả"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr "(Dung lượng: %s)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "Từ phiên bản %(old_version)s lên %(new_version)s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, fuzzy, python-format
+msgid "Version: %s"
+msgstr "Phiên bản %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr "Dung lượng cần tải xuống: %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr "Đang tải danh sách các thay đổi"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+#, fuzzy
+msgid "Downloading list of changes failed."
+msgstr "Đang tải danh sách các thay đổi"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, fuzzy, python-format
+msgid "Version %s: "
+msgstr "Phiên bản %s: \n"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+#, fuzzy
+msgid "Gathering information about updates..."
+msgstr "Thông tin về các gói được cập nhật %s ngày trước đây."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+#, fuzzy
+msgid "Upgrading may require removal or installation of new packages."
+msgstr "Xóa các gói không còn dùng nữa"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+#, fuzzy
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr "Bạn có muốn bắt đầu nâng cấp?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr "Hệ thống của bạn đã được cập nhật mới nhất"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, fuzzy, python-format
+msgid "Welcome to %s!"
+msgstr "Chào mừng đến với Ubuntu"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, fuzzy, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr "Không có bản cập nhật công bố."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+#, fuzzy
+msgid "Software updates are available for this computer."
+msgstr "Có thông tin về cập nhật gói phần mềm"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+#, fuzzy
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+"Nếu không muốn cài chúng ngay bây giờ, bạn có thể cài sau này bằng \"Trình "
+"Quản lý cập nhật\" từ trình đơn Quản lý"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+#, fuzzy
+msgid "About Update Manager"
+msgstr "Trình Quản lý Cập nhật"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Trình Quản lý Cập nhật"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+#, fuzzy
+msgid "Source"
+msgstr ""
+"Nhị phân\n"
+"Nguồn"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+#, fuzzy
+msgid "Downloaded"
+msgstr "Dung lượng cần tải xuống: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+#, fuzzy
+msgid "Checking for updates"
+msgstr "Các bản cập nhật khác"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr ""
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, fuzzy, python-format
+msgid "Download rate: %s/s"
+msgstr "Dung lượng cần tải xuống: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+#, fuzzy
+msgid "Checking for updates..."
+msgstr "Các bản cập nhật khác"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+#, fuzzy
+msgid "Error message:"
+msgstr "Thông báo lỗi: '%s'"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+#, fuzzy
+msgid "Downloading updates"
+msgstr "Đang tải các gói cập nhật"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr "Các thay đổi"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr "Xóa %s"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr "Cài đặt %s"
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+#, fuzzy
+msgid "Removal or installation of packages"
+msgstr "Xóa các gói không còn dùng nữa"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+#, fuzzy
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr "Đang cài đặt các bản nâng cấp"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "Bạn có muốn bắt đầu nâng cấp?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+#, fuzzy
+msgid "Preparing upgrade"
+msgstr "Đang chuẩn bị nâng cấp"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+#, fuzzy
+msgid "This operation may take some time."
+msgstr "Vui lòng đợi trong chốc lát."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+#, fuzzy
+msgid "Downloading finished"
+msgstr "Đang tải về bản ghi thay đổi"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+#, fuzzy
+msgid "Installing updates"
+msgstr "_Cài đặt các cập nhật"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, fuzzy, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] "Các bản cập nhật được đề xuất"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+#, fuzzy
+msgid "Your system is now up-to-date."
+msgstr "Hệ thống của bạn đã được cập nhật mới nhất"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, fuzzy, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] "Không có bản cập nhật công bố."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+#, fuzzy
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr ""
+"Các bản cập nhật phần mềm giúp sửa lỗi, loại bỏ các lổ hổng bảo mật và cung "
+"cấp các tính năng mới."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+#, fuzzy
+msgid "Please consider installing all available updates."
+msgstr "Hiển thị và cài đặt các bản cập nhật đã sẵn sàng"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr "Hiện tiến trình của từng tập tin đơn lẻ"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+#, fuzzy
+msgid "Show terminal"
+msgstr "Hiện cửa sổ dòng lệnh >>>"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+#, fuzzy
+msgid "A fatal error has been detected"
+msgstr "Gặp lỗi nghiêm trọng"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, fuzzy, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr "Phiên bản %s"
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr "Các bản cập nhật bảo mật quan trọng"
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr "Các bản cập nhật được khuyến nghị"
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr "Cập nhật bản phân phối"
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr "Các bản cập nhật được đề xuất"
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr "Các bản cập nhật bảo trì"
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+#, fuzzy
+msgid "Third-party updates"
+msgstr "Không cho phép sử dụng các nguồn cập nhật bên ngoài"
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr "Tự động đóng cửa sổ cài đặt sau khi cài đặt thành công"
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr "Thông điệp chào mừng đầu tiên"
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+"Nếu tắt kiểm tra cập nhật tự động, bạn phải nạp lại danh sách kênh cập nhật "
+"thủ công. Tùy chọn này cho phép giấu cửa sổ nhắc nhở cập nhật trong trường "
+"hợp này."
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr "Nếu khóa này được đặt, một thông điệp chạy trước sẽ được đưa ra"
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr ""
+"Nếu đặt khóa này, cửa sổ cài đặt sẽ được đóng tự động khi quá trình cài đặt "
+"thành công."
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+"Nếu khóa này được đặt, cửa sổ danh sáchcập nhật chính sẽ hiển thị thông tin "
+"phiên bản (từ phiên bản tới phiên bản)."
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr "Nhắc nạp lại danh sách các kênh cập nhật"
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr "Hiện thông tin chi tiết của một cập nhật"
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr "Hiển thị phiên bản trong danh sách cập nhật"
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr "Lưu kích thước hộp thoại của trình update-manager"
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr "Lưu tình trạng của bộ giãn chứa danh sách các cập nhật và diễn giải"
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr "Kích thước cửa sổ"
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "Hiển thị và cài đặt các bản cập nhật đã sẵn sàng"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Bản cập nhật phần mềm"
+
+#, fuzzy
+#~ msgid "Current package: %s"
+#~ msgstr "Gói bị lỗi"
+
+#~ msgid "Server for %s"
+#~ msgstr "Máy chủ dành cho %s"
+
+#~ msgid "Main server"
+#~ msgstr "Máy chủ chính"
+
+#~ msgid "Custom servers"
+#~ msgstr "Tự chọn máy chủ"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Không thể thống kê các mục trong sources.list"
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "Không tìm thấy các gói phần mềm, có thể do không đúng đĩa cài Ubuntu hoặc "
+#~ "sai hệ thống?"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Lỗi đọc dữ liệu từ CD"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Có lỗi khi đọc dữ liệu từ CD, quá trình nâng cấp sẽ được hủy bỏ. Vui lòng "
+#~ "thông báo lại lỗi này nếu đây là đĩa CD Ubuntu hợp lệ.\n"
+#~ "Thông báo lỗi là:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Gỡ bỏ các gói ở tình trạng xấu"
+
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "Gói '%s' ở trong trạng thái xung đột và cần cài đặt lại, nhưng không tìm "
+#~ "thấy lưu trữ nào của gói này. Bạn có muốn gỡ bỏ gói này bây giờ để tiếp "
+#~ "tục?"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Hệ thống của bạn chứa các gói tin bị lỗi và không thể sửa được bằng phần "
+#~ "mềm này. Hãy sửa chúng dùng các gói synaptic hoặc apt-get trước khi tiếp "
+#~ "tục."
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Có lỗi xảy ra khi nâng cấp:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " Nguyên nhân có thể do:\n"
+#~ " * Nâng cấp phiên bản đang trong giai đoạn phát triển\n"
+#~ " * Đang sử dụng phiên bản đang trong giai đoạn phát triển\n"
+#~ " * Phần mềm không được cung cấp chính thức bởi Ubuntu\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Nhiều khả năng đây chỉ là vấn đề tạm thời, vui lòng thử lại sau."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bug report."
+#~ msgstr ""
+#~ "Nếu không thể thực hiện được như trên, hãy thông báo lỗi của 'update-"
+#~ "manager' kèm theo tập tin /var/log/dist-upgrade/ trong báo cáo lỗi."
+
+#~ msgid "Could not calculate the upgrade"
+#~ msgstr "Không thể tính được dung lượng cần nâng cấp"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Gặp lỗi khi đang xác thực một số gói"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Không thể xác thực một số gói, có thể do lỗi tạm thời của hệ thống mạng. "
+#~ "Bạn vui lòng thử lại sau. Bên dưới là danh sách các gói chưa được xác "
+#~ "thực đầy đủ."
+
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "Gói phần mềm '%s' được đánh dấu đề gỡ bỏ nhưng nó nằm trong danh sách các "
+#~ "phần mềm không thể gỡ bỏ."
+
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "Gói phần mềm quan trọng '%s' sẽ bị gỡ bỏ."
+
+#~ msgid "Can not mark '%s' for upgrade"
+#~ msgstr "Không thể đánh dấu '%s' để nâng cấp"
+
+#~ msgid "Can't install '%s'"
+#~ msgstr "Không thể cài đặt '%s'"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "Không thể cài đặt được phần mềm. Hãy thông báo lỗi trên với chúng tôi. "
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Không thể đoán được gói gốc"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Hệ thống của bạn chứa các gói tin bị lỗi và không thể sửa được bằng phần "
+#~ "mềm này. Hãy sửa chúng dùng các gói synaptic hoặc apt-get trước khi tiếp "
+#~ "tục."
+
+#~ msgid "Reading cache"
+#~ msgstr "Đang đọc bộ nhớ đệm"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Không thể tạo khóa độc quyền"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Điều này thường có nghĩa là một chương trình quản lý gói khác đang chạy "
+#~ "(vd như apt-get hay aptitude). Xin hãy đóng chương trình đó trước."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "Nâng cấp qua kết nối từ xa (remote connection) chưa được hỗ trợ"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. The upgrade will abort now. Please try "
+#~ "without ssh."
+#~ msgstr ""
+#~ "Bạn đang nâng cấp qua kết nối ssh bằng chương trình không hỗ trợ tính "
+#~ "năng này. Không thể tiếp tục quá trình nâng cấp. Hãy làm lại mà không "
+#~ "dùng ssh."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Tiếp tục chạy với SSH?"
+
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, a additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Phiên làm việc này đang được thực hiện thông qua ssh. Bạn không được "
+#~ "khuyến nghị thực hiện nâng cấp thông qua ssh vì sẽ khó khôi phục lại nếu "
+#~ "có lỗi xảy ra trong quá trình nâng cấp.\n"
+#~ "\n"
+#~ "Nếu bạn tiếp tục, một tiến trình theo dõi ssh sẽ được khởi động tại cổng "
+#~ "'%s'.\n"
+#~ "Bạn có muốn tiếp tục không?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Đang khởi động tiến trình sshd"
+
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "Một kết nối bổ sung sshd sẽ được tạo ra qua cổng '%s'. Nếu có lỗi xảy ra "
+#~ "bạn vẫn có thể kết nối thông qua kết nối này.\n"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Không thể nâng cấp"
+
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr ""
+#~ "Quá trình nâng cấp từ '%s' lên '%s' không được hỗ trợ với công cụ này."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "Có lỗi khi khởi tạo trong chế độ kiểm tra lỗi"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "Không tạo được chế độ kiểm tra lỗi"
+
+#~ msgid "Sandbox mode"
+#~ msgstr "Chế độ kiểm tra lỗi"
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "Nâng cấp trong chế độ kiểm tra lỗi. Những thay đổi cho '%s' sẽ bị mất sau "
+#~ "khi khởi động lại máy.\n"
+#~ "\n"
+#~ "Mọi thay đổi trong systemdir sẽ bị mất sau khi khởi động lại máy."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Quá trình cài đặt python bị đứt đoạn. Vui lòng sửa lại liên kết tượng "
+#~ "trưng '/usr/bin/python'."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Gói 'debsig-verify' đã được cài đặt"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "Việc nâng cấp không thể thực hiện với gói đã cài đặt.\n"
+#~ "Vui lòng gỡ bỏ với synaptic hoặc chạy 'apt-get remove debsig-verify' "
+#~ "trước và thực hiện nâng cấp sau."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Bao gồm các cập nhật mới nhất từ Internet?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "Quá trình nâng cấp sẽ tải và cài đặt các phần mềm mới nhất qua kết nối "
+#~ "internet. Đây là cách nâng cấp tốt nhất.\n"
+#~ "\n"
+#~ "Thời gian nâng cấp có thể lâu hơn, nhưng các phần mềm sẽ đều được cập "
+#~ "nhật. Bạn có thể quyết định không làm như trên, song sau đó bạn vẫn nên "
+#~ "cái đặt các phần mềm mới nhất.\n"
+#~ "Nếu bạn chọn \"Không\", sẽ không có gì được tải từ trên mạng."
+
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "bị hủy khi nâng cấp %s"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Không tìm thấy nguồn cập nhật hợp lệ"
+
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found.This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'no' the update will cancel."
+#~ msgstr ""
+#~ "Không tìm thấy nguồn cập nhật nào để thực hiện nâng cấp. Có thể là vì bạn "
+#~ "đang dùng một nguồn cập nhật nội bộ hoặc thông tin về các nguồn cập nhật "
+#~ "đã cũ.\n"
+#~ "\n"
+#~ "Bạn có muốn ghi lại tập tin 'sources.list'? Nếu bạn 'Có', nó sẽ cập nhật "
+#~ "tất cả các mục '%s' thành '%s'.\n"
+#~ "Nếu bạn chọn 'không', quá trình cập nhật sẽ không ghi lên tập tin này."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Tạo ra các nguồn cập nhật mặc định?"
+
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the update "
+#~ "will cancel."
+#~ msgstr ""
+#~ "Trong tập tin 'sources.list' không có thông tin cần thiết về '%s'.\n"
+#~ "\n"
+#~ "Bạn có muốn bổ sung thông tin cho '%s'? Nếu không, quá trình cập nhật sẽ "
+#~ "dừng lại."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Thông tin về các nguồn cập nhật không hợp lệ"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "Quá trình nâng cấp thông tin về các nguồn cập nhật tạo ra một tập tin "
+#~ "không hợp lệ. Vui lòng thông báo lỗi này."
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Một số nguồn bên ngoài trong tập tin sources.list của bạn đã bị cấm. Bạn "
+#~ "có thể cho phép sử dụng chúng sau khi nâng cấp bằng công cụ 'tính-năng-"
+#~ "của-phần-mềm' hay bằng trình quản lý gói."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Gói ở tình trạng không ổn địng"
+
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "Gói '%s' ở trong trạng thái xung đột và cần được cài đặt lại, nhưng không "
+#~ "có lưu trữ nào cho gói này. Vui lòng cài đặt lại gói bằng cách thủ công "
+#~ "hoặc gỡ bỏ nó khỏi hệ thống."
+
+#~ msgid "Error during update"
+#~ msgstr "Gặp lỗi trong quá trình cập nhật"
+
+#~ msgid ""
+#~ "A problem occurred during the update. This is usually some sort of "
+#~ "network problem, please check your network connection and retry."
+#~ msgstr ""
+#~ "Đã có lỗi xuất hiện trong quá trình cập nhật. Thông thường là do các vấn "
+#~ "đề về mạng, hãy kiểm tra kết nối mạng và thử lại."
+
+#~ msgid "Not enough free disk space"
+#~ msgstr "Không còn không gian đĩa trống"
+
+#~ msgid ""
+#~ "The upgrade is now aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "Quá trình nâng cấp bị hủy bỏ. Quá trình nâng cấp yêu cầu %s dung lượng "
+#~ "trống trên ổ đĩa '%s'. Hãy bảo đảm còn trống ít nhất %s trên '%s'. Chẳng "
+#~ "hạn hãy làm sạch Sọt rác và dùng lệnh 'sudo apt-get clean' để xóa các tập "
+#~ "tin tạm của các phần mềm đã cài."
+
+#~ msgid "Support for some applications ended"
+#~ msgstr "Không còn hỗ trợ cho một số ứng dụng"
+
+#~ msgid ""
+#~ "Canonical Ltd. no longer provides support for the following software "
+#~ "packages. You can still get support from the community.\n"
+#~ "\n"
+#~ "If you have not enabled community maintained software (universe), these "
+#~ "packages will be suggested for removal at the end of the upgrade."
+#~ msgstr ""
+#~ "Canonical Ltd. chấm dứt việc hỗ trợ cho các gói phần mềm sau. Bạn vẫn có "
+#~ "thể tìm kiếm trợ giúp từ cộng đồng.\n"
+#~ "\n"
+#~ "Nếu bạn không cho phép sử dụng các phần mềm được duy trì bởi cộng đồng "
+#~ "(universe), các gói sẽ được đề nghị xóa bỏ vào cuối quá trình nâng cấp."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Tính toán các thay đổi cần thực hiện"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Không thể tải xuống các gói nâng cấp"
+
+#~ msgid ""
+#~ "The upgrade is now aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far are kept."
+#~ msgstr ""
+#~ "Quá trình nâng cấp bị hủy bỏ. Hãy kiểm tra kết nối Internet hoặc đĩa cài "
+#~ "và thực hiện lại. Những tập tin đã được tải về vẫn được giữ lại."
+
+#~ msgid "Error during commit"
+#~ msgstr "Lỗi trong giai đoạn commit"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Khôi phục lại trạng thái hệ thống ban đầu"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Không thể cài đặt các gói nâng cấp"
+
+#~ msgid ""
+#~ "The upgrade is now aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "Quá trình nâng cấp bị hủy bỏ. Hệ thống có thể đang không ổn định. Quá "
+#~ "trình phục hồi sẽ bắt đầu (dpkg --configure -a)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Hãy thông báo lỗi của 'update-manager' kèm theo các tập tin trong /var/"
+#~ "log/dist-upgrade/.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The upgrade is now aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "Quá trình nâng cấp bị hủy bỏ. Hãy kiểm tra kết nối Internet hoặc đĩa cài "
+#~ "và thực hiện lại. "
+
+#~ msgid "_Keep"
+#~ msgstr "_Giữ lại"
+
+#~ msgid "_Remove"
+#~ msgstr "_Xóa bỏ"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "Có lỗi trong quá trình kết thúc nâng cấp. Vui lòng xem thông báo bên dưới "
+#~ "để biết thông tin thêm. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Các gói phụ thuộc chưa được cài đặt"
+
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Gói phụ thuộc '%s' chưa được cài đặt. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Đang kiểm tra trình quản lý gói"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Quá trình chuẩn bị để nâng cấp thất bại"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/"
+#~ "dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Có lỗi khi chuẩn bị để nâng cấp. Hãy thông báo lỗi của 'update-manager' "
+#~ "kèm theo các tập tin trong /var/log/dist-upgrade/."
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Quá trình tải các gói phụ thuộc cần thiết để nâng cấp thất bại"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and "
+#~ "include the files in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "Không thể chuẩn bị cho nâng cấp. Quá trình nâng cấp bị hủy bỏ và hệ thống "
+#~ "sẽ quay trở lại trạng thái cũ.\n"
+#~ "\n"
+#~ "Hãy thông báo lỗi của 'update-manager' kèm theo các tập tin trong /var/"
+#~ "log/dist-upgrade/."
+
+#~ msgid "Updating repository information"
+#~ msgstr "Cập nhật thông tin về các nguồn cập nhật"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Thông tin gói không hợp lệ"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the "
+#~ "'update-manager' package and include the files in /var/log/dist-upgrade/ "
+#~ "in the bug report."
+#~ msgstr ""
+#~ "Sau khi thông tin nâng cấp được cập nhật, không tìm thấy thông tin về gói "
+#~ "phần mềm quan trọng '%s'..\n"
+#~ "Đây là một lỗi nghiêm trọng, hãy thông báo lỗi của 'update-manager' kèm "
+#~ "theo các tập tin trong /var/log/dist-upgrade/."
+
+#~ msgid "Fetching"
+#~ msgstr "Đang lấy về"
+
+#~ msgid "Upgrading"
+#~ msgstr "Đang nâng cấp"
+
+#~ msgid "Upgrade complete"
+#~ msgstr "Nâng cấp hoàn tất"
+
+#~ msgid ""
+#~ "The upgrade is completed but there were errors during the upgrade process."
+#~ msgstr "Quá trình nâng cấp kết thúc song đã có lỗi xảy ra."
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Đang tìm các phần mềm không còn dùng nữa"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Quá trình nâng cấp hệ thống đã hoàn thành"
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "Quá trình nâng cấp từng phần kết thúc."
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "Quá trình nâng cấp có thể làm giảm các hiệu ứng đồ họa, tốc độ các trò "
+#~ "chơi và các chương trình đồ họa khác."
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 9.04.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Hệ thống cũ đang dùng trình điều khiển đồ họa AMD 'fglrx'. Hiện Ubuntu "
+#~ "9.04 chưa có trình điều khiển cho phần cứng của bạn.\n"
+#~ "\n"
+#~ "Bạn có muốn tiếp tục?"
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 8.10.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Hệ thống cũ đang dùng trình điều khiển đồ họa NVIDIA 'nvidia'. Hiện "
+#~ "Ubuntu 8.10 chưa có trình điều khiển cho card màn hình của bạn.\n"
+#~ "\n"
+#~ "Bạn có muốn tiếp tục?"
+
+#~ msgid "evms in use"
+#~ msgstr "đang dùng evms"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "Hệ thống cũ dùng hệ thống quản lí tập tin 'evms' trong /proc/mounts. "
+#~ "'evms' không còn được hỗ trợ, hãy tắt nó và thực hiện lại quá trình nâng "
+#~ "cấp."
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr "Hãy dùng đường dẫn sau để tìm các gói nâng cấp trên cdrom"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Dùng trình có giao diện đồ họa. Các trình có thể dùng: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Vui lòng đưa đĩa '%s' vào ổ '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Quá trình tải cập nhật đã hoàn thành"
+
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "Đang tải file %li / %li tốc độ %sB/s"
+
+#~ msgid "About %s remaining"
+#~ msgstr "Còn khoảng %s"
+
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Đang tải tập tin %li của %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Đang áp dụng các thay đổi"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "có lỗi với các gói phụ thuộc - bỏ qua không cấu hình"
+
+#~ msgid "Could not install '%s'"
+#~ msgstr "Không thể cài đặt '%s'"
+
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may be in a not working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "Quá trình nâng cấp sẽ tiếp tục song gói phần mềm '%s' có thể không hoạt "
+#~ "động. Hãy thông báo lỗi về vấn đề này."
+
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Thay thế tập tin cấu hình đã sửa đổi\n"
+#~ "'%s'?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Bạn sẽ mất tất cả các thay đổi đã chỉnh sửa trong tập tin cấu hình này "
+#~ "nếu bạn chọn thay thế nó bởi phiên bản mới."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Không tìm thấy lệnh 'diff'"
+
+#~ msgid ""
+#~ "Please report this as a bug (if you haven't already) and include the "
+#~ "files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in "
+#~ "your report. The upgrade is now aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Hãy thông báo lỗi này và gửi kèm theo các tập tin /var/log/dist-upgrade/"
+#~ "main.log và /var/log/dist-upgrade/apt.log. Quá trình nâng cấp bị hủy bỏ.\n"
+#~ "Tập tin gốc sources.list được đổi tên thành /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Người dùng nhấn Ctrl-C"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "Quá trình sẽ dừng lại và hệ thống sẽ không làm việc ổn định. Bạn có chắc "
+#~ "chắn muốn dừng lại?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "Để tránh mất mát dữ liệu, hãy đóng các ứng dụng và tài liệu đang mở."
+
+#~ msgid "<b>Downgrade %s</b>"
+#~ msgstr "<b>Hạ phiên bản %s</b>"
+
+#~ msgid "Upgrade %s"
+#~ msgstr "Nâng cấp %s"
+
+#~ msgid "Media Change"
+#~ msgstr "Đổi đĩa"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Hiển khác biệt >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Ẩn khác biệt"
+
+#~ msgid "Error"
+#~ msgstr "Có lỗi"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Hủy bỏ"
+
+#~ msgid "&Close"
+#~ msgstr "Đó&ng"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Ẩn cửa sổ dòng lệnh"
+
+#~ msgid "Information"
+#~ msgstr "Thông tin"
+
+#~ msgid "Details"
+#~ msgstr "Chi tiết"
+
+#~ msgid "Restart required"
+#~ msgstr "Cần phải khởi động lại hệ thống"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>Khởi động lại hệ thống để hoàn tất nâng cấp</big></b>"
+
+#~ msgid "_Restart Now"
+#~ msgstr "_Khởi động lại ngay"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Hủy bỏ quá trình nâng cấp?</big></b>\n"
+#~ "\n"
+#~ "Hệ thống sẽ không làm việc ổn định nếu bạn hủy bỏ quá trình này. Khuyến "
+#~ "cáo: bạn hãy tiếp tục quá trình nâng cấp."
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Hủy quá trình nâng cấp?"
+
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li ngày"
+
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "Thời gian tải khoảng %s với kết nối DSL tốc độ 1Mbit và khoảng %s với "
+#~ "modem tốc độ 65k."
+
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Quá trình tải xuống sẽ mất %s với tốc độ kết nối hiện tại của bạn. "
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Đang sửa đổi các kênh cài đặt phần mềm"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Đang lấy các gói mới"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Đang dọn dẹp hệ thống"
+
+#~ msgid "%d package is going to be removed."
+#~ msgid_plural "%d packages are going to be removed."
+#~ msgstr[0] "%d gói sẽ được xóa khỏi hệ thống."
+
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d gói mới sẽ được cài đặt."
+
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d gói sẽ được nâng cấp."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Bạn đã tải về tổng cộng %s. "
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Việc cài đặt các bản nâng cấp và cài đặt có thể mất hàng giờ. Tiến trình "
+#~ "cài đặt không thể hủy bỏ giữa chừng sau khi quá trình tải xuống đã hoàn "
+#~ "tất."
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Hiện không có bản nâng cấp nào cho hệ thống. Quá trình nâng cấp sẽ được "
+#~ "hủy bỏ."
+
+#~ msgid "Reboot required"
+#~ msgstr "Cần phải khởi động lại hệ thống"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Quá trình nâng cấp đã hoàn thành và hệ thống cần được khởi động lại. Bạn "
+#~ "có muốn thực hiện ngay không?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Không thể chạy công cụ nâng cấp"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr "Có thể có lỗi trong công cụ nâng cấp. Vui lòng thông báo lỗi này"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Chữ ký của công cụ nâng cấp"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Công cụ nâng cấp"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Lỗi tải xuống"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr "Lỗi tải xuống bản nâng cấp. Có thể là do vấn đề về mạng. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Lỗi giải nén"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Lỗi giải nén bản nâng cấp. Có thể có vấn đề về mạng hoặc với máy chủ. "
+
+#~ msgid "Verfication failed"
+#~ msgstr "Lỗi xác minh"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Lỗi xác minh gói nâng cấp. Có thể có vấn đề về mạng hoặc với máy chủ. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Lỗi xác thực"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Lỗi xác thực bản nâng cấp. Có thể có vấn đề về mạng hoặc với máy chủ. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "Không thể thực hiện quá trình nâng cấp"
+
+#~ msgid ""
+#~ "This usually is caused by a system were /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "Nguyên nhân có thể do thư mục /tmp không có thuộc tính thực thi (noexec). "
+#~ "Hãy thiết lập gắn kết /mnt cho phép thực thi và thực hiện nâng cấp lại."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade is "
+#~ "now aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Hãy thông báo lỗi này và gửi kèm theo các tập tin /var/log/dist-upgrade/"
+#~ "main.log và /var/log/dist-upgrade/apt.log. Quá trình nâng cấp bị hủy bỏ.\n"
+#~ "Tập tin sources.list được đổi tên thành /etc/apt/sources.list.distUpgrade."
+
+#~ msgid "Aborting"
+#~ msgstr "Đang dừng lại"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "Đã chuyển xuống phiên bản cũ:\n"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "_Tiếp tục "
+
+#~ msgid "Details [d]"
+#~ msgstr "Thông tin [d]"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "n"
+#~ msgstr "k"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "Remove: %s\n"
+#~ msgstr "Gỡ bỏ: %s\n"
+
+#~ msgid "Install: %s\n"
+#~ msgstr "Cài mới: %s\n"
+
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Nâng cấp: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "Tiếp tục [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Để hoàn tất việc nâng cấp, bạn phải khởi động lại máy.\n"
+#~ "Nếu bạn chọn 'd' hệ thống sẽ được khởi động lại."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Hủy bỏ nâng cấp đang thực hiện?</big></b>\n"
+#~ "\n"
+#~ "Hệ thống có thể ở trong tình trạng không ổn định nếu bạn hủy nâng cấp "
+#~ "này. Tốt nhất bạn nên tiếp tục nâng cấp."
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Bắt đầu quá trình nâng cấp?</big></b>"
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 9.04</big></b>"
+#~ msgstr "<b><big>Nâng cấp Ubuntu lên phiên bản 9.04</big></b>"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Khác biệt giữa hai tập tin"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Nâng cấp bản phân phối"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Đang khởi động lại máy tính"
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Cài đặt các kênh phần mềm mới"
+
+#~ msgid "Terminal"
+#~ msgstr "Cửa sổ dòng lệnh"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Hủy bỏ nâng cấp"
+
+#~ msgid "_Continue"
+#~ msgstr "_Tiếp tục"
+
+#~ msgid "_Replace"
+#~ msgstr "_Thay thế"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Thông báo lỗi"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "_Tiếp tục Nâng cấp"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Bắt đầu Nâng cấp"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Không tìm thấy bản chú giải phát hành"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Máy chủ có thể đang quá tải. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Không thể tải về bản chú giải phát hành"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Hãy kiểm tra kết nối internet của bạn."
+
+#~ msgid "Upgrade"
+#~ msgstr "Nâng cấp"
+
+#~ msgid "Release Notes"
+#~ msgstr "Bản chú giải phát hành"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "Đang tải các gói bổ sung..."
+
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "Tập tin %s / %s, tốc độ %sB/s"
+
+#~ msgid "File %s of %s"
+#~ msgstr "Tập tin %s / %s"
+
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Đang tải tập tin %(current)li của %(total)li với tốc độ %(speed)s/s"
+
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Đang tải tập tin %(current)li của %(total)li"
+
+#~ msgid "Unknown download size"
+#~ msgstr "Không tính được dung lượng cần tải xuống"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please try "
+#~ "clicking on the 'Check' button to update the information."
+#~ msgstr ""
+#~ "Không rõ thời gian lần cập nhật cuối thông tin về gói. Vui lòng nhấn nút "
+#~ "'Kiểm tra' để cập nhật thông tin."
+
+#~ msgid "The package information was last updated %s hour ago."
+#~ msgid_plural "The package information was last updated %s hours ago."
+#~ msgstr[0] "Thông tin về các gói được cập nhật %s giờ trước đây."
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr "Thông tin về gói được cập nhật lần cuối chưa đầy một giờ."
+
+#~ msgid ""
+#~ "These software updates have been issued since Ubuntu was released. If you "
+#~ "don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration Menu later."
+#~ msgstr ""
+#~ "Những bản cập nhật phần mềm này được đưa ra từ khi Ubuntu phát hành. Nếu "
+#~ "bạn không muốn cài đặt chúng ngay, chọn \"Trình Quản lý cập nhật\"  từ "
+#~ "trình đơn Quản lý sau này."
+
+#~ msgid "Update is complete"
+#~ msgstr "Cập nhật hoàn thành"
+
+#~ msgid ""
+#~ "The upgrade needs a total of %s free space on disk '%s'. Please free at "
+#~ "least an additional %s of disk space on '%s'. Empty your trash and remove "
+#~ "temporary packages of former installations using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "Quá trình nâng cấp cần %s không gian trống trên ổ đĩa '%s'. Hãy bảo đảm "
+#~ "ít nhất %s trống trên đĩa '%s'. Chẳng hạn: làm sạch Thùng rác và dùng "
+#~ "'sudo apt-get clean' để xóa các tập tin tạm của các gói đã cài đặt."
+
+#~ msgid "Reading package information"
+#~ msgstr "Đang đọc thông tin về gói"
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while initializing the package "
+#~ "information.\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the following error message:\n"
+#~ msgstr ""
+#~ "Có lỗi xảy ra khi chuẩn bị thông tin về các gói.\n"
+#~ "\n"
+#~ "Hãy thông báo lỗi của 'update-manager' và kèm theo thông báo lỗi sau:\n"
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade.\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the following error message:"
+#~ msgstr ""
+#~ "Có lỗi xảy ra khi chuẩn bị nâng cấp.\n"
+#~ "\n"
+#~ "Hãy thông báo lỗi của 'update-manager' và kèm theo thông báo lỗi sau:"
+
+#~ msgid "Your distribution is not supported anymore"
+#~ msgstr "Bản phân phối bạn đang dùng không còn được hỗ trợ"
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Upgrade "
+#~ "to a later version of Ubuntu Linux. See http://www.ubuntu.com for more "
+#~ "information on upgrading."
+#~ msgstr ""
+#~ "Bạn sẽ không cập nhật được các bản vá lỗi bảo mật hay các cập nhật quan "
+#~ "trọng. Hãy nâng cấp lên phiên bản mới nhất của Ubuntu Linux. Xem http://"
+#~ "www.ubuntu.com để có thêm thông tin về việc nâng cấp."
+
+#~ msgid "<b>New distribution release '%s' is available</b>"
+#~ msgstr "<b>Bản phân phối mới phiên hiệu '%s' đã sẵn sàng</b>"
+
+#~ msgid "Software index is broken"
+#~ msgstr "Chỉ mục phần mềm bị hỏng"
+
+#~ msgid ""
+#~ "It is impossible to install or remove any software. Please use the "
+#~ "package manager \"Synaptic\" or run \"sudo apt-get install -f\" in a "
+#~ "terminal to fix this issue at first."
+#~ msgstr ""
+#~ "Hiện không thể cài đặt hay gỡ bỏ bất kỳ phần mềm nào. Vui lòng dùng trình "
+#~ "quản lý gói \"Synaptic\" hoặc chạy lệnh \"sudo apt-get install -f\" trong "
+#~ "cửa sổ lệnh để sửa lỗi này trước tiên."
+
+#~ msgid "Downloading Package Information"
+#~ msgstr "Đang tải thông tin về các gói"
+
+#~ msgid ""
+#~ "The repositories are being checked for new, removed, or updated software "
+#~ "packages"
+#~ msgstr ""
+#~ "Các kho phần mềm được kiểm tra về các gói phần mềm mới, bị gỡ bỏ hoặc có "
+#~ "cập nhật"
+
+#~ msgid ""
+#~ "The selected package updates are being downloaded and installed on the "
+#~ "system"
+#~ msgstr ""
+#~ "Những gói cập nhật được chọn đang được tải về và cài đặt trên hệ thống"
+
+#~ msgid "run_synaptic called with unknown action"
+#~ msgstr "run_synaptic được gọi với hành động không rõ"
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " ◦ A previous upgrade which didn't complete\n"
+#~ " ◦ Problems with some of the installed software\n"
+#~ " ◦ Unofficial software packages not provided by Ubuntu\n"
+#~ " ◦ Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "Không thể nâng cấp theo cách bình thường, vui lòng chạy: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "Nó có thể do những nguyên nhân:\n"
+#~ " ◦ Một nâng cấp trước đó không hoàn thành\n"
+#~ " ◦ Có lỗi khi cài đặt một số phần mềm\n"
+#~ " ◦ Những gói phần mềm không được cung cấp bởi Ubuntu\n"
+#~ " ◦ Những thay đổi bình thường của phiên bản Ubuntu thử nghiệm trước khi "
+#~ "phát hành"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "Không thể tìm ra bản phân phối"
+
+#~ msgid ""
+#~ "The changelog does not contain any relevant changes.\n"
+#~ "\n"
+#~ "Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+#~ "until the changes become available or try again later."
+#~ msgstr ""
+#~ "Bản ghi thay đổi không chưa bất kỳ thay đổi nào.\n"
+#~ "\n"
+#~ "Vui lòng xem tạm trên http://launchpad.net/ubuntu/+source/%s/%s/"
+#~ "+changelog\n"
+#~ "đến khi thay đổi sẵn sàng hoặc thử lại sau."
+
+#~ msgid ""
+#~ "The list of changes is not available yet.\n"
+#~ "\n"
+#~ "Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+#~ "until the changes become available or try again later."
+#~ msgstr ""
+#~ "Danh sách thay đổi chưa sẵn sàng.\n"
+#~ "\n"
+#~ "Vui lòng sử dụng http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+#~ "đến khi thay đổi sẵn sàng hoặc thử lại sau."
+
+#~ msgid ""
+#~ "Failed to download the list of changes. \n"
+#~ "Please check your Internet connection."
+#~ msgstr ""
+#~ "Không tải được danh sách các thay đổi. \n"
+#~ "Hãy kiểm tra kết nối Internet của bạn."
+
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "Lỗi '%s' xảy ra khi đang kiểm tra hệ thống nào bạn đang dùng."
+
+#~ msgid "Previous selected"
+#~ msgstr "Được chọn trước đó"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Bạn phải kiểm tra các cập nhật thủ công</big></b>\n"
+#~ "\n"
+#~ "Hệ thống của bạn không kiểm tra các cập nhật tự động. Bạn có thể cấu hình "
+#~ "chế độ này trong <i>Nguồn cài đặt phần mềm</i> trong tab <i>Cập nhật</i>."
+
+#~ msgid "<big><b>Not all updates can be installed</b></big>"
+#~ msgstr ""
+#~ "<big><b>Không phải toàn bộ các bản cập nhật có thể được cài đặt</b></big>"
+
+#~ msgid "<big><b>Starting Update Manager</b></big>"
+#~ msgstr "<big><b>Đang khởi động trình quản lý cập nhật</b></big>"
+
+#~ msgid "Chec_k"
+#~ msgstr "_Kiểm tra"
+
+#~ msgid "Check the software channels for new updates"
+#~ msgstr "Kiểm tra cập nhật mới từ các kênh cập nhật phần mềm"
+
+#~ msgid "Description"
+#~ msgstr "Diễn giải"
+
+#~ msgid "Description of update"
+#~ msgstr "Diễn giải các cập nhật"
+
+#~ msgid ""
+#~ "Run a partial upgrade, to install as many updates as possible. \n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " ◦ A previous upgrade which didn't complete\n"
+#~ " ◦ Problems with some of the installed software\n"
+#~ " ◦ Unofficial software packages not provided by Ubuntu\n"
+#~ " ◦ Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "Chạy một nâng cấp cục bộ, cài đặt nhiều bản cập nhật nhất có thể. \n"
+#~ "\n"
+#~ "Lý do có thể là:\n"
+#~ " ◦ Một nâng cấp trước đó không hoàn thành\n"
+#~ " ◦ Lỗi khi cài đặt một số phần mềm\n"
+#~ " ◦ Những gói không được cung cấp chính thức bởi Ubuntu\n"
+#~ " ◦ Những thay đổi bình thường của bản Ubuntu trước khi phát hành"
+
+#~ msgid "Settings…"
+#~ msgstr "Cài đặt..."
+
+#~ msgid "U_pgrade"
+#~ msgstr "_Nâng cấp"
+
+#~ msgid "Upgrade to the latest version of Ubuntu"
+#~ msgstr "Nâng cấp lên phiên bản Ubuntu mới nhất"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "Ẩn thông tin này trong những lần sau"
+
+#~ msgid "_Partial Upgrade"
+#~ msgstr "_Nâng cấp một phần"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_Nâng cấp"
+
+#~ msgid "updates"
+#~ msgstr "các cập nhật"
+
+#~ msgid "Show version and exit"
+#~ msgstr "Hiển thị phiên bản và thoát"
+
+#~ msgid "Check if a new distribution release is available"
+#~ msgstr "Kiểm tra nếu có phát hành mới của bản phân phối đã sẵn sàng"
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "Kiểm tra nếu có bản mới nhất phát hành trong giai đoạn phát triển"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Hãy thử chạy dist-upgrade"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Thực hiện nâng cấp một phần"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "Đang thử nâng cấp tới các phiên bản phát hành mới nhất sử dụng trình nâng "
+#~ "cấp từ $distro-proposed"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Đang trong chế độ nâng cấp đặc biệt.\n"
+#~ "Hiện chỉ hỗ trợ chế độ 'desktop' khi nâng cấp máy trạm thông thường, và "
+#~ "chế độ 'server' khi nâng cấp máy chủ."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "Thực thi một trình quản lý chỉ định"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Đang kiểm tra bản phát hành Ubuntu mới"
+
+#~ msgid "No new release found"
+#~ msgstr "Chưa có bản phát hành mới nào"
+
+#~ msgid ""
+#~ "Do not output anything, just return %s if there is a new release and %s "
+#~ "if there is none."
+#~ msgstr ""
+#~ "Không hiển thị cái gì, chỉ trả về %s nếu có bản phát hành mới và %s nếu "
+#~ "không có."
+
+#~ msgid "New release '%s' available."
+#~ msgstr "Phiên bản mới '%s' sẵn sàng."
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "Chạy 'do-release-upgrade' để nâng cấp."
+
+#~ msgid "Unimplemented method: %s"
+#~ msgstr "Không thực hiện được phương thức: %s"
+
+#~ msgid "A file on disk"
+#~ msgstr "Một tệp tin trên đĩa"
+
+#~ msgid ".deb package"
+#~ msgstr "gói .deb"
+
+#~ msgid "Install missing package."
+#~ msgstr "Cài đặt các gói còn thiếu."
+
+#~ msgid "Package %s should be installed."
+#~ msgstr "Gói %s nên được cài đặt."
+
+#~ msgid "%i obsolete entries in the status file"
+#~ msgstr "%i mục lỗi thời trong tệp trạng thái"
+
+#~ msgid "Obsolete entries in dpkg status"
+#~ msgstr "Những mục lỗi thời trong trạng thái dpkg"
+
+#~ msgid ""
+#~ "When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+#~ "installed. See bugs.launchpad.net, bug ##279621 for details."
+#~ msgstr ""
+#~ "Khi nâng cấp, nếu gói kdelibs4-dev được cài thì gói kdelibs5-dev cũng cần "
+#~ "được cài đặt. Xem thêm ở bugs.launchpad.net, lỗi số ##279621."
+
+#~ msgid "%s needs to be marked as manually installed."
+#~ msgstr "%s phải được đánh dấu để cài thủ công."
+
+#~ msgid ""
+#~ "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+#~ msgstr "Gỡ bỏ lilo vì grub đã được cài đặt.(Xem thêm lỗi số #314004.)"
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bugreport."
+#~ msgstr ""
+#~ "Nếu không cái nào đúng, vui lòng thông báo lỗi này cho nhóm phát triển "
+#~ "gói 'update-manager' và kèm theo các tập tin trong thư mục /var/log/dist-"
+#~ "upgrade/ trong báo cáo lỗi."
+
+#~ msgid "The upgrade tool will guide you through the upgrade process."
+#~ msgstr "Công cụ nâng cấp sẽ hướng dẫn bạn trong suốt quá trình nâng cấp."
+
+#~ msgid "Can't upgrade required meta-packages"
+#~ msgstr "Không thể nâng cấp các gói gốc được yêu cầu"
+
+#~ msgid "A essential package would have to be removed"
+#~ msgstr "Một gói quan trọng cần phải bị gỡ bỏ"
+
+#~ msgid ""
+#~ "The upgrade aborts now. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "Quá trình nâng cấp hủy bỏ. Hệ thống của bạn có thể đang trong trạng thái "
+#~ "không ổn định. Khởi động quá trình khôi phục ngay (dpkg --configure -a)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bugreport.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Vui lòng thông báo lỗi này cho nhóm phát triển gói 'update-manager' và "
+#~ "kèm theo các tập tin trong thư mục /var/log/dist-upgrade/ trong báo cáo "
+#~ "lỗi.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem"
+#~ msgstr ""
+#~ "Quá trình tải xuống sẽ mất %s với kết nối DSL 1Mbit hoặc khoảng %s nếu "
+#~ "dùng modem 56k"
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "aborts now.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "Vui lòng thông báo lỗi này (nếu bạn chưa từng thực hiện) và kèm theo các "
+#~ "tập tin /var/log/dist-upgrade/main.log và /var/log/dist-upgrade/apt.log "
+#~ "trong báo cáo lỗi. Nâng cấp hủy bỏ.\n"
+#~ "Tập tin sources.list gốc của bạn được lưu tại /etc/apt/sources.list."
+#~ "distUpgrade."
+
+#~ msgid "Restart the system now [yN] "
+#~ msgstr "Khởi động lại hệ thống ngay [cK] "
+
+#~ msgid "The list of changes is not available"
+#~ msgstr "Danh sách các thay đổi hiện không sẵn sàng"
+
+#~ msgid "You can install %s update."
+#~ msgid_plural "You can install %s updates."
+#~ msgstr[0] "Bạn có thể cài đặt %s bản cập nhật"
+
+#~ msgid "<big><b>Keep your system up-to-date</b></big>"
+#~ msgstr "<big><b>Giữ cho hệ thống luôn được cập nhật</b></big>"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/"
+#~ "dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "Quá trình chuẩn bị để nâng cấp gặp lỗi. Vui lòng thông báo lỗi này cho "
+#~ "nhóm phát triển gói 'update-manager' và kèm theo các tập tin trong thư "
+#~ "mục /var/log/dist-upgrade/ trong báo cáo lỗi."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and "
+#~ "include the files in /var/log/dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "Hệ thống không thể lấy được các gói phụ thuộc cần thiết để nâng cấp. Quá "
+#~ "trình nâng cấp sẽ được hủy bỏ ngay và khôi phục lại tình trạng hệ thống "
+#~ "ban đầu.\n"
+#~ "\n"
+#~ "Vui lòng thông báo lỗi này cho nhóm phát triển gói 'update-manager' và "
+#~ "kèm theo các tập tin trong thư mục /var/log/dist-upgrade/ trong báo cáo "
+#~ "lỗi."
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the "
+#~ "'update-manager' package and include the files in /var/log/dist-upgrade/ "
+#~ "in the bugreport."
+#~ msgstr ""
+#~ "Sau khi thông tin về gói đã được cập nhật, không còn tìm thấy gói quan "
+#~ "trọng '%s'.\n"
+#~ "Đây là một lỗi nghiêm trọng, vui lòng thông báo lỗi này cho nhóm phát "
+#~ "triển gói 'update-manager' và kèm theo các tập tin trong thư mục /var/log/"
+#~ "dist-upgrade/ trong báo cáo lỗi."
+
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may be in a not working "
+#~ "state. Please consider submitting a bugreport about it."
+#~ msgstr ""
+#~ "Quá trình nâng cấp sẽ tiếp tục tuy nhiên gói '%s' có thể không ở trong "
+#~ "tình trạng làm việc tốt. Vui lòng xem xét gửi báo cáo lỗi về vấn đề này."
+
+#~ msgid "Downloading the upgrade tool"
+#~ msgstr "Đang tải xuống công cụ nâng cấp"
+
+#~ msgid "Daily"
+#~ msgstr "Hằng ngày"
+
+#~ msgid "Every two days"
+#~ msgstr "Hằng hai ngày"
+
+#~ msgid "Weekly"
+#~ msgstr "Hằng tuần"
+
+#~ msgid "Every two weeks"
+#~ msgstr "Hằng hai tuần"
+
+#~ msgid "After one week"
+#~ msgstr "Sau một tuần"
+
+#~ msgid "After two weeks"
+#~ msgstr "Sau hai tuần"
+
+#~ msgid "After one month"
+#~ msgstr "Sau một tháng"
+
+#~ msgid "Fetching file %li of %li at %sb/s"
+#~ msgstr "Tải tập tin %li của %li với tốc độ %sb/s"
+
+#~ msgid "%li days %li hours %li minutes"
+#~ msgstr "%li ngày %li tiếng %li phút"
+
+#~ msgid "_Check"
+#~ msgstr "_Kiểm tra"
+
+#~ msgid "Import key"
+#~ msgstr "Nhập mã khóa"
+
+#~ msgid "Error importing selected file"
+#~ msgstr "Gặp lỗi khi nhập tâp tin đã chọn"
+
+#~ msgid "Error removing the key"
+#~ msgstr "Gặp lỗi khi gỡ bỏ khóa"
+
+#~ msgid "Every %s days"
+#~ msgstr "Hằng %s ngày"
+
+#~ msgid "After %s days"
+#~ msgstr "Sau %s ngày"
+
+#~ msgid "Please enter a name for the disc"
+#~ msgstr "Nhập tên của đĩa"
+
+#~ msgid "Please insert a disc in the drive:"
+#~ msgstr "Hãy đút đĩa vào trong ổ:"
+
+#~ msgid "Authentication"
+#~ msgstr "Xác thực"
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>Ghi chú :</b>"
+
+#~ msgid "Restricted copyright"
+#~ msgstr "Bản quyền bị giới hạn"
+
+#~ msgid "     "
+#~ msgstr "     "
+
+#~ msgid ""
+#~ "Use special upgrade mode. Available:\n"
+#~ "desktop, server"
+#~ msgstr ""
+#~ "Sử dụng chế độ nâng cấp đặc biệt. Các tùy chọn:\n"
+#~ "desktop, server"
+
+#~ msgid ""
+#~ "The list of changes is not available yet.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "Danh sách các thay đổi hiện chưa sẵn sàng.\n"
+#~ "Vui lòng thử lại sau."
+
+#~ msgid "_Skip This Step"
+#~ msgstr "_Bỏ qua bước này"
+
+#~ msgid "Asking for confirmation"
+#~ msgstr "Yêu cầu xác nhận"
+
+#~ msgid "<b>Remove %s</b>"
+#~ msgstr "<b>Xóa %s</b>"
+
+#~ msgid ""
+#~ "The key you selected could not be removed. Please report this as a bug."
+#~ msgstr "Bạn đã chọn một khóa không thể gỡ bỏ. Vui lòng thông báo lỗi này."
+
+#~ msgid "<p>You have to download a total of %s. "
+#~ msgstr "<p>Bạn cần phải tải xuống tổng cộng %s. "
+
+#~ msgid "The selected file may not be a GPG key file or it might be corrupt."
+#~ msgstr ""
+#~ "Có lẽ tập tin đã chọn không phai là tập tin khóa GPG, hoặc nó bị hỏng."
+
+#~ msgid "<b>URI:</b>"
+#~ msgstr "<b>Địa chỉ định vị:</b>"
+
+#~ msgid "System Update Tool"
+#~ msgstr "Công cụ Cập nhật Hệ thống"
+
+#~ msgid "<b>Distribution:</b>"
+#~ msgstr "<b>Bản phát hành:</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Kiểu:</b>"
+
+#~ msgid "APT line:"
+#~ msgstr "Dòng APTL"
+
+#~ msgid "Ubuntu 5.10 Security Updates"
+#~ msgstr "Bản cập nhật bảo mặt Ubuntu 5.10"
+
+#~ msgid "Ubuntu 5.10 Updates"
+#~ msgstr "Bản cập nhật Ubuntu 5.10"
+
+#~ msgid "Community maintained (Universe)"
+#~ msgstr "Do cộng đồng bảo quản (Universe)"
+
+#~ msgid "Non-free (Multiverse)"
+#~ msgstr "Không tự do (Multiverse)"
+
+#~ msgid "Ubuntu 4.10 Security Updates"
+#~ msgstr "Bản cập nhật bảo mặt Ubuntu 4.10"
+
+#~ msgid "Ubuntu 4.10 Updates"
+#~ msgstr "Bản cập nhật Ubuntu 4.10"
+
+#~ msgid "Debian 3.1 \"Sarge\""
+#~ msgstr "Debian 3.1 « Sarge »"
+
+#~ msgid "<b>Keys</b>"
+#~ msgstr "<b>Khóa</b>"
+
+#~ msgid "Installation Media"
+#~ msgstr "Phương tiên cài đặt"
+
+#~ msgid "Software Preferences"
+#~ msgstr "Sở thích phần mềm"
+
+#~ msgid "_Custom"
+#~ msgstr "Tự _chọn"
+
+#~ msgid "<b>Sections:</b>"
+#~ msgstr "<b>Phần:</b>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Downloading changes</span>\n"
+#~ "\n"
+#~ "Need to get the changes from the central server"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Đang tải các thay đổi về</span>\n"
+#~ "\n"
+#~ "Cần phải lấy thay đổi xuống máy phục vụ trung tâm"
+
+#~ msgid "Show available updates and choose which to install"
+#~ msgstr "Hiện các bản cập nhật công bố và chọn bản nào cần cài đặt."
+
+#~ msgid "Edit software sources and settings"
+#~ msgstr "Sửa đổi thiết lập và nguồn phần mềm"
+
+#~ msgid "<b>Sources</b>"
+#~ msgstr "<b>Nguồn</b>"
+
+#~ msgid "day(s)"
+#~ msgstr "ngày"
+
+#~ msgid "<b>Repository</b>"
+#~ msgstr "<b>Kho</b>"
+
+#~ msgid "<b>Temporary files</b>"
+#~ msgstr "<b>Tập tin tạm</b>"
+
+#~ msgid "<b>User Interface</b>"
+#~ msgstr "<b>Giao diện người dùng</b>"
+
+#~ msgid ""
+#~ "<big><b>Authentication keys</b></big>\n"
+#~ "\n"
+#~ "You can add and remove authentication keys in this dialog. A key makes it "
+#~ "possible to verify the integrity of the software you download."
+#~ msgstr ""
+#~ "<big><b>Khóa xác thực</b></big>\n"
+#~ "\n"
+#~ "Bạn có thể thêm và gỡ bỏ khóa xác thực dùng hộp thoại này. Khóa cho phép "
+#~ "bạn thẩm tra toàn vẹn của phần mềm đã tải về."
+
+#~ msgid ""
+#~ "Add a new key file to the trusted keyring. Make sure that you received "
+#~ "the key over a secure channel and that you trust the owner. "
+#~ msgstr ""
+#~ "Thêm tập tin khóa mới vào vòng khóa tin cây. Hãy đảm bảo bạn đã nhận khóa "
+#~ "này qua kênh bảo mật, và bạn tin cây người sở hữu khóa này. "
+
+#~ msgid "Add repository..."
+#~ msgstr "Thêm kho..."
+
+#~ msgid "Automatically check for software _updates."
+#~ msgstr "Tự động kiểm tra có _cập nhật phần mềm."
+
+#~ msgid "Automatically clean _temporary packages files"
+#~ msgstr "Tự động xóa tập tin gói _tạm thời"
+
+#~ msgid "Clean interval in days: "
+#~ msgstr "Thời gian giữa hai lần xóa, theo ngày: "
+
+#~ msgid "Delete _old packages in the package cache"
+#~ msgstr "Xóa bỏ gói _cũ ra bộ nhớ tạm"
+
+#~ msgid "Edit Repository..."
+#~ msgstr "Sửa đổi kho..."
+
+#~ msgid "Maximum age in days:"
+#~ msgstr "Số ngày giữ tối đa:"
+
+#~ msgid "Maximum size in MB:"
+#~ msgstr "Cỡ tối đa, theo MB:"
+
+#~ msgid ""
+#~ "Restore the default keys shipped with the distribution. This will not "
+#~ "change user installed keys."
+#~ msgstr ""
+#~ "Phục hồi các khóa mặc định có sẵn trong bản phát hành. Tuy nhiên, hành "
+#~ "động này sẽ không sửa đổi khóa nào tự cài đặt."
+
+#~ msgid "Set _maximum size for the package cache"
+#~ msgstr "Đặt cỡ tối _đa cho bộ nhớ tạm gói"
+
+#~ msgid "Show detailed package versions"
+#~ msgstr "Hiện phiên bản gói chi tiết"
+
+#~ msgid "Show disabled software sources"
+#~ msgstr "Hiện nguồn phần mềm bị tắt"
+
+#~ msgid "Update interval in days: "
+#~ msgstr "Khoảng cập nhật, theo giây: "
+
+#~ msgid "_Add Repository"
+#~ msgstr "Th_êm kho"
+
+#~ msgid "_Download upgradable packages"
+#~ msgstr "Tài về gói có khả năng nâng cấp"
+
+#~ msgid "<b>Status:</b>"
+#~ msgstr "<b>Trạng thái:</b>"
+
+#~ msgid ""
+#~ "<big><b>Available Updates</b></big>\n"
+#~ "\n"
+#~ "The following packages are found to be upgradable. You can upgrade them "
+#~ "by using the Install button."
+#~ msgstr ""
+#~ "<big><b>Bản nâng cấp công bố</b></big>\n"
+#~ "\n"
+#~ "Tìm thấy có thể nâng cấp những gói theo đây. Để nâng cấp gói, chỉ đơn "
+#~ "giản hãy sử dụng nút « Cài đặt »."
+
+#~ msgid "You need to be root to run this program"
+#~ msgstr "Phải là người chủ để chạy chương trình này."
+
+#~ msgid "Binary"
+#~ msgstr "Nhị phân"
+
+#~ msgid "Non-free software"
+#~ msgstr "Phần mềm không tự do"
+
+#~ msgid "Debian 3.0 \"Woody\""
+#~ msgstr "Debian 3.0 « Woody »"
+
+#~ msgid "Debian Stable"
+#~ msgstr "Ổn định Debian"
+
+#~ msgid "Debian Unstable \"Sid\""
+#~ msgstr "Bất định Debian « Sid »"
+
+#~ msgid "Debian Non-US (Stable)"
+#~ msgstr "Không Mỹ Debian (Ổn định)"
+
+#~ msgid "Debian Non-US (Testing)"
+#~ msgstr "Không Mỹ Debian (Thử ra)"
+
+#~ msgid "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>"
+#~ msgstr "Khóa ký tự động kho Ubuntu <ftpmaster@ubuntu.com>"
+
+#~ msgid "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+#~ msgstr "Khóa ký tự động ảnh đĩa CD Ubuntu <cdimage@ubuntu.com>"
+
+#~ msgid "Choose a key-file"
+#~ msgstr "Chọn tập tin khóa"
+
+#~ msgid "There is one package available for updating."
+#~ msgstr "Có một gói công bố đề cập nhật."
+
+#~ msgid "There are %s packages available for updating."
+#~ msgstr "Có %s gói công bố đề cập nhật."
+
+#~ msgid "There are no updated packages"
+#~ msgstr "Không có gói nào đã cập nhật."
+
+#~ msgid "You did not select any of the %s updated package"
+#~ msgid_plural "You did not select any of the %s updated packages"
+#~ msgstr[0] "Bạn chưa chọn gì trong %s gói đã cập nhật."
+
+#~ msgid "You have selected %s updated package, size %s"
+#~ msgid_plural "You have selected all %s updated packages, total size %s"
+#~ msgstr[0] "Bạn đã chọn tất cả %s gói đã cập nhật: cỡ tổng là %s"
+
+#~ msgid "You have selected %s out of %s updated package, size %s"
+#~ msgid_plural ""
+#~ "You have selected %s out of %s updated packages, total size %s"
+#~ msgstr[0] "Bạn đã chọn %s trong %s gói đã cập nhật: cỡ tổng là %s"
+
+#~ msgid "The updates are being applied."
+#~ msgstr "Đang áp dụng những bản cập nhật."
+
+#~ msgid "Updating package list..."
+#~ msgstr "Đạng cập nhật danh sách gói..."
+
+#~ msgid "New version:"
+#~ msgstr "Phiên bản mới :"
+
+#~ msgid ""
+#~ "Please upgrade to a newer version of Ubuntu Linux. The version you are "
+#~ "running will no longer get security fixes or other critical updates. "
+#~ "Please see http://www.ubuntulinux.org for upgrade information."
+#~ msgstr ""
+#~ "Xin hãy nâng cấp đến một phiên bản Linux Ubuntu mới hơn, vì phiên bản "
+#~ "hiện thời của bạn sẽ không còn nhận lại bản cập nhật bảo mật. Hãy xem "
+#~ "<http://www.ubuntulinux.org> để tìm thông tin nâng cấp."
+
+#~ msgid ""
+#~ "A new release with the codename '%s' is available. Please see http://www."
+#~ "ubuntulinux.org/ for upgrade instructions."
+#~ msgstr ""
+#~ "Có một bản phát hành mới có tên mã « %s ». Hãy xem <http://www."
+#~ "ubuntulinux.org> để tìm hướng dẫn nâng cấp."
+
+#~ msgid "Never show this message again"
+#~ msgstr "Đừng hiện thông điệp này lần nữa."
+
+#~ msgid "Changes not found, the server may not be updated yet."
+#~ msgstr "Không tìm thấy thay đổi nào. Có lẽ máy phục vụ chưa được cập nhật."
+
+#~ msgid "Run in a special upgrade mode"
+#~ msgstr "Thực thi trong chế độ nâng cấp đặc biệt"

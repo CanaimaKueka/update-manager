@@ -1,0 +1,1590 @@
+# translation of lp-upd-manager-lv.po to Latvian
+# Latvian translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+# Raivis Dejus <orvils@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: lp-upd-manager-lv\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2008-12-20 16:33+0000\n"
+"Last-Translator: Raivis Dejus <orvils@gmail.com>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2009-04-08 12:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr ""
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr ""
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr ""
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "0 KB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../UpdateManager/Util/humanize.py:56
+msgid "< 5 seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:58
+#, python-format
+msgid "%d seconds"
+msgstr ""
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../UpdateManager/Util/humanize.py:74
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+#, fuzzy
+msgid "Could not download packages information."
+msgstr "Nevar inicializēt pakotnes informāciju"
+
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+#, fuzzy
+msgid "Do you want to submit a bug report?"
+msgstr "Vai vēlies sākt atjaunināšanu?"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+#, fuzzy
+msgid "Loading package cache."
+msgstr "Lasu kešu"
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+msgid "Finished loading package cache."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr "_Atiezīmēt visu"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+#, fuzzy
+msgid "_Check all"
+msgstr "Ie_zīmēt visu"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr "(Izmērs: %s)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "No versijas %(old_version)s uz %(new_version)s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, fuzzy, python-format
+msgid "Version: %s"
+msgstr "Versija %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr "Nekas"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr "Lejuplādēs izmērs: %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr "Lejuplādēju izmaiņu sarakstu..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+#, fuzzy
+msgid "Downloading list of changes failed."
+msgstr "Lejuplādēju izmaiņu sarakstu..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, fuzzy, python-format
+msgid "Version %s: "
+msgstr "Versija %s: \n"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+msgid "Gathering information about updates..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+#, fuzzy
+msgid "Upgrading may require removal or installation of new packages."
+msgstr "Vai aizvākt vecās pakotnes?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+#, fuzzy
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr "Vai vēlies sākt atjaunināšanu?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr "Nav jaunu atjauninājumu"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, python-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+msgid "Software updates are available for this computer."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+#, fuzzy
+msgid "About Update Manager"
+msgstr "Atjaunināšanas pārvaldnieks"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Atjaunināšanas pārvaldnieks"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+#, fuzzy
+msgid "Source"
+msgstr "Izejas kods"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+#, fuzzy
+msgid "Downloaded"
+msgstr "Lejuplādēs izmērs: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+msgid "Checking for updates"
+msgstr "Meklē atjauninājumus"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr ""
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, fuzzy, python-format
+msgid "Download rate: %s/s"
+msgstr "Lejuplādēs izmērs: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+#, fuzzy
+msgid "Checking for updates..."
+msgstr "Meklē atjauninājumus"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+msgid "Error message:"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+#, fuzzy
+msgid "Downloading updates"
+msgstr "Lejuplādēju atjaunināšanas rīku"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr "Izmaiņas"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr "Novākt %s"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr "Uzstāda %s"
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+#, fuzzy
+msgid "Removal or installation of packages"
+msgstr "Vai aizvākt vecās pakotnes?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+#, fuzzy
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr "Uzstāda atjauninājumus"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "Vai vēlies sākt atjaunināšanu?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+#, fuzzy
+msgid "Preparing upgrade"
+msgstr "Gatavojas atjaunināšanai"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+#, fuzzy
+msgid "This operation may take some time."
+msgstr "Lūdzu, uzgaidiet. Tas var prasīt kādu laiku."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+#, fuzzy
+msgid "Downloading finished"
+msgstr "Lejuplādēju izmaiņu sarakstu..."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+#, fuzzy
+msgid "Installing updates"
+msgstr "_Uzstādīt atjauninājumus"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, fuzzy, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] "Piedāvātie atjauninājumi"
+msgstr[1] "Piedāvātie atjauninājumi"
+msgstr[2] "Piedāvātie atjauninājumi"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+#, fuzzy
+msgid "Your system is now up-to-date."
+msgstr "Nav jaunu atjauninājumu"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, fuzzy, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] "Nav pieejams izmaiņu saraksts"
+msgstr[1] "Nav pieejams izmaiņu saraksts"
+msgstr[2] "Nav pieejams izmaiņu saraksts"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+#, fuzzy
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr ""
+"Programmas jauninājumi labo kļūdas, samazina drošības ievainojamības un "
+"piegādā jaunas programmas īpašības."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+#, fuzzy
+msgid "Please consider installing all available updates."
+msgstr "Parādīt un uzstādīt pieejamos atjauninājumus"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr "Rādīt katra faila progresu"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+#, fuzzy
+msgid "Show terminal"
+msgstr "Parādīt termināli >>>"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+#, fuzzy
+msgid "A fatal error has been detected"
+msgstr "Notikusi fatāla kļūda"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, fuzzy, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr "Versija %s"
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr "Svarīgi drošības atjauninājumi"
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr "Ieteiktie atjauninājumi"
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr "Distribūcijas atjauninājumi"
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr "Piedāvātie atjauninājumi"
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr "Bakporti"
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+#, fuzzy
+msgid "Third-party updates"
+msgstr "Trešās puses avoti atspējoti"
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr "*novecojis* Pārbaudīt jaunu distributīva laidienu"
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr "Pēc sekmīgas instalēšanas, automātiski aizvērt logu"
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+"Ja automātiska jauninājumu pārbaude ir izslēgta, jums manuāli jāpārlādē "
+"kanālu saraksts. Šādā gadījumā šī opcija ļauj nerādīt atgādinājumu."
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr ""
+"Ja šī atslēga ir uzstādīta, pēc veiksmīgas instalēšanas, logs tiks "
+"automātiski aizvērts."
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr "Atgādināt par kanālu saraksta pārlādēšanu"
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr "Rādīt atjaunināšanas informāciju"
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr "Saglabā update-manager dialoga izmēru"
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr "Saglabā izvērsēja, kas satur izmaiņu sarakstu un aprakstu, stāvokli."
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr "Loga izmērs"
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+"Šī iespēja ir novecojusi. Ieteicams izmantot /etc/update-manager/release-"
+"upgrades, lai automātiski pārbaudīttu, vai ir pieejama jauna pašreizējās "
+"distribūcijas versija un, ja iespējams, piedāvāt atjaunināties."
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "Parādīt un uzstādīt pieejamos atjauninājumus"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Programmatūras atjauninājumi"
+
+#, fuzzy
+#~ msgid "Current package: %s"
+#~ msgstr "Bojātas pakotnes"
+
+#~ msgid "Server for %s"
+#~ msgstr "Serveris: %s"
+
+#~ msgid "Main server"
+#~ msgstr "Galvenais serveris"
+
+#~ msgid "Custom servers"
+#~ msgstr "Pašizvēlētie serveri"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Neizdevās pievienot CD"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Pievienojot CD, radās kļūda un līdz ar to atjaunināšana tiks pārtraukta. "
+#~ "Lūdzu ziņojiet par to kā par kļūdu, ja šis ir īsts Ubuntu CD.\n"
+#~ "\n"
+#~ "Kļūdas paziņojums bija:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Aizvākt pakotni, kas ir sliktā stāvoklī"
+#~ msgstr[1] "Aizvākt pakotnes, kas ir sliktā stāvoklī"
+#~ msgstr[2] "Aizvākt pakotnes, kas ir sliktā stāvoklī"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Jūsu sistēmā ir bojātas pakotnes, kuras nevar salabot ar šo programmu. "
+#~ "Pirms turpiniet, lūdzu, salabojiet tās, izmantojot synaptic vai apt-get "
+#~ "programmas."
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Šī visdrīzāk ir īslaicīga problēma, lūdzu, mēģiniet vēlāk."
+
+#~ msgid "Could not calculate the upgrade"
+#~ msgstr "Nevar aprēķināt atjauninājumu"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Kļūda, autentificējot dažas paketes"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Nav iespējams autentificēt dažas paketes. Tā varētu būt tīkla problēma. "
+#~ "Pamēģiniet atkārtot šo darbību vēlāk. Sekojiet zemāk neautentificēto "
+#~ "pakotņu sarakstam."
+
+#~ msgid "Can't install '%s'"
+#~ msgstr "Nevar uzstādīt '%s'"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "Nebija iespējams uzstādīt pieprasīto pakotni. Lūdzu ziņojiet par šo "
+#~ "kļūmi. "
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Nevar uzminēt meta-pakotni"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Jūsu sistēmā nav uzstādītas neviena no ubuntu-desktop, kubuntu-desktop, "
+#~ "xubuntu-desktop vai edubuntu-desktop darbvirsmas pakotnēm un nebija "
+#~ "iespējams noteiktu, kura Ubuntu versija jums ir uzstādīta.\n"
+#~ "Pirms turpiniet, lūdzu, uzstādiet vienu no augstākminētajām pakotnēm "
+#~ "izmantojot synaptic vai apt-get programmas."
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Nevarēja iegūt eskluzīvu aizslēgu"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Tas parasti nozīmē, ka jau darbojas cita pakotņu pārvaldības aplikācija "
+#~ "(piemēram apt-get vai aptitude). Lūdzu, aizveriet vispirms tās."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Turpināt strādāt izmantojot SSH?"
+
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, a additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Šķiet, ka šī sesija darbojas ar ssh. Pašlaik nav ieteicams veikt "
+#~ "atjaunināšanu pār ssh, jo neizdošanās gadījumā  sistēmai atgūties būs "
+#~ "grūtāk.\n"
+#~ "\n"
+#~ "Ja jūs tomēr turpināsiet, papildus ssh dēmons tiks sāknēts portā '%s'.\n"
+#~ "Vai vēlaties turpināt?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Palaiž papildus sshd"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Nevar atjaunināt"
+
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Jauninājums no '%s' uz '%s' ar šo rīku netiek atbalstīts."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Jūsu python instalācija ir bojāta. Lūdzu salabojiet `/usr/bin/python` "
+#~ "simbolisko saiti."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Pakotne 'debsig-verify ir uzinstalēta"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "Atjaunināšanu nevar turpināt kamēr šī pakotne ir uzstādīta.\n"
+#~ "Lūdzu aizvāciet to izmantojot Synaptic vai 'apt-get remove debsig-verify' "
+#~ "un tad palaidiet atjaunināšanu vēlreiz"
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Iekļaut pēdējās izmaiņas no Interneta"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Netika atrasts derīgs spoguļserveris"
+
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found.This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'no' the update will cancel."
+#~ msgstr ""
+#~ "Skenējot jūsu repozitoriju informāciju netika atrasts spoguļa ieraksts. "
+#~ "Ta iespējams gadījumos, ja lietojat iekšējo spoguli vai spoguļu "
+#~ "informācija ir novecojusi.\n"
+#~ "\n"
+#~ "Vai tomēr vēlaties pārrakstīt 'sources.list' failu? Ja izvēlēsieties "
+#~ "'Jā', tad tiks pārrakstīti visi '%s' uz '%s' ierakstiem.\n"
+#~ "Ja nē - uzlabošana tiks pārtraukta."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Izveidot noklusētos avotus?"
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Repozitorija informācija ir kļūdaina"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "Krātuves informācijas atjaunināšana radīja nederīgu failu. Lūdzu, "
+#~ "paziņojiet par to kā par kļūdu."
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "Daži trešās puses ieraksti jūsu 'sources.list' failā tika slēgti. Pēc "
+#~ "sistēmas uzlabošanas tos varat atkal ieslēgt  ar 'software-properties' "
+#~ "rīku vai jūsu pakotņu pārvaldnieku."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Pakotne ir nesaderīgā stāvoklī"
+#~ msgstr[1] "Pakotnes ir nesaderīgā stāvoklī"
+#~ msgstr[2] "Pakotnes ir nesaderīgā stāvoklī"
+
+#~ msgid "Error during update"
+#~ msgstr "Kļūda veicot atjaunināšanu"
+
+#~ msgid ""
+#~ "A problem occurred during the update. This is usually some sort of "
+#~ "network problem, please check your network connection and retry."
+#~ msgstr ""
+#~ "Atjaunināšanas laikā radusies problēma. Parasti tā ir kāda tīkla "
+#~ "problēma. Lūdzu, pārbaudiet interneta pieslēgumu un mēģiniet vēlreiz."
+
+#~ msgid "Not enough free disk space"
+#~ msgstr "Diskā nav pietiekoši daudz brīvas vietas"
+
+#~ msgid "Support for some applications ended"
+#~ msgstr "Atbalsts dažām aplikācijām ir beidzies"
+
+#~ msgid ""
+#~ "Canonical Ltd. no longer provides support for the following software "
+#~ "packages. You can still get support from the community.\n"
+#~ "\n"
+#~ "If you have not enabled community maintained software (universe), these "
+#~ "packages will be suggested for removal at the end of the upgrade."
+#~ msgstr ""
+#~ "Canonical Ltd. turpmāk neuzturēs atbalstu sekojošajām pakotnēm. Tomēr jūs "
+#~ "joprojām varat saņemt atbalstu no kopienas.\n"
+#~ "\n"
+#~ "Ja neesat ieslēguši kopienas uzturētās pakotnes (universe), tad pēc "
+#~ "modernizēšanas vēlams šīs pakotnes noņemt."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Aprēķina izmaiņas"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Nevarēju lejupielādēt jauninājumus"
+
+#~ msgid "Error during commit"
+#~ msgstr "Kļūda apstiprināšanas laikā"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Atjaunoju sākotnējo sistēmas stāvokli"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Nevar uzstādīt jauninājumus"
+
+#~ msgid "_Keep"
+#~ msgstr "_Paturēt"
+
+#~ msgid "_Remove"
+#~ msgstr "_Noņemt"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "Satīrīšanas laikā gadījās kļūda. Lūdzu, izlasiet zemāk redzamo ziņu, lai "
+#~ "iegūtu sīkāku informāciju. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "Nav uzstādītas nepieciešamās atkarības."
+
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "Nav uzstādīta nepieciešamā atkarība '%s'. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "Pārbaudu pakotņu parvaldnieku"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Atjaunināšanas sagatavošana neizdevās"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Neizdevās iegūt atjaunināšanas priekšnosacījumus"
+
+#~ msgid "Updating repository information"
+#~ msgstr "Atjauninu repozitoriju informāciju"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Nederīga pakotņu informācija"
+
+#~ msgid "Fetching"
+#~ msgstr "Velk"
+
+#~ msgid "Upgrading"
+#~ msgstr "Jauninu"
+
+#~ msgid "Upgrade complete"
+#~ msgstr "Atjaunināšana pabeigta"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Meklēju nevajadzīgās pakotnes"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Sistēmas jaunināšana ir pabeigta."
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "Izmantot doto ceļu, lai meklētu CD-ROM disku ar jauninājumu pakotnēm"
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "Lietot saskarni. Šobrīd pieejamās: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Lūdzu, ievietojiet '%s' dzinī '%s'"
+
+#~ msgid "Fetching is complete"
+#~ msgstr "Pakotnes ir savāktas"
+
+#~ msgid "About %s remaining"
+#~ msgstr "Atlicis aptuveni %s"
+
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Iegūstu failu %li no %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Pielietoju izmaiņas"
+
+#~ msgid "Could not install '%s'"
+#~ msgstr "Nevarēju instalēt '%s'"
+
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "Aizvietot izmainīto konfigurācijas failu\n"
+#~ "'%s'?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Jūs zaudēsiet visas izmaiņas, kuras esat veicis šajā konfigurācijas "
+#~ "failā, ja aizvietosiet to ar jaunāku veriju."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "Komanda 'diff' netika atrasta"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr ""
+#~ "Aizveriet aplikācijas un dokumentus, lai izvairītos no datu zudumiem."
+
+#~ msgid "<b>Downgrade %s</b>"
+#~ msgstr "<b>Atlikt uz vecāku versiju %s</b>"
+
+#~ msgid "Upgrade %s"
+#~ msgstr "Atjaunina %s"
+
+#~ msgid "Media Change"
+#~ msgstr "Avota maiņa"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Parādīt atšķirības >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Nerādīt atšķirības"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Noslēpt termināli"
+
+#~ msgid "Details"
+#~ msgstr "Sīkāka informācija"
+
+#~ msgid "Restart required"
+#~ msgstr "Nepieciešama pārstartēšana"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>Lai pabeigtu atjaunināšanu, pārstartējiet datoru</big></b>"
+
+#~ msgid "_Restart Now"
+#~ msgstr "Pā_rstartēt tagad"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Atcelt atjaunināšanu?"
+
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Šī lejupielāde aizņems aptuveni %s ar jūsu pieslēguma ātrumu. "
+
+#~ msgid "Getting new software channels"
+#~ msgstr "Iegūst janus programmatūŗas kanālus"
+
+#~ msgid "Getting new packages"
+#~ msgstr "Iegūst jaunās pakotnes"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Satīru"
+
+#~ msgid "%d package is going to be removed."
+#~ msgid_plural "%d packages are going to be removed."
+#~ msgstr[0] "%d pakotne tiks novākta"
+#~ msgstr[1] "%d pakotnes tiks novāktas"
+#~ msgstr[2] "%d pakotnes tiks novāktas"
+
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d jauna pakotne tiks uzstādīta"
+#~ msgstr[1] "%d jaunas pakotnes tiks uzstādītas"
+#~ msgstr[2] "%d jaunas pakotnes tiks uzstādītas"
+
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d pakotne tiks jaunināta"
+#~ msgstr[1] "%d pakotnes tiks jauninātas"
+#~ msgstr[2] "%d pakotnes tiks atjauninātas"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Kopumā jums jālejupielādē %s "
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Jauninājuma failu ievākšana un instalācija var prasīt vairākas stundas. "
+#~ "Kad tā būs pabeigta, tās sekas vairs nevarēs atcelt."
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Jūsu sistēmai jauninājumi nav pieejami. Modernizēšana tiks pārtraukta."
+
+#~ msgid "Reboot required"
+#~ msgstr "Nepieciešama pārstartēšana"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Atjaunināšana ir pabeigta un ir nepieciešama sistēmas pārstartēšana. Vai "
+#~ "vēlies to veikt tagad?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Nevarēju palaist jauninājumu rīku"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr ""
+#~ "Droši vien tā ir kļūda jauninājuma rīkā. Lūdz,  paziņojiet par to kā par "
+#~ "blusu"
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Atjaunināšanas rīka paraksts"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Atjaunināšanas rīks"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Neizdevās novilkt"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr "Neizdevās novilkt atjauninājumu. Tā var būt tīkla problēma. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Neizdevās atarhivēt"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Neizdevās atarhivēt jauninājumu. Tā var būt gan tīkla, gan servera "
+#~ "problēma. "
+
+#~ msgid "Verfication failed"
+#~ msgstr "Neizdevās pārbaude"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Neizdevās jauninājuma pārbaude. Tā var būt gan tīkla, gan servera "
+#~ "problēma. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Autentifikācija neveiksmīga"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Atjaunināšanas autentifikācijas neizdevās. Iespējams nedarbojas tīkls vai "
+#~ "serveris. "
+
+#~ msgid "Aborting"
+#~ msgstr "Pārtrauc"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "Pazemināta:\n"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Turpināt [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Sīkāka informācija [d]"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "Remove: %s\n"
+#~ msgstr "Novākt: %s\n"
+
+#~ msgid "Install: %s\n"
+#~ msgstr "Uzstāda: %s\n"
+
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Atjaunina: %s\n"
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Lai pabeigtu atjaunināšanu ir nepieciešams restarts.\n"
+#~ "Ja izvēlēsieties 'y' sistēma tiks pārstartēta."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Pārtraukt pašlaik notiekošo atjaunināšanu?</big></b>\n"
+#~ "\n"
+#~ "Ja jūs pārtrauksiet atjaunināšanu, sistēma var kļūt nelietojama. Jums "
+#~ "būtu vēlams turpināt atjaunināšanas procesu."
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Sākt atjaunināšanu?</big></b>"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Atšķirība starp failiem"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Distributīva atjaunināšana"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Pārstartē datoru"
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Uzstāda jaunos programmatūras kanālus"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminālis"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Atclet atjaunināšanu"
+
+#~ msgid "_Continue"
+#~ msgstr "_Turpināt"
+
+#~ msgid "_Replace"
+#~ msgstr "_Aizvietot"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Ziņot par blusu"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "_Turpināt atjaunināšanu"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Sākt atjaunināšanu"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Nevarēju atrast piezīmes par laidienu"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Serveris var būt pārslogots. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Nevarēju lejupielādēt laidiena piezīmes"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Lūdzu, pārbaudiet savu interneta savienojumu."
+
+#~ msgid "Release Notes"
+#~ msgstr "Laidiena piezīmes"
+
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Lejupielādē failu %(current)li no %(total)li ar %(speed)s/s"
+
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Lejupielādē failu %(current)li no %(total)li"
+
+#~ msgid "Unknown download size"
+#~ msgstr "Nezināms lejuplādes izmērs"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please try "
+#~ "clicking on the 'Check' button to update the information."
+#~ msgstr ""
+#~ "Nav zināms, kad pēdējo reizi tika atjaunināta pieejamo pakotņu "
+#~ "informācija. Lūdzu klikšķiniet uz pogas 'Pārbaudīt', lai iegūtu jaunāko "
+#~ "pieejamo pakotņu informāciju."
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr ""
+#~ "Pieejamo pakotņu informācija pēdējo reizi tika atjaunināta mazāk kā pirms "
+#~ "stundas."
+
+#~ msgid "Update is complete"
+#~ msgstr "Atjaunināšana ir pabeigta"
+
+#~ msgid "Reading package information"
+#~ msgstr "Lasa pakotņu informāciju"
+
+#~ msgid "Your distribution is not supported anymore"
+#~ msgstr "Jūsu distribūcija vairs netiek atbalstīta"
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Upgrade "
+#~ "to a later version of Ubuntu Linux. See http://www.ubuntu.com for more "
+#~ "information on upgrading."
+#~ msgstr ""
+#~ "Jūs vairāk nesaņemsiet drošības labojumus vai kritiskos atjauninājumus. "
+#~ "Modernizējiet sistēmu uz pēdējo Ubuntu Linux versiju. Lai iegūtu vairāk "
+#~ "informācijas par atjaunināšanu, ieskatieties http://www.ubuntu.com."
+
+#~ msgid "<b>New distribution release '%s' is available</b>"
+#~ msgstr "<b>Ir pieejams jauns distribūcijas laidiens '%s'</b>"
+
+#~ msgid "Software index is broken"
+#~ msgstr "Programmatūras indekss ir bojāts"
+
+#~ msgid ""
+#~ "It is impossible to install or remove any software. Please use the "
+#~ "package manager \"Synaptic\" or run \"sudo apt-get install -f\" in a "
+#~ "terminal to fix this issue at first."
+#~ msgstr ""
+#~ "Nav iespējams uzstādīt vai novākt programmatūru. Lūdzu, vispirms "
+#~ "izmantojiet \"Synaptic\" pakotņu pārvaldnieku vai terminālī palaidiet "
+#~ "komandu \"sudo apt-get install -f\", lai šo problēmu novērstu."
+
+#~ msgid ""
+#~ "Failed to download the list of changes. \n"
+#~ "Please check your Internet connection."
+#~ msgstr ""
+#~ "Neizdevās lejupielādēt izmaiņu sarakstu. \n"
+#~ "Lūdzu, pārbaudiet internet savienojumu."
+
+#~ msgid "Other updates"
+#~ msgstr "Citi atjauninājumi"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>Jums pašrocīgi jāpārbauda atjauninājumi</big></b>\n"
+#~ "\n"
+#~ "Jūsu sistēma atjauninājumus automātiski nepārbauda. Jūs varat "
+#~ "nokonfigurēt šo iespēju <i>Programmu avoti</i> rīka <i>Atjauninājumi</i> "
+#~ "sadaļā."
+
+#~ msgid "<big><b>Not all updates can be installed</b></big>"
+#~ msgstr "<big><b>Visus atjauninājumus nebija iespējams Uzstādīt</b></big>"
+
+#~ msgid "<big><b>Starting Update Manager</b></big>"
+#~ msgstr "<big><b>Sāknēju atjaunināšanas pārvaldnieku</b></big>"
+
+#~ msgid "Chec_k"
+#~ msgstr "Pār_baudīt"
+
+#~ msgid "Check the software channels for new updates"
+#~ msgstr "Pārbaudīt, vai programmatūras kanālos nav jaunu atjauninājumu"
+
+#~ msgid "Description"
+#~ msgstr "Apraksts"
+
+#~ msgid "Description of update"
+#~ msgstr "Atjauninājuma apraksts"
+
+#~ msgid ""
+#~ "Run a partial upgrade, to install as many updates as possible. \n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " ◦ A previous upgrade which didn't complete\n"
+#~ " ◦ Problems with some of the installed software\n"
+#~ " ◦ Unofficial software packages not provided by Ubuntu\n"
+#~ " ◦ Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "Lietojiet daļējo atjaunināšanu, lai uzstādītu pēc iespējas vairāk "
+#~ "atjauninājumu. \n"
+#~ "\n"
+#~ "Šo stāvokli var izraisīt:\n"
+#~ " ◦ Iepriekšēja atjaunināšana, kas netika pabeigta\n"
+#~ " ◦ Problēmas ar kādu no uzinstalētajām programmām\n"
+#~ " ◦ Ubuntu neuzturētas neoficiālās pakotnes\n"
+#~ " ◦ Dabiskas izmaiņas Ubuntu priekšlaidiena versijā"
+
+#~ msgid "U_pgrade"
+#~ msgstr "Atjaunināšana"
+
+#~ msgid "Upgrade to the latest version of Ubuntu"
+#~ msgstr "Atjaunināt uz jaunāko Ubuntu versiju"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "Turpmāk nerādīt šo informāciju"
+
+#~ msgid "_Partial Upgrade"
+#~ msgstr "_Daļēja atjaunināšana"
+
+#~ msgid "_Upgrade"
+#~ msgstr "Atja_unināt"
+
+#~ msgid "updates"
+#~ msgstr "atjauninājumi"
+
+#~ msgid "Show version and exit"
+#~ msgstr "Parāda versiju un iziet"
+
+#~ msgid "Check if a new distribution release is available"
+#~ msgstr "Pārbaudīt, vai ir pieejams jauns distribūcijas laidiens"
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr ""
+#~ "Pārbaudīt, vai ir iespējama modernizēšana uz pēdējo izstrādes laidienu"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Mēģiniet lietot dist-upgrade"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "Darbojas daļēja atjaunināšana"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "Mēģiniet atjaunināt uz jaunāko laidienu izmantojot $distro-proposed "
+#~ "atjauninātāju"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "Palaidiet īpašā atjaunināšanas režīmā.\n"
+#~ "Šobrīd ir pieejamas šādas iespējas: 'desktop', lai atjauninātu parastas "
+#~ "darbstacijas un 'server', lai atjauninātu serverus."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "Darbināt norādīto saskarni"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Pārbauda, vai ir pieejams jauns Ubuntu laidiens"
+
+#~ msgid "No new release found"
+#~ msgstr "Jauns laidiens netika atrasts"
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bugreport."
+#~ msgstr ""
+#~ "Lūdzu, paziņojiet par šo kā par 'update-manager' (atjaunināšanas "
+#~ "pārvaldnieka) pakotnes blusu un iekļaujiet  savā paziņojumā failus no /"
+#~ "var/log/dist-upgrade/.\n"
+#~ "%s"
+
+#~ msgid "The upgrade tool will guide you through the upgrade process."
+#~ msgstr "Atjaunināšanas rīks izvadīs jūs cauri atjaunināšanas procesam."
+
+#~ msgid "Can't upgrade required meta-packages"
+#~ msgstr "Nevar atjaunināt nepieciešamās meta pakotnes"
+
+#~ msgid "A essential package would have to be removed"
+#~ msgstr "Varētu būt nepieciešams noņemt ļoti svarīgu pakotni"
+
+#~ msgid ""
+#~ "The upgrade aborts now. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "Atjaunināšna tiks pārtraukta. Atjaunināšanai ir nepieciešama %s liela "
+#~ "brīva vieta uz diska '%s'. Lūdzu atbrīvojiet papildus %s uz diska '%s'. "
+#~ "Iztīriet atkritumkasti un atbrīvojieties no iepriekšējo instalāciju "
+#~ "pagaidu pakotnēm izpildot komandu 'sudo apt-get clean'."
+
+#~ msgid ""
+#~ "The upgrade aborts now. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "Uzlabošana tiek pārtraukta. Jūsu sistēma var būt nelietojamā stāvoklī. "
+#~ "Tūlīt tiks iedarbināts atgūšanas rīks (dpkg --configure -a)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bugreport.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Lūdzu, paziņojiet par šo kā par 'update-manager' (atjaunināšanas "
+#~ "pārvaldnieka) pakotnes blusu un iekļaujiet  savā paziņojumā failus no /"
+#~ "var/log/dist-upgrade/.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem"
+#~ msgstr ""
+#~ "Šī lejupielāde var aizņemt %s ar 1Mbit DSL pieslēgumu un ap %s ar 56k "
+#~ "modēmu"
+
+#~ msgid "Restart the system now [yN] "
+#~ msgstr "Pārstartēt sistēmu [yN] "
+
+#~ msgid "You can install %s update."
+#~ msgid_plural "You can install %s updates."
+#~ msgstr[0] "Jūs varat uzstādīt %s atjauninājumu."
+#~ msgstr[1] "Jūs varat uzstādīt %s atjauninājumus."
+#~ msgstr[2] "Jūs varat uzstādīt %s atjauninājumus."
+
+#~ msgid "<big><b>Keep your system up-to-date</b></big>"
+#~ msgstr "<big><b>Uzturēt sistēmu uz-šo-datumu</b></big>"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/"
+#~ "dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "Sistēmas sagatavošana atjaunināšanai neizdevās. Lūdzu, paziņojiet par to "
+#~ "kā par blusu 'update-manager' (atjaunināšanas pārvaldnieka) pakotnē un "
+#~ "iekļaujiet savā ziņojumā failus no /var/log/dist-upgrade/."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and "
+#~ "include the files in /var/log/dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "Sistēmai neizdevās iegūt atjaunināšanas priekšnosacījumus. Atjaunināšana "
+#~ "tiks pārtraukta un atjunots sistēmas iepriekšējais stāvoklis.\n"
+#~ "\n"
+#~ "Lūdzu, ziņojiet par to kā par 'update-manager' pakotnes kļūdu un "
+#~ "pievienojiet failus no /var/log/dist-upgrade/ kļūdas ziņojumā."
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the "
+#~ "'update-manager' package and include the files in /var/log/dist-upgrade/ "
+#~ "in the bugreport."
+#~ msgstr ""
+#~ "Pēc pakotņu informācijas atjaunināšanas vairs nebija iespējams atrast "
+#~ "būtisku pakotni '%s'.\n"
+#~ "Tas norāda uz nopietnu kļūdu. Lūdzu, paziņojiet par šo blusu 'update-"
+#~ "manager' (pakotņu pārvaldnieka) pakotnē un iekļaujiet failus no /var/log/"
+#~ "dist-upgrada/ savā ziņojumā."
+
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may be in a not working "
+#~ "state. Please consider submitting a bugreport about it."
+#~ msgstr ""
+#~ "Modernizēšana tiks turpināta, bet pakotne '%s' varbūt nebūs darba "
+#~ "kārtībā. Lūdzu, izvērtējiet, vai nosūtīt par to kļūdas ziņojumu."
+
+#~ msgid "Daily"
+#~ msgstr "Ikdienas"
+
+#~ msgid "Every two days"
+#~ msgstr "Reizi divās dienās"
+
+#~ msgid "Weekly"
+#~ msgstr "Nedēļas izdevums"
+
+#~ msgid "Every two weeks"
+#~ msgstr "Reizi divās nedēļās"
+
+#~ msgid "After one week"
+#~ msgstr "Pēc vienas nedēļas"
+
+#~ msgid "After two weeks"
+#~ msgstr "Pēc divām nedēļām"
+
+#~ msgid "After one month"
+#~ msgstr "Pēc viena mēneša"
+
+#~ msgid "Fetching file %li of %li at %sb/s"
+#~ msgstr "Velku failu %li no %li ar ātrumu %s/s"
+
+#~ msgid "%li days %li hours %li minutes"
+#~ msgstr "%li dienas %li stundas %li minūtes"
+
+#~ msgid "_Check"
+#~ msgstr "_Pārbaudīt"
+
+#~ msgid "Error importing selected file"
+#~ msgstr "Kļūda importējot izvēlēto failu"
+
+#~ msgid "Error removing the key"
+#~ msgstr "Kļūda aizvācot atslēgu"
+
+#~ msgid "Every %s days"
+#~ msgstr "Reizi %s dienās"
+
+#~ msgid "After %s days"
+#~ msgstr "Pēc %s dienām"
+
+#~ msgid "Please insert a disc in the drive:"
+#~ msgstr "Lūdzu ielieciet disku lasītājā."
+
+#~ msgid "Authentication"
+#~ msgstr "Autentifikācija"
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>Komentārs:</b>"
+
+#~ msgid ""
+#~ "Binary\n"
+#~ "Source"
+#~ msgstr ""
+#~ "Binārais\n"
+#~ "Pirmkoda"
+
+#~ msgid "_Reload"
+#~ msgstr "_Pārlādēt"
+
+#~ msgid "Officially supported"
+#~ msgstr "Oficiāli atbalstītie"
+
+#~ msgid "Restricted copyright"
+#~ msgstr "Saistītie autortiesību"
+
+#~ msgid ""
+#~ "Use special upgrade mode. Available:\n"
+#~ "desktop, server"
+#~ msgstr ""
+#~ "Lietot speciālu atjaunināšanas veidu. Pieejamās iespējas:\n"
+#~ "darbavirsma, serveris"
+
+#~ msgid ""
+#~ "The list of changes is not available yet.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "Izmaiņu saraksts nav pieejams,\n"
+#~ "Lūdzu, mēģiniet vēlāk."
+
+#~ msgid "_Skip This Step"
+#~ msgstr "_Izlaist šo soli"
+
+#~ msgid "Asking for confirmation"
+#~ msgstr "Jautā apstiprinājumu"
+
+#~ msgid "<b>Remove %s</b>"
+#~ msgstr "<b>Noņemt %s</b>"
+
+#~ msgid ""
+#~ "The key you selected could not be removed. Please report this as a bug."
+#~ msgstr "Jūsu izvēlēto atslēgu nevar noņemt. Lūdzu, ziņojiet par šo kļūdu."
+
+#~ msgid "<p>You have to download a total of %s. "
+#~ msgstr "<p>Jums pavisam nepieciešams lejupielādēt %s. "
+
+#~ msgid "The selected file may not be a GPG key file or it might be corrupt."
+#~ msgstr "Izvēlētais fails varētu nebūt GPG atslēga vai arī tas ir bojāts."
+
+#~ msgid "<b>URI:</b>"
+#~ msgstr "<b>URI:</b>"
+
+#~ msgid "System Update Tool"
+#~ msgstr "Sistēmas atjaunināšanas rīks"
+
+#~ msgid "Fetching the upgrades"
+#~ msgstr "Iegūst atjauninājumus"
+
+#~ msgid "(Source Code)"
+#~ msgstr "(Izejas kods)"
+
+#~ msgid "<b>Distribution:</b>"
+#~ msgstr "<b>Distributīvs:</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Tips:</b>"
+
+#~ msgid "APT line:"
+#~ msgstr "APT rindiņa:"
+
+#~ msgid "Community maintained (Universe)"
+#~ msgstr "Sabiedrības uzturētie (Universe)"
+
+#~ msgid "Non-free (Multiverse)"
+#~ msgstr "Maksas (Multiverse)"
+
+#~ msgid ""
+#~ "<big><b>Error scanning the CD</b></big>\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "<big><b>Kļūda, skenējot CD</b></big>\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Source code"
+#~ msgstr "Izejas kods"
+
+#~ msgid "Run in a special upgrade mode"
+#~ msgstr "Darbināt speciālā atjaunināšanas režīmā"
+
+#~ msgid "%s updates"
+#~ msgstr "%s atjauninājumi"
+
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "Active"
+#~ msgstr "Aktīvs"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistika"

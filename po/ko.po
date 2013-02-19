@@ -1,0 +1,2026 @@
+# Korean translation for update-manager
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the update-manager package.
+# darehanl <darehanl@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2009-03-26 16:12+0000\n"
+"Last-Translator: wariua <Unknown>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2009-04-08 12:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr ""
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr ""
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr ""
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "0 KB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../UpdateManager/Util/humanize.py:56
+#, fuzzy
+msgid "< 5 seconds"
+msgstr "%li 초"
+
+#: ../UpdateManager/Util/humanize.py:58
+#, fuzzy, python-format
+msgid "%d seconds"
+msgstr "%li 초"
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, fuzzy, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%li 분"
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, fuzzy, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%li 초"
+
+#: ../UpdateManager/Util/humanize.py:74
+#, fuzzy, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%li 시간"
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+#, fuzzy
+msgid "Could not download packages information."
+msgstr "꾸러미 정보를 초기화할 수 없습니다."
+
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+#, fuzzy
+msgid "Do you want to submit a bug report?"
+msgstr "업그레이드를 시작하시겠습니까?"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+#, fuzzy
+msgid "Loading package cache."
+msgstr "패키지 업데이트 내려 받는 중"
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+#, fuzzy
+msgid "Finished loading package cache."
+msgstr "패키지 업데이트 내려 받는 중"
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr "취소"
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr "설치"
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr "업데이트 목록 구성 중"
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr "브라우저로 링크 열기"
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr "링크를 클립보드에 복사"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr "전체 선택 취소(_U)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+#, fuzzy
+msgid "_Check all"
+msgstr "전체 선택(_C)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr "(크기: %s)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "버전 %(old_version)s에서 %(new_version)s(으)로"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, fuzzy, python-format
+msgid "Version: %s"
+msgstr "버전 %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr "다운로드 크기: %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr "변경 사항 목록을 다운로드하고 있습니다..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+#, fuzzy
+msgid "Downloading list of changes failed."
+msgstr "변경 사항 목록을 다운로드하고 있습니다..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, fuzzy, python-format
+msgid "Version %s: "
+msgstr "버전 %s: \n"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+#, fuzzy
+msgid "Gathering information about updates..."
+msgstr "패키지 정보가 %s일 전에 마지막으로 업데이트 되었습니다."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+#, fuzzy
+msgid "Upgrading may require removal or installation of new packages."
+msgstr "못쓰게 된 꾸러미를 삭제하시겠습니까?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+#, fuzzy
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr "업그레이드를 시작하시겠습니까?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr "시스템이 최신의 상태입니다."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, fuzzy, python-format
+msgid "Welcome to %s!"
+msgstr "우분투의 세계에 오신 것을 환영합니다."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+#, fuzzy
+msgid "Software updates are available for this computer."
+msgstr "이 컴퓨터에 소프트웨어 업데이트를 설치할 수 있습니다"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+#, fuzzy
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+"지금 설치하는 대신 나중에 관리 메뉴에서 \"업데이트 관리자\"를 선택할 수도 있"
+"습니다."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+#, fuzzy
+msgid "About Update Manager"
+msgstr "업데이트 관리자"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "업데이트 관리자"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+msgid "Source"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+#, fuzzy
+msgid "Downloaded"
+msgstr "다운로드 크기: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+#, fuzzy
+msgid "Checking for updates"
+msgstr "기타 업데이트"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr ""
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, fuzzy, python-format
+msgid "Download rate: %s/s"
+msgstr "다운로드 크기: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+#, fuzzy
+msgid "Checking for updates..."
+msgstr "기타 업데이트"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+#, fuzzy
+msgid "Error message:"
+msgstr "오류 메시지 '%s'"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+#, fuzzy
+msgid "Downloading updates"
+msgstr "패키지 업데이트 내려 받는 중"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr "변경 사항"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr "%s 제거"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr "%s 설치"
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+#, fuzzy
+msgid "Removal or installation of packages"
+msgstr "못쓰게 된 꾸러미를 삭제하시겠습니까?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+#, fuzzy
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr "업그레이드를 설치하는 중"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "업그레이드를 시작하시겠습니까?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+#, fuzzy
+msgid "Preparing upgrade"
+msgstr "업그레이드를 준비하는 중"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+#, fuzzy
+msgid "This operation may take some time."
+msgstr "잠시만 기다리십시오. 이 작업은 시간이 조금 걸립니다."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+#, fuzzy
+msgid "Downloading finished"
+msgstr "변경사항 내려 받는 중"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+#, fuzzy
+msgid "Installing updates"
+msgstr "업데이트를 설치(_I)"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, fuzzy, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] "제안하는 업데이트"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+#, fuzzy
+msgid "Your system is now up-to-date."
+msgstr "시스템이 최신의 상태입니다."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+#, fuzzy
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr ""
+"소프트웨어 업데이트는 에러를 고치고, 보안 문제를 제거하며 새로운 기능을 제공"
+"합니다."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+#, fuzzy
+msgid "Please consider installing all available updates."
+msgstr "설치할 수 있는 업데이트를 보여주고, 설치합니다."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr "각 파일의 진행 상황 표시"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+#, fuzzy
+msgid "Show terminal"
+msgstr "터미널 보이기 >>>"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+#, fuzzy
+msgid "A fatal error has been detected"
+msgstr "심각한 오류 발생"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, fuzzy, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr "버전 %s"
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr "중요한 보안 업데이트"
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr "추천하는 업데이트"
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr "배포판 업데이트"
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr "제안하는 업데이트"
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr "Backports"
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+#, fuzzy
+msgid "Third-party updates"
+msgstr "써드 파티 소스는 이용할 수 없습니다"
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr "*deprecated* 새로운 배포판을 확인합니다."
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr "설치에 성공한 후 자동으로 창을 닫습니다"
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr "처음 실행 환영 메시지"
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+"자동 업데이트 확인 기능을 사용하지 않으면, 채널 목록을 수동으로 다시 읽어야 "
+"합니다. 이 옵션은 이 경우에 알림 기능이 나타나지 않도록 합니다."
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr "이 키가 설정되면 처음 실행 환영 메시지가 제공될 겁니다."
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr "이 키를 설정하면, 설치 후 자동으로 설치 창이 닫힙니다."
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+"이 키가 설정되면 주 업데이트 목록 창이 (해당 버전에 따라) 버전 정보를 보여줄 "
+"것입니다."
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr "채널 목록을 다시 읽도록 알려줍니다."
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr "업데이트의 자세한 정보를 보여줍니다."
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr "업데이트 목록에 버전 표시"
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr "업데이트 관리자 창의 크기 저장"
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr "변경 사항과 설명의 목록을 포함하는 확장자의 상태를 저장합니다."
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr "창 크기"
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+"이 키는 /etc/update-manager/release-upgrades 파일을 이용하기 위해 더 이상 지"
+"원하지 않습니다. 이는 현재 배포판의 새로운 버전을 이용할 수 있는지 자동으로 "
+"점검하고, (가능하다면) 업그레이드를 하도록 요청합니다."
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "설치할 수 있는 업데이트를 보여주고, 설치합니다."
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "소프트웨어 업데이트"
+
+#, fuzzy
+#~ msgid "Current package: %s"
+#~ msgstr "망가진 꾸러미"
+
+#~ msgid "Server for %s"
+#~ msgstr "%s 서버"
+
+#~ msgid "Main server"
+#~ msgstr "주 서버"
+
+#~ msgid "Custom servers"
+#~ msgstr "사용자 정의 서버"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "sources.list 항목을 계산할 수 없습니다."
+
+#~ msgid ""
+#~ "Unable to locate any package files, perhaps this is not a Ubuntu Disc or "
+#~ "the wrong architecture?"
+#~ msgstr ""
+#~ "꾸러미 파일을 찾을 수 없습니다. 우분투 디스크가 아니거나 잘못된 아키텍쳐"
+#~ "(x86, x64)입니다."
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "CD 추가하기 실패"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "CD를 더할 때 오류가 발생하였기 때문에 업그레이드는 중단될 것입니다. 올바"
+#~ "른 우분투 CD를 사용하고 있었다면 이 버그를 보고해 주십시오.\n"
+#~ "\n"
+#~ "오류 메시지:\n"
+#~ "'%s'"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "오류 상태인 패키지 지우기"
+
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "'%s' 패키지들은 불완전한 상태이며 재설치될 필요가 있습니다만, 아카이브에"
+#~ "서 찾을 수가 없습니다.  이 패키지들을 지금 지우고 계속하길 원하십니까?"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "이 소프트웨어로 수정할 수 없는 망가진 꾸러미가 있습니다. 진행 전에 먼저 시"
+#~ "냅틱이나 apt-get을 사용하여 복구하십시오."
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "업데이트를 계산하는 중 해결할 수 없는 문제가 생겼습니다.:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " 이것의 원인은 다음의 하나일 수 있습니다:\n"
+#~ " * 차기 버전의 우분투로 업그레이드로 업그레이드 중이거나\n"
+#~ " * 차기 버전의 우분투를 사용하고 있거나\n"
+#~ " * 써드 파티 소프트웨어를 사용 중입니다.\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr ""
+#~ "이것은 아마도 일시적인 문제일 것입니다. 나중에 다시 시도해 주시기 바랍니"
+#~ "다."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bug report."
+#~ msgstr ""
+#~ "만약 적용되지 않는다면, /var/log/dist-upgrade/ 에 있는 파일들을 버그 보고"
+#~ "서에 넣어서 'update-manager' 패키지에 이 버그를 보고해 주시기 바랍니다."
+
+#~ msgid "Could not calculate the upgrade"
+#~ msgstr "업그레이드에 필요한 의존성을 계산할 수 없습니다."
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "꾸러미 인증 오류"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "인증하는데 실패한 꾸러미가 있습니다. 일시적인 네트워크 문제일 수 있으니 나"
+#~ "중에 다시 시도하십시오. 인증에 실패한 꾸러미의 목록은 다음과 같습니다."
+
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "이 꾸러미 '%s'은(는) 제거 블랙리스트에 적혀 있어서 제거할 수 없습니다."
+
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "필수 꾸러미 '%s' 가 삭제로 표시 되었습니다."
+
+#~ msgid "Can not mark '%s' for upgrade"
+#~ msgstr "'%s'을(를) 업데이트 항목으로 표시할 수 없습니다."
+
+#~ msgid "Can't install '%s'"
+#~ msgstr "'%s'을(를) 설치할 수 없습니다."
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr "요청된 꾸러미를 설치할 수 없습니다. 버그로 보고하여 주십시오. "
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "메타 꾸러미를 추측할 수 없습니다."
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "시스템에 ubuntu-desktop이나 kubuntu-desktop이나 xubuntu-desktop 또는 "
+#~ "edubuntu-desktop 패키지가 없으며, 현재 실행중인 우분투의 버전을 알아낼 수 "
+#~ "없습니다.\n"
+#~ " 위의 패키지 중 하나를 시냅틱이나 apt-get을 이용해서 먼저 설치하시기 바랍"
+#~ "니다."
+
+#~ msgid "Reading cache"
+#~ msgstr "캐시를 읽는 중"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "배타적인 잠금을 할 수 없습니다"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "이것은 보통 또 다른 패키지 관리 프로그램 (apt-get이나 aptitude 같은)이 이"
+#~ "미 실행 중임을 의미 합니다. 우선 그 프로그램을 종료 하십시요."
+
+#~ msgid "Upgrading over remote connection not supported"
+#~ msgstr "원격 접속을 통한 업그레이드는 지원 안 됨"
+
+#~ msgid ""
+#~ "You are running the upgrade over a remote ssh connection with a frontend "
+#~ "that does not support this. The upgrade will abort now. Please try "
+#~ "without ssh."
+#~ msgstr ""
+#~ "지원되지 않는 프론트엔드로 원격 ssh 연결을 통한 업그레이드를 실행하는 중입"
+#~ "니다.  업그레이드는 지금 중단될 것입니다.  ssh 없이 시도해 보시기 바랍니"
+#~ "다."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "SSH를 통해 실행하는 것을 계속 진행하시겠습니까?"
+
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, a additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "이 세션은 ssh를 통해서 실행되고 있는 것 같습니다. ssh를 통해 업그레이드를 "
+#~ "수행하는 것은 실패할 경우 복구하기가 어렵기 때문에 추천하지 않습니다.\n"
+#~ "\n"
+#~ "계속 진행한다면, 추가적인 ssh 데몬이 '%s' 포트에서 시작될 것입니다.\n"
+#~ "계속 진행하시겠습니까?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "추가적인 sshd 시작하기"
+
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "문제가 발생했을 때 복구를 쉽게 할 수 있도록 sshd 데몬을 포트 '%s'에 추가"
+#~ "로 실행합니다. 현재 실행중인 ssh에 문제가 생겨도 추가로 실행한 데몬으로 접"
+#~ "속할 수 있습니다.\n"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "업그레이드할 수 없습니다"
+
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr ""
+#~ "이 도구를 통해 '%s'에서 '%s'(으)로 업그레이드하는 것은 지원되지 않습니다."
+
+#~ msgid "Sandbox setup failed"
+#~ msgstr "샌드박스 장치 조정 실패"
+
+#~ msgid "It was not possible to create the sandbox environment."
+#~ msgstr "샌드박스 환경 생성이 불가능 했습니다."
+
+#~ msgid "Sandbox mode"
+#~ msgstr "샌드박스 모드"
+
+#~ msgid ""
+#~ "This upgrade is running in sandbox (test) mode. All changes are written "
+#~ "to '%s' and will be lost on the next reboot.\n"
+#~ "\n"
+#~ "*No* changes written to a systemdir from now until the next reboot are "
+#~ "permanent."
+#~ msgstr ""
+#~ "이 업그레이드는 샌드박스 (시험) 모드에서 실행되고 있습니다.  모든 변경사항"
+#~ "들은 '%s'에 씌여지며 다음 다시 시작 때 지워질 것 입니다.\n"
+#~ "\n"
+#~ "지금부터 다음 다시 시작 때까지 시스템 디렉터리 내용은 전혀 변경되지 *않습"
+#~ "니다.*"
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "파이썬 설치가 잘못 되었습니다. '/usr/bin/python' 심볼릭 링크를 수정하십시"
+#~ "오."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "'debsig-verify' 꾸러미가 설치되어 있습니다."
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "그 패키지가 설치된 상태로는 업그레이드를 계속할 수 업습니다.\n"
+#~ "시냅틱이나 'apt-get remove debsig-verify' 명령으로 그것을 제거한 후 다시 "
+#~ "업그레이드를 수행하십시오."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "인터넷으로 최신 업데이트를 설치하겠습니까?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "업그레이드 프로그램은 업그레이드 과정에서 인터넷을 이용해 자동으로 최신 업"
+#~ "데이트를 내려받아 설치할 수 있습니다. 인터넷에 연결되어 있다면 가급적 설치"
+#~ "하는 것이 좋습니다.\n"
+#~ "\n"
+#~ "업그레이드는 더 오래 걸리겠지만 완료 후에는 시스템이 완전히 최신 상태가 됩"
+#~ "니다. 지금 설치를 하지 않기로 했다면 업그레이드를 마친 다음 즉시 최신 업데"
+#~ "이트를 설치해야 합니다.\n"
+#~ "'아니오'를 선택하면 네트워크를 이용하지 않습니다."
+
+#~ msgid "disabled on upgrade to %s"
+#~ msgstr "%s로 업그레이드 하는 것이 비활성화 됨"
+
+#~ msgid "No valid mirror found"
+#~ msgstr "적합한 미러 서버를 찾지 못했습니다."
+
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found.This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'no' the update will cancel."
+#~ msgstr ""
+#~ "업그레이드를 하기 위해 저장소 정보를 검색할 때 미러 서버 항목을 찾지 못했"
+#~ "습니다. 내부 미러 서버를 운영하고 있거나 미러 서버 정보가 오래됐을 때 이러"
+#~ "한 문제가 일어날 수 있습니다.\n"
+#~ "\n"
+#~ "'sources.list' 파일을 다시 작성하시겠습니까? '예'를 선택하면 '%s' 전체를 "
+#~ "'%s' 항목으로 업데이트 합니다.\n"
+#~ "'아니오'를 선택하면 업데이트가 취소됩니다."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "기본 설정된 소스 목록을 만듭니까?"
+
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the update "
+#~ "will cancel."
+#~ msgstr ""
+#~ "'sources.list' 파일을 검색해 보았지만 '%s'에 해당하는 항목을 찾지 못했습니"
+#~ "다.\n"
+#~ "\n"
+#~ "'%s'용 기본 항목들을 추가할까요? '아니오'를 선택하면 업데이트가 취소됩니"
+#~ "다."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "저장소 정보가 올바르지 않습니다"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "저장소 정보를 업그레이드했는데 잘못된 파일이 만들어졌습니다. 버그를 보고하"
+#~ "여 주십시오."
+
+#~ msgid ""
+#~ "Some third party entries in your sources.list were disabled. You can re-"
+#~ "enable them after the upgrade with the 'software-properties' tool or your "
+#~ "package manager."
+#~ msgstr ""
+#~ "souces.list에서 써드 파티 목록의 일부는 이용할 수 없게 되었습니다. 업그레"
+#~ "드를 마친 후 '소프트웨어 소스' 도구나 꾸러미 관리자를 이용해 다시 사용가능"
+#~ "하게 할 수 있습니다."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "패키지 상태 불일치"
+
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Please reinstall the package manually "
+#~ "or remove it from the system."
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archive can be found for them. Please reinstall the "
+#~ "packages manually or remove them from the system."
+#~ msgstr[0] ""
+#~ "'%s' 패키지들은 불완전한 상태이며 재설치될 필요가 있습니다만, 아카이브에"
+#~ "서 찾을 수가 없습니다.  이 패키지들을 수동으로 재설치하거나 시스템에서 제"
+#~ "거하시기 바랍니다."
+
+#~ msgid "Error during update"
+#~ msgstr "업데이트 중 오류"
+
+#~ msgid ""
+#~ "A problem occurred during the update. This is usually some sort of "
+#~ "network problem, please check your network connection and retry."
+#~ msgstr ""
+#~ "업데이트를 하는 동안에 문제가 발생했습니다. 보통 네트워크 문제인 경우가 많"
+#~ "습니다. 네트워크의 연결 상태를 확인하시고 다시 시도하십시오."
+
+#~ msgid "Not enough free disk space"
+#~ msgstr "디스크 여유 공간이 충분하지 않습니다."
+
+#~ msgid ""
+#~ "The upgrade is now aborted. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "지금 업그레이드가 중단되었습니다.  업그레이드는 '%s' 디스크에 총 %s의 여"
+#~ "유 공간이 필요합니다.  '%s'에 추가로 최소 %s의 디스크 공간이 더 확보되어"
+#~ "야 합니다.  휴지통을 비우고 'sudo apt-get clean'을 사용해서 이전 설치의 임"
+#~ "시 패키지들을 삭제하십시요."
+
+#~ msgid "Support for some applications ended"
+#~ msgstr "일부 프로그램의 지원이 종료되었습니다"
+
+#~ msgid ""
+#~ "Canonical Ltd. no longer provides support for the following software "
+#~ "packages. You can still get support from the community.\n"
+#~ "\n"
+#~ "If you have not enabled community maintained software (universe), these "
+#~ "packages will be suggested for removal at the end of the upgrade."
+#~ msgstr ""
+#~ "Canonical Ltd.는 다음의 소프트웨어 꾸러미를 더 이상 지원하지 않습니다. 커"
+#~ "뮤니티를 통해서 여전히 지원받을 수 있습니다.\n"
+#~ "\n"
+#~ "커뮤니티 관리 소프트웨어(universe 저장소)를 활성화하지 않았다면, 업그레이"
+#~ "드의 마지막 단계에서 이 꾸러미들을 삭제하도록 제안할 것입니다."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "변경 사항을 적용하는 중"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "업그레이드 파일을 다운로드 할 수 없습니다."
+
+#~ msgid ""
+#~ "The upgrade is now aborted. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far are kept."
+#~ msgstr ""
+#~ "지금 업그레이드가 중단되었습니다.  인터넷 연결이나 설치 미디어를 확인하고 "
+#~ "다시 시도해 보십시요.  지금까지 다운로드된 모든 파일들은 보존됩니다."
+
+#~ msgid "Error during commit"
+#~ msgstr "커밋 도중 오류 발생"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "시스템을 원래의 상태로 복구하고 있습니다"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "업그레이드를 설치하지 못했습니다."
+
+#~ msgid ""
+#~ "The upgrade is now aborted. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "지금 업그레이드가 중단되었습니다.  시스템이 사용불가 상태일 수 있습니다.  "
+#~ "지금 복구가 실행될 것입니다 (dpkg --configure -a)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bug report.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "이 버그를 'update-manager' 패키지에 보고해 주시고, /var/log/dist-upgrade/"
+#~ "에 있는 파일들을 버그 보고서에 첨부해 주세요.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The upgrade is now aborted. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "지금 업그레이드가 중단되었습니다.  인터넷 연결이나 설치 미디어를 확인하고 "
+#~ "다시 시도해 보십시요. "
+
+#~ msgid "_Keep"
+#~ msgstr "유지(_K)"
+
+#~ msgid "_Remove"
+#~ msgstr "삭제(_R)"
+
+#~ msgid ""
+#~ "A problem occurred during the clean-up. Please see the below message for "
+#~ "more information. "
+#~ msgstr ""
+#~ "정리하는 도중에 문제가 발생하였습니다. 다음의 메시지에서 더 많은 정보를 확"
+#~ "인할 수 있습니다. "
+
+#~ msgid "Required depends is not installed"
+#~ msgstr "필요한 의존 프로그램이 설치되어 있지 않습니다."
+
+#~ msgid "The required dependency '%s' is not installed. "
+#~ msgstr "필요한 의존 프로그램 '%s' (이)가 설치되어 있지 않습니다. "
+
+#~ msgid "Checking package manager"
+#~ msgstr "꾸러미 관리자 확인 중"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "업그레이드 준비에 실패했습니다"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/"
+#~ "dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "업그레이드를 위한 시스템 준비 작업을 실패했습니다.  이 버그를 'update-"
+#~ "manager' 패키지에 보고해 주시고, /var/log/dist-upgrade/에 있는 파일들을 버"
+#~ "그 보고서에 첨부해 주세요."
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "업그레이드 준비에 실패했습니다"
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and "
+#~ "include the files in /var/log/dist-upgrade/ in the bug report."
+#~ msgstr ""
+#~ "시스템이 업그레이드를 위한 선행조건들을 가져올 수 없었습니다.  업그레이드"
+#~ "는 이제 중단되며 시스템은 기존 상태로 복원될 것입니다.\n"
+#~ "\n"
+#~ "이 상황을 버그로 'update-manager' 패키지에 보고해 주시고, /var/log/dist-"
+#~ "upgrade/에 있는 파일들을 버그 보고서에 첨부해 주세요."
+
+#~ msgid "Updating repository information"
+#~ msgstr "저장소 정보 업데이트 중"
+
+#~ msgid "Invalid package information"
+#~ msgstr "잘못된 꾸러미 정보"
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the "
+#~ "'update-manager' package and include the files in /var/log/dist-upgrade/ "
+#~ "in the bug report."
+#~ msgstr ""
+#~ "당신의 패키지 정보가 업데이트 된 후, 필수 패키지 '%s'를 어디에서도 찾을 수"
+#~ "가 없습니다.\n"
+#~ "이는 심각한 오류이며, 이 버그를 'update-manager' 패키지에 보고해 주시고, /"
+#~ "var/log/dist-upgrade/에 있는 파일들을 버그 보고서에 첨부해 주세요."
+
+#~ msgid "Fetching"
+#~ msgstr "가져오는 중"
+
+#~ msgid "Upgrading"
+#~ msgstr "업그레이드 하는 중"
+
+#~ msgid "Upgrade complete"
+#~ msgstr "업그레이드 완료"
+
+#~ msgid ""
+#~ "The upgrade is completed but there were errors during the upgrade process."
+#~ msgstr "업그레이드 진행 중 오류가 있었으나 완료되었습니다."
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "못 쓰게 된 소프트웨어를 검색하는 중"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "시스템 업그레이드가 완료되었습니다."
+
+#~ msgid "The partial upgrade was completed."
+#~ msgstr "부분 업그레이드가 완료되었습니다."
+
+#~ msgid ""
+#~ "Upgrading may reduce desktop effects, and performance in games and other "
+#~ "graphically intensive programs."
+#~ msgstr ""
+#~ "업그레이드로 인해 데스크탑 효과나 게임, 그래픽 관련 프로그램의 성능이 줄어"
+#~ "들 수 있습니다."
+
+#~ msgid ""
+#~ "This computer is currently using the AMD 'fglrx' graphics driver. No "
+#~ "version of this driver is available that works with your hardware in "
+#~ "Ubuntu 9.04.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "현재 이 컴퓨터는 AMD의 'fglrx' 그래픽 드라이버를 사용하고 있습니다. 우분"
+#~ "투 9.04에는 이 컴퓨터의 하드웨어와 맞는 'fglrx' 드라이버가 없습니다.\n"
+#~ "\n"
+#~ "계속 하시겠습니다?"
+
+#~ msgid ""
+#~ "This computer is currently using the NVIDIA 'nvidia' graphics driver. No "
+#~ "version of this driver is available that works with your video card in "
+#~ "Ubuntu 8.10.\n"
+#~ "\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "현재 이 컴퓨터는 NVIDIA의 'nvidia' 그래픽 드라이버를 사용하고 있습니다. 우"
+#~ "분투 8.10에는 이 컴퓨터의 하드웨어와 맞는 'nvidia' 드라이버가 없습니다.\n"
+#~ "\n"
+#~ "계속 하시겠습니다?"
+
+#~ msgid "evms in use"
+#~ msgstr "evms 사용"
+
+#~ msgid ""
+#~ "Your system uses the 'evms' volume manager in /proc/mounts. The 'evms' "
+#~ "software is no longer supported, please switch it off and run the upgrade "
+#~ "again when this is done."
+#~ msgstr ""
+#~ "이 시스템은 /proc/mounts 안에 'evms' 볼륨 매니저를 사용하고 있습니다.  "
+#~ "'evms'은 더이상 지원되지 않으므로, 종료 후에 업그레이드를 다시 실행하십시"
+#~ "오."
+
+#~ msgid "Sandbox upgrade using aufs"
+#~ msgstr "aufs를 이용하여 샌드박스 업그레이드를 합니다."
+
+#~ msgid "Use the given path to search for a cdrom with upgradable packages"
+#~ msgstr ""
+#~ "주어진 경로를 이용하여 업그레이드할 수 있는 꾸러미가 있는 씨디롬을 찾습니"
+#~ "다."
+
+#~ msgid ""
+#~ "Use frontend. Currently available: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+#~ msgstr ""
+#~ "프론트 엔드를 사용합니다. 현재 이용가능한 것들은 다음과 같습니다: \n"
+#~ "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
+
+#~ msgid "*DEPRECATED* this option will be ignore"
+#~ msgstr "*삭제된 옵션* 이 항목은 무시됩니다."
+
+#~ msgid "Perform a partial upgrade only (no sources.list rewriting)"
+#~ msgstr "부분 업그레이드만 실행합니다.(sources.list 는 변경하지 않음)"
+
+#~ msgid "Set datadir"
+#~ msgstr "datadir 설정"
+
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "'%s'(을)를 '%s' 드라이브에 넣으십시오."
+
+#~ msgid "Fetching is complete"
+#~ msgstr "완전히 받았습니다"
+
+#~ msgid "Fetching file %li of %li at %sB/s"
+#~ msgstr "%li번째 파일 (전체 %li개) %sB/s로 내려받는 중"
+
+#~ msgid "About %s remaining"
+#~ msgstr "%s 정도 남음"
+
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "%li번째 파일 (전체 %li개) 내려받는 중"
+
+#~ msgid "Applying changes"
+#~ msgstr "변경 사항을 적용하는 중"
+
+#~ msgid "dependency problems - leaving unconfigured"
+#~ msgstr "의존성 문제 - 설정하지 않고 남겨둠"
+
+#~ msgid "Could not install '%s'"
+#~ msgstr "'%s'(을)를 설치할 수 없습니다."
+
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may be in a not working "
+#~ "state. Please consider submitting a bug report about it."
+#~ msgstr ""
+#~ "업그레이드를 계속할 것이지만 '%s' 패키지는 동작하지 않는 것으로 보입니"
+#~ "다.  이에 대해 버그 보고서를 제출할 것을 고려해 주시기 바랍니다."
+
+#~ msgid ""
+#~ "Replace the customized configuration file\n"
+#~ "'%s'?"
+#~ msgstr ""
+#~ "바뀐 설정 파일 '%s'을(를)\n"
+#~ "교체하시겠습니까?"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "새로운 버전으로 대체하기로 선택하면 이전 설정 파일에서 변경한 내용들을 잃"
+#~ "게 됩니다."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "'diff' 명령어를 찾지 못했습니다."
+
+#~ msgid ""
+#~ "Please report this as a bug (if you haven't already) and include the "
+#~ "files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in "
+#~ "your report. The upgrade is now aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "이것을 버그로 보고해주시고, 보고서에 /var/log/dist-upgrade/main.log 파일"
+#~ "과 /var/log/dist-upgrade/apt.log 파일을 첨부해 주십시오.  업그레이드는 지"
+#~ "금 중단되었습니다.\n"
+#~ "sources.list 원본은 /etc/apt/sources.list.distUpgrade에 저장되었습니다."
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Ctrl-c 눌림"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "이렇게 작업을 취소하면 시스템이 깨진 상태가 될 수 있습니다. 정말 그렇게 할"
+#~ "까요?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr "데이터 손실을 막으려면 열려있는 모든 프로그램과 문서를 닫으십시오."
+
+#~ msgid "<b>Downgrade %s</b>"
+#~ msgstr "<b>%s 다운그레이드</b>"
+
+#~ msgid "Upgrade %s"
+#~ msgstr "%s 업그레이드"
+
+#~ msgid "Media Change"
+#~ msgstr "미디어 변경"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "차이점 보기 >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< 차이점 숨기기"
+
+#~ msgid "Error"
+#~ msgstr "오류"
+
+#~ msgid "&Cancel"
+#~ msgstr "취소(&C)"
+
+#~ msgid "&Close"
+#~ msgstr "닫기(&C)"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< 터미널 숨기기"
+
+#~ msgid "Information"
+#~ msgstr "정보"
+
+#~ msgid "Details"
+#~ msgstr "자세히"
+
+#~ msgid "Restart required"
+#~ msgstr "재시작이 필요합니다."
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>업그레이드가 완료되어 시스템을 재시작합니다.</big></b>"
+
+#~ msgid "_Restart Now"
+#~ msgstr "지금 바로 재시작(_R)"
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly advised to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>진행중인 업그레이드를 취소할까요?</big></b>\n"
+#~ "\n"
+#~ "업그레이드를 도중에 취소하면 시스템이 사용 불가능한 상태가 될 수도 있습니"
+#~ "다. 업그레이드를 계속 진행하는 것이 좋습니다."
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "업그레이드를 취소하겠습니까?"
+
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li 일"
+
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem."
+#~ msgstr ""
+#~ "이 다운로드는 1Mbit DSL 연결로는 약 %s, 56k 모뎀으로는 약 %s 정도 걸릴 것"
+#~ "입니다."
+
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "현재 연결 상태로는 다운로드 과정에 약 %s 정도가 걸릴 것입니다. "
+
+#~ msgid "Getting new software channels"
+#~ msgstr "소프트웨어 채널을 가져오는 중"
+
+#~ msgid "Getting new packages"
+#~ msgstr "패키지를 가져오는 중"
+
+#~ msgid "Cleaning up"
+#~ msgstr "지우는 중"
+
+#~ msgid "%d package is going to be removed."
+#~ msgid_plural "%d packages are going to be removed."
+#~ msgstr[0] "패키지 %d개를 삭제할 것입니다."
+
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "새로운 패키지 %d개를 설치할 것입니다."
+
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "패키지 %d개를 업그레이드할 것입니다."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "총 %s개의 패키지를 다운로드해야 합니다. "
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "업그레이드를 다운로드 하여 설치하는 것은 여러 시간이 걸릴 수도 있으며, 일"
+#~ "단 다운로드가 완료되면 취소할 수 없습니다."
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr "시스템에 업그레이드할 것이 없습니다. 업그레이드를 취소합니다."
+
+#~ msgid "Reboot required"
+#~ msgstr "재부팅이 필요합니다."
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr "업그레이드가 끝났으며 다시 시작해야 합니다. 지금 하시겠습니까?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "업그레이드 도구를 실행할 수 없습니다."
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr ""
+#~ "업그레이드 도구에 버그가 있을 가능성이 높습니다. 버그를 보고하여 주십시오."
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "업그레이드 도구 서명"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "업그레이드 도구"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "가져오기가 실패했습니다."
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr ""
+#~ "업그레이드를 가져오는 데 실패했습니다. 네트워크에 문제가 있을 수 있습니"
+#~ "다. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "압축 풀기 실패"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "업그레이드의 압축을 푸는 데 실패했습니다. 네트워크나 서버에 문제가 있을 "
+#~ "수 있습니다. "
+
+#~ msgid "Verfication failed"
+#~ msgstr "검사 실패"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "업그레이드를 확인하는 데 실패했습니다.  네트워크나 서버에 문제가 있을 수 "
+#~ "있습니다. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "인증 실패"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "업그레이드를 인증하는 데 실패했습니다.네트워크나 서버에 문제가 있을 수 있"
+#~ "습니다. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "업그레이드를 할 수 없습니다."
+
+#~ msgid ""
+#~ "This usually is caused by a system were /tmp is mounted noexec. Please "
+#~ "remount without noexec and run the upgrade again."
+#~ msgstr ""
+#~ "이는 보통 /tmp 디렉토리가 noexec로 마운트된 시스템에서 발생합니다. noexec"
+#~ "를 마운트 해제하고 업그레이드를 다시 시작하십시요."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade is "
+#~ "now aborted.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "이것을 버그로 보고해주시고, 보고서에 /var/log/dist-upgrade/main.log 파일"
+#~ "과 /var/log/dist-upgrade/apt.log 파일을 첨부해 주십시오.  업그레이드는 지"
+#~ "금 중단되었습니다.\n"
+#~ "sources.list 원본은 /etc/apt/sources.list.distUpgrade에 저장되었습니다."
+
+#~ msgid "Aborting"
+#~ msgstr "중지하는 중"
+
+#~ msgid "Demoted:\n"
+#~ msgstr "강등됨:\n"
+
+#~ msgid "Continue [yN] "
+#~ msgstr "계속 [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "상세 정보 [d]"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "d"
+
+#~ msgid "Remove: %s\n"
+#~ msgstr "제거: %s\n"
+
+#~ msgid "Install: %s\n"
+#~ msgstr "설치: %s\n"
+
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "업그레이드: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "계속하겠습니까? [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "업그레이드를 완료하려면 재시작이 필요합니다.\n"
+#~ "'y'를 선택하면 시스템이 재시작될 것입니다."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>실행 중인 업그레이드를 취소하시겠습니까?</big></b>\n"
+#~ "\n"
+#~ "업그레이드를 취소하면 시스템이 사용하기 어려운 상태가 될 수 있습니다. 업그"
+#~ "레이드를 계속 하시는 쪽을 강력히 추천합니다."
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>업그레이드를 시작하시겠습니까?</big></b>"
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 9.04</big></b>"
+#~ msgstr "<b><big>9.04 버전으로 우분투 업그레이드 중</big></b>"
+
+#~ msgid "Difference between the files"
+#~ msgstr "파일 간의 차이점"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "배포판 업그레이드"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "시스템을 재시작하는 중"
+
+#~ msgid "Setting new software channels"
+#~ msgstr "소프트웨어 채널을 수정하는 중"
+
+#~ msgid "Terminal"
+#~ msgstr "터미널"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "업그레이드 취소(_C)"
+
+#~ msgid "_Continue"
+#~ msgstr "계속(_C)"
+
+#~ msgid "_Replace"
+#~ msgstr "바꾸기(_R)"
+
+#~ msgid "_Report Bug"
+#~ msgstr "버그 보고(_R)"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "업그레이드 계속(_R)"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "업그레이드 시작(_S)"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "릴리즈 정보를 찾을 수 없습니다."
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "서버에 접속자가 너무 많습니다. "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "릴리즈 정보를 다운로드 할 수 없습니다."
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "인터넷 연결 상태를 확인하십시오."
+
+#~ msgid "Upgrade"
+#~ msgstr "업그레이드"
+
+#~ msgid "Release Notes"
+#~ msgstr "릴리즈 정보"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "추가 패키지 파일 다운로드 중..."
+
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "파일 %s / %s, 속도 %sB/s"
+
+#~ msgid "File %s of %s"
+#~ msgstr "파일 %s / %s"
+
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr ""
+#~ "%(total)li개중 %(current)li번째 파일을 %(speed)s/s의 속도로 받고 있습니다"
+
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "%(total)li개중 %(current)li번째 파일을 받고 있습니다"
+
+#~ msgid "Unknown download size"
+#~ msgstr "다운로드 크기를 알 수 없음"
+
+#~ msgid ""
+#~ "It is unknown when the package information was updated last. Please try "
+#~ "clicking on the 'Check' button to update the information."
+#~ msgstr ""
+#~ "패키지 정보가 언제 마지막으로 업데이트 되었는지 알 수 없습니다. 정보를 업"
+#~ "데이트하려면 '점검' 버튼을 눌러보십시오."
+
+#~ msgid "The package information was last updated %s hour ago."
+#~ msgid_plural "The package information was last updated %s hours ago."
+#~ msgstr[0] "패키지 정보가 %s시간 전에 마지막으로 업데이트 되었습니다."
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr "패키지 정보가 1시간 이내에 마지막으로 업데이트 되었습니다."
+
+#~ msgid ""
+#~ "These software updates have been issued since Ubuntu was released. If you "
+#~ "don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration Menu later."
+#~ msgstr ""
+#~ "우분투가 출시된 이후에 다음 소프트웨어 업데이트가 나왔습니다. 지금 설치하"
+#~ "는 대신 나중에 관리 메뉴에서 \"업데이트 관리자\"를 선택할 수도 있습니다."
+
+#~ msgid "Update is complete"
+#~ msgstr "업데이트가 끝났습니다."
+
+#~ msgid ""
+#~ "The upgrade needs a total of %s free space on disk '%s'. Please free at "
+#~ "least an additional %s of disk space on '%s'. Empty your trash and remove "
+#~ "temporary packages of former installations using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "업그레이드를 위해서는 '%s' 디스크에 총 %s의 빈 공간이 필요합니다.  최소한 "
+#~ "추가로 %s의 디스크 공간을 '%s'에서 남겨주세요.  휴지통을 지우고 'sudo apt-"
+#~ "get clean'을 이용해서 이전 설치의 임시 꾸러미들을 지우세요."
+
+#~ msgid "Reading package information"
+#~ msgstr "패키지 정보를 읽는 중"
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while initializing the package "
+#~ "information.\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the following error message:\n"
+#~ msgstr ""
+#~ "꾸러미 정보를 초기화 하는 과정에서 해결 불가능한 문제가 발생했습니다.\n"
+#~ "\n"
+#~ "다음 오류 메시지를 함께 포함해서 'update-manager' 꾸러미로 이 버그를 보고"
+#~ "해 주십시오:\n"
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade.\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the following error message:"
+#~ msgstr ""
+#~ "업그레이드 작업 계산 과정에서 해결 불가능한 문제가 발생했습니다.\n"
+#~ "\n"
+#~ "다음 오류 메시지를 함께 포함해서 'update-manager' 꾸러미로 이 버그를 보고"
+#~ "해 주십시오:"
+
+#~ msgid "Your distribution is not supported anymore"
+#~ msgstr "더 이상 지원되지 않는 배포판입니다."
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Upgrade "
+#~ "to a later version of Ubuntu Linux. See http://www.ubuntu.com for more "
+#~ "information on upgrading."
+#~ msgstr ""
+#~ "더 이상 보안이나 중요 업데이트를 받을 수 없습니다. 최신의 우분투 리눅스로 "
+#~ "업그레이드 하십시오. 업그레이드에 대한 더 많은 정보는 http://www.ubuntu."
+#~ "com에서 보실 수 있습니다."
+
+#~ msgid "<b>New distribution release '%s' is available</b>"
+#~ msgstr "<b>새 배포판 '%s'을(를) 설치할 수 있습니다</b>"
+
+#~ msgid "Software index is broken"
+#~ msgstr "소프트웨어 목록이 망가졌습니다."
+
+#~ msgid ""
+#~ "It is impossible to install or remove any software. Please use the "
+#~ "package manager \"Synaptic\" or run \"sudo apt-get install -f\" in a "
+#~ "terminal to fix this issue at first."
+#~ msgstr ""
+#~ "어떤 소프트웨어도 설치하거나 삭제할 수 없습니다. \"시냅틱\"을 사용하거나 "
+#~ "터미널에서 \"sudo apt-get install -f\"를 실행하여 이 문제를 먼저 해결하십"
+#~ "시오."
+
+#~ msgid "Downloading Package Information"
+#~ msgstr "패키지 정보 내려 받는 중"
+
+#~ msgid ""
+#~ "The repositories are being checked for new, removed, or updated software "
+#~ "packages"
+#~ msgstr ""
+#~ "새로 추가 혹은 삭제되었거나 업그레이드된 소프트웨어 패키지를 위해 저장소"
+#~ "를 체크하는 중입니다."
+
+#~ msgid ""
+#~ "The selected package updates are being downloaded and installed on the "
+#~ "system"
+#~ msgstr "선택된 꾸러미의 업데이트를 시스템에 받고 설치합니다."
+
+#~ msgid "run_synaptic called with unknown action"
+#~ msgstr "run_synaptic이 알수 없는 동작을 호출하였습니다."
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " ◦ A previous upgrade which didn't complete\n"
+#~ " ◦ Problems with some of the installed software\n"
+#~ " ◦ Unofficial software packages not provided by Ubuntu\n"
+#~ " ◦ Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "일반적인 업그레이드로 추정할 수 없음. 다음을 실행하십시오:\n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "이것의 원인이 되는 것은:\n"
+#~ " ◦ 이전 업그레이드가 완료되지 않음\n"
+#~ " ◦ 설치된 소프트웨어 몇 가지에서의 문제\n"
+#~ " ◦ 우분투에서 제공하지 않는 비공식 소프트웨어 패키지\n"
+#~ " ◦ 프리 릴리즈 버전 우분투의 일상적인 변경"
+
+#~ msgid "Failed to detect distribution"
+#~ msgstr "배포판 탐지 실패"
+
+#~ msgid ""
+#~ "The changelog does not contain any relevant changes.\n"
+#~ "\n"
+#~ "Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+#~ "until the changes become available or try again later."
+#~ msgstr ""
+#~ "변경 사항 목록에 내용이 없습니다.\n"
+#~ "\n"
+#~ "변경 사항 목록이 사용 가능하게 되기 전에는 일단 다음 주소를 사용하거나 나"
+#~ "중에 다시 시도하십시오.\n"
+#~ "http://launchpad.net/ubuntu/+source/%s/%s/+changelog"
+
+#~ msgid ""
+#~ "The list of changes is not available yet.\n"
+#~ "\n"
+#~ "Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+#~ "until the changes become available or try again later."
+#~ msgstr ""
+#~ "아직은 변경 사항 목록을 사용할 수 없습니다.\n"
+#~ "\n"
+#~ "변경 사항 목록이 사용 가능하게 되기 전에는 일단 다음 주소를 사용하거나 나"
+#~ "중에 다시 시도하십시오.\n"
+#~ "http://launchpad.net/ubuntu/+source/%s/%s/+changelog"
+
+#~ msgid ""
+#~ "Failed to download the list of changes. \n"
+#~ "Please check your Internet connection."
+#~ msgstr ""
+#~ "변경 목록을 받는 데 실패했습니다. \n"
+#~ "인터넷 연결을 확인해 보세요."
+
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "사용중인 시스템을 확인하는 도중에 오류 '%s'(이)가 발생했습니다."
+
+#~ msgid "Previous selected"
+#~ msgstr "이전 선택"
+
+#~ msgid ""
+#~ "<b><big>You must check for updates manually</big></b>\n"
+#~ "\n"
+#~ "Your system does not check for updates automatically. You can configure "
+#~ "this behavior in <i>Software Sources</i> on the <i>Updates</i> tab."
+#~ msgstr ""
+#~ "<b><big>업데이트 확인을 직접 해야 합니다.</big></b>\n"
+#~ "\n"
+#~ "업데이트 확인이 자동으로 되지 않습니다. 이 동작은 <i>소프트웨어 소스</i> "
+#~ "내의 <i>업데이트</i> 탭에서 설정할 수 있습니다."
+
+#~ msgid "<big><b>Not all updates can be installed</b></big>"
+#~ msgstr "<big><b>설치할 수 없는 업데이트가 있습니다</b></big>"
+
+#~ msgid "<big><b>Starting Update Manager</b></big>"
+#~ msgstr "<b><big>업데이트 관리자를 시작합니다</big></b>"
+
+#~ msgid "Chec_k"
+#~ msgstr "점검(_K)"
+
+#~ msgid "Check the software channels for new updates"
+#~ msgstr "새로운 업데이트를 위해 소프트웨어 채널을 확인합니다."
+
+#~ msgid "Description"
+#~ msgstr "설명"
+
+#~ msgid "Description of update"
+#~ msgstr "업데이트 설명"
+
+#~ msgid ""
+#~ "Run a partial upgrade, to install as many updates as possible. \n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " ◦ A previous upgrade which didn't complete\n"
+#~ " ◦ Problems with some of the installed software\n"
+#~ " ◦ Unofficial software packages not provided by Ubuntu\n"
+#~ " ◦ Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "부분 업그레이드를 수행하여 가능한 많은 업데이트를 설치합니다. \n"
+#~ "\n"
+#~ "이것은 다음과 같은 이유로 인한 것입니다:\n"
+#~ " ◦ 완료되지 않은 이전의 업그레이드\n"
+#~ " ◦ 설치된 일부 소프트웨어의 문제\n"
+#~ " ◦ 우분투에서 제공하지 않는 비공식 소프트웨어 꾸러미\n"
+#~ " ◦ 이전 버전의 우분투의 일반적인 변경"
+
+#~ msgid "Settings…"
+#~ msgstr "설정…"
+
+#~ msgid "U_pgrade"
+#~ msgstr "업그레이드(_p)"
+
+#~ msgid "Upgrade to the latest version of Ubuntu"
+#~ msgstr "우분투 최신 버젼으로 업그레이드 합니다."
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "앞으로 이 정보 숨김(_H)"
+
+#~ msgid "_Partial Upgrade"
+#~ msgstr "부분 업그레이드(_P)"
+
+#~ msgid "_Upgrade"
+#~ msgstr "업그레이드(_U)"
+
+#~ msgid "updates"
+#~ msgstr "업데이트"
+
+#~ msgid "Show version and exit"
+#~ msgstr "버전을 표시하고 종료"
+
+#~ msgid "Check if a new distribution release is available"
+#~ msgstr "새로운 배포판 발표를 확인합니다."
+
+#~ msgid "Check if upgrading to the latest devel release is possible"
+#~ msgstr "최신 개발 버전으로 업그레이드가 가능한지 확인합니다"
+
+#~ msgid "Upgrade using the latest proposed version of the release upgrader"
+#~ msgstr "배포판 업그레이드 장치의 최종 제안 버전을 사용하여 업그레이드"
+
+#~ msgid "Do not focus on map when starting"
+#~ msgstr "시작할 때 지도에 포커스를 두지 말 것"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "배포판 업그레이드 실행 시도"
+
+#~ msgid "Test upgrade with a sandbox aufs overlay"
+#~ msgstr "샌드박스 aufs 오버레이로 시험 업그레이드"
+
+#~ msgid "Running partial upgrade"
+#~ msgstr "부분 업그레이드 실행"
+
+#~ msgid ""
+#~ "Try upgrading to the latest release using the upgrader from $distro-"
+#~ "proposed"
+#~ msgstr ""
+#~ "업그레이드 도구를 이용하여 $distro-proposed에서 최신 배포판으로 업그레이드"
+#~ "를 시도합니다"
+
+#~ msgid ""
+#~ "Run in a special upgrade mode.\n"
+#~ "Currently 'desktop' for regular upgrades of a desktop system and 'server' "
+#~ "for server systems are supported."
+#~ msgstr ""
+#~ "특별 업그레이드 모드에서 실행합니다.\n"
+#~ "현재는 데스크탑 시스템의 일반적인 업그레이드를 위한 'desktop' 모드와 서버 "
+#~ "시스템을 위한 'server' 모드를 지원합니다."
+
+#~ msgid "Run the specified frontend"
+#~ msgstr "지정된 프론트엔드를 실행"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "새로운 우분투 버전을 확인합니다."
+
+#~ msgid "No new release found"
+#~ msgstr "새로운 릴리즈가 없습니다."
+
+#~ msgid ""
+#~ "Do not output anything, just return %s if there is a new release and %s "
+#~ "if there is none."
+#~ msgstr ""
+#~ "아무것도 출력하지 말 것, 새로운 릴리즈 있다면 단지 %s만 반환하고, 아무것"
+#~ "도 없다면 %s"
+
+#~ msgid "New release '%s' available."
+#~ msgstr "새 배포판 '%s'(이)가 사용가능합니다."
+
+#~ msgid "Run 'do-release-upgrade' to upgrade to it."
+#~ msgstr "업그레이드하기 위해 'do-release-upgrade'를 실행하세요."
+
+#~ msgid "Unimplemented method: %s"
+#~ msgstr "미구현된 방법: %s"
+
+#~ msgid "A file on disk"
+#~ msgstr "디스크에 있는 파일"
+
+#~ msgid ".deb package"
+#~ msgstr ".deb 패키지"
+
+#~ msgid "Install missing package."
+#~ msgstr "빠진 패키지 설치."
+
+#~ msgid "Package %s should be installed."
+#~ msgstr "%s 패키지가 반드시 설치되어야 합니다."
+
+#~ msgid "%i obsolete entries in the status file"
+#~ msgstr "%i는 상태 파일에서 안 쓰게 된 엔트리"
+
+#~ msgid "Obsolete entries in dpkg status"
+#~ msgstr "dpkg 상태에서 안 쓰게 된 엔트리"
+
+#~ msgid "Obsolete dpkg status entries"
+#~ msgstr "안 쓰게 된 dpkg 상태 엔트리"
+
+#~ msgid ""
+#~ "When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+#~ "installed. See bugs.launchpad.net, bug ##279621 for details."
+#~ msgstr ""
+#~ "업그레이드할 때, kdelibs4-dev가 설치되어 있다면, kdelibs5-dev가 설치되어"
+#~ "야 합니다.  자세한 내용은 bugs.launchpad.net, 버그 ##279621를 참조."
+
+#~ msgid "%s needs to be marked as manually installed."
+#~ msgstr "%s는 수동 설치로 표시될 필요가 있습니다."
+
+#~ msgid ""
+#~ "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+#~ msgstr ""
+#~ "grub이 설치되어 있으므로 lilo는 제거하세요.(자세한 내용은 버그 #314004를 "
+#~ "참조.)"
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bugreport."
+#~ msgstr ""
+#~ "만약 이 중 아무 것도 해당하지 않는다면 'update-manager' 패키지의 버그를 보"
+#~ "고하여 주십시오. 그리고 버그 보고서에 /var/log/dist-upgrade/ 디렉토리에 있"
+#~ "는 파일들을 포함하여 주십시오."
+
+#~ msgid "The upgrade tool will guide you through the upgrade process."
+#~ msgstr "업그레이드 도구가 업그레이드 과정으로 안내할 것입니다."
+
+#~ msgid ""
+#~ "The upgrade aborts now. The upgrade needs a total of %s free space on "
+#~ "disk '%s'. Please free at least an additional %s of disk space on '%s'. "
+#~ "Empty your trash and remove temporary packages of former installations "
+#~ "using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "업그레이드를 지금 중단합니다. 업그레이드 과정에는 총 %s의 여유 공간이 "
+#~ "'%s' 디스크에 필요합니다. 적어도 %s의 공간을 '%s' 디스크에 확보하시기 바랍"
+#~ "니다. 휴지통을 비우고 'sudo apt-get clean' 명령으로 이전 설치 과정 중에 사"
+#~ "용했던 임시 꾸러미를 삭제하시기 바랍니다."
+
+#~ msgid ""
+#~ "The upgrade aborts now. Please check your Internet connection or "
+#~ "installation media and try again. All files downloaded so far are kept."
+#~ msgstr ""
+#~ "업그레이드가 중단되었습니다. 인터넷 연결 또는 설치 매체를 확인하고 다시 시"
+#~ "도해 주십시오. 지금까지 다운로드 한 파일은 그대로 보관합니다."
+
+#~ msgid ""
+#~ "The upgrade aborts now. Your system could be in an unusable state. A "
+#~ "recovery will run now (dpkg --configure -a)."
+#~ msgstr ""
+#~ "업그레이드가 중단되었습니다. 시스템을 이용할 수 없는 상태일 수 있습니다. "
+#~ "(dpkg --configure -a)를 실행하여 복구가 시작될 것입니다."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Please report this bug against the 'update-manager' package and include "
+#~ "the files in /var/log/dist-upgrade/ in the bugreport.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "이것을 'update-manager' 꾸러미의 버그로 보고하여 주십시오. 그리고 버그 보"
+#~ "고에 /var/log/dist-upgrade/에 있는 파일을 포함하여 주십시오.\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The upgrade aborts now. Please check your Internet connection or "
+#~ "installation media and try again. "
+#~ msgstr ""
+#~ "업그레이드가 중단되었습니다. 인터넷 연결 또는 설치 매체를 확인하고 다시 시"
+#~ "도해 주십시오. "
+
+#~ msgid ""
+#~ "The upgrade is completed but there were errors during the ugprade process."
+#~ msgstr "업그레이드가 완료되었습니다. 하지만 도중에 오류가 발생했습니다."
+
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem"
+#~ msgstr ""
+#~ "이 다운로드는 1Mbit DSL 연결의 경우 %s 정도, 56k 모뎀의 경우 %s 정도가 소"
+#~ "요됩니다."
+
+#~ msgid ""
+#~ "Please report this as a bug and include the files /var/log/dist-upgrade/"
+#~ "main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade "
+#~ "aborts now.\n"
+#~ "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
+#~ msgstr ""
+#~ "이것을 버그로 보고하여 주십시오. 그리고 버그 보고에 /var/log/dist-upgrade/"
+#~ "main.log 파일과 /var/log/dist-upgrade/apt.log 파일을 포함하여 주십시오. 업"
+#~ "그레이드를 지금 중단합니다.\n"
+#~ "원래의 sources.list는 /etc/apt/sources.list.distUpgrade에 저장되어 있습니"
+#~ "다."
+
+#~ msgid "Restart the system now [yN] "
+#~ msgstr "지금 시스템 재시작 [yN] "
+
+#~ msgid "You can install %s update."
+#~ msgid_plural "You can install %s updates."
+#~ msgstr[0] "%s 개의 업데이트를 설치할 수 있습니다."
+
+#~ msgid "<big><b>Keep your system up-to-date</b></big>"
+#~ msgstr "<big><b>시스템을 최신으로 유지하십시오.</b></big>"
+
+#~ msgid ""
+#~ "Preparing the system for the upgrade failed. Please report this as a bug "
+#~ "against the 'update-manager' package and include the files in /var/log/"
+#~ "dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "시스템을 업그레이드하기 위한 준비 과정에서 실패하였습니다. 이 버그를 "
+#~ "'update-manager' 꾸러미에 대한 버그로 제출해 주시기 바랍니다. 버그 보고서"
+#~ "에는 /var/log/dist-upgrade/ 내의 파일들을 포함시켜 주십시오."
+
+#~ msgid ""
+#~ "The system was unable to get the prerequisites for the upgrade. The "
+#~ "upgrade will abort now and restore the original system state.\n"
+#~ "\n"
+#~ "Please report this as a bug against the 'update-manager' package and "
+#~ "include the files in /var/log/dist-upgrade/ in the bugreport."
+#~ msgstr ""
+#~ "시스템을 업그레이드하기 위한 준비 과정에서 실패하였습니다. 업그레이드를 중"
+#~ "단하고 원래의 시스템 상태를 복원할 것입니다.\n"
+#~ "\n"
+#~ "이 버그를 'update-manager' 꾸러미에 대한 버그로 제출해 주시기 바랍니다. 버"
+#~ "그 보고서에는 /var/log/dist-upgrade/ 내의 파일들을 포함시켜 주십시오."
+
+#~ msgid ""
+#~ "After your package information was updated the essential package '%s' can "
+#~ "not be found anymore.\n"
+#~ "This indicates a serious error, please report this bug against the "
+#~ "'update-manager' package and include the files in /var/log/dist-upgrade/ "
+#~ "in the bugreport."
+#~ msgstr ""
+#~ "꾸러미 정보가 업데이트된 후 더이상 필수 꾸러미 '%s' (을)를 찾을 수 없습니"
+#~ "다.\n"
+#~ "이것은 심각한 오류입니다. 'update-manager' 꾸러미의 버그로 보고하여 주십시"
+#~ "오. 그리고 버그 보고서에 /var/log/dist-upgrade/에 있는 파일을 포함하여 주"
+#~ "십시오."
+
+#~ msgid ""
+#~ "The upgrade will continue but the '%s' package may be in a not working "
+#~ "state. Please consider submitting a bugreport about it."
+#~ msgstr ""
+#~ "업그레이드는 진행할 것이지만 '%s' 꾸러미는 동작하지 않을 수 있습니다. 이것"
+#~ "에 대한 버그 보고서 제출을 고려해 보십시오."
+
+#~ msgid "Downloading the upgrade tool"
+#~ msgstr "업그레이드 도구를 다운로드하는 중"
+
+#~ msgid "New releae '%s' available."
+#~ msgstr "새 버전 '%s' 를 사용할 수 있습니다."

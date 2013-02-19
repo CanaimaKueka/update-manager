@@ -1,0 +1,1434 @@
+# Icelandic translation for update-manager
+# Copyright (c) 2006 Rosetta Contributors and Canonical Ltd 2006
+# This file is distributed under the same license as the update-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2010-12-06 10:35+0100\n"
+"PO-Revision-Date: 2009-04-02 21:47+0000\n"
+"Last-Translator: Hlini Melsteð <Unknown>\n"
+"Language-Team: Icelandic <is@li.org>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2009-04-08 12:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../UpdateManager/Application.py:128
+msgid "sets the log level"
+msgstr ""
+
+#: ../UpdateManager/Application.py:131
+msgid "sets the log level to debug"
+msgstr ""
+
+#: ../UpdateManager/Application.py:135
+msgid "starts an update check"
+msgstr ""
+
+#. TRANSLATORS: download size is 0
+#: ../UpdateManager/Util/humanize.py:38
+msgid "0 KB"
+msgstr "0 KB"
+
+#. TRANSLATORS: download size of very small updates
+#: ../UpdateManager/Util/humanize.py:41
+msgid "1 KB"
+msgstr "1 KB"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 KB"
+#: ../UpdateManager/Util/humanize.py:44
+#, python-format
+msgid "%.0f KB"
+msgstr "%.0f KB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Util/humanize.py:47
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../UpdateManager/Util/humanize.py:56
+#, fuzzy
+msgid "< 5 seconds"
+msgstr "%li sekúnda"
+
+#: ../UpdateManager/Util/humanize.py:58
+#, fuzzy, python-format
+msgid "%d seconds"
+msgstr "%li sekúnda"
+
+#: ../UpdateManager/Util/humanize.py:62 ../UpdateManager/Util/humanize.py:76
+#, fuzzy, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%li mínúta"
+msgstr[1] "%li mínútur"
+
+#: ../UpdateManager/Util/humanize.py:64 ../UpdateManager/Util/humanize.py:82
+#, fuzzy, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%li sekúnda"
+msgstr[1] "%li sekúndur"
+
+#: ../UpdateManager/Util/humanize.py:74
+#, fuzzy, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%li klukkutími"
+msgstr[1] "%li klukkutímar"
+
+#: ../UpdateManager/Backend/PythonApt.py:722
+#, fuzzy
+msgid "Could not download packages information."
+msgstr "Hleð niður pakkaupplýsingum"
+
+#: ../UpdateManager/Backend/PythonApt.py:870
+msgid ""
+"Internal error: the commit progress handler did not handle "
+"requires_removal_or_installation correctly."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:86
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:93
+msgid "A fatal error has been detected in update-manager."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:88
+#, fuzzy
+msgid "Do you want to submit a bug report?"
+msgstr "Langar þig að hefja uppfærsluna?"
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:89
+msgid "Selecting No will close the application."
+msgstr ""
+
+#: ../UpdateManager/Frontend/GtkCommon/GtkExceptionHandler.py:94
+msgid "The program will now exit."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Newt.py:47 ../UpdateManager/Frontend/Newt.py:106
+#, fuzzy
+msgid "Loading package cache."
+msgstr "Sæki pakkaupplýsingar"
+
+#: ../UpdateManager/Frontend/Newt.py:51 ../UpdateManager/Frontend/Newt.py:104
+#, fuzzy
+msgid "Finished loading package cache."
+msgstr "Sæki pakkaupplýsingar"
+
+#: ../UpdateManager/Frontend/Newt.py:80
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: ../UpdateManager/Frontend/Newt.py:81
+msgid "Install"
+msgstr "Setja upp"
+
+#: ../UpdateManager/Frontend/Newt.py:130
+msgid "Building Updates List"
+msgstr "Bý til lista yfir uppfærslur"
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:86
+msgid "Open Link in Browser"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ChangelogViewer.py:89
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:160
+msgid "_Uncheck All"
+msgstr "_Afvelja allt"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:164
+#, fuzzy
+msgid "_Check all"
+msgstr "_Velja allt"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:259
+#, python-format
+msgid "(Size: %s)"
+msgstr "(Stærð: %s)"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:264
+#, python-format
+msgid "From version %(old_version)s to %(new_version)s"
+msgstr "Frá útgáfu %(old_version)s upp í %(new_version)s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:268
+#, fuzzy, python-format
+msgid "Version: %s"
+msgstr "Útgáfa %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:274
+msgid "Requires installation of: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:276
+#: ../UpdateManager/Frontend/Gtk/ui.py:440
+msgid "None"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:287
+msgid "Depends on: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:296
+msgid "Depends on (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:305
+msgid "Is depended on by: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:315
+msgid "Is depended on by (strict): "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:323
+msgid "Conflicts with: "
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:444
+#, python-format
+msgid "Download size: %s"
+msgstr "Stærð niðurhals: %s"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:464
+#: ../UpdateManager/Frontend/Gtk/ui.py:531
+msgid "Downloading list of changes..."
+msgstr "Sækja lista yfir breytingar..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:494
+#, fuzzy
+msgid "Downloading list of changes failed."
+msgstr "Sækja lista yfir breytingar..."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:586
+#, fuzzy, python-format
+msgid "Version %s: "
+msgstr "Útgáfa %s: \n"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:785
+msgid "Gathering information about updates..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:817
+#, fuzzy
+msgid "Upgrading may require removal or installation of new packages."
+msgstr "Fjarlægja úrelta pakka?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:819
+#, fuzzy
+msgid ""
+"Do you want to perform a safe-upgrade, which does not remove packages or "
+"install new ones?"
+msgstr "Langar þig að hefja uppfærsluna?"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:864
+msgid "Your system is up-to-date"
+msgstr "Kerfið þitt er af nýjustu gerð"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:888
+#, fuzzy, python-format
+msgid "Welcome to %s!"
+msgstr "Velkomin til Ubuntu"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:889
+#, python-format
+msgid "These software updates have been issued since %s was released."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:898
+#, fuzzy
+msgid "Software updates are available for this computer."
+msgstr "Hugbúnaðaruppfærslur eru tiltækar fyrir þessa tölvu"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:900
+#, fuzzy
+msgid ""
+"If you don't want to install them now, choose \"Update Manager\" from the "
+"Administration menu later."
+msgstr ""
+"Þú getur farið í „Uppfærslustjórann“ í stjórnunarvalmyndinni seinna ef þú "
+"vilt ekki setja þær upp núna."
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:921
+#, fuzzy
+msgid "About Update Manager"
+msgstr "Uppfærslustjóri"
+
+#: ../UpdateManager/Frontend/Gtk/ui.py:923
+#: ../data/update-manager.desktop.in.h:3
+msgid "Update Manager"
+msgstr "Uppfærslustjóri"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:359
+msgid "Progress"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:362
+msgid "Source"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:364
+msgid "File name"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:368
+#, fuzzy
+msgid "Downloaded"
+msgstr "Stærð niðurhals: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:374
+msgid "Size"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:383
+#, fuzzy
+msgid "Checking for updates"
+msgstr "Aðrar uppfærslur"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:433
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:452
+msgid "Unknown"
+msgstr ""
+
+#. TRANSLATORS: This is the download rate in bytes, kilobytes
+#. or megabytes per second (hence the trailing /s).
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:472
+#, fuzzy, python-format
+msgid "Download rate: %s/s"
+msgstr "Stærð niðurhals: %s"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:502
+#, fuzzy
+msgid "Checking for updates..."
+msgstr "Aðrar uppfærslur"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:544
+msgid "An internal error has occured and the operation has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:547
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:833
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:927
+msgid "Error message:"
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:710
+#, fuzzy
+msgid "Downloading updates"
+msgstr "Sæki pakkaupplýsingar"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:728
+msgid "Changes"
+msgstr "Breytingar"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:734
+#, python-format
+msgid "Remove %s"
+msgstr "Fjarlægja %s"
+
+#. ## TRANSLATORS: This is an entry in the package removal or
+#. new installation dialog's changes list.
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:740
+#, python-format
+msgid "Install %s"
+msgstr "Uppsetning á %s"
+
+#. ... and now the dialog
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:744
+#, fuzzy
+msgid "Removal or installation of packages"
+msgstr "Fjarlægja úrelta pakka?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:753
+#, fuzzy
+msgid ""
+"Installation of the selected upgrades requires removal or installation of "
+"new packages."
+msgstr "Set upp uppfærslurnar"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:754
+msgid "You can find a list of these changes below."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:755
+#, fuzzy
+msgid "Do you want to continue?"
+msgstr "Langar þig að hefja uppfærsluna?"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:777
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:780
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:795
+#, fuzzy
+msgid "Preparing upgrade"
+msgstr "Undirbý að uppfæra"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:781
+#, fuzzy
+msgid "This operation may take some time."
+msgstr "Hinkraðu augnablik, þetta gæti tekið drjúga stund."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:809
+#, fuzzy
+msgid "Downloading finished"
+msgstr "Sæki breytingarskrá"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:830
+msgid "An error has occured and downloading has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:857
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:975
+#, fuzzy
+msgid "Installing updates"
+msgstr "_Setja upp uppfærslur"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:858
+msgid "Preparing installation..."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:892
+#, fuzzy, python-format
+msgid "Applied %d update"
+msgid_plural "Applied %d updates"
+msgstr[0] "Uppástunga að uppfærslum"
+msgstr[1] "Uppástunga að uppfærslum"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:900
+#, fuzzy
+msgid "Your system is now up-to-date."
+msgstr "Kerfið þitt er af nýjustu gerð"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:902
+#, python-format
+msgid "There is %d more update available."
+msgid_plural "There are %d more updates available."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:906
+#, fuzzy
+msgid "Software updates correct errors and eliminate security vulnerabilities."
+msgstr ""
+"Hugbúnaðauppfærslur leiðrétta villur, lagfæra öryggisveilur og innleiða nýja "
+"möguleika."
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:907
+#, fuzzy
+msgid "Please consider installing all available updates."
+msgstr "Sýna og setja upp tiltækar dagréttingar"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:924
+msgid "An error has occured and installing has been aborted."
+msgstr ""
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:961
+msgid "Show progress of individual files"
+msgstr "Sjá hvernig einstaka skrám gengur"
+
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:974
+#: ../UpdateManager/Frontend/Gtk/GtkProgress.py:989
+#, fuzzy
+msgid "Show terminal"
+msgstr "Sýna Útstöð >>>"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:118
+#, fuzzy
+msgid "A fatal error has been detected"
+msgstr "Það kom upp grafalvarleg villa"
+
+#: ../UpdateManager/Frontend/Gtk/__init__.py:119
+#, fuzzy, python-format
+msgid ""
+"Exception:\n"
+" %s"
+msgstr "Útgáfa %s"
+
+#: ../UpdateManager/DistSpecific/__init__.py:37
+msgid "Important security updates"
+msgstr "Mikilvægar öryggisuppfærslur"
+
+#: ../UpdateManager/DistSpecific/__init__.py:38
+msgid "Recommended updates"
+msgstr "Uppfærslur sem mælt er með"
+
+#: ../UpdateManager/DistSpecific/__init__.py:39
+msgid "Distribution updates"
+msgstr ""
+
+#: ../UpdateManager/DistSpecific/__init__.py:40
+msgid "Proposed updates"
+msgstr "Uppástunga að uppfærslum"
+
+#: ../UpdateManager/DistSpecific/__init__.py:41
+msgid "Backports"
+msgstr ""
+
+#: ../UpdateManager/DistSpecific/__init__.py:42
+#, fuzzy
+msgid "Third-party updates"
+msgstr "Frumgögn frá þriðja aðila voru afvirkjuð."
+
+#: ../data/update-manager.schemas.in.h:1
+msgid "*deprecated* Check for new distribution releases"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:2
+msgid "Auto close the install window after successful install"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:3
+msgid "First run welcome message"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:4
+msgid ""
+"If automatic checking for updates is disabled, you have to reload the "
+"channel list manually. This option allows to hide the reminder shown in this "
+"case."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:5
+msgid "If this key is set a first run welcome message will be presented."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:6
+msgid ""
+"If this key is set the install window will be automatically closed on "
+"successful installation."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:7
+msgid ""
+"If this key is set the main update list window will show version information "
+"(from version to version)."
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:8
+msgid "Remind to reload the channel list"
+msgstr "Minna á að endurhlaða rásalista"
+
+#: ../data/update-manager.schemas.in.h:9
+msgid "Show details of an update"
+msgstr "Birta smáatriði uppfærslna"
+
+#: ../data/update-manager.schemas.in.h:10
+msgid "Show version in update list"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:11
+msgid "Stores the size of the update-manager dialog"
+msgstr "Geymir stærð svarglugga dagréttingastjóra"
+
+#: ../data/update-manager.schemas.in.h:12
+msgid ""
+"Stores the state of the expander that contains the list of changes and the "
+"description"
+msgstr ""
+
+#: ../data/update-manager.schemas.in.h:13
+msgid "The window size"
+msgstr "Gluggastærð"
+
+#: ../data/update-manager.schemas.in.h:14
+msgid ""
+"This key is deprecated in favor of the file /etc/update-manager/release-"
+"upgrades Check automatically if a new version of the current distribution is "
+"available and offer to upgrade (if possible)."
+msgstr ""
+
+#: ../data/update-manager.desktop.in.h:1
+msgid "Show and install available updates"
+msgstr "Sýna og setja upp tiltækar dagréttingar"
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Hugbúnaðaruppsetningar"
+
+#, fuzzy
+#~ msgid "Current package: %s"
+#~ msgstr "Bilaðir pakkar"
+
+#~ msgid "Server for %s"
+#~ msgstr "Netþjónn fyrir %s"
+
+#~ msgid "Main server"
+#~ msgstr "Aðalnetþjónn"
+
+#~ msgid "Custom servers"
+#~ msgstr "Sérsniðnir netþjónar"
+
+#~ msgid "Could not calculate sources.list entry"
+#~ msgstr "Gat ekki reiknað sources.list færslur"
+
+#~ msgid "Failed to add the CD"
+#~ msgstr "Ekki tókst að bæta við geisladisknum"
+
+#~ msgid ""
+#~ "There was a error adding the CD, the upgrade will abort. Please report "
+#~ "this as a bug if this is a valid Ubuntu CD.\n"
+#~ "\n"
+#~ "The error message was:\n"
+#~ "'%s'"
+#~ msgstr ""
+#~ "Það kom babb í bátinn þegar geisladisknum var bætt við, hætt verður við "
+#~ "uppfærsluna. Tilkynntu þetta sem hugbúnaðarvillu ef þetta er gildur "
+#~ "Ubuntu geisladiskur.\n"
+#~ "\n"
+#~ "Villuskilaboðin voru:\n"
+#~ "‚%s‘"
+
+#~ msgid "Remove package in bad state"
+#~ msgid_plural "Remove packages in bad state"
+#~ msgstr[0] "Fjarlægja pakkann sem er í lélegu ásigkomulagi"
+#~ msgstr[1] "Fjarlægja þá pakka sem eru í lélegu ásigkomulagi"
+
+#~ msgid ""
+#~ "The package '%s' is in an inconsistent state and needs to be reinstalled, "
+#~ "but no archive can be found for it. Do you want to remove this package "
+#~ "now to continue?"
+#~ msgid_plural ""
+#~ "The packages '%s' are in an inconsistent state and need to be "
+#~ "reinstalled, but no archives can be found for them. Do you want to remove "
+#~ "these packages now to continue?"
+#~ msgstr[0] ""
+#~ "Pakkinn ‚%s‘ er í lélegu ásigkomulagi og mikilvægt er að hann sé settur "
+#~ "upp aftur, en því miður fannst hann ekki í neinu gangasafni. Viltu eyða "
+#~ "pakkanum og halda áfram?"
+#~ msgstr[1] ""
+#~ "Pakkarnir ‚%s‘ eru í lélegu ásigkomulagi og mikilvægt er að þeir séu "
+#~ "settir upp aftur, en því miður fundust þeir ekki í neinu gangasafni. "
+#~ "Viltu eyða pökkunum og halda áfram?"
+
+#~ msgid ""
+#~ "Your system contains broken packages that couldn't be fixed with this "
+#~ "software. Please fix them first using synaptic or apt-get before "
+#~ "proceeding."
+#~ msgstr ""
+#~ "Kerfið þitt inniheldur bilaða pakka sem ekki var hægt að laga með þessum "
+#~ "hugbúnaði. Lagaðu það með synaptic eða apt-get áður en lengra er haldið."
+
+#~ msgid ""
+#~ "An unresolvable problem occurred while calculating the upgrade:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " This can be caused by:\n"
+#~ " * Upgrading to a pre-release version of Ubuntu\n"
+#~ " * Running the current pre-release version of Ubuntu\n"
+#~ " * Unofficial software packages not provided by Ubuntu\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Óleysanleg villa er að koma upp við  uppfærslu þegar hún er reiknuð:\n"
+#~ "%s\n"
+#~ "\n"
+#~ " Orsakavaldir get verið eftirfarandi:\n"
+#~ " * Uppfæring í prufu útgáfu Ubuntu\n"
+#~ " * Við notkun á prufu útgáfu Ubuntu\n"
+#~ " * Óformlegir hugbúnaðarpakkar sem ekki er á vegum Ubuntu\n"
+#~ "\n"
+
+#~ msgid "This is most likely a transient problem, please try again later."
+#~ msgstr "Þetta er væntanlega tímabundið vandamál. Reynið aftur síðar."
+
+#~ msgid ""
+#~ "If none of this applies, then please report this bug against the 'update-"
+#~ "manager' package and include the files in /var/log/dist-upgrade/ in the "
+#~ "bug report."
+#~ msgstr ""
+#~ "Ef ekkert á þessu á við, þá vinsamlegast tilkynnið þessa villu gagnvart "
+#~ "'update-manager' pakkanum og látið fylgja afrit af /var/log/dist-upgrade/ "
+#~ "í villutilkynningunni."
+
+#~ msgid "Could not calculate the upgrade"
+#~ msgstr "Gat ekki reiknað uppfærsluna"
+
+#~ msgid "Error authenticating some packages"
+#~ msgstr "Villa við sannvottun einhverra pakka"
+
+#~ msgid ""
+#~ "It was not possible to authenticate some packages. This may be a "
+#~ "transient network problem. You may want to try again later. See below for "
+#~ "a list of unauthenticated packages."
+#~ msgstr ""
+#~ "Ekki tókst að sannvotta einhverja pakka. Þetta gæti verið skammvinnt "
+#~ "netvandamál. Þú gætir reynt aftur síðar. Sjá hér fyrir neðan fyrir lista "
+#~ "yfir pakka sem tókst að sannvotta."
+
+#~ msgid ""
+#~ "The package '%s' is marked for removal but it is in the removal blacklist."
+#~ msgstr ""
+#~ "Þessi pakki '%s' er merktur til fjarlægingar en hann er á "
+#~ "fjarlægingarbannlista."
+
+#~ msgid "The essential package '%s' is marked for removal."
+#~ msgstr "Þessi ómissandi pakki '%s' er merktur til fjarlægingar."
+
+#~ msgid "Can not mark '%s' for upgrade"
+#~ msgstr "Get ekki merkt '%s' til uppfærslu"
+
+#~ msgid "Can't install '%s'"
+#~ msgstr "Get ekki sett upp '%s'"
+
+#~ msgid ""
+#~ "It was impossible to install a required package. Please report this as a "
+#~ "bug. "
+#~ msgstr ""
+#~ "Ekki tókst að setja upp þann pakka sem var beðið um. Tilkynntu þetta sem "
+#~ "hugbúnaðarvillu. "
+
+#~ msgid "Can't guess meta-package"
+#~ msgstr "Get ekki giskað á lýsi-pakka"
+
+#~ msgid ""
+#~ "Your system does not contain a ubuntu-desktop, kubuntu-desktop, xubuntu-"
+#~ "desktop or edubuntu-desktop package and it was not possible to detect "
+#~ "which version of Ubuntu you are running.\n"
+#~ " Please install one of the packages above first using synaptic or apt-get "
+#~ "before proceeding."
+#~ msgstr ""
+#~ "Kerfið þitt inniheldur hvorki pakkann ubuntu-desktop, kubuntu-desktop, "
+#~ "xubuntu-desktop né edubuntu-desktop- og ekki tókst að bera kennsl á hvaða "
+#~ "tegund af Ubuntu þú ert að nota.\n"
+#~ " Vinsamlegast settu upp einn af áðurnefndum pökkum með því að nota "
+#~ "Synaptic pakkastjórann eða með því að nota apt-get áður en þú heldur "
+#~ "áfram."
+
+#~ msgid "Reading cache"
+#~ msgstr "Les skyndiminni"
+
+#~ msgid "Unable to get exclusive lock"
+#~ msgstr "Fékk ekki útilokunarlæsingu"
+
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first."
+#~ msgstr ""
+#~ "Þetta þýðir yfirleitt að annað pakkastjórnunarforrit (til dæmis apt-get "
+#~ "eða aptitude) sé í gangi. Lokaðu því forriti fyrst."
+
+#~ msgid "Continue running under SSH?"
+#~ msgstr "Viltu halda áfram að keyra undir SSH?"
+
+#~ msgid ""
+#~ "This session appears to be running under ssh. It is not recommended to "
+#~ "perform a upgrade over ssh currently because in case of failure it is "
+#~ "harder to recover.\n"
+#~ "\n"
+#~ "If you continue, a additional ssh daemon will be started at port '%s'.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "Þessi seta virðist keyra í gegnum ssh. Við mælum ekki með að uppfæra í "
+#~ "gegnum ssh sem stendur þar sem erfitt getur verið að halda áfram ef "
+#~ "eitthvað fer úrskeiðis.\n"
+#~ "\n"
+#~ "Ef þú heldur samt áfram verður nýr ssh þjónn stofnaður á gátt '%s'.\n"
+#~ "Viltu halda áfram?"
+
+#~ msgid "Starting additional sshd"
+#~ msgstr "Keyri annað sshd"
+
+#~ msgid ""
+#~ "To make recovery in case of failure easier, an additional sshd will be "
+#~ "started on port '%s'. If anything goes wrong with the running ssh you can "
+#~ "still connect to the additional one.\n"
+#~ msgstr ""
+#~ "Til að auðvelda endurréttingu þá mun auka sshd keyra í tenginum ‚%s‘. Ef "
+#~ "eitthvað fer úrskeyðis við að keyra ssh þá er hægt að tengjast við hitt.\n"
+
+#~ msgid "Can not upgrade"
+#~ msgstr "Get ekki uppfært"
+
+#~ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
+#~ msgstr "Þetta tól ræður ekki við uppfærslu frá ‚%s‘ til ‚%s'."
+
+#~ msgid ""
+#~ "Your python install is corrupted. Please fix the '/usr/bin/python' "
+#~ "symlink."
+#~ msgstr ""
+#~ "Uppsetning þín á python er skemmd. Vinsamlegast lagaðu ‚/usr/bin/python‘ "
+#~ "vísunina."
+
+#~ msgid "Package 'debsig-verify' is installed"
+#~ msgstr "Pakkinn 'debsig-verify' uppsettur"
+
+#~ msgid ""
+#~ "The upgrade can not continue with that package installed.\n"
+#~ "Please remove it with synaptic or 'apt-get remove debsig-verify' first "
+#~ "and run the upgrade again."
+#~ msgstr ""
+#~ "Uppfærslan getur ekki haldið áfram þar sem þessi pakki er uppsettur.\n"
+#~ "Vinsamlegast fjarlægðu hann með synaptic pakkastjóranum eða með því að "
+#~ "nota ‚apt-get remove debsig-verify‘ fyrst og keyra svo uppfærsluna aftur."
+
+#~ msgid "Include latest updates from the Internet?"
+#~ msgstr "Viltu hafa með nýjustu uppfærslurnar af internetinu?"
+
+#~ msgid ""
+#~ "The upgrade system can use the internet to automatically download the "
+#~ "latest updates and install them during the upgrade.  If you have a "
+#~ "network connection this is highly recommended.\n"
+#~ "\n"
+#~ "The upgrade will take longer, but when it is complete, your system will "
+#~ "be fully up to date.  You can choose not to do this, but you should "
+#~ "install the latest updates soon after upgrading.\n"
+#~ "If you answer 'no' here, the network is not used at all."
+#~ msgstr ""
+#~ "Uppfærslukerfið getur notað netið til að sækja nýjustu uppfærslurnar "
+#~ "sjálfkrafa og að setja þær upp á meðan á uppfærslunni stendur. Ef þú "
+#~ "hefur nettengingu þá er þetta ráðlagt.\n"
+#~ "\n"
+#~ "Uppfærslan mun taka lengur, en þegar hún er loks tilbúin mun kerfið vera "
+#~ "af nýjustu gerð. Þú getur valið um að gera þetta ekki en þú ættir að "
+#~ "uppnýja kerfið eftir að þú hefur uppfært það.\n"
+#~ "Ef þú segir ‚nei‘ hér þá mun netið ekki vera notað."
+
+#~ msgid "No valid mirror found"
+#~ msgstr "Enginn gildur spegill fannst"
+
+#~ msgid ""
+#~ "While scanning your repository information no mirror entry for the "
+#~ "upgrade was found.This can happen if you run a internal mirror or if the "
+#~ "mirror information is out of date.\n"
+#~ "\n"
+#~ "Do you want to rewrite your 'sources.list' file anyway? If you choose "
+#~ "'Yes' here it will update all '%s' to '%s' entries.\n"
+#~ "If you select 'no' the update will cancel."
+#~ msgstr ""
+#~ "Á meðan farið var yfir gagnasafnið fannst ekki spegill fyrir "
+#~ "upplýsingarnar. Þetta getur gerst ef þú notast við innri spegil, eða ef "
+#~ "upplýsingarnar sem spegillinn geymir eru gamaldags.\n"
+#~ "\n"
+#~ "Viltu samt skrifa skránna ‚sources.list‘ upp á nýtt? Ef þú velur ‚Í lagi‘ "
+#~ "þá mun það uppfæra allt ‚%s‘ yfir í ‚%s‘.\n"
+#~ "Ef þú velur ‚nei‘ þá mun vera hætt við uppfærsluna."
+
+#~ msgid "Generate default sources?"
+#~ msgstr "Búa til sjálfgefin frumgögn?"
+
+#~ msgid ""
+#~ "After scanning your 'sources.list' no valid entry for '%s' was found.\n"
+#~ "\n"
+#~ "Should default entries for '%s' be added? If you select 'No', the update "
+#~ "will cancel."
+#~ msgstr ""
+#~ "Eftir að hafa lesið ‚sources.list‘ fannst ekkert um ‚%s‘.\n"
+#~ "\n"
+#~ "Viltu bæta við einhverju um ‚%s‘? Ef þú velur ‚Nei‘ mun uppfærslan hætta."
+
+#~ msgid "Repository information invalid"
+#~ msgstr "Ógildar útibúaupplýsingar"
+
+#~ msgid ""
+#~ "Upgrading the repository information resulted in a invalid file. Please "
+#~ "report this as a bug."
+#~ msgstr ""
+#~ "Villa kom upp við að uppfæra upplýsingar um gagnahirslu. Taktu þér tíma "
+#~ "við að tilkynna þetta."
+
+#~ msgid "Package in inconsistent state"
+#~ msgid_plural "Packages in inconsistent state"
+#~ msgstr[0] "Pakki í óvissu ástandi"
+#~ msgstr[1] "Pakkar í óvissu ástandi"
+
+#~ msgid "Error during update"
+#~ msgstr "Villa við uppfærslu"
+
+#~ msgid "Not enough free disk space"
+#~ msgstr "Ekki nægilegt diskapláss laust"
+
+#~ msgid "Support for some applications ended"
+#~ msgstr "Sum forrit eru ekki lengur studd"
+
+#~ msgid ""
+#~ "Canonical Ltd. no longer provides support for the following software "
+#~ "packages. You can still get support from the community.\n"
+#~ "\n"
+#~ "If you have not enabled community maintained software (universe), these "
+#~ "packages will be suggested for removal at the end of the upgrade."
+#~ msgstr ""
+#~ "Canonical Ltd. styður ekki lengur eftirfarandi forrit. Þessu er þó ennþá "
+#~ "viðhaldið af samfélaginu.\n"
+#~ "\n"
+#~ "Ef þú hefur ekki leyft hugbúnað sem viðhaldið er af samfélaginu, þá "
+#~ "verður boðist til að eyða þessum pökkum eftir uppfærsluna."
+
+#~ msgid "Calculating the changes"
+#~ msgstr "Reikna út breytingar"
+
+#~ msgid "Could not download the upgrades"
+#~ msgstr "Gat ekki halað niður uppfærslunum"
+
+#~ msgid "Error during commit"
+#~ msgstr "Villa við staðfestingu"
+
+#~ msgid "Restoring original system state"
+#~ msgstr "Endurstilli stýrikerfi í upprunalegt form"
+
+#~ msgid "Could not install the upgrades"
+#~ msgstr "Gat ekki sett upp uppfærslurnar"
+
+#~ msgid "_Keep"
+#~ msgstr "_Halda"
+
+#~ msgid "_Remove"
+#~ msgstr "_Fjarlægja"
+
+#~ msgid "Checking package manager"
+#~ msgstr "Athuga pakkastjóra"
+
+#~ msgid "Preparing the upgrade failed"
+#~ msgstr "Undirbúningur fyrir uppfærslu mistókst"
+
+#~ msgid "Getting upgrade prerequisites failed"
+#~ msgstr "Ekki tókst að útvega forsendu uppfærslna"
+
+#~ msgid "Updating repository information"
+#~ msgstr "Uppfæri útibúa upplýsingar"
+
+#~ msgid "Invalid package information"
+#~ msgstr "Ógildar pakkaupplýsingar"
+
+#~ msgid "Fetching"
+#~ msgstr "Sæki"
+
+#~ msgid "Upgrading"
+#~ msgstr "Uppfæri"
+
+#~ msgid "Upgrade complete"
+#~ msgstr "Uppfærslu lokið"
+
+#~ msgid "Searching for obsolete software"
+#~ msgstr "Leita að úreltum hugbúnaði"
+
+#~ msgid "System upgrade is complete."
+#~ msgstr "Uppfærslu á stýrikerfi lokið"
+
+#~ msgid "evms in use"
+#~ msgstr "evms í notkun"
+
+#~ msgid "Please insert '%s' into the drive '%s'"
+#~ msgstr "Settu ‚%s‘ í drif ‚%s‘"
+
+#~ msgid "About %s remaining"
+#~ msgstr "Um það bil %s eftir"
+
+#~ msgid "Fetching file %li of %li"
+#~ msgstr "Sæki skrá %li af %li"
+
+#~ msgid "Applying changes"
+#~ msgstr "Sett inn breytingar"
+
+#~ msgid "Could not install '%s'"
+#~ msgstr "Gat ekki sett upp '%s'"
+
+#~ msgid ""
+#~ "You will lose any changes you have made to this configuration file if you "
+#~ "choose to replace it with a newer version."
+#~ msgstr ""
+#~ "Þú munt tapa öllum breytingum sem þú hefur gert við þessa samskipunarskrá "
+#~ "ef þú ákveður að skipta henni út með nýrri útgáfu."
+
+#~ msgid "The 'diff' command was not found"
+#~ msgstr "'diff' skipunin fannst ekki"
+
+#~ msgid "Ctrl-c pressed"
+#~ msgstr "Ýtt á ctrl-c"
+
+#~ msgid ""
+#~ "This will abort the operation and may leave the system in a broken state. "
+#~ "Are you sure you want to do that?"
+#~ msgstr ""
+#~ "Þetta mun stöðva aðgerðina og skilja kerfið eftir bilað. Ertu viss um að "
+#~ "þú viljir halda áfram?"
+
+#~ msgid "To prevent data loss close all open applications and documents."
+#~ msgstr "Til að fyrirbyggja tap á gögnum skaltu loka öllum forritum og skrám"
+
+#~ msgid "<b>Downgrade %s</b>"
+#~ msgstr "<b>Lækka %s</b>"
+
+#~ msgid "Upgrade %s"
+#~ msgstr "Uppfæri %s"
+
+#~ msgid "Show Difference >>>"
+#~ msgstr "Sýna mismun >>>"
+
+#~ msgid "<<< Hide Difference"
+#~ msgstr "<<< Fela mismun"
+
+#~ msgid "Error"
+#~ msgstr "Villa"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Hætta við"
+
+#~ msgid "&Close"
+#~ msgstr "&Loka"
+
+#~ msgid "<<< Hide Terminal"
+#~ msgstr "<<< Fela Útstöð"
+
+#~ msgid "Information"
+#~ msgstr "Upplýsingar"
+
+#~ msgid "Details"
+#~ msgstr "Nánar"
+
+#~ msgid "Restart required"
+#~ msgstr "Þú þarft að endurræsa tölvuna"
+
+#~ msgid "<b><big>Restart the system to complete the upgrade</big></b>"
+#~ msgstr "<b><big>Endurræsa kerfið til að ljúka uppfærslunni</big></b>"
+
+#~ msgid "_Restart Now"
+#~ msgstr "_Endurræsa núna"
+
+#~ msgid "Cancel Upgrade?"
+#~ msgstr "Hætta við uppfærslu?"
+
+#~ msgid "%li day"
+#~ msgid_plural "%li days"
+#~ msgstr[0] "%li dagur"
+#~ msgstr[1] "%li dagar"
+
+#~ msgid "%(str_days)s %(str_hours)s"
+#~ msgstr "%(str_days)s %(str_hours)s"
+
+#~ msgid "%(str_hours)s %(str_minutes)s"
+#~ msgstr "%(str_hours)s %(str_minutes)s"
+
+#~ msgid "This download will take about %s with your connection. "
+#~ msgstr "Þetta niðurhal mun taka um %s með þinni tengingu. "
+
+#~ msgid "Getting new packages"
+#~ msgstr "Sæki nýja pakka"
+
+#~ msgid "Cleaning up"
+#~ msgstr "Hreinsa til"
+
+#~ msgid "%d package is going to be removed."
+#~ msgid_plural "%d packages are going to be removed."
+#~ msgstr[0] "%d pakki mun vera fjarlægður."
+#~ msgstr[1] "%d pakkar munu vera fjarlægðir."
+
+#~ msgid "%d new package is going to be installed."
+#~ msgid_plural "%d new packages are going to be installed."
+#~ msgstr[0] "%d nýr pakki mun vera uppsettur."
+#~ msgstr[1] "%d nýir pakkar munu vera uppsettir."
+
+#~ msgid "%d package is going to be upgraded."
+#~ msgid_plural "%d packages are going to be upgraded."
+#~ msgstr[0] "%d pakki mun vera uppfærður."
+#~ msgstr[1] "%d pakkar munu vera uppfærðir."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "You have to download a total of %s. "
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Þú þarft að niðurhala samtals %s. "
+
+#~ msgid ""
+#~ "Fetching and installing the upgrade can take several hours. Once the "
+#~ "download has finished, the process cannot be cancelled."
+#~ msgstr ""
+#~ "Það að sækja uppfærsluna gæti tekið nokkra tíma. Ekki er hægt að hætta "
+#~ "við þegar niðurhalinu er lokið."
+
+#~ msgid ""
+#~ "There are no upgrades available for your system. The upgrade will now be "
+#~ "canceled."
+#~ msgstr ""
+#~ "Það eru engar uppfærslur fáanlega fyrir kerfið þitt. Uppfærslu verður nú "
+#~ "hætt"
+
+#~ msgid "Reboot required"
+#~ msgstr "Endurræsing nauðsynleg"
+
+#~ msgid ""
+#~ "The upgrade is finished and a reboot is required. Do you want to do this "
+#~ "now?"
+#~ msgstr ""
+#~ "Uppfærslu er lokið og endurræsing er nauðsynleg. Vilt þú gera svo nú?"
+
+#~ msgid "Could not run the upgrade tool"
+#~ msgstr "Gat ekki keyrt uppfærslu tólið"
+
+#~ msgid ""
+#~ "This is most likely a bug in the upgrade tool. Please report it as a bug"
+#~ msgstr ""
+#~ "Það er sennilega villa í uppfærslutólinu. Vinamelgast tilkynntu það sem "
+#~ "villu."
+
+#~ msgid "Upgrade tool signature"
+#~ msgstr "Auðkenni uppfærslutóls"
+
+#~ msgid "Upgrade tool"
+#~ msgstr "Uppfærslutól"
+
+#~ msgid "Failed to fetch"
+#~ msgstr "Mistókst að sækja"
+
+#~ msgid "Fetching the upgrade failed. There may be a network problem. "
+#~ msgstr ""
+#~ "Það mistókst að sækja uppfærsluna. Það gæti verið vandamál með netið. "
+
+#~ msgid "Failed to extract"
+#~ msgstr "Mistókst að draga upplýsingar út"
+
+#~ msgid ""
+#~ "Extracting the upgrade failed. There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Það mistókst að draga upplýsingar um uppfærlsuna út.  Það gæti verið "
+#~ "vandamál með netið eða með þjóninn. "
+
+#~ msgid "Verfication failed"
+#~ msgstr "Sannprófun mistókst"
+
+#~ msgid ""
+#~ "Verifying the upgrade failed.  There may be a problem with the network or "
+#~ "with the server. "
+#~ msgstr ""
+#~ "Sannprófun á uppfærslunni mistókst. Það gæti verið vandamál með netið eða "
+#~ "með þjóninn. "
+
+#~ msgid "Authentication failed"
+#~ msgstr "Staðfesting aðkenna mistókst"
+
+#~ msgid ""
+#~ "Authenticating the upgrade failed. There may be a problem with the "
+#~ "network or with the server. "
+#~ msgstr ""
+#~ "Það mistókst að staðfesta auðkenni uppfærslunar. Það gæti verið vandamál "
+#~ "með netið eða með þjóninn. "
+
+#~ msgid "Can not run the upgrade"
+#~ msgstr "Get ekki keyrt uppfærsluna"
+
+#~ msgid "Aborting"
+#~ msgstr "Hætti við..."
+
+#~ msgid "Continue [yN] "
+#~ msgstr "Halda áfram [yN] "
+
+#~ msgid "Details [d]"
+#~ msgstr "Upplýsingar [u]"
+
+#~ msgid "y"
+#~ msgstr "j"
+
+#~ msgid "n"
+#~ msgstr "n"
+
+#~ msgid "d"
+#~ msgstr "u"
+
+#~ msgid "Remove: %s\n"
+#~ msgstr "Fjarlægja: %s\n"
+
+#~ msgid "Install: %s\n"
+#~ msgstr "Setja upp: %s\n"
+
+#~ msgid "Upgrade: %s\n"
+#~ msgstr "Uppfæra: %s\n"
+
+#~ msgid "Continue [Yn] "
+#~ msgstr "Halda áfram [Yn] "
+
+#~ msgid ""
+#~ "To finish the upgrade, a restart is required.\n"
+#~ "If you select 'y' the system will be restarted."
+#~ msgstr ""
+#~ "Þú þarft að endurræsa tölvuna til að ljúka uppfærslunni.\n"
+#~ "Ef þú velur ‚y‘ mun hún endurræsa sig."
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid ""
+#~ "<b><big>Cancel the running upgrade?</big></b>\n"
+#~ "\n"
+#~ "The system could be in an unusable state if you cancel the upgrade. You "
+#~ "are strongly adviced to resume the upgrade."
+#~ msgstr ""
+#~ "<b><big>Hætta við uppfærslu sem er þegar hafin?</big></b>\n"
+#~ "\n"
+#~ "Kerfið gæti orðið ónothæft ef þú hættir við uppfærlsuna. Það er sterklega "
+#~ "mælt með að þú haldir áfram með uppfærsluna."
+
+#~ msgid "<b><big>Start the upgrade?</big></b>"
+#~ msgstr "<b><big>Byrja á uppfærslunni?</big></b>"
+
+#~ msgid "<b><big>Upgrading Ubuntu to version 9.04</big></b>"
+#~ msgstr "<b><big>Uppfæri upp í Ubuntu 9.04</big></b>"
+
+#~ msgid "Difference between the files"
+#~ msgstr "Munur milli skránna"
+
+#~ msgid "Distribution Upgrade"
+#~ msgstr "Uppfæra kerfið"
+
+#~ msgid "Restarting the computer"
+#~ msgstr "Endurræsi tölvuna"
+
+#~ msgid "Setting new software channels"
+#~ msgstr "Ákveð nýjar hugbúnaðarrásir"
+
+#~ msgid "Terminal"
+#~ msgstr "Útstöð"
+
+#~ msgid "_Cancel Upgrade"
+#~ msgstr "_Hætta við"
+
+#~ msgid "_Continue"
+#~ msgstr "_Halda áfram"
+
+#~ msgid "_Replace"
+#~ msgstr "_Skipta út"
+
+#~ msgid "_Report Bug"
+#~ msgstr "_Tilkynna Villu"
+
+#~ msgid "_Resume Upgrade"
+#~ msgstr "Hefja _aftur uppfærslu"
+
+#~ msgid "_Start Upgrade"
+#~ msgstr "_Byrja að uppfæra"
+
+#~ msgid "Could not find the release notes"
+#~ msgstr "Fann ekki upplýsingar um útgáfu"
+
+#~ msgid "The server may be overloaded. "
+#~ msgstr "Þjóninn gæti verið með yfirálag "
+
+#~ msgid "Could not download the release notes"
+#~ msgstr "Gat ekki halað niður upplýsingum um útgáfu"
+
+#~ msgid "Please check your internet connection."
+#~ msgstr "Athugaðu með nettenginguna þína"
+
+#~ msgid "Upgrade"
+#~ msgstr "Uppfæra"
+
+#~ msgid "Release Notes"
+#~ msgstr "Útgáfu upplýsingar"
+
+#~ msgid "Downloading additional package files..."
+#~ msgstr "Hleð niður aukapökkum..."
+
+#~ msgid "File %s of %s at %sB/s"
+#~ msgstr "Skrá %s af %s á %sB/sek"
+
+#~ msgid "File %s of %s"
+#~ msgstr "Skrá %s af %s"
+
+#~ msgid "Downloading file %(current)li of %(total)li with %(speed)s/s"
+#~ msgstr "Hleð niður skrá %(current)li af %(total)li með %(speed)s/s"
+
+#~ msgid "Downloading file %(current)li of %(total)li"
+#~ msgstr "Hleð niður skrá %(current)li af %(total)li"
+
+#~ msgid "Unknown download size"
+#~ msgstr "Óþekkt stærð niðurhals"
+
+#~ msgid "The package information was last updated %s hour ago."
+#~ msgid_plural "The package information was last updated %s hours ago."
+#~ msgstr[0] "Upplýsingar um þennan pakka voru uppfærðar fyrir %s tíma."
+#~ msgstr[1] "Upplýsingar um þennan pakka voru uppfærðar fyrir %s tímum."
+
+#~ msgid "The package information was last updated less than one hour ago."
+#~ msgstr ""
+#~ "Pakkaupplýsingarnar voru seinast uppfærðar fyrir minna en klst síðan."
+
+#~ msgid ""
+#~ "These software updates have been issued since Ubuntu was released. If you "
+#~ "don't want to install them now, choose \"Update Manager\" from the "
+#~ "Administration Menu later."
+#~ msgstr ""
+#~ "Þessar uppfærslur voru gefnar út eftir að Ubuntu var gefið út. Ef þú vilt "
+#~ "ekki setja þær upp núna getur þú farið í ‚Uppfærslustjórann‘ í "
+#~ "aðalvalmyndinni (undir ‚Stjórnun‘) síðar."
+
+#~ msgid "Update is complete"
+#~ msgstr "Uppfærslu er lokið"
+
+#~ msgid ""
+#~ "The upgrade needs a total of %s free space on disk '%s'. Please free at "
+#~ "least an additional %s of disk space on '%s'. Empty your trash and remove "
+#~ "temporary packages of former installations using 'sudo apt-get clean'."
+#~ msgstr ""
+#~ "Uppfærslan krefst %s af plássa á diskinum ‚%s‘. Reyndu að rýma til alla "
+#~ "vegana %s af plássi á ‚%s‘. Prufaðu að tæma ruslið og að fjarlægja "
+#~ "bráðabirgðapakka sem gamlar uppsetningar skildu eftir sig með því að "
+#~ "skrifa ‚sudo apt-get clean‘ í útstöðina."
+
+#~ msgid "Reading package information"
+#~ msgstr "Les pakkaupplýsingar"
+
+#~ msgid "Your distribution is not supported anymore"
+#~ msgstr "Dreifingin þin er ekki studd lengur"
+
+#~ msgid ""
+#~ "You will not get any further security fixes or critical updates. Upgrade "
+#~ "to a later version of Ubuntu Linux. See http://www.ubuntu.com for more "
+#~ "information on upgrading."
+#~ msgstr ""
+#~ "Þú færð ekki fleiri öryggislagfæringar eða mikilvægar dagréttingar. Þú "
+#~ "ættir að uppfæra í nýrri útgáfu af  Ubuntu Linux. Sjá http://www.ubuntu."
+#~ "com fyrir nánari upplýsingar um uppfærslur."
+
+#~ msgid "<b>New distribution release '%s' is available</b>"
+#~ msgstr "<b>Ný útgáfa dreifngarinnar ,%s' er tiltæk</b>"
+
+#~ msgid "Software index is broken"
+#~ msgstr "Hugbúnaðarvísir er bilaður"
+
+#~ msgid ""
+#~ "It is impossible to install or remove any software. Please use the "
+#~ "package manager \"Synaptic\" or run \"sudo apt-get install -f\" in a "
+#~ "terminal to fix this issue at first."
+#~ msgstr ""
+#~ "Það er ómögulegt að setja upp eða fjarlægja nokkurn hugbúnað. "
+#~ "Vinsamlegast notaðu pakkastjórann „Synaptic‟ eða keyrðu skipunina „sudo "
+#~ "apt-get install -f‟ í skjáhermi til að laga þetta vandamál fyrst."
+
+#~ msgid ""
+#~ "The selected package updates are being downloaded and installed on the "
+#~ "system"
+#~ msgstr "Verið er að sækja og setja upp þær pakkaupplýsingar sem þú valdir"
+
+#~ msgid ""
+#~ "\n"
+#~ "A normal upgrade can not be calculated, please run: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "This can be caused by:\n"
+#~ " ◦ A previous upgrade which didn't complete\n"
+#~ " ◦ Problems with some of the installed software\n"
+#~ " ◦ Unofficial software packages not provided by Ubuntu\n"
+#~ " ◦ Normal changes of a pre-release version of Ubuntu"
+#~ msgstr ""
+#~ "\n"
+#~ "Ekki var mögulegt að reikna venjulega uppfærslu, vinsamlegast keyrið: \n"
+#~ "  sudo apt-get dist-upgrade\n"
+#~ "\n"
+#~ "\n"
+#~ "Örsakavaldur getur verið eftirfarandi:\n"
+#~ " ◦ Fyrri uppfærsla kláraði sig ekki sem skildi\n"
+#~ " ◦ Vandamál í einhverjum uppsettum hugbúnaði\n"
+#~ " ◦ Óformlegir hugbúnaðarpakkar sem ekki er á vegum Ubuntu\n"
+#~ " ◦ Venjubundnar breytingar á prufu útgáfu Ubuntu"
+
+#~ msgid "A error '%s' occurred while checking what system you are using."
+#~ msgstr "Villan ‚%s‘ kom upp við að kanna hvaða kerfi þú notar."
+
+#~ msgid "Previous selected"
+#~ msgstr "Áður valið"
+
+#~ msgid "<big><b>Not all updates can be installed</b></big>"
+#~ msgstr "<big><b>Ekki var hægt að setja upp allar uppfærslurnar</b></big>"
+
+#~ msgid "<big><b>Starting Update Manager</b></big>"
+#~ msgstr "d"
+
+#~ msgid "Chec_k"
+#~ msgstr "_Kanna"
+
+#~ msgid "Check the software channels for new updates"
+#~ msgstr "Kanna hvort nýjar dagréttingar finnast hugbúnaðarrásum"
+
+#~ msgid "Description"
+#~ msgstr "Lýsing"
+
+#~ msgid "Description of update"
+#~ msgstr "Lýsing"
+
+#~ msgid "U_pgrade"
+#~ msgstr "U_ppfæra"
+
+#~ msgid "Upgrade to the latest version of Ubuntu"
+#~ msgstr "Uppfæra í nýjustu útgáfu af Ubuntu"
+
+#~ msgid "_Hide this information in the future"
+#~ msgstr "_Fela þessar upplýsingar í framtíðinni"
+
+#~ msgid "_Partial Upgrade"
+#~ msgstr "_Hlutauppfærsla"
+
+#~ msgid "_Upgrade"
+#~ msgstr "_Uppfæra"
+
+#~ msgid "updates"
+#~ msgstr "uppfærslur"
+
+#~ msgid "Show version and exit"
+#~ msgstr "Sýna útgáfu og hætta"
+
+#~ msgid "Try to run a dist-upgrade"
+#~ msgstr "Reyndu að keyra drefingaruppfærslu"
+
+#~ msgid "Checking for a new ubuntu release"
+#~ msgstr "Leita að nýrri Ubuntu útgáfu"
+
+#~ msgid "No new release found"
+#~ msgstr "Ekki fundust nýjar útgáfur"
+
+#~ msgid "Unimplemented method: %s"
+#~ msgstr "Aðferð sem er ekki notuð: %s"
+
+#~ msgid "A file on disk"
+#~ msgstr "Skrá á diski"
+
+#~ msgid ".deb package"
+#~ msgstr ".deb pakki"
+
+#~ msgid "The upgrade tool will guide you through the upgrade process."
+#~ msgstr "Uppfærslutólið mun hjálpa þér í gegnum uppfærlsuferlið."
+
+#~ msgid "Can't upgrade required meta-packages"
+#~ msgstr "Get ekki uppfært nauðsynlega lýsi-pakka"
+
+#~ msgid "A essential package would have to be removed"
+#~ msgstr "Fjarlægja yrði nauðsynlegan pakka"
+
+#~ msgid ""
+#~ "The upgrade is completed but there were errors during the ugprade process."
+#~ msgstr "Uppfærslu lokið, en það komu upp villur við uppfærsluna."
+
+#~ msgid ""
+#~ "This download will take about %s with a 1Mbit DSL connection and about %s "
+#~ "with a 56k modem"
+#~ msgstr ""
+#~ "Þetta niðurhal mun taka um %s á 1Mbit DSL tenginu og um %s á innhringi "
+#~ "tengingu"
+
+#~ msgid "Downloading the upgrade tool"
+#~ msgstr "Hala niður uppfærslutólinu"
+
+#~ msgid "Fetching file %li of %li at %sb/s"
+#~ msgstr "Sæki skrá %li af %li hjá %sb/s"
+
+#~ msgid "%li days %li hours %li minutes"
+#~ msgstr "%li dagar %li klukkustundir %li mínútur"
+
+#~ msgid "_Check"
+#~ msgstr "_Athuga"
+
+#~ msgid "_Skip This Step"
+#~ msgstr "_Sleppa þessu skrefi"
