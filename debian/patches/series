@@ -1,0 +1,6 @@
+01_update_translations.patch
+02_locale.format_suffix.patch
+canaima/01_DistSpecific_Canaima.patch
+canaima/02_Potfiles.patch
+canaima/03_Setup.patch
+canaima/04_Translate.patch

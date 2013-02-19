@@ -1,0 +1,12 @@
+Index: update-manager/setup.py
+===================================================================
+--- update-manager.orig/setup.py	2012-06-13 13:37:22.000000000 -0430
++++ update-manager/setup.py	2012-06-13 13:41:57.000000000 -0430
+@@ -24,6 +24,7 @@
+                 'UpdateManager.DistSpecific',
+                 'UpdateManager.DistSpecific.Debian',
+                 'UpdateManager.DistSpecific.Ubuntu',
++		'UpdateManager.DistSpecific.Canaima',
+                 'UpdateManager.Util'
+                 ],
+       package_dir={
