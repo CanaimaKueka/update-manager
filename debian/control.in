@@ -1,0 +1,74 @@
+Source: update-manager
+Section: admin
+Priority: optional
+Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Uploaders: Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
+Build-Depends: cdbs,
+               gnome-pkg-tools,
+               debhelper (>= 7.0.50~),
+               python-support (>= 0.5.6),
+               python
+Build-Depends-Indep: intltool,
+                     python-distutils-extra (>= 1.90),
+                     python-sphinx (>= 0.6.1),
+                     python-gobject (>= 2.16.1),
+                     python-gtk2,
+                     python-apt (>= 0.7.93),
+                     python-dbus,
+                     python-gconf,
+                     python-newt,
+                     lsb-release,
+                     python-vte
+Homepage: http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/update-manager.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/update-manager/trees/master
+Standards-Version: 3.9.1
+
+Package: update-manager-core
+Architecture: all
+Depends: ${python:Depends},
+         ${misc:Depends},
+         lsb-release,
+         python-apt (>= 0.7.93)
+Recommends: update-manager-gnome (= ${source:Version})
+Replaces: update-manager (<< 1:0.93.7)
+Conflicts: update-manager (<< 1:0.93.7)
+Description: Núcleo del Gestor de Actualizaciones para Canaima
+ This package holds the core functionality for the APT update managers
+ such as update-manager, the GNOME update manager. Update managers are
+ applications that help you keep your system up-to-date by providing a
+ nice interface in which you can see the list of updates and install
+ them using APT.
+
+
+Package: update-manager-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Suggests: libjs-jquery,
+          update-manager-core (= ${source:Version}),
+          update-manager-gnome (= ${source:Version})
+Description: Update Manager API documentation
+ This package contains the API documentation for Update Manager. Please note
+ that this is only useful if you intend to work on Update Manager and does
+ not include any documentation targeted at end-users.
+
+Package: update-manager-gnome
+Architecture: all
+Section: gnome
+Depends: ${python:Depends},
+         ${misc:Depends},
+         update-manager-core (= ${source:Version}),
+         python-gconf,
+         python-dbus,
+         python-gtk2,
+         gksu,
+         python-gobject (>= 2.16.1),
+         python-vte
+Replaces: update-manager (<< 0.200.0~pre0)
+Conflicts: update-manager (<< 0.200.0~pre0)
+Suggests: update-notifier, software-properties-gtk
+Description: Gestor de Actualizaciones para Canaima GNU/Linux
+ This is the GNOME software update manager. It checks for updates made
+ available by Debian and third parties running Debian package
+ repositories, and lets the user choose which to install.
