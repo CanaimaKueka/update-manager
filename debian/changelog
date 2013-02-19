@@ -1,3 +1,19 @@
+update-manager (0.200.5-2.1canaima2) unstable; urgency=low
+
+  * [391ac2f] Añadiendo archivos de mantenimiento para Canaima.
+    Añadí los archivos de mantenimiento para Canaima que venían en las
+    versiones anteriores de este paquete, pero sin agregar los parches.
+    Los parches serán revisados y agregados en otro commit.
+  * [5abbb18] Corrigiendo rutas del parche 01_update_translations de debian
+  * [b8b8896] Agregando parches de Canaima.
+    Agregando los parches que existían en los anteriores empaquetamientos
+    para Canaima.
+  * [21da8dc] Corrigiendo créditos en parche para canaima/changelog.py
+  * [2e2c8c8] Actualizando la versión del estandar de empaquetado
+  * [a732ec3] Modificando debian/control
+
+ -- Erick Birbe <erickcion@gmail.com>  Tue, 19 Feb 2013 15:51:19 -0430
+
 update-manager (0.200.5-2.1) unstable; urgency=medium
 
   * Non-maintainer upload.
