@@ -1,6 +1,6 @@
 === modified file 'po/ast.po'
---- po/ast.po	2010-12-06 09:36:04 +0000
-+++ po/ast.po	2010-12-06 19:05:20 +0000
+--- update-manager-0.200.5/po/ast.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/ast.po	2010-12-06 19:05:20 +0000
 @@ -271,7 +271,6 @@
  msgstr "Orixe"
  
@@ -11,8 +11,8 @@
  
 
 === modified file 'po/az.po'
---- po/az.po	2010-12-06 09:36:04 +0000
-+++ po/az.po	2010-12-06 19:05:20 +0000
+--- update-manager-0.200.5/po/az.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/az.po	2010-12-06 19:05:20 +0000
 @@ -1,15 +1,15 @@
 -# Azerbaijani translation for update-manager
 -# Copyright (c) 2006 Rosetta Contributors and Canonical Ltd 2006
@@ -214,8 +214,8 @@
  msgid ""
 
 === modified file 'po/be.po'
---- po/be.po	2010-12-06 09:36:04 +0000
-+++ po/be.po	2010-12-06 19:05:20 +0000
+--- update-manager-0.200.5/po/be.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/be.po	2010-12-06 19:05:20 +0000
 @@ -274,7 +274,6 @@
  msgstr "Крыніца"
  
@@ -226,8 +226,8 @@
  
 
 === modified file 'po/cs.po'
---- po/cs.po	2010-12-06 09:36:04 +0000
-+++ po/cs.po	2010-12-06 19:05:20 +0000
+--- update-manager-0.200.5/po/cs.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/cs.po	2010-12-06 19:05:20 +0000
 @@ -274,7 +274,6 @@
  msgstr "Zdroj"
  
@@ -238,8 +238,8 @@
  
 
 === modified file 'po/de.po'
---- po/de.po	2010-12-06 09:36:04 +0000
-+++ po/de.po	2010-12-06 19:05:20 +0000
+--- update-manager-0.200.5/po/de.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/de.po	2010-12-06 19:05:20 +0000
 @@ -277,7 +277,6 @@
  msgstr "Quelle"
  
@@ -250,8 +250,8 @@
  
 
 === modified file 'po/eo.po'
---- po/eo.po	2010-12-06 09:36:04 +0000
-+++ po/eo.po	2010-12-06 19:05:21 +0000
+--- update-manager-0.200.5/po/eo.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/eo.po	2010-12-06 19:05:21 +0000
 @@ -273,7 +273,6 @@
  msgstr "Fonto"
  
@@ -262,8 +262,8 @@
  
 
 === modified file 'po/eu.po'
---- po/eu.po	2010-12-06 09:36:04 +0000
-+++ po/eu.po	2010-12-06 19:05:21 +0000
+--- update-manager-0.200.5/po/eu.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/eu.po	2010-12-06 19:05:21 +0000
 @@ -273,7 +273,6 @@
  msgstr "Iturburua"
  
@@ -274,8 +274,8 @@
  
 
 === modified file 'po/fi.po'
---- po/fi.po	2010-12-06 09:36:04 +0000
-+++ po/fi.po	2010-12-06 19:05:21 +0000
+--- update-manager-0.200.5/po/fi.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/fi.po	2010-12-06 19:05:21 +0000
 @@ -273,7 +273,6 @@
  msgstr "Lähde"
  
@@ -286,8 +286,8 @@
  
 
 === modified file 'po/fr.po'
---- po/fr.po	2010-12-06 09:36:04 +0000
-+++ po/fr.po	2010-12-06 19:05:21 +0000
+--- update-manager-0.200.5/po/fr.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/fr.po	2010-12-06 19:05:21 +0000
 @@ -276,7 +276,6 @@
  msgstr "Source"
  
@@ -298,8 +298,8 @@
  
 
 === modified file 'po/he.po'
---- po/he.po	2010-12-06 09:36:04 +0000
-+++ po/he.po	2010-12-06 19:05:22 +0000
+--- update-manager-0.200.5/po/he.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/he.po	2010-12-06 19:05:22 +0000
 @@ -275,7 +275,6 @@
  msgstr "קוד מקור"
  
@@ -310,8 +310,8 @@
  
 
 === modified file 'po/it.po'
---- po/it.po	2010-12-06 09:36:04 +0000
-+++ po/it.po	2010-12-06 19:05:22 +0000
+--- update-manager-0.200.5/po/it.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/it.po	2010-12-06 19:05:22 +0000
 @@ -272,7 +272,6 @@
  msgstr "Sorgente"
  
@@ -322,8 +322,8 @@
  
 
 === modified file 'po/nl.po'
---- po/nl.po	2010-12-06 09:36:04 +0000
-+++ po/nl.po	2010-12-06 19:05:23 +0000
+--- update-manager-0.200.5/po/nl.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/nl.po	2010-12-06 19:05:23 +0000
 @@ -274,7 +274,6 @@
  msgstr "Bron"
  
@@ -334,8 +334,8 @@
  
 
 === modified file 'po/ru.po'
---- po/ru.po	2010-12-06 09:36:04 +0000
-+++ po/ru.po	2010-12-06 19:05:24 +0000
+--- update-manager-0.200.5/po/ru.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/ru.po	2010-12-06 19:05:24 +0000
 @@ -278,7 +278,6 @@
  msgstr "Источник"
  
@@ -346,8 +346,8 @@
  
 
 === modified file 'po/sk.po'
---- po/sk.po	2010-12-06 09:36:04 +0000
-+++ po/sk.po	2010-12-06 19:05:24 +0000
+--- update-manager-0.200.5/po/sk.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/sk.po	2010-12-06 19:05:24 +0000
 @@ -279,7 +279,6 @@
  msgstr "Zdroj"
  
@@ -358,8 +358,8 @@
  
 
 === modified file 'po/sv.po'
---- po/sv.po	2010-12-06 09:36:04 +0000
-+++ po/sv.po	2010-12-06 19:05:50 +0000
+--- update-manager-0.200.5/po/sv.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/sv.po	2010-12-06 19:05:50 +0000
 @@ -274,7 +274,6 @@
  msgstr "Källkod"
  
@@ -370,8 +370,8 @@
  
 
 === modified file 'po/th.po'
---- po/th.po	2010-12-06 09:36:04 +0000
-+++ po/th.po	2010-12-06 19:05:24 +0000
+--- update-manager-0.200.5/po/th.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/th.po	2010-12-06 19:05:24 +0000
 @@ -265,7 +265,6 @@
  msgstr "แหล่ง"
  
@@ -382,8 +382,8 @@
  
 
 === modified file 'po/ug.po'
---- po/ug.po	2010-12-06 09:36:04 +0000
-+++ po/ug.po	2010-12-06 19:05:24 +0000
+--- update-manager-0.200.5/po/ug.po	2010-12-06 09:36:04 +0000
++++ update-manager-0.200.5/po/ug.po	2010-12-06 19:05:24 +0000
 @@ -270,7 +270,6 @@
  msgstr "مەنبە"
  
