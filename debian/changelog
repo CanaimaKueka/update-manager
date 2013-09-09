@@ -1,3 +1,9 @@
+update-manager (0.200.5-2.1canaima3) kerepakupai; urgency=low
+
+  * [3d86a13] Corrigiendo error "non-ASCII character" en Canaima (tkt #731)
+
+ -- Erick Birbe <erickcion@gmail.com>  Mon, 09 Sep 2013 14:11:24 -0430
+
 update-manager (0.200.5-2.1canaima2) unstable; urgency=low
 
   * [391ac2f] Añadiendo archivos de mantenimiento para Canaima.
